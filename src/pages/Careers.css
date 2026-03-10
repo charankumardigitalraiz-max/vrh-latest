@@ -1,0 +1,428 @@
+/* Careers page Modernization */
+/* Base Resets */
+/* Utilities */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.careers-page {
+    background-color: var(--white);
+    min-height: 100vh;
+}
+
+/* Hero Section Modernization */
+.car-hero {
+    position: relative;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.car-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,
+            rgba(5, 11, 20, 0.2) 0%,
+            rgba(5, 11, 20, 0.1) 60%,
+            transparent 100%);
+    z-index: 1;
+}
+
+.car-hero__content-box {
+    position: relative;
+    z-index: 10;
+}
+
+.car-hero__badge {
+    display: inline-flex;
+    padding: 6px 14px;
+    background: rgba(197, 160, 89, 0.15);
+    border: 1px solid var(--border-gold);
+    color: var(--theme-secondary);
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: var(--border-radius-pill);
+    margin-bottom: var(--spacing-lg);
+}
+
+.car-hero__title {
+    font-family: var(--font-family-heading);
+    color: var(--white);
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.02em;
+}
+
+.car-hero__breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.car-hero__breadcrumb a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color var(--transition-fast);
+}
+
+.car-hero__breadcrumb a:hover {
+    color: var(--theme-secondary);
+}
+
+.car-hero__breadcrumb .active {
+    color: var(--white);
+}
+
+/* Partner Section Modernization */
+.car-partner-section {
+    padding: var(--spacing-xxl) 0;
+}
+
+.car-partner-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .car-partner-grid {
+        grid-template-columns: 1.2fr 0.8fr;
+        gap: var(--spacing-xxl);
+    }
+}
+
+.car-label {
+    display: inline-flex;
+    padding: 4px 12px;
+    background: rgba(1, 77, 78, 0.05);
+    color: var(--theme-primary);
+    font-weight: 700;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    border-radius: var(--border-radius-pill);
+    margin-bottom: var(--spacing-md);
+}
+
+.car-heading {
+    font-family: var(--font-family-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--theme-primary);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-md);
+}
+
+.car-lead {
+    font-size: 1.1rem;
+    color: var(--theme-primary);
+    font-weight: 600;
+    margin-bottom: var(--spacing-md);
+}
+
+.car-body {
+    color: var(--text-muted);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: var(--spacing-sm);
+}
+
+.car-email-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: var(--theme-primary);
+    color: var(--white);
+    padding: 12px 24px;
+    border-radius: var(--border-radius-pill);
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: all var(--transition-normal);
+    margin-top: var(--spacing-md);
+}
+
+.car-email-btn:hover {
+    background: var(--theme-secondary);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-gold);
+}
+
+/* Partner Card Modernization */
+.car-partner-card {
+    background: var(--dark-bg);
+    padding: var(--spacing-xl);
+    border-radius: var(--border-radius-lg);
+    color: var(--white);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-xl);
+}
+
+.car-partner-card::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 150px;
+    height: 150px;
+    background: rgba(197, 160, 89, 0.1);
+    border-radius: 50%;
+}
+
+.car-partner-icon {
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--theme-secondary);
+    border-radius: 50%;
+    margin: 0 auto var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.car-stats-row {
+    display: flex;
+    gap: var(--spacing-xl);
+    justify-content: center;
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.car-stat strong {
+    font-family: var(--font-family-heading);
+    font-size: 1.5rem;
+    color: var(--theme-secondary);
+    display: block;
+}
+
+.car-stat span {
+    font-size: 0.75rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+/* Map Section Modernization */
+.car-map-section {
+    padding: var(--spacing-xxl) 0;
+    background: var(--bg-light);
+}
+
+.car-map-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+}
+
+@media (min-width: 992px) {
+    .car-map-grid {
+        grid-template-columns: 1fr 1.5fr 1fr;
+        align-items: center;
+    }
+}
+
+.car-location-card {
+    background: var(--white);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius-md);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.car-location-card ul {
+    list-style: none;
+    padding: 0;
+    margin-top: var(--spacing-md);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.car-location-card li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    font-weight: 600;
+}
+
+.car-location-card li svg {
+    color: var(--theme-secondary);
+}
+
+.car-map-img-wrap {
+    background: var(--white);
+    padding: 12px;
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-lg);
+}
+
+.car-map-img-wrap img {
+    width: 100%;
+    border-radius: var(--border-radius-md);
+}
+
+/* Jobs Section Modernization */
+.car-jobs-section {
+    padding: var(--spacing-xxl) 0;
+}
+
+.car-jobs-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-xl);
+}
+
+@media (min-width: 992px) {
+    .car-jobs-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.car-job-item {
+    background: var(--white);
+    border: 1px solid rgba(0, 0, 0, 0.04);
+    border-radius: var(--border-radius-md);
+    padding: var(--spacing-lg);
+    transition: all var(--transition-normal);
+}
+
+.car-job-item:hover,
+.car-job-item.open {
+    border-color: var(--border-gold);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-4px);
+}
+
+.car-job-header {
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+    cursor: pointer;
+}
+
+.car-job-dept-badge {
+    padding: 4px 10px;
+    border-radius: var(--border-radius-pill);
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--white);
+    text-transform: uppercase;
+    height: fit-content;
+}
+
+.car-job-title {
+    font-family: var(--font-family-heading);
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--theme-primary);
+    margin-bottom: 8px;
+}
+
+.car-job-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.car-job-meta span {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.car-job-meta svg {
+    color: var(--theme-secondary);
+}
+
+.car-job-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: all var(--transition-normal);
+}
+
+.car-job-item.open .car-job-body {
+    max-height: 1000px;
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.car-job-body h4 {
+    font-family: var(--font-family-heading);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--theme-primary);
+    margin-bottom: var(--spacing-md);
+}
+
+.car-job-body ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: var(--spacing-lg);
+}
+
+.car-job-body li {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    position: relative;
+    padding-left: 16px;
+}
+
+.car-job-body li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 6px;
+    height: 1px;
+    background: var(--theme-secondary);
+}
+
+.car-apply-btn {
+    display: inline-block;
+    padding: 10px 24px;
+    background: var(--theme-primary);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: var(--border-radius-pill);
+    font-weight: 700;
+    font-size: 0.85rem;
+    transition: all var(--transition-fast);
+}
+
+.car-apply-btn:hover {
+    background: var(--theme-secondary);
+    transform: scale(1.05);
+}

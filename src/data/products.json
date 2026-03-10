@@ -1,0 +1,1278 @@
+{
+  "products": [
+    {
+      "slug": "aqua",
+      "title": "",
+      "subtitle": "",
+      "image": "",
+      "tabs": {}
+    },
+    {
+      "slug": "avicure-fs",
+      "title": "Avicure-FS",
+      "subtitle": "Avicure-FS",
+      "image": "/product-images/poultry/antiMicroBials/antiBiotics/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Lincomycin Hydrochloride: 11 % w/w<br>\nExcipients: Q.S.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Controls Gram positive bacterial infections.</li>\n<li>Controls wet droppings and vent pasting.</li>\n<li>Protects gut health by controlling diarrhea of unknown etiology.</li>\n<li>Controls and prevents necrotic enteritis.</li>\n<li>Maintains the colonization of native and useful bacteria in intestines.</li>\n<li>Improves FCR and weight gain.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Breeders, Commercial Layers &amp; Broilers:</strong></p>\n<ul>\n<li>40 gm /Ton of feed&nbsp; (Or) As suggested by the Veterinarian.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "avigrow",
+      "title": "AVIGROW",
+      "subtitle": "AVIGROW",
+      "image": "/product-images/poultry/nutritionalAndsupplements/growthAndpromotors/avigrow.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Contains protein hydrolysate, MHA, lysine, digestive enzymes such as amylase, pepsin and herbal actives.</p>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Avi-Grow</strong> supplementation ensures to maintain</p>\n<ul>\n<li>Better LIVABILITY</li>\n<li>Better FCR</li>\n<li>Better WEIGHT GAIN</li>\n<li>Better PRODUCTION in layers and breeders</li>\n<li>Better PRODUCTION and SELECTION of HATCHING EGGS.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>Dosage for 100 birds for 5-7 days:</u></strong></p>\n<ul>\n<li>Chicks and Growers:&nbsp; 5-10 ml</li>\n<li>Commercial Layers:&nbsp;&nbsp;&nbsp; 10-15 ml</li>\n<li>Commercial Broilers:&nbsp; 15-20 ml</li>\n<li>Broiler Breeders:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 20-25 ml&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (or) As suggested by the&nbsp; Veterinarian.</li>\n</ul>\n<p><strong><u>Presentation:</u></strong> 1 Ltr &amp; 5 Ltr HDPE containers.</p></div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "avit",
+      "title": "Avit",
+      "subtitle": "Avit",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/avit.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Each ml contains<br>\nVitamin A (Palmitate): 100000 I.U.</p>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>AVIT&nbsp; helps in the maintenance of bone health.</li>\n<li>AVIT helps in protection and rejuvenation of epithelial tissues.</li>\n<li>AVIT helps in prevention and control of gout.</li>\n<li>AVIT improves FCR and Livability.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">2-5 ml per 100 birds daily for a span of 5 days.<br>\n(Or)<br>\nAs suggested by Veterinarian.</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "b-com-more",
+      "title": "B-Com More",
+      "subtitle": "B-Com More",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/bcomemore.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Each 5 Liters contains</p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Vitamin A</td>\n<td>1500 mg</td>\n</tr>\n<tr>\n<td>Vitamin B2</td>\n<td>2500 mg</td>\n</tr>\n<tr>\n<td>Vitamin B3</td>\n<td>40000 mg</td>\n</tr>\n<tr>\n<td>Vitamin B5</td>\n<td>2500 mg</td>\n</tr>\n<tr>\n<td>Vitamin B6</td>\n<td>2000 mg</td>\n</tr>\n<tr>\n<td>Vitamin B9</td>\n<td>100 mg</td>\n</tr>\n<tr>\n<td>Vitamin B12</td>\n<td>25000 mcg</td>\n</tr>\n<tr>\n<td>Lysine</td>\n<td>43000 mg</td>\n</tr>\n<tr>\n<td>Methionine</td>\n<td>20000 mg</td>\n</tr>\n<tr>\n<td>Tri Choline Citrate</td>\n<td>250gms</td>\n</tr>\n<tr>\n<td>Preservatives</td>\n<td>Q.S.</td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Strengthens the immune system and Improves metabolic activities</li>\n<li>Prevents the onset of Polyneuritis</li>\n<li>Fights weakness in birds and makes them to recover fastly</li>\n<li>Improves growth and production.</li>\n<li>Improves FCR</li>\n<li>Improves Hatchability &amp; Livability.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>As a Liver Tonic and Detoxifier: </u></strong></p>\n<p><strong>Chicks: </strong>5 ml / 100 birds for 5-7 days</p>\n<p><strong>GROWERS, BROILERS,LAYERS and BREEDERS:</strong> 10-20 ml / 100 birds for 5-7 days)</p>\n<p><strong><u>As a B-Complex Supplement: </u></strong></p>\n<p><strong>Chicks:</strong> 1ml / 100 birds</p>\n<p><strong>Birds: </strong>2 ml / 100 birds</p>\n<p><strong>&nbsp;Growers /Layers/Broilers/Breeders:</strong> 2 ml / 100 days for 5-7 days</p>\n<p>(or)</p>\n<p>As suggested by Veterinarian.\n</p></div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "bromelev",
+      "title": "BROMELEV",
+      "subtitle": "BROMELEV",
+      "image": "/product-images/poultry/antiMicroBials/antiBiotics/bromolev.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Each ml of Bromolev&nbsp;contains:</strong></p>\n<ul>\n<li>Levofloxacin Hemihydrate IP 200 mg</li>\n<li>Bromhexine Hydrochloride&nbsp; IP 15 mg</li>\n<li>Excepients q.s.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Chronic respiratory disease (CRD) / Complex CRD</li>\n<li>E. Coli infections</li>\n<li>Bronchitis</li>\n<li>Salmonellosis</li>\n<li>Infectious Coryza</li>\n<li>Other Mixed &amp; Secondary infections.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Recommended Usage:</strong><br>\n0.5 ml to 1.0 ml per litre of drinking water for 3-5 days<br>\n(Or)<br>\nAs recommended by the Veterinarian.</p>\n<p><strong>Withdrawal Period:</strong><br>\nFor Chicken: 28 days<br>\nFor Eggs: 7 days</p>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "calciboost",
+      "title": "CALCIBOOST",
+      "subtitle": "CALCIBOOST",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><u><strong>Each 5ml contains:</strong></u></p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Elemental Calcium</td>\n<td>200 mg</td>\n</tr>\n<tr>\n<td>Phosphorous</td>\n<td>100 mg</td>\n</tr>\n<tr>\n<td>Vitamin D<sub>3</sub></td>\n<td>2000 I.U.</td>\n</tr>\n<tr>\n<td>Vitamin B<sub>12</sub></td>\n<td>50 mcg</td>\n</tr>\n<tr>\n<td>Excipients</td>\n<td>Q.S</td>\n</tr>\n<tr>\n<td>Colour</td>\n<td>Erythrosine</td>\n</tr>\n<tr>\n<td>Base enriched with Dextrose and Carbohydrates.</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Helps in formation of stronger Bones.</li>\n<li>Improves the egg shell quality.</li>\n<li>Improves weight gain, FCR and Productivity.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Chicks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 5 ml/100 birds/5-7 days.</li>\n<li>Growers/Broilers/Layers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 15ml/100 birds/5-7 days</li>\n<li>Breeders&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 25ml/100 birds/5-7 days</li>\n<li>Large Animals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :75-100ml daily for 7-10 days</li>\n<li>Sheep, Goat, Dogs,</li>\n<li>Cats,&amp; Calves:5-10ml daily for 5-7 days (or)</li>\n<li>As suggested by the Veterinarian.</li>\n</ul>\n<p><strong><u>Presentation:</u></strong> 1 Ltr &amp; 5 Ltrs HDPE containers.</p>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "career",
+      "title": "Careers",
+      "subtitle": "Hiring National Sales Manager (Poultry and\n                                                                        Aqua)!",
+      "image": "uploads/2018/05/locationMap.jpg",
+      "tabs": {}
+    },
+    {
+      "slug": "ceesure",
+      "title": "Ceesure",
+      "subtitle": "\"An effective enhancer of immunity in Aquacultureâ€",
+      "image": "/wp-content/uploads/2018/07/ceesure.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>One gram of<strong> CEESURE </strong>TM contains 500 mg of concentrated and coated form of vitamin C</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li><strong>CEESURE <sup>TM </sup></strong>controls the stress by restoring the levels of ascorbate concentrations in tissues which enormously decreased due to the effect of stress factors (Stressors).</li>\n<li><strong>CEESURE <sup>TM </sup></strong>helps in improving the growth rate by enhancing the digestion efficiency during very low or fluctuating pond water temperatures.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>promotes collagen synthesis in the fish/shrimp body and helps in quick/optimal wound repair.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>helps in the elimination of toxic effects of ammonia &amp; other toxic gasses that gets accumulated in the pond under intensive aquaculture setup.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>supplementation in aquaculture promotes the growth of healthy brooders, facilitates proper sperm/egg formation and improves hatchability.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>promotes the development of embryo/ larvae and reduces early stage mortality in fish/shrimp.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>acts as a natural immunostimulant and activates phagocytes that control microbial attack and subsequent infections.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>acts as an excellent antioxidant. Oxidation of feed ingredients initiated by free radicals are terminated by reduction with ascorbic acid of CEESURE, as one electron is transferred to the free radical from the ascorbate anion the result being formation of the ascorbate radical.</li>\n<li><strong>CEESURE <sup>TM </sup></strong>helps in retardation of lipid autoxidation, initiated by frre radicals such as superoxide radical (O2-â€˜), perhydroxyl radical (HO,'), hydroxyl radical (HO') and singlet oxygen (O').</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>0.5 to 2.0 &nbsp;grams per kg of feed.<u>During stress:</u></li>\n<li>3.0 gm per kg feed(or) as advised by Aquaculture consultant.</li>\n</ul>\n<p><strong>Presentation:</strong> 500g and 1 Kg HDPE containers.</p>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "colisten-feed-premix",
+      "title": "Colisten (feed Premix)",
+      "subtitle": "Colisten (feed Premix)",
+      "image": "/product-images/poultry/antiMicroBials/antiBiotics/colisten.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Indications :</strong></p>\n<ul>\n<li>For the control and prevention of infections caused by&nbsp;Gram negative bacterial strains.</li>\n<li>Controls and prevents necrotic enteritis.</li>\n<li>Maintains the colonization of native and useful bacteria&nbsp;in intestines.</li>\n</ul>\n<p><strong>Key Benefits:</strong></p>\n<ul>\n<li>Eliminates E.coli and salmonella infections.</li>\n<li>Prevents bacterial diarrhea &amp; shows synergistic effects with other antibiotics.</li>\n<li>No cross tolerance with a broad range of antibacterial agents.</li>\n<li>Little is absorbed in the alimentary tract and it is residue free.</li>\n<li>Improves FCR and weight gain.</li>\n<li>Controls loose droppings.</li>\n<li>Controls diarrhea of unknown etiology.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Chronic respiratory disease (CRD) / Complex CRD</li>\n<li>E. Coli infections</li>\n<li>Bronchitis</li>\n<li>Salmonellosis</li>\n<li>Infectious Coryza</li>\n<li>Other Mixed &amp; Secondary infections.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\"><strong>For growth promotion: </strong>150 gm per ton of feed<br>\n<strong>During production decline due to infections:&nbsp;&nbsp;</strong><br>\n200 - 250 gm per ton of feed<br>\n(Or)<br>\nAs suggested by the Veterinarian/Nutritionist.</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "contact",
+      "title": "",
+      "subtitle": "",
+      "image": "",
+      "tabs": {}
+    },
+    {
+      "slug": "eest",
+      "title": "Eest",
+      "subtitle": "Eest",
+      "image": "/wp-content/uploads/2018/07/eest.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li id=\"home\" class=\"tab-pane active\" role=\"tabpanel\"><strong>EEST</strong> is a unique combination of SCP based bio actives from natural yeast, <em>Saccharomyces Cerevisiae, Saccharomyces boulardii and Debaryomyces hansenii</em>.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul class=\"producstul\">\n<li><strong>EEST </strong>supplementation enhances bioavailability of phosphorus and other minerals for fish/shrimp in pond environment.</li>\n<li><strong>EEST</strong> stabilizes the pond pH, enhances the proliferation of beneficial bacteria.</li>\n<li><strong>EEST</strong> is rich in Î²-glucan, mannoproteins, chitin and nucleic acids, which helps in immunomodulation and improvement of immune system and helps in fighting pathogens in fish/shrimp</li>\n<li><strong>EEST</strong> with its SCP bio actives acts as an excellent and well-balanced source for vitamins, Minerals, Amino acids and possesses certain lipid and carbohydrate derivatives that are very much important for metabolism.</li>\n<li><strong>EEST </strong>improves water quality and controls of bacterial infections.</li>\n<li><strong>EEST</strong> supplemented diets stimulate growth, blood biochemistry and non- specific immune responses in aquatic organisms under culture.</li>\n<li><strong>EEST </strong>improves FCR and survival rate.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Pond Application: 1-2 kg /acre.</li>\n<li>For feed use: 1-2 kg/ ton of feed<br>\n(Or)</li>\n<li>As advised by aqua consultant</li>\n</ul>\n<p>Presentation: 500 g packet</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "eliminator",
+      "title": "ELIMINATOR",
+      "subtitle": "ELIMINATOR",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/prest-management/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">BROMADIOLONE: 0.005% RB</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong>ELIMINATOR <sup>TM</sup></strong> is best in class rat control product that achieves minimum 70-90% of rat mortality immediately after its first application.</li>\n</ul>\n<p><strong><u>Cost effectiveness:</u></strong></p>\n<p>Eliminator protects the farmer from huge losses due to feed damage by rat.</p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td></td>\n<td><strong>Approx. Feed consumption /bird in its life time</strong></td>\n<td><strong>Feed Loss Incurred @2%/bird</strong></td>\n<td><strong>Approx. Price per Kg Feed</strong></td>\n<td><strong>Amount spent on Eliminator package (4 times a year)</strong></td>\n</tr>\n<tr>\n<td><strong>Broiler Breeders</strong></td>\n<td>64</td>\n<td>Rs. 28.80 per bird</td>\n<td>Rs. 22.50</td>\n<td>Rs. 2.40 per bird</td>\n</tr>\n<tr>\n<td><strong>Commercial Layers</strong></td>\n<td>42</td>\n<td>Rs. 15.96 per bird</td>\n<td>Rs. 19.00</td>\n<td>Rs. 1.20 per bird</td>\n</tr>\n<tr>\n<td><strong>Commercial Broiler</strong></td>\n<td>3.4</td>\n<td>Rs. 2.14 per bird</td>\n<td>Rs. 31.50</td>\n<td>Rs. 0.15 per bird</td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>1 container + 150 bait stations are sufficient for a farm of 10000 Broiler breeders, 20000 Layers and 40000 Broilers (or) As suggested by the Veterinarian.</p>\n<p><strong><u>Directions for use:</u></strong></p>\n<ul>\n<li>Prepare bait by mixing ELIMINATOR powder thoroughly with 1litre attractant oil that is provided along with the pack</li>\n<li>Place 150 to 170 g of bait inside the slots of each bait station</li>\n<li>Place the bait stations in the farm as advised by our expert team.</li>\n</ul>\n<p><u><strong>Presentation:</strong></u></p>\n<p>25 kg MS Container.</p>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "entrowin-ws-fs",
+      "title": "ENTROWIN -WS & FS",
+      "subtitle": "ENTROWIN -WS & FS",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>Composition:</u></strong></p>\n<ul>\n<li>Bacillus coagulans</li>\n<li>Saccharomyces boulardii&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 5 X 10<sup>9</sup> cfu /g *</li>\n</ul>\n<p>* Base enriched with starch</p>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Enhances growth &amp; multiplication of beneficial microbes in gut</li>\n<li>Controls microbial colonization that exacerbate enteritis</li>\n<li>Improves&nbsp; digestion &amp; absorption of nutrients</li>\n<li>Improves overall&nbsp; performance</li>\n<li>Protects gut health by controlling diarrhea of unknown etiology</li>\n<li>Decreases mortality by improving disease resistance</li>\n<li>Improves FCR and weight gain</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>Treatment Dosage:</u></strong></p>\n<p><strong><u>Water based:</u></strong></p>\n<ul>\n<li>Commercial Broilers &amp; Layers: 20 g/1000 birds/5-7 days</li>\n<li>Broiler Breeders:30-40g /1000 birds/5-7 days</li>\n</ul>\n<p><u><strong>Feed based:</strong> </u></p>\n<ul>\n<li>Commercial Broilers &amp; Layers: 150-300 g/Ton of feed/5-7 days</li>\n<li>Broiler Breeders:300-500gm/Ton of feed/5-7 days</li>\n</ul>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "erythroboon-fs",
+      "title": "ERYTHROBOON-FS",
+      "subtitle": "ERYTHROBOON-FS",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>ERYTHROBOON is a combination of Chelated Iron, Copper, Vitamins and<br>\nessential bio actives formulated in a powdered form. Erythroboon fights anaemic<br>\ncondition and improves erythropoiesis in birds at a faster pace.</p>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Offers supportive therapy for various viral infections including CAV.</li>\n<li>Stimulates bone marrow to form RBC.</li>\n<li>Improves Haemoglobin levels in Blood.</li>\n<li>Prevents Anaemic Condition.</li>\n<li>Provides energy instantaneously.</li>\n<li>Relieves stress and boosts up the Immunity.</li>\n<li>Improves weight gain and FCR.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\"><strong>Broilers &amp; Layers:</strong> 1 Kg per ton of feed for 10- 15 days.<br>\n<strong>Breeders:</strong> 1-2 Kg per ton of feed for 10- 15 days.<br>\n<strong>Large Animals:</strong> 30-50 gm daily for 10days.<br>\nSheep: 5-10 gm / day for 5days.<br>\n(Or)<br>\nAs suggested by the Veterinarian.</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "erythroboon",
+      "title": "ERYTHROBOON",
+      "subtitle": "An excellent haematinic formulation that controls anaemic condition and improves the process of haemopoiesis in birds.",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/erythroboon.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><strong><u>Composition:</u></strong> &nbsp;&nbsp; Each 10 ml Contains</p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Vitamin B2</td>\n<td>&nbsp;2 mg</td>\n</tr>\n<tr>\n<td>Niacinamide</td>\n<td>150 mg</td>\n</tr>\n<tr>\n<td>D Panthenol</td>\n<td>2 mg</td>\n</tr>\n<tr>\n<td>Vitamin B6</td>\n<td>2 mg</td>\n</tr>\n<tr>\n<td>Folic Acid</td>\n<td>&nbsp;2 mg</td>\n</tr>\n<tr>\n<td>Vitamin B12</td>\n<td>100 mcg</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>10 mg</td>\n</tr>\n<tr>\n<td>Vitamin D3&nbsp;&nbsp; .</td>\n<td>&nbsp;5500 I.U</td>\n</tr>\n<tr>\n<td>Vitamin E</td>\n<td>22 mg</td>\n</tr>\n<tr>\n<td>Biotin</td>\n<td>200 mcg.</td>\n</tr>\n<tr>\n<td>Selenium</td>\n<td>10 mg</td>\n</tr>\n<tr>\n<td>Inositol</td>\n<td>&nbsp;5 mg</td>\n</tr>\n<tr>\n<td>DL-Methionine</td>\n<td>5 mg</td>\n</tr>\n<tr>\n<td>L-Lysine</td>\n<td>10 mg</td>\n</tr>\n<tr>\n<td>TCC</td>\n<td>100 mg</td>\n</tr>\n<tr>\n<td>Protein Hydrolysate</td>\n<td>100 mg.</td>\n</tr>\n<tr>\n<td>Malt Extract</td>\n<td>2.2 gms</td>\n</tr>\n<tr>\n<td>Calcium Lactate</td>\n<td>&nbsp;250 mg</td>\n</tr>\n<tr>\n<td>Zinc Sulphate</td>\n<td>15 mg</td>\n</tr>\n<tr>\n<td>Ferric Ammonium Citrate</td>\n<td>1430 mg</td>\n</tr>\n<tr>\n<td>Copper Sulphate</td>\n<td>120 mg</td>\n</tr>\n<tr>\n<td>Cobalt Chloride</td>\n<td>5 mg</td>\n</tr>\n<tr>\n<td>Preservative&nbsp;&nbsp; &nbsp;Q.S</td>\n<td></td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Prevents anaemic condition &amp; offers supportive therapy for CAV</li>\n<li>Improves Haemopoiesis</li>\n<li>Acts as a Hepato protectant and stimulates Liver</li>\n<li>Boosts up the Immunity &amp; Provides energy instantaneously</li>\n<li>Improves weight gain and FCR</li>\n</ul>\n</div>\n<p>&nbsp;\n</p></div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Chicks&nbsp; : 5- 10 ml for 1000 birds for 5 to 7 days</li>\n<li>Growers, Broilers &amp; Layers: 5 ml for 100 birds for week a month</li>\n<li>Breeders: 10- 15 ml for 100 birds for week a month</li>\n<li>Sheep, Goat and Calves: &nbsp;5-10 ml for 2-3 days</li>\n<li>Large animals: 25 ml for 2- 3 days</li>\n</ul>\n<p>(OR)</p>\n<p>As Suggested By the Veterinarian.</p>\n<p><strong><u>Presentation:</u></strong></p>\n<p>1 Ltr&nbsp; &amp; 5 Ltrs HDPE container.\n</p></div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "flynil",
+      "title": "FLYNIL",
+      "subtitle": "â€ Unique herbal larvicidal composition for immediate control of all fly larval stagesâ€",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>\n<div role=\"tabpanel\">\n<div class=\"tab-content\">\n<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Contains unique blend of herbal extracts with potent larvicidal activity, effective against all the larval stages.</p>\n</div>\n</div>\n</div>\n<div class=\"row\"></div>\n</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div role=\"tabpanel\">\n<div class=\"tab-content\">\n<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Kills all stages of fly larvae.</li>\n<li>Effectively manages wet litter condition in poultry farms</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"row\"></div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div role=\"tabpanel\">\n<div class=\"tab-content\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Mix 5-10 ml of FLYNIL<sup>TM</sup> in 1 litre water and spray in 50-200 sft area (or) as suggested by the Veterinarian.</li>\n</ul>\n<p><strong><u>Presentation</u></strong>:</p>\n<ul>\n<li>5 litres X 2 HDPE containers.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"row\"></div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "flynilgold",
+      "title": "FLYNIL GOLD",
+      "subtitle": "Unique herbal larvicidal composition for immediate control of all fly larval stages.",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/flynilgold.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>A composition that synergistically contributes to overall larvicidal activity by combining unique blend of herbal extracts at higher concentrations.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Kills all the stages of larvae</li>\n<li>Effectively manages wet litter condition in poultry farms</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Mix 3-5 ml of FLYNIL GOLD<sup>TM</sup> in 1 litre water and spray in 50-200 sft area (or) as suggested by the Veterinarian.</li>\n</ul>\n<p><u><strong>Presentation:</strong> </u></p>\n<ul>\n<li>5 litres X 2 HDPE containers.</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "formakleen",
+      "title": "FORMA KLEEN",
+      "subtitle": "Contains formaldehyde 37%w/w with higher percentage of methanol and added\nstabilizers.",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/vehicledip-fooddip/formakleen.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Contains formaldehyde 37%w/w with higher percentage of methanol and added<br>\nstabilizers.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Forma kleen acts by cross linking of macromolecules such as proteins, RNA, and DNA.</li>\n<li>Forma kleen is an effective bactericidal, sporicidal, and virucidal agent.</li>\n<li>Forma kleen&nbsp; is an effective disinfectant for poultry farms, hatcheries and hatchery vehicles.</li>\n<li>Forma kleen&nbsp; is stable for longer periods during prolonged storage.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">Use 1-3% (10-30 ml) depending on the intended use.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "lineodx",
+      "title": "LINEODX",
+      "subtitle": "LINEODX",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/fumigation-device-product/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li style=\"text-align: left;\">Aegle marmelos</li>\n<li style=\"text-align: left;\">&nbsp;Ocimum sanctum</li>\n<li style=\"text-align: left;\">&nbsp;Pongamia glabra (SE)</li>\n<li style=\"text-align: left;\">&nbsp;Curcuma longa</li>\n<li style=\"text-align: left;\">&nbsp;Emblica officinalis</li>\n<li style=\"text-align: left;\">&nbsp;Terminalia belerica</li>\n<li style=\"text-align: left;\">&nbsp;Terminalia chebula</li>\n<li style=\"text-align: left;\">&nbsp;Preservative Q.S.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><u>INDICATIONS:</u></p>\n<ul>\n<li>Controls wet droppings and vent pasting</li>\n<li>Controls and prevents necrotic enteritis</li>\n<li>Maintains the colonization of native and useful bacteria in intestines</li>\n</ul>\n<p><strong>&nbsp; &nbsp; <u>BENEFITS:</u></strong></p>\n<ul>\n<li>Ensures flock uniformity.</li>\n<li>Improves FCR and weight gain</li>\n<li>Protects gut health by controlling diarrhea of unknown etiology</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>Breeders:</u></strong></p>\n<ul>\n<li>Regular dosage: 500 gm /Ton of feed/5-7days a month</li>\n<li>Treatment dosage:1-1.5 kg /Ton of feed/5-7days a month</li>\n</ul>\n<p><strong><u>Commercial Layers &amp; Broilers:</u></strong></p>\n<ul>\n<li>Regular dosage: 250 gm-500 gm /Ton of feed/5-7days a month</li>\n<li>Treatment dosage:500 gm-1kg /Ton of feed/5-7days a month&nbsp; (or)</li>\n</ul>\n<ul>\n<li>As suggested by the Veterinarian</li>\n</ul>\n<p><strong><u>Presentation:</u></strong></p>\n<ul>\n<li>5 kg Triple laminated metalized Pouches.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "microkill-aqua",
+      "title": "Microkil Aqua",
+      "subtitle": "\"Best in Class Broad Spectrum Disinfectant for Aquaculture\"",
+      "image": "/wp-content/uploads/2018/05/microkil.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong>Microkill </strong><strong><em>Aqua </em></strong>is effective in controlling the spread of viruses such as WSSV, IHHNV and MBV and also prevents the transmission of bacteria such as Vibrio sp.</li>\n<li><strong>Microkill </strong><strong><em>Aqua </em></strong>is effective against pathogens in aquatic environment and prevents disease outbreaks in aquaculture systems.</li>\n<li><strong>Microkill </strong><strong><em>Aqua </em></strong>prevents the growth of anerobic species in pond environment that produces noxious gases that inturn affects the healthy growth of fish/shrimp .</li>\n<li><strong>Microkill </strong><strong><em>Aqua </em></strong>is a non toxic and&nbsp; non-tainting disinfectant that does not affect plankton growth or water quality in pond.</li>\n<li><strong>Microkill </strong><strong><em>Aqua </em></strong>is a fast acting disinfectant with very minimal contact time of less than 10 min.</li>\n<li><strong>Microkill </strong><strong><em>Aqua </em></strong>is an ecosafe disinfectant with ingredients that can biodegrade very quickly and&nbsp; does not cause any harm to the pond environment in any manner.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Enhances decomposition of organic matter.</li>\n<li>Controls the levels of ammonia, nitrite, and hydrogen sulfide in pond water.</li>\n<li>Helps to achieves reduction in nitrogen and phosphorus concentrations.</li>\n<li>Promotes algal growth and controls the growth of cyanobacteria (blue-green algae)</li>\n<li>Enhances the availability of dissolved oxygen.</li>\n<li>Promotes disease resistance and improves survival rate</li>\n<li>Works even in case of high salinity and pH variance.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>500 g to 2 kg per hec. or as advised by Aquaculture consulatant</li>\n</ul>\n<p><strong>Presentation: </strong>2 Kg HDPE Container</p>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "no-larve-c",
+      "title": "NO-LARVE -C",
+      "subtitle": "NO-LARVE -C",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/nolarve-c.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>NO-LARVE-FA is a combination of selective herbal extracts and natural bioactives from herbal origin that provides faster activity and effectively kills all the insect larval stages.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Kills all the stages of larvae</li>\n<li>Provides fast acting relief from all larval stages</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Mix 3-5 ml of NOLARVE-FA <sup>TM</sup> in 1 litre water and spray in 50-200 sft area (or) as suggested by the Veterinarian.</li>\n</ul>\n<p>&nbsp;</p>\n<p><u><strong>&nbsp;Presentation</strong></u>:</p>\n<p>5litres X 2 HDPE containers</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "no-larve-d",
+      "title": "NO-LARVE-D",
+      "subtitle": "NO-LARVE-D",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Contains Diflubenzuron 25% WP</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Prevents the formation of chitin (needed for insect cuticle or shell formation)</li>\n<li>Kills insects at the stage of molting</li>\n<li>Kills all the stages of larvae</li>\n<li>Potential ovicide for killing insect eggs</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Mix 10 g of NOLARVE-D &nbsp;in 2-5 litres of water for spraying on litter.</p>\n<ul>\n<li><u>Phase I Application:</u> Spray 1 Litre of the said reconstituted solution in an area of&nbsp; 20-50 Sq. ft.</li>\n<li><u>Phase II Application:</u> Spray 1 Litre of the said reconstituted solution in an area of&nbsp; 120 Sq. ft.&nbsp; (or) as directed by&nbsp; poultry consultant</li>\n</ul>\n<p>Presentation:</p>\n<ul>\n<li>1 kg HDPE Containers</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "no-larve-fa",
+      "title": "NO-LARVE-FA",
+      "subtitle": "NO-LARVE-FA",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>NO-LARVE-FA is a combination of selective herbal extracts and natural bioactives from herbal origin that provides faster activity and effectively kills all the insect larval stages.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Kills all the stages of larvae</li>\n<li>Provides fast acting relief from all larval stages</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Mix 3-5 ml of NOLARVE-FA <sup>TM</sup> in 1 litre water and spray in 50-200 sft area (or) as suggested by the Veterinarian.</li>\n</ul>\n<p><u><strong>&nbsp;Presentation</strong></u>:</p>\n<p>5litres X 2 HDPE containers</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "nutra-det",
+      "title": "NEUTRA-DET",
+      "subtitle": "NEUTRA-DET",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/multi-purpose-cleaning-agents/neutra-det.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Non-ionic and anionic surfactant</li>\n<li>Emollients</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Highly concentrated form hence low doses are enough to clean</li>\n<li>Ensures higher contact time and better cleaning</li>\n<li>Safe to use with bear hands. Does not cause any skin irritations by contact</li>\n<li>Cleans efficiently even in the presence of hard water</li>\n<li>Removes organic and mineral residues thoroughly</li>\n<li>Achieves necessary germ reduction before sanitization</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>1-5 %(10-50ml/ litre of water).</li>\n</ul>\n<p><u><strong>Directions for Use:</strong> </u></p>\n<ul>\n<li>Allow a minimum contact period of 10-20minutes for NUTRADET to act.</li>\n<li>Rinse twice with sufficient quantity of fresh water and allow it to air dry.</li>\n</ul>\n<p><strong><u>Presentation: </u></strong></p>\n<ul>\n<li>5Kg X 2 HDPE Containers &amp; 50 Kg HDPE Rackets</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "nutrinest",
+      "title": "Nutrinest",
+      "subtitle": "\"Take that Extra Mile Advantage of Balanced Nutritionâ€",
+      "image": "/wp-content/uploads/2018/07/Nutrinest-5ltr.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li id=\"home\" class=\"tab-pane active\" role=\"tabpanel\"><strong>NUTRINEST</strong> is a complete health supplement that contains Vitamins<strong>*</strong>, Minerals, Aminoacids, Immuno stimulants, Herbal extracts and other bio actives.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul class=\"producstul\">\n<li><strong class=\"prodhead\">NUTRINEST</strong> Provides balanced nutrition and thereby enhances growth and development of aquatic forms</li>\n<li><strong class=\"prodhead\">NUTRINEST</strong> promotes proper digestion &amp; absorption of nutrients from gut</li>\n<li><strong class=\"prodhead\">NUTRINEST</strong> strengthens the immune system and prevents disease incidence.</li>\n<li><strong class=\"prodhead\">NUTRINEST </strong>protects the health of hepatopancreas &amp; prevents EMS in shrimps</li>\n<li><strong class=\"prodhead\">NUTRINEST</strong> helps to combat moulting stress.</li>\n<li><strong class=\"prodhead\">NUTRINEST</strong> finetunes body metabolism &amp; improves FCR</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><strong>Directions For Use:</strong></p>\n<ul>\n<li>Mix Vitamins (50 gms) thoroughly with the remaining portion (950 gms) of the NUTRINEST and use as recommended.</li>\n</ul>\n<p><strong>Dosage:</strong></p>\n<ul>\n<li><strong>Powder:</strong>15-20gms/ Kg of feed.</li>\n<li><strong>Liquid:</strong>15-20ml/Kg of Feed&nbsp; Or&nbsp; As suggested by the Aqua Consultant</li>\n</ul>\n<p><strong>Presentation:</strong></p>\n<ul>\n<li>1kg laminated HDPE Container,</li>\n<li>1 Litre &amp; 5 Litres HDPE Container</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "omniclean",
+      "title": "OMNICLEAN",
+      "subtitle": "OMNICLEAN",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/multi-purpose-cleaning-agents/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>90% W/W Polyoxymethylenes of 97% purity</li>\n<li>Performance enhancers: 8% W/W</li>\n<li>Stabilizers: 2% W/W</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Directly effects the peptides and proteins of microbes</li>\n<li>Controls the spread of microbes</li>\n<li>Keeps the environment sterilised for longer time</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>1UNIT of \"OMNICLEANâ€ is sufficient for 2000-3000 Cubic Feet &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (OR) &nbsp; As suggested by the Veterinarian.</li>\n</ul>\n<ul>\n<li><u>Presentation:</u> Unit</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "oxyenrich",
+      "title": "Oxyenrich",
+      "subtitle": "\"We understand that Oxygen is vital\"",
+      "image": "/wp-content/uploads/2018/07/oxyenrich.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong>OXYENRICH <sup>TM </sup></strong>is a unique combination of Sodium per borate, adsorbents and de-odorizes and stabilizers with suitable carriers.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li><strong>OXYENRICH<sup>TM </sup></strong>improves and restores the levels of oxygen in the pond bottom.</li>\n<li><strong>OXYENRICH<sup>TM </sup></strong>provides oxygen instantaneously and relieves the aquatic organisms from HYPOXIC stress.</li>\n<li><strong>OXYENRICH<sup>TM </sup></strong>Prevents the growth of harmful &amp; pathogenic microbes in pond environment</li>\n<li><strong>OXYENRICH<sup>TM </sup></strong>promotes growth of microbes that take part in bioremediation and improves the pond environment.</li>\n<li><strong>OXYENRICH<sup>TM</sup></strong> eliminates toxic gasses, bad odours and off-flavor from prom pond environment and promotes the healthy growth of shrimp, prawn and fish.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>500 gm per acre (or) As suggested by the Aqua Consultant.</li>\n</ul>\n<p><strong>Presentation:</strong> 1 Kg HDPE Container.</p>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "phenokil",
+      "title": "PHENOKIL",
+      "subtitle": "An Ideal black phenyl that kills microbes effectively. Best choice of phenolic cleaner for foot dip & vehicle dip",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/vehicledip-fooddip/phenokil.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Contains High Boiling Tar Acid (HBTA) rich light creosote oil and a combination of various phenolic compounds of higher efficacy in killing germs.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>PHENOKIL <sup>TM </sup>is ideal for effective cleaning of vehicle dips, hatcheries, dairy farms, Kennels, Hospitals &amp; other public places with heavy microbial load.</li>\n<li>PHENOKIL <sup>TM</sup> cleans pathogens, deodorizes the farm &amp; repels flies</li>\n<li>PHENOKIL <sup>TM</sup> is the only Grade 1 Phenolic cleansing product in INDIA</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Foot dips and vehicle dips: 0.5-1% (5-10ml/litre of water)</li>\n<li>Drains (Highly soiled area): 1% (10ml/litre of water)</li>\n<li>Floor Mopping/Cleaning: 0.5% (5ml/litre of water) &amp; 0.4% (4 ml/litre of water) (WHEN USED WITH&nbsp; HIGH PRESSURE JET MACHINES).</li>\n<li>General Usage: 05% (5 ml/litre of water)&nbsp; (OR) &nbsp;&nbsp;As suggested by the Veterinarian.<br>\nNote: *Based on soiling level the dosage may vary.<u><strong>Presentation</strong></u>:<br>\n20 Litres MS Drum.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "planktomore",
+      "title": "Planktomore",
+      "subtitle": "PLANKTOMORE",
+      "image": "/wp-content/uploads/2018/07/planktomore.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">Combination of minerals, naturally sourced bioactives and amino acid mix that is derived from milk proteins.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong class=\"colorb\">PLANKTOMORE</strong> maintains pond ecosystem and promotes the growth of Phytoplankton.</li>\n<li><strong class=\"colorb\">PLANKTOMORE</strong> helps in flocculation of organic ions in pond by means of ionic complexation, chelation and polar adsorption and there by removes water turbidity.</li>\n<li><strong class=\"colorb\">PLANKTOMORE</strong> helps in stabilization of water temperature and increases dissolved oxygen levels.</li>\n<li><strong class=\"colorb\">PLANKTOMORE </strong>helps in the maintenance of water quality by lowering toxic substances such as ammonia, nitrites, carbon dioxide and hydrogen sulfide.</li>\n<li><strong class=\"colorb\">PLANKTOMORE</strong> enriches the soil condition and promotes the phytoplankton growth which acts as natural feed for growing fish/shrimp</li>\n<li><strong class=\"colorb\">PLANKTOMORE</strong> improves feed efficacy and promotes growth &amp; survival rate in fish /shrimp.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>500ml - 1 Litre per acre&nbsp; (Or)</li>\n</ul>\n<ul>\n<li>As advised by Aqua consultant</li>\n</ul>\n<p><strong>Presentation:</strong> 1 Litre &amp; 5 Litre HDPE containers.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "proboon-aqua",
+      "title": "Proboon Aqua",
+      "subtitle": "PROBOON AQUA",
+      "image": "/wp-content/uploads/2018/07/proboon-aqua.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li id=\"home\" class=\"tab-pane active\" role=\"tabpanel\"><em>Bacillus sp., Nitrosomonas sp, Nitrobacter sp., Cellulomonas sp., Acetobacter sp</em></li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Enhances decomposition of organic matter.</li>\n<li>Controls the levels of ammonia, nitrite, and hydrogen sulfide in pond water.</li>\n<li>Helps to achieves reduction in nitrogen and phosphorus concentrations.</li>\n<li>Promotes algal growth and controls the growth of cyanobacteria (blue-green algae)</li>\n<li>Enhances the availability of dissolved oxygen.</li>\n<li>Promotes disease resistance and improves survival rate</li>\n<li>Works even in case of high salinity and pH variance.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>1 Kg per hec. once in 15-21 days</li>\n</ul>\n<p>(or)</p>\n<ul>\n<li>As suggested by Aqua consultant.</li>\n</ul>\n<p><strong>Presentation:</strong> 1 kg aluminium pouches.</p>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "proboon-ws-fs",
+      "title": "PROBOON - WS & FS",
+      "subtitle": "PROBOON-WS&S",
+      "image": "/product-images/poultry/antiMicroBials/antiBiotics/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Bacillus subtilis</li>\n<li>Bacillus licheniformis</li>\n<li>Bacillus mesentericus</li>\n<li>Bacillus coagulans&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2 X 10<sup>9</sup> cfu /g *</li>\n<li>Clostridium butyricum</li>\n<li>Streptococcus faecalis</li>\n<li>Enterococcus faecium</li>\n<li>Saccharomyces boulardii</li>\n</ul>\n<p>* Base enriched with starch</p>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Re-establishes the state of eubiosis by creating good intestinal micro flora</li>\n<li>Protects gut health by controlling diarrhea of unknown etiology</li>\n<li>Improves&nbsp; overall&nbsp; performance</li>\n<li>Suppresses the colonization &amp; growth of pathogenic bacteria</li>\n<li>that exacerbates enteritis</li>\n<li>Decreases mortality by improving disease resistance</li>\n<li>Improves FCR and weight gain</li>\n</ul>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><u>Through Water:</u> 1gm/1-2 Lit of drinking water</p>\n<p><u>Through Feed:</u></p>\n<p><u>Poultry:</u> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100g/Ton of feed</p>\n<p>Lamb:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30g&nbsp; per day for 5 days</p>\n<p>Sheep/ Goat/Calves/</p>\n<p>Large Animals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 50g&nbsp; per day for 5 days</p>\n<p>(or) As suggested by Veterinarian of Nutritionist.</p>\n<p><strong><u>Presentation:</u></strong></p>\n<p>PROBOON FS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 kg pouch.</p>\n<p>PROBOON WS:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 200 g&nbsp; pouch.</p>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "puretabds",
+      "title": "PURE TAB -DS",
+      "subtitle": "ANTIPROL",
+      "image": "/product-images/poultry/antiMicroBials/antiBiotics/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>NADCC (Sodium Dichloro Isocyanurate)</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>PURE TAB-DS releases 60% of food grade chlorine</li>\n<li>Contact period of 5-10mins is enough to kill pathogens</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><em><strong>egular dose:&nbsp;</strong></em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 Tab 1000ltrs of water gives 2.5ppm chlorine</p>\n<p><em><strong>Treatment dose</strong></em>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1 Tab for 500ltrs of water gives 5ppm chlorine.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (OR)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; As suggested by the veterinarian.</p>\n<p><strong>Presentation:&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1Kg X 12</p>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin-aqua-forte",
+      "title": "Qualimin Aqua forte",
+      "subtitle": "QUALIMIN-AQUA FORTE",
+      "image": "/wp-content/uploads/2018/07/QualiminAquaforte2.jpg",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><strong><em><u>Each kg of QUALIMIN </u></em></strong><strong><u>Aqua Forte</u></strong> <strong><em><u>Contains:</u></em></strong></p>\n<table class=\"mytable1\" border=\"1\" width=\"586\">\n<tbody>\n<tr>\n<td colspan=\"2\" width=\"266\"><strong>Micro &amp; Macro Nutrients</strong></td>\n<td width=\"38\"></td>\n<td width=\"283\"><strong>Probiotics </strong></td>\n</tr>\n<tr>\n<td width=\"175\">Phosphorus</td>\n<td width=\"91\">153 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Lactobacillus acidophilus</td>\n</tr>\n<tr>\n<td width=\"175\">Calcium</td>\n<td width=\"91\">140 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Lactobacillus casei</td>\n</tr>\n<tr>\n<td width=\"175\">Copper Sulphate</td>\n<td width=\"91\">6.28 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Lactobacillus salivarius</td>\n</tr>\n<tr>\n<td width=\"175\">Cobalt Chloride</td>\n<td width=\"91\">0.044 mg</td>\n<td width=\"38\"></td>\n<td width=\"283\">Lactobacillus sporogenes</td>\n</tr>\n<tr>\n<td width=\"175\">Potassium Iodide</td>\n<td width=\"91\">0.013 mg</td>\n<td width=\"38\"></td>\n<td width=\"283\">Lactobacillus lactis</td>\n</tr>\n<tr>\n<td width=\"175\">Ferric Chloride</td>\n<td width=\"91\">8.70 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Lactobacillus reuteri</td>\n</tr>\n<tr>\n<td width=\"175\">Manganese Chloride</td>\n<td width=\"91\">6.86 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Enterococcus faecium</td>\n</tr>\n<tr>\n<td width=\"175\">Sodium Selenite</td>\n<td width=\"91\">0.15 mg</td>\n<td width=\"38\"></td>\n<td width=\"283\">Pediococcus acidilactici</td>\n</tr>\n<tr>\n<td width=\"175\">Zinc Sulphate</td>\n<td width=\"91\">24.70 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Aspergillus oryzae</td>\n</tr>\n<tr>\n<td width=\"175\">Magnesium Chloride</td>\n<td width=\"91\">78.43 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Bifidobacterium bifidum</td>\n</tr>\n<tr>\n<td width=\"175\">Aluminium Chloride</td>\n<td width=\"91\">0.99 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Bifidobacterium animalis</td>\n</tr>\n<tr>\n<td width=\"175\">Sodium Chloride</td>\n<td width=\"91\">5.09 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Bacillus subtilis</td>\n</tr>\n<tr>\n<td width=\"175\">DL - Methionine</td>\n<td width=\"91\">2 g</td>\n<td width=\"38\"></td>\n<td width=\"283\">Bacillus licheniformis</td>\n</tr>\n<tr>\n<td width=\"175\">L - Lysine</td>\n<td width=\"91\">4.5 g</td>\n<td width=\"38\"></td>\n<td width=\"283\"><strong>YEAST EXTRACT</strong></td>\n</tr>\n<tr>\n<td width=\"175\">Niacinamide</td>\n<td width=\"91\">1.338 g</td>\n<td width=\"38\"></td>\n<td width=\"283\"><strong>BETAINE</strong></td>\n</tr>\n<tr>\n<td width=\"175\">Vitamin B2</td>\n<td width=\"91\">0.33 g</td>\n<td width=\"38\"></td>\n<td width=\"283\"><strong>MOLYBDENUM</strong></td>\n</tr>\n<tr>\n<td width=\"175\">Vitamin B6</td>\n<td width=\"91\">0.33 g</td>\n<td width=\"38\"></td>\n<td width=\"283\"><strong>PROTEIN HYDROLYSATE</strong></td>\n</tr>\n<tr>\n<td width=\"175\">Vitamin D3</td>\n<td width=\"91\">80 Lakh IU</td>\n<td width=\"38\"></td>\n<td width=\"283\"><strong>DIGESTIVE ENZYMES</strong></td>\n</tr>\n<tr>\n<td colspan=\"4\" width=\"586\">Fortified with Oligosacharides, Vitamin C, Nucleotide metabolites and Yucca Schidigera</td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li><strong>QUALIMIN</strong> <strong>Aqua Forte</strong> is a superior and improved mineral supplement for shrimp/fish.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua Forte</strong> improves immunity and prevents the onset of diseases.</li>\n<li>Added probiotics and their actives in <strong>QUALIMIN </strong><strong>Aqua Forte</strong> executes antimicrobial effects and keeps away bacterial diseases.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua Forte</strong> protects the shrimps from Loose Shell Syndrome (LSS) and decreases mortality rate.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua Forte</strong> helps in instant recovery from molting stress, strengthens the endo and exoskeleton system and helps in formation of shell/cuticle</li>\n<li><strong>QUALIMIN </strong><strong>Aqua Forte</strong> helps in achieving enhanced growth, weight gain, survival rate and better FCR</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<p><strong><u>Shrimp/Prawn: </u></strong></p>\n<p>5-10 gm per Kg feed, twice daily prior to and after molting stage.</p>\n<p><strong><u>For Molting Stress:</u></strong> 30-40 gm per Kg Feed.</p>\n<p><strong><u>Fish: </u></strong></p>\n<p>2 -3 Kg per ton of feed (or) As suggested by the Aqua Consultant.</p>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin-aqua",
+      "title": "Qualimin Aqua",
+      "subtitle": "Qualimin Aqua",
+      "image": "/wp-content/uploads/2018/07/QualiminAqua2.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><u>Each 1 kg contains:</u></p>\n<p>Calcium&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 24%</p>\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<p>Phosphorous&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 12%</p>\n<p>Ferrous sulphate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; : 17.4 g</p>\n<p>Potassium iodide&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; : 131 mg</p>\n<p>Copper sulphate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 2.5 g</p>\n<p>Cobalt chloride Sulfite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 442 mg</p>\n<p>Manganese chloride Sulfite&nbsp;&nbsp;&nbsp;&nbsp; : 2.75 g</p>\n<p>Zinc sulphate&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 5.31 g</p>\n<p>L-Lysine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; : 4.4 g</p>\n<p>DL-Methionine&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; : 1092 g</p>\n<p>Sodium selenite&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; : 13 mg</p>\n<p>Magnesium sulphate :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 13 g</p>\n<p>Excipients&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; : Q.S</p>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> is the most scientifically balanced mineral mixture for achieving enhanced growth, weight gain, survival rate and better FCR.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> helps to achieve optimum mineral environment in the pond and facilitates mineral absorption by aquatic organisms.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> improves plankton growth</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> improves diseases resistance, stimulates moulting, helps in formation of collagen, strengthens the endo and exoskeleton system.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> helps achieving optimum production of fish, prawn and shrimps and maintains the stocks in healthy condition.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> protects against body cramps and soft shells.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> helps in regulating the osmotic balance and acid base equilibrium in aquatic animals.</li>\n<li><strong>QUALIMIN </strong><strong>Aqua</strong> provides essential micro elements needed for formation of blood and co-factors needed for activating enzyme reactions in biological processes.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><strong>Directions For Use:</strong></p>\n<ul>\n<li>8-10 Kg per Acre, Once in every 15-20 Days (or)</li>\n<li>As suggested by the Aqua Consultant.</li>\n</ul>\n<p><strong>Presentation:</strong></p>\n<ul>\n<li>1 Ltr HDPE Container</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin",
+      "title": "QUALIMIN",
+      "subtitle": "QUALIMIN",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/qualimin-gold-25kg.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Each 1Kg contains</p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Copper</td>\n<td>2 grams</td>\n</tr>\n<tr>\n<td>Manganese</td>\n<td>&nbsp;54 grams</td>\n</tr>\n<tr>\n<td>Potassium Iodide</td>\n<td>2 grams</td>\n</tr>\n<tr>\n<td>Zinc</td>\n<td>52 grams</td>\n</tr>\n<tr>\n<td>Cobalt</td>\n<td>1 gram</td>\n</tr>\n<tr>\n<td>Iron</td>\n<td>20 grams</td>\n</tr>\n<tr>\n<td>Selenium</td>\n<td>100 ppm</td>\n</tr>\n<tr>\n<td>Preservatives</td>\n<td>Q.S.</td>\n</tr>\n</tbody>\n</table>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Ensures optimum availability of trace elements</li>\n<li>Enhances growth and development rate of birds</li>\n<li>Keeps away all the mineral deficiency diseases &amp; metabolic disorders</li>\n<li>Improves egg production, hatchability</li>\n<li>Improves FCR</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>&nbsp;&nbsp; 1 Kg/Ton of feed</li>\n</ul>\n<p>(OR)</p>\n<p>As suggested by the Veterinarian.</p>\n<p>&nbsp;</p>\n<p>Presentation:</p>\n<p>10 Kg BOPP bags.\n</p></div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "quit-stress",
+      "title": "QUIT STRESS",
+      "subtitle": "QUIT STRESS",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/quitstress-gold.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><u><strong>Each 5 ml contains:</strong></u></p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Vitamin A (Palmitate)</td>\n<td>250000&nbsp; I.U.</td>\n</tr>\n<tr>\n<td>Vitamin D3</td>\n<td>30000&nbsp;&nbsp; I.U.</td>\n</tr>\n<tr>\n<td>Vitamin E</td>\n<td>150&nbsp;&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>500&nbsp;&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin B<sub>12</sub></td>\n<td>100&nbsp;&nbsp; mcg</td>\n</tr>\n<tr>\n<td>Preservatives</td>\n<td>Q.S</td>\n</tr>\n</tbody>\n</table>\n<div></div>\n<p>*In addition to the above ingredients QUITSTRESS GOLD is also fortified with a blend of probiotics, stress relieving agents, antitoxins, liver stimulants and immunostimulant natural extracts.\n</p></div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>An excellent stress reliever</li>\n<li>Helps in improving the overall health condition.</li>\n<li>Improves the laying performance reduced due to intense heat, illness, cold or cage-fatigue.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>DOSAGE: </u></strong></p>\n<p>Chicks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; : 3ml/100birds for 5-7days</p>\n<p>Growers/Layers&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; 4ml/100birds for 5-7 days</p>\n<p>Broilers/Breeders&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 7ml/100birds for 5-7days</p>\n<p>Large Animals&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; : 10ml daily for 5-7 days</p>\n<p>Calves&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 7ml daily for 5-7 days</p>\n<p>Dogs and Cats&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; : 3ml daily for 5-7 days</p>\n<p>(OR)&nbsp; As suggested by the Veterinarian.</p>\n<p>&nbsp;</p>\n<p><strong><u>Presentation: </u></strong>&nbsp;1Ltr HDPE container</p></div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "quitstress-aqua",
+      "title": "Quitstress Aqua",
+      "subtitle": "QUITSTRESS AQUA",
+      "image": "",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">QUITSTRESS AQUA is a unique combination of Anti-stress vitamins, Minerals, Antioxidants, Natural extracts, Antitoxin cum liver stimulants, preservatives and Immunostimulants.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<ul class=\"producstul\">\n<li>QUITSTRESS AQUA finetunes and strengthens immune system to fight against infectious/pathogenic diseases</li>\n<li>QUITSTRESS AQUA relieves from deleterious effects of stressors that hamper the productivity.</li>\n<li>QUITSTRESS AQUA improves FCR</li>\n<li>QUITSTRESS AQUA improves livability &amp; weight gain.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>10-30 ml/kg feed thrice a week</li>\n</ul>\n<p>(Or)</p>\n<ul>\n<li>As suggested by the Aqua consultant.</li>\n</ul>\n<p>Presentation: 1 Ltr HDPE Container</p>\n</div>\n</div>\n</div>\n<p><strong>Presentation:</strong> 1 Litre &amp; 5 Litre HDPE containers.</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "quitstress-gold",
+      "title": "QUITSTRESS GOLD",
+      "subtitle": "QUIT STRESS",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/quitstress-gold.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><u><strong>Each 5 ml contains:</strong></u></p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Vitamin A (Palmitate)</td>\n<td>250000&nbsp; I.U.</td>\n<td>Tricholine Citrate</td>\n<td>50&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin D3</td>\n<td>30000&nbsp;&nbsp; I.U.</td>\n<td>Sodium Chloride</td>\n<td>25 mg</td>\n</tr>\n<tr>\n<td>Vitamin E</td>\n<td>150&nbsp;&nbsp; mg</td>\n<td>Sodium Citrate</td>\n<td>50&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>500&nbsp;&nbsp; mg</td>\n<td>Magnesium Sulphate</td>\n<td>6&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin B<sub>12</sub></td>\n<td>100&nbsp;&nbsp; mcg</td>\n<td>Sodium Acid Phosphate</td>\n<td>25&nbsp; mg</td>\n</tr>\n<tr>\n<td>Selenium</td>\n<td>7.5&nbsp; mg</td>\n<td>Calcium Lactate</td>\n<td>50&nbsp; mg</td>\n</tr>\n<tr>\n<td>Biotin</td>\n<td>150&nbsp; mcg</td>\n<td>Potassium Chloride</td>\n<td>150 mg</td>\n</tr>\n<tr>\n<td>Preservatives</td>\n<td>Q.S</td>\n<td></td>\n<td></td>\n</tr>\n</tbody>\n</table>\n<p>*In addition to the above ingredients QUITSTRESS GOLD is also fortified with a blend of probiotics, stress relieving agents, antitoxins, liver stimulants and immunostimulant natural extracts.</p>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>An excellent stress reliever</li>\n<li>Helps in improving the overall health condition.</li>\n<li>Improves the laying performance reduced due to intense heat, illness, cold or cage-fatigue.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Chicks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; :&nbsp; 3ml/100birds for 5-7days</p>\n<p>Growers/Layers&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; 4ml/100birds for 5-7 days</p>\n<p>Broilers/Breeders&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; 7ml/100birds for 5-7days</p>\n<p>Large Animals&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; 8ml daily for 5-7 days</p>\n<p>Calves&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 5ml daily for 5-7 days</p>\n<p>Dogs and Cats&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 2ml daily for 5-7 days</p>\n<p>(OR)&nbsp; As suggested by the Veterinarian.</p>\n<p><strong><u>Presentation:</u></strong> 1Ltr HDPE container</p></div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "s-kleen",
+      "title": "S-KLEEN",
+      "subtitle": "S-KLEEN",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/multi-purpose-cleaning-agents/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Non-ionic and anionic surfactants</li>\n<li>QUATS</li>\n<li>Emollients</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>S-KLEEN ensures cleaning and sanitization in a single shot.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>1-5 %(10-50ml/ litre of water).</li>\n</ul>\n<p><u>Directions for Use: </u></p>\n<ol>\n<li>Allow a minimum contact period of 10-20minutes for NUTRADET to act.</li>\n<li>Rinse twice with sufficient quantity of fresh water and allow it to air dry.</li>\n</ol>\n<p><u>Presentation: </u>&nbsp;50 kg HDPE Rackets</p>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "spoton",
+      "title": "SPOTON",
+      "subtitle": "Unique formulation for control of adult flies",
+      "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-managemt-fly-control/spoton.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Propoxur 2 % Bait</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Controls all stages of flies</li>\n<li>Safe to use even in the presence of other inmates</li>\n<li>Avoids resistance development and makes flies susceptible for treatment.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Sprinkle SPOTON on all fly infested areas.</li>\n</ul>\n<p><u><strong>Presentation</strong></u>:</p>\n<ul>\n<li>5 kg X 5&nbsp;Aluminium pouches packed in MS container</li>\n</ul>\n</div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "succcical-m",
+      "title": "SUCCCICAL-M",
+      "subtitle": "SUCCCICAL-M",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/succial-m.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><u><strong>Each 5 gm contains:</strong></u></p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Micro crystalline Hydroxyapatite complex (MCHC) equivalent to calcium</td>\n<td>180 mg</td>\n</tr>\n<tr>\n<td>Phosphorus</td>\n<td>&nbsp;90&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin A</td>\n<td>2500 I.U.</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>&nbsp;&nbsp;50 mg</td>\n</tr>\n<tr>\n<td>Vitamin B12</td>\n<td>10 mcg</td>\n</tr>\n<tr>\n<td>Vitamin D3</td>\n<td>1000 I.U.</td>\n</tr>\n<tr>\n<td>Manganese</td>\n<td>15mg</td>\n</tr>\n<tr>\n<td>Magnesium</td>\n<td>5mg</td>\n</tr>\n<tr>\n<td>Preservatives</td>\n<td>Q.S.</td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Ensures the are bioavailability of Calcium and Phosphorus in balanced amounts</li>\n<li>Improves mineral absorption and ossification of bones</li>\n<li>Improves immunity in layers</li>\n<li>Improves eggshell quality and strength</li>\n<li>Improves hatchability</li>\n<li>Improves FCR</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Mix 500g - 1Kg of SUCCICAL-M&nbsp; powder for 1 ton of feed for a span of 1 week to 10 days in a month (or) As suggested by the Veterinarian.</p>\n<p><strong><u>Presentation</u></strong>:</p>\n<p>5 Kg X 5 pouches in a triple laminated BOPP bag.</p>\n<p>&nbsp;\n</p></div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "succical-fs",
+      "title": "SUCCICAL-FS",
+      "subtitle": "SUCCICAL-FS",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/succial-m.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><u><strong>Each 5 gm contains:</strong></u></p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Calcium</td>\n<td>1500 mg</td>\n</tr>\n<tr>\n<td>Phosphorous</td>\n<td>750&nbsp; mg</td>\n</tr>\n<tr>\n<td>Vitamin A</td>\n<td>5000 I.U.</td>\n</tr>\n<tr>\n<td>Vitamin B12</td>\n<td>30 mcg</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>50 mg</td>\n</tr>\n<tr>\n<td>Vitamin D3</td>\n<td>2800 I.U.</td>\n</tr>\n<tr>\n<td>Manganese</td>\n<td>15 mg</td>\n</tr>\n<tr>\n<td>Citric acid</td>\n<td>100 mg</td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Corrects the calcium deficiency in birds</li>\n<li>Increases body weight</li>\n<li>Strengthens Bones &amp; egg shells</li>\n<li>Improves productivity</li>\n<li>Improves FCR</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">Mix 1Kg of Succical-FS&nbsp; powder for 1 ton of feed for a span of 1 week to 10 days in a month.<br>\n<u><strong>Presentation:</strong></u><br>\n10 Kg Triple laminated BOPP bags.</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "succical-gold",
+      "title": "SUCCICAL GOLD",
+      "subtitle": "SUCCICAL GOLD",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/succialgold.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><u><strong>Each 5ml contains :</strong></u></p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Elemental Calcium</td>\n<td>200mg</td>\n</tr>\n<tr>\n<td>Phosphorus</td>\n<td>100mg</td>\n</tr>\n<tr>\n<td>Vitamin D<sub>3</sub></td>\n<td>2000I.U.</td>\n</tr>\n<tr>\n<td>Vitamin B<sub>12</sub></td>\n<td>120mcg</td>\n</tr>\n<tr>\n<td>Tricholine Citrate</td>\n<td>100mg</td>\n</tr>\n<tr>\n<td>Ferric Ammonium Citrate</td>\n<td>85mg</td>\n</tr>\n<tr>\n<td>Cobalt</td>\n<td>0.25mg</td>\n</tr>\n</tbody>\n</table>\n<p>&nbsp;</p>\n<ul>\n<li>Colour&nbsp;: Erythrosine</li>\n<li>Base enriched with Dextrose and Carbohydrates.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Helps in faster growth and weight gain.</li>\n<li>Helps in formation of stronger bones.</li>\n<li>Balances bone and muscle metabolism.</li>\n<li>Improves egg shell quality, FCR &amp; productivity.</li>\n<li>It is highly economical.</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Chicks&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 5 ml/100 birds/5-7 days</p>\n<p>Growers/Broilers/Layers &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; : 15 ml/100 birds/5-7 days</p>\n<p>Breeders&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 25ml/100 birds/5-7 days</p>\n<p>Large Animals &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :75 ml daily for 7-10 days</p>\n<p>Foal &amp; Calves &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;: 20 ml daily for 7-10 days</p>\n<p>Sheep, Goat, Dogs and Cats &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:5-10ml daily for 5-7 days</p>\n<p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (OR) </strong>As suggested by the Veterinarian</p>\n<p>&nbsp;</p>\n<p><strong><u>Presentation:</u></strong> 1 Ltr &amp; 5 Ltrs HDPE containers.</p></div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "thermiquit",
+      "title": "THERMIQUIT",
+      "subtitle": "THERMIQUIT",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/thermiquit.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div role=\"tabpanel\">\n<div class=\"tab-content\">\n<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Each 1kg contains:</p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Sodium Chloride</td>\n<td>20 g</td>\n</tr>\n<tr>\n<td>Potassium Chloride</td>\n<td>100 g</td>\n</tr>\n<tr>\n<td>Sodium Bicarbonate</td>\n<td>70 g</td>\n</tr>\n<tr>\n<td>Sodium Acid Phosphate</td>\n<td>15 g</td>\n</tr>\n<tr>\n<td>Sodium Citrate</td>\n<td>130 g</td>\n</tr>\n<tr>\n<td>Calcium Lactate</td>\n<td>30 g</td>\n</tr>\n<tr>\n<td>Magnesium Sulphate</td>\n<td>&nbsp;25 g</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>30 g</td>\n</tr>\n<tr>\n<td>Citric Acid Anhydrous</td>\n<td>20 g</td>\n</tr>\n<tr>\n<td>Viable Lactobacillus Spores</td>\n<td>30000 Million cfu</td>\n</tr>\n<tr>\n<td>Lactose</td>\n<td>1 gm</td>\n</tr>\n<tr>\n<td>Ammonium Chloride</td>\n<td>4 g</td>\n</tr>\n<tr>\n<td>Colloidal Silica</td>\n<td>20g</td>\n</tr>\n</tbody>\n</table>\n<ul>\n<li>Enriched with Gingko Biloba extracts, peppermin extracts, Dextrose, Antipyretics and thirsting agents.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"row\"></div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div role=\"tabpanel\">\n<div class=\"tab-content\">\n<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Balances electrolytes across the cells.</li>\n<li>Synthetic and herbal anti-pyretic agents helps to regulate birds' body temperature</li>\n<li>Creates suitable environment for water to perform its electrolytic activity.</li>\n<li>Relieves heat stress and restores the bird to zone of thermal comfort.</li>\n</ul>\n</div>\n</div>\n</div>\n<div class=\"row\"></div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div role=\"tabpanel\">\n<div class=\"tab-content\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><u>Feeding Directions for powder:</u></p>\n<p>General Heat Stress&nbsp;&nbsp; : 250-500 g/Ton of feed</p>\n<p>Acute Heat Stress&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 500 g-1Kg/Ton of feed</p>\n<p>(OR)</p>\n<p>As suggested by the Veterinarian.</p>\n<p><u>Feeding Directions for Liquid:</u></p>\n<p>General Heat Stress&nbsp;&nbsp; : 0.5 - 1ml/Litre of water</p>\n<p>Acute Heat Stress&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : 1.5 -2ml/Litre of water</p>\n<p>(OR)</p>\n<p>As suggested by the Veterinarian.</p>\n<p><u>Presentation:</u></p>\n<p>Liquid: 5 Ltr HDPE container.</p>\n<p>Powder: 10 Kgs Laminated BOPP bag.</p>\n<p>&nbsp;\n</p></div>\n</div>\n</div>\n<div class=\"row\"></div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "tocovit-bs",
+      "title": "TOCOVIT-BS",
+      "subtitle": "TOCOVIT-BS",
+      "image": "/product-images/poultry/antiMicroBials/antiBiotics/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Each 200 gm contains</p>\n<table border=\"1\" cellspacing=\"1\" cellpadding=\"1\">\n<tbody>\n<tr>\n<td>Vitamin E</td>\n<td>20 gm</td>\n</tr>\n<tr>\n<td>Selenium</td>\n<td>200 ppm</td>\n</tr>\n<tr>\n<td>Biotin</td>\n<td>40000 mcg</td>\n</tr>\n<tr>\n<td>Vitamin C</td>\n<td>5 gm</td>\n</tr>\n</tbody>\n</table>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Tocovit BS improves the immune response &amp; provides disease resistance.</li>\n<li>Tocovit BS fights oxidative stress and keeps the birds active all the times.</li>\n<li>Tocovit BS helps in control of ascites and unexplained sudden mortality in birds.</li>\n<li>Tocovit BS fights exudative diathesis in birds.</li>\n<li>Tocovit BS improves FCR, fertility and hatchability.</li>\n</ul>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Use with Feed:</strong><br>\nChicks, Growers &amp; Layers&nbsp; : 200 gm / ton of feed.<br>\nBroiler Breeders: 500 gm to 1 Kg / ton of feed for 5 days.</p>\n<p><strong>Use with water:</strong><br>\nChicks, Growers &amp; Layers: 5 gm / 200 birds.<br>\nBroilers : 5 gm / 50 birds<br>\nBreeders: 10 gm / 50 birds.<br>\n(Or)<br>\nAs suggested by the Veterinarian.</p></div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "toxelim-b-gold-tm-powder",
+      "title": "TOXELIM - B GOLD TM (Powder)",
+      "subtitle": "TOXELIM - B GOLD TM (Powder)",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/TOXELIM-B-GOLD.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Amino acids, Vitamins, Minerals, Liver extract, Tri-Choline Citrate, yeast extract, Inositol, Protein hydrolysate. Enzymes, Malt and Dextrose</p>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Stimulates the liver and tackles the toxicity.</li>\n<li>Improves immune system and relieves the bird from stress</li>\n<li>Reduces early chick mortality</li>\n<li>Improves FCR &amp; Livability</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>Directions For Use:</u></strong></p>\n<ul>\n<li>Vitamins are packed separately in a pouch and provided with TOXELIM-B GOLD in order to safeguard their potency by preventing their oxidation. This further ensures maximum bioavailability of vital elements.</li>\n<li>Mix the vitamins mixture with TOXELIM-B GOLD Powder thoroughly and prepare a uniform blend for use along with poultry feed.</li>\n</ul>\n<p><strong><u>Regular Dose:</u></strong></p>\n<p>Commercial Layers:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 250 g/MT of feed</p>\n<p>Broilers &amp; Broiler Breeders:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500g/MT of feed</p>\n<p><strong><u>Dose during productivity decline:</u></strong></p>\n<p>Commercial Layers:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500 g/MT of feed</p>\n<p>Broilers &amp; Broiler Breeders:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1-1.5 Kg/MT of feed</p>\n<p><strong><u>Presentation: </u></strong></p>\n<p>10 kg triple laminated BOPP bag</p>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "toxelim-b-gold-toxelim-b-gold-plus-liquid-supplements",
+      "title": "TOXELIM-B GOLD & TOXELIM-B GOLD PLUS (LIQUID SUPPLEMENTS)",
+      "subtitle": "TOXELIM-B GOLD & TOXELIM-B GOLD PLUS",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/TOXELIM-B-GOLD.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Amino acids, Vitamins, Minerals, Liver extract, Tri-Choline Citrate, yeast extract, Inositol, Protein hydrolysate. Enzymes, Malt and Dextrose</p>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Stimulates the liver and tackles the toxicity.</li>\n<li>Improves immune system and relieves the bird from stress</li>\n<li>Reduces early chick mortality</li>\n<li>Improves FCR &amp; Livability</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<table border=\"1\" cellspacing=\"0\" cellpadding=\"0\">\n<tbody>\n<tr>\n<td><strong>Group of Birds</strong></td>\n<td><strong>TOXELIM-B GOLD</strong></td>\n<td><strong>TOXELIM- B GOLD PLUS</strong></td>\n</tr>\n<tr>\n<td>Chicks</td>\n<td>5-8 ml for 100 chicks for 5-7 days</td>\n<td>5 ml for 100 chicks for 5-7 days</td>\n</tr>\n<tr>\n<td>Broilers</td>\n<td>8-10 ml for 100 birds 2 days in a week</td>\n<td>7 ml for 100 birds 2 days in a week</td>\n</tr>\n<tr>\n<td>Layers</td>\n<td>8-10 ml for 100 birds for one week in a month</td>\n<td>7 ml for 100 birds for one week in a month</td>\n</tr>\n<tr>\n<td>Breeders</td>\n<td>20 ml for 100 birds for one week in a month</td>\n<td>15-20 ml for 100 birds for one week in a month</td>\n</tr>\n<tr>\n<td colspan=\"3\">Or As suggested by the Veterinarian</td>\n</tr>\n</tbody>\n</table>\n<p><strong>Presentation:</strong> 1 Litre &amp; 5 Litres HDPE containers</p>\n<p>.</p>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "toxelim-b-powder",
+      "title": "TOXELIM-B (powder)",
+      "subtitle": "TOXELIM-B (powder)",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/TOXELIM-B.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong>TOXELIM-B<sup> TM</sup></strong>, a unique composition of antitoxin cum liver stimulants, vitamins, minerals, and vital nutrients that supports the physiology of vital organs. Added with antioxidants and herbal extracts, TOXELIM-B protects bird's liver from oxidative stress and hepatocellular degeneration resulting from mycotoxicosis.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>Prevents the effects of mycotoxins in feed</li>\n<li>Ensures maximum availability of nutrients to birds</li>\n<li>Improves FCR</li>\n<li>Restores optimum performance and productivity levels</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong><u>Dosage:</u></strong></p>\n<p>Commercial Layers:&nbsp; 500 g-1 Kg/MT of feed</p>\n<p>Broilers &amp; Broiler Breeders:&nbsp;&nbsp; 1-1.5 Kg/MT of feed</p>\n<p><strong><u>Presentation:</u></strong>&nbsp; 25 Kg triple laminated BOPP bags.</p>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "toxiclean-aqua",
+      "title": "Toxiclean Aqua",
+      "subtitle": "\"Provides An Unparalleled & Synergistic Protection from Toxic Insults\"",
+      "image": "",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>is a synergistic blend of HSCAS (zeolite), Activated Charcoal MOS, Yucca, Organic Acids and Probiotics.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>reduces obnoxious gasses and provides stress free environment that supports the growth of aquatic organisms.</li>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>effectively adsorbs mycotoxins and helps in their elimination.</li>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>acts as a mould inhibitor and prevents the formation of mycotoxins.</li>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE</strong> improves water quality by its high CEC and thereby enhances the healthy growth of fish/shrimp.</li>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>further inactivates mycotoxins that are remained after elimination by HSCAS and MOS, by arresting them in the crevices of micropores present in Activated Charcoal.</li>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>clears pond bottom by adsorbing and removal of wastes, bacteria and black soil from pond bottom.</li>\n<li><strong>TOXICLEAN </strong><strong>AQUA FORTE </strong>is effective even in high ranges of salinity and pH</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<p><strong>Feed Mixing:</strong></p>\n<ul>\n<li>Thoroughly mix 1-2 Kg per 100 Kg of feed</li>\n</ul>\n<p><strong>For pond preparation:</strong> 50 kg/ ha.</p>\n<p><strong>For use during culture period: </strong>10-20 kg/ha depending on water depth in pond. (OR)</p>\n<ul>\n<li>As suggested by Aquaculture consultant.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "toxiclean-fs",
+      "title": "Toxiclean-fs",
+      "subtitle": "\"An Eco-friendly approach for Elimination of Obnoxious Gasses\"",
+      "image": "",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li><strong>TOXICLEAN-FS </strong>is a unique combination of Zeolites such as HSCAS and Bio actives from Yucca Schidigera extracts that provides high adsorption of toxic substances/noxious gasses present in water and eliminates them from pond environment to support the healthy growth of fish/shrimp.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li><strong>TOXICLEAN-FS </strong>reduces the levels of noxious gasses present in the pond and creates healthy environment that supports the growth of aquatic species being cultured.</li>\n<li><strong>TOXICLEAN-FS </strong>rejuvenates the phytoplankton growth in the pond.</li>\n<li><strong>TOXICLEAN-FS </strong>clears pond bottom by adsorbing and removal of wastes, bacteria and black soil from pond bottom.</li>\n<li><strong>TOXICLEAN-FS</strong> reduces obnoxious gasses and provides stress free environment that supports the growth of aquatic organisms.</li>\n<li><strong>TOXICLEAN-FS </strong>improves water quality by its high CEC and thereby enhances the healthy growth of fish/shrimp.</li>\n<li><strong>TOXICLEAN-FS </strong>is effective even in high ranges of salinity and pH</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Thoroughly mix required quantity of product with wet sand and apply over the pond with aeration.</li>\n<li><u>For pond preparation:</u> 50 kg/ hec.</li>\n<li><u>For use during culture period: </u>10-20 kg/hec. depending on water depth in pond. (Or)</li>\n<li>As suggested by Aquaculture consultant.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "toxiclean",
+      "title": "TOXICLEAN",
+      "subtitle": "Best in class Toxin binder for poultry",
+      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/toxi-clean-gold.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"home\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul>\n<li>HSCAS</li>\n<li>Antifungals</li>\n<li>Feed Sterilizers and</li>\n<li>Immuno-stimulants</li>\n</ul>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Acts as an ideal feed sterilizer</p>\n<ul>\n<li>&nbsp;Effectively controls the entry of pathogenic microbes.</li>\n<li>As an immuno-stimulant, <strong>TOXICLEAN </strong>improves the immunity levels.</li>\n</ul>\n<p>&nbsp;\n</p></div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p>Regular Use<strong>:</strong> 1 Kg / Ton of feed (&lt; 15% available moisture)</p>\n<p>High Moisture Feed: 1.5 Kg / Ton of feed (&gt; 15% available moisture)</p>\n<p>&nbsp;</p>\n<p>(or)</p>\n<p>As suggested by the Veterinarian.</p>\n<p><u>Presentation:</u></p>\n<p>25Kg&nbsp; laminated BOPP bags.\n</p></div>\n</div>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "yuwin-gold",
+      "title": "Yuwin Gold",
+      "subtitle": "YUWIN-GOLD",
+      "image": "/wp-content/uploads/2018/07/yuwin-gold2.jpg",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element \">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Yucca Schidigera (30 % )</li>\n<li>Blend of probiotics and (Consortium of Ammonia Oxidizing Bacteria (AOB), Nitrite Oxidizing Bacteria (NOB) and Denitrifying Bacteria (DNB) at a potency of&nbsp; 10 X 10<sup>9</sup> &nbsp;Cfu/ g and &nbsp;proven bioremediating agents</li>\n</ul>\n<p><strong>Preservatives : &nbsp;</strong>Q.S.</p>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Alleviates ammonia stress in an ecologically safer mode and restores the levels of DO and reduces the BOD</li>\n<li>Reduces the dissolved levels of obnoxious gasses.</li>\n<li>YUWIN GOLD contains bacterial strains that produce enzymes which specifically act on organic matter and helps in the process of detoxification.</li>\n<li>Bioactive saponins and sapogenins of yucca such as Sarsasapogenin, Furostanol, and Spirostanol are delivered in a targeted and protected form for providing long lasting and best effects</li>\n<li>The bio actives of YUWIN GOLD possess anti-protozoal activity and natural surfactants in the composition&nbsp; allows better nutrient utilization by bacteria that digest waste materials at pond bottom.</li>\n<li>Microbes present in YUWIN GOLD helps in Bioremediation and improve the water quality by breaking down pollutants and waste.</li>\n<li>YUWIN GOLD promotes the growth of phytoplanktons and zoo planktons</li>\n<li>Improves gut micro flora and aids in better utilization of nutrients</li>\n<li>YUWIN GOLD improves and purifies overall water quality</li>\n<li>Promotes healthy growth of prawns, fishes and eventually increases their overall harvest yield.</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Use 300 to 500 gm per hec. by thoroughly mixing it with sand by sprinkling water and broadcast evenly to the entire water spread area of the pond.</li>\n<li>Repeat the application once in 15 days up to 90 days of culture and once in 10 days after 90 days of culture.</li>\n</ul>\n<p><strong>Presentation: </strong>1 Kg HDPE Containers.</p>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    },
+    {
+      "slug": "yuwin",
+      "title": "Yuwin",
+      "subtitle": "YUWIN",
+      "image": "/wp-content/uploads/2018/07/yuwin-1kg.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<ul>\n<li>Yucca Schidigera extracts, Synergistic blend of probiotics and bioremediation agents.</li>\n</ul>\n\n\t\t</div>\n\t</div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div class=\"vc_tta-panel-body\">\n<div class=\"wpb_text_column wpb_content_element products_style\">\n<div class=\"wpb_wrapper\">\n<ul>\n<li>Relieves aquatic animals from deleterious effects of ammonia stress.</li>\n<li>Neutralizes off-flavours from water bodies.</li>\n<li>Improves gut health and improves nutrient assimilation.</li>\n<li><strong>YUWIN</strong> restricts further production of ammonia by inhibiting urease activity</li>\n<li>Bioactive saponins and sapogenins in <strong>YUWIN</strong> supports the growth of micro biota at the pond bottom and helps effectively in bioremidiation</li>\n<li>Improves steroid hormone synthesis as the composition is rich in Trigogenin.</li>\n<li><strong>YUWIN</strong> is an ecosafe product that improves and purifies overall water quality</li>\n</ul>\n</div>\n</div>\n</div>\n\n\t\t</div>\n\t</div>"
+        },
+        "dosage": {
+          "title": "Dosage",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p><strong>Presentation:&nbsp; </strong>1 Kg pouch &amp; 1 Ltr. HDPE Containers.</p>\n\n\t\t</div>\n\t</div>"
+        }
+      }
+    }
+  ],
+  "categories": {
+    "poultry": {
+      "name": "Poultry",
+      "products": [
+        "toxelim-b-gold-toxelim-b-gold-plus-liquid-supplements",
+        "toxelim-b-gold-tm-powder",
+        "toxelim-b-powder",
+        "quit-stress",
+        "quitstress-gold",
+        "b-com-more",
+        "calciboost",
+        "succical-fs",
+        "succcical-m",
+        "succical-gold",
+        "qualimin",
+        "toxiclean",
+        "erythroboon",
+        "thermiquit",
+        "tocovit-bs",
+        "avit",
+        "erythroboon-fs",
+        "avigrow",
+        "proboon-ws-fs",
+        "lineodx",
+        "avicure-fs",
+        "bromelev",
+        "colisten-feed-premix",
+        "eliminator",
+        "flynil",
+        "flynilgold",
+        "no-larve-c",
+        "no-larve-fa",
+        "no-larve-d",
+        "spoton",
+        "puretabds",
+        "nutra-det",
+        "s-kleen",
+        "omniclean",
+        "phenokil",
+        "formakleen",
+        "microkill-aqua",
+        "entrowin-ws-fs",
+        "planktomore",
+        "quitstress-aqua",
+        "eest",
+        "nutrinest",
+        "qualimin-aqua",
+        "qualimin-aqua-forte",
+        "yuwin",
+        "yuwin-gold",
+        "proboon-aqua",
+        "ceesure",
+        "oxyenrich",
+        "toxiclean-fs",
+        "toxiclean-aqua"
+      ]
+    },
+    "aquaculture": {
+      "name": "Aquaculture",
+      "products": [
+        "toxelim-b-gold-toxelim-b-gold-plus-liquid-supplements",
+        "toxelim-b-gold-tm-powder",
+        "toxelim-b-powder",
+        "quit-stress",
+        "quitstress-gold",
+        "b-com-more",
+        "calciboost",
+        "succical-fs",
+        "succcical-m",
+        "succical-gold",
+        "qualimin",
+        "toxiclean",
+        "erythroboon",
+        "thermiquit",
+        "tocovit-bs",
+        "avit",
+        "erythroboon-fs",
+        "avigrow",
+        "proboon-ws-fs",
+        "lineodx",
+        "avicure-fs",
+        "bromelev",
+        "colisten-feed-premix",
+        "eliminator",
+        "flynil",
+        "flynilgold",
+        "no-larve-c",
+        "no-larve-fa",
+        "no-larve-d",
+        "spoton",
+        "puretabds",
+        "nutra-det",
+        "s-kleen",
+        "omniclean",
+        "phenokil",
+        "formakleen",
+        "microkill-aqua",
+        "entrowin-ws-fs",
+        "planktomore",
+        "quitstress-aqua",
+        "eest",
+        "nutrinest",
+        "qualimin-aqua",
+        "qualimin-aqua-forte",
+        "yuwin",
+        "yuwin-gold",
+        "proboon-aqua",
+        "ceesure",
+        "oxyenrich",
+        "toxiclean-fs",
+        "toxiclean-aqua"
+      ]
+    },
+    "large-animals": {
+      "name": "Large Animals",
+      "products": [
+        "toxelim-b-gold-toxelim-b-gold-plus-liquid-supplements",
+        "toxelim-b-gold-tm-powder",
+        "toxelim-b-powder",
+        "quit-stress",
+        "quitstress-gold",
+        "b-com-more",
+        "calciboost",
+        "succical-fs",
+        "succcical-m",
+        "succical-gold",
+        "qualimin",
+        "toxiclean",
+        "erythroboon",
+        "thermiquit",
+        "tocovit-bs",
+        "avit",
+        "erythroboon-fs",
+        "avigrow",
+        "proboon-ws-fs",
+        "lineodx",
+        "avicure-fs",
+        "bromelev",
+        "colisten-feed-premix",
+        "eliminator",
+        "flynil",
+        "flynilgold",
+        "no-larve-c",
+        "no-larve-fa",
+        "no-larve-d",
+        "spoton",
+        "puretabds",
+        "nutra-det",
+        "s-kleen",
+        "omniclean",
+        "phenokil",
+        "formakleen",
+        "microkill-aqua",
+        "entrowin-ws-fs",
+        "planktomore",
+        "quitstress-aqua",
+        "eest",
+        "nutrinest",
+        "qualimin-aqua",
+        "qualimin-aqua-forte",
+        "yuwin",
+        "yuwin-gold",
+        "proboon-aqua",
+        "ceesure",
+        "oxyenrich",
+        "toxiclean-fs",
+        "toxiclean-aqua"
+      ]
+    },
+    "canine": {
+      "name": "Canine",
+      "products": [
+        "toxelim-b-gold-toxelim-b-gold-plus-liquid-supplements",
+        "toxelim-b-gold-tm-powder",
+        "toxelim-b-powder",
+        "quit-stress",
+        "quitstress-gold",
+        "b-com-more",
+        "calciboost",
+        "succical-fs",
+        "succcical-m",
+        "succical-gold",
+        "qualimin",
+        "toxiclean",
+        "erythroboon",
+        "thermiquit",
+        "tocovit-bs",
+        "avit",
+        "erythroboon-fs",
+        "avigrow",
+        "proboon-ws-fs",
+        "lineodx",
+        "avicure-fs",
+        "bromelev",
+        "colisten-feed-premix",
+        "eliminator",
+        "flynil",
+        "flynilgold",
+        "no-larve-c",
+        "no-larve-fa",
+        "no-larve-d",
+        "spoton",
+        "puretabds",
+        "nutra-det",
+        "s-kleen",
+        "omniclean",
+        "phenokil",
+        "formakleen",
+        "microkill-aqua",
+        "entrowin-ws-fs",
+        "planktomore",
+        "quitstress-aqua",
+        "eest",
+        "nutrinest",
+        "qualimin-aqua",
+        "qualimin-aqua-forte",
+        "yuwin",
+        "yuwin-gold",
+        "proboon-aqua",
+        "ceesure",
+        "oxyenrich",
+        "toxiclean-fs",
+        "toxiclean-aqua"
+      ]
+    },
+    "sheep-goat": {
+      "name": "Sheep & Goat",
+      "products": [
+        "aqua",
+        "contact"
+      ]
+    }
+  }
+}

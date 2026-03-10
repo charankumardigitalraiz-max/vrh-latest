@@ -1,0 +1,379 @@
+/* Global Reset and Typography */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #444444;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: #222222;
+}
+
+a {
+    color: #2c68b2;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #1e73be;
+}
+
+/* Colors Variables */
+:root {
+    --primary-blue: #2c68b2;
+    --primary-blue-hover: #1e73be;
+    --accent-orange: #e66d00;
+    --accent-green: #29b314;
+    --accent-red: #cb011b;
+    --dark-blue: #0a1f33;
+    --dark-bg: #1c1c21;
+    --text-color: #444444;
+    --light-bg: #f5f5f5;
+}
+
+/* --- Top Bar --- */
+#tophead {
+    background-color: var(--accent-green);
+    color: #ffffff;
+    font-size: 13px;
+    padding: 10px 0;
+}
+
+#tophead a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#tophead .tophead-contact i,
+#tophead .tophead-address i {
+    padding-right: 10px;
+    color: var(--accent-orange);
+}
+
+#tophead .tophead-social {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#tophead .tophead-social li {
+    margin-left: 15px;
+}
+
+#tophead .tophead-social li a:hover {
+    color: var(--primary-blue);
+}
+
+/* --- Main Header / Navigation --- */
+.site-header {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-bottom: 2px solid var(--accent-green);
+    transition: all 0.3s ease-in-out;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.site-header.stick {
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    max-height: 60px;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent-green) !important;
+    text-transform: uppercase;
+    padding: 15px 20px !important;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-item.active .nav-link {
+    color: var(--primary-blue-hover) !important;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #113354;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #0d2944;
+    color: rgba(163, 255, 153, 0.6);
+    /* light green hover from wp custom css */
+}
+
+/* Multi-level dropdown support */
+.dropdown-menu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+}
+
+.dropdown-menu li {
+    position: relative;
+}
+
+.dropdown-menu>li:hover>.dropdown-menu {
+    display: block;
+}
+
+/* --- Hero Slider --- */
+#heroCarousel .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+    left: 8%;
+}
+
+.hero-text {
+    font-family: 'Raleway', sans-serif;
+    /* Fallback to default sans if Raleway missing */
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* To ensure text is readable */
+}
+
+/* --- Features Section --- */
+.features-section {
+    background-color: #ffffff;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.feature-box img {
+    border: 1px solid #CCC;
+    padding: 5px;
+    box-shadow: 0px 0px 5px #CCC;
+    background: #EEE;
+    transition: transform 0.3s ease;
+    max-width: 154px;
+    /* As per custom css */
+}
+
+.feature-box img:hover {
+    transform: scale(1.05);
+    /* Micro-animation */
+}
+
+.feature-box h2 {
+    font-size: 20px;
+}
+
+/* --- About Us Section --- */
+.parallax-bg {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    /* Parallax effect */
+    position: relative;
+}
+
+.parallax-bg::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Overlay to make text readable */
+    z-index: 1;
+}
+
+.parallax-bg>.container {
+    position: relative;
+    z-index: 2;
+}
+
+.about-section h2 {
+    color: #ffffff;
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.about-section h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary-blue);
+}
+
+.about-text p {
+    color: #ffffff;
+    line-height: 28px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.btn-read-more {
+    background-color: var(--primary-blue);
+    border: none;
+    border-radius: 9999px;
+    padding: 10px 25px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.btn-read-more:hover {
+    background-color: #222222;
+    color: var(--primary-blue);
+}
+
+.core-values p {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.colora {
+    color: #2c68b2;
+}
+
+/* Note: Using primary blue as example, matching original wp site logic */
+.colorb {
+    color: #e66d00;
+}
+
+.colorc {
+    color: #29b314;
+}
+
+.colord {
+    color: #cb011b;
+}
+
+.colore {
+    color: #1e73be;
+}
+
+.news-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.articles-marquee {
+    background: #5a9304;
+    /* Matches inline style in original HTML */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.articles-marquee ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    font-size: 12px;
+}
+
+.articles-marquee li {
+    padding: 5px 0;
+}
+
+/* --- Productivity Videos --- */
+.colortitle {
+    font-size: 26px;
+    color: var(--accent-orange);
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.colortitle::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    height: 4px;
+    width: 60px;
+    background: var(--accent-red);
+}
+
+.text-theme {
+    color: var(--dark-blue);
+}
+
+/* --- Team & Testimonials --- */
+.section-title {
+    color: #222222;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 2px;
+    background-color: var(--primary-blue);
+}
+
+.testimonial-carousel .carousel-indicators {
+    bottom: -30px;
+}
+
+.testimonial-carousel .carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #cccccc;
+}
+
+.testimonial-carousel .carousel-indicators .active {
+    background-color: var(--primary-blue) !important;
+}
+
+/* --- Stats Section --- */
+.counter {
+    color: var(--primary-blue) !important;
+}
+
+/* --- Footer --- */
+.footer-links a:hover {
+    color: var(--accent-red) !important;
+}
+
+.footer-links a:hover i {
+    color: var(--accent-red) !important;
+}

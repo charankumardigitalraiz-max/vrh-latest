@@ -1,0 +1,513 @@
+/* ============================================================
+   QUALITY POLICY PAGE – Premium Design
+   ============================================================ */
+
+/* Utilities */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.qp-page {
+    --primary: #014d4e;
+    --secondary: #c5a059;
+    --dark: #050b14;
+    --muted: #64748b;
+    --bg-alt: #f4f7f9;
+    --radius-sm: 12px;
+    --radius-md: 20px;
+    --radius-lg: 28px;
+    --shadow-sm: 0 4px 15px rgba(0, 0, 0, .06);
+    --shadow-md: 0 12px 35px rgba(0, 0, 0, .08);
+    --shadow-lg: 0 24px 60px rgba(4, 138, 129, .13);
+
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    background: #fff;
+    color: var(--dark);
+    overflow-x: hidden;
+}
+
+/* ── Utility Labels ── */
+.qp-label {
+    display: inline-block;
+    background: rgba(4, 138, 129, .1);
+    color: var(--primary);
+    font-weight: 700;
+    font-size: .78rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 6px 16px;
+    border-radius: 50px;
+    margin-bottom: 14px;
+}
+
+.qp-heading {
+    font-family: 'Outfit', 'Segoe UI', sans-serif;
+    font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+    /* Scaled down */
+    font-weight: 700;
+    /* Capped at 700 */
+    color: var(--dark);
+    line-height: 1.2;
+    margin-bottom: 18px;
+    /* Reduced */
+}
+
+.qp-heading span {
+    color: var(--primary);
+}
+
+
+/* ════════════════════════════════════════════
+   HERO BANNER
+════════════════════════════════════════════ */
+.qp-hero {
+    position: relative;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center top;
+    overflow: hidden;
+}
+
+.qp-hero__overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,
+            rgba(12, 26, 46, .2) 0%,
+            rgba(4, 138, 129, .1) 60%,
+            rgba(230, 167, 39, .05) 100%);
+}
+
+.qp-hero__inner {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+.qp-hero__title {
+    font-family: 'Outfit', sans-serif;
+    font-size: clamp(1.8rem, 4vw, 2.8rem);
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+}
+
+.qp-hero__breadcrumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: rgba(255, 255, 255, .7);
+    font-size: .95rem;
+}
+
+.qp-hero__breadcrumb a {
+    color: rgba(255, 255, 255, .7);
+    text-decoration: none;
+    transition: color .25s;
+}
+
+.qp-hero__breadcrumb a:hover {
+    color: var(--secondary);
+}
+
+.qp-hero__breadcrumb .active {
+    color: #fff;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .qp-hero {
+        height: 220px;
+    }
+}
+
+
+/* ════════════════════════════════════════════
+   POLICY SECTION
+════════════════════════════════════════════ */
+.qp-policy-section {
+    padding: 60px 0;
+    /* Reduced from 90px 0 80px */
+    background: #fff;
+}
+
+.qp-layout {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+
+/* Statement side */
+.qp-lead {
+    font-size: 1.2rem;
+    color: var(--primary);
+    font-weight: 600;
+    line-height: 1.6;
+    margin-bottom: 18px;
+}
+
+.qp-body {
+    color: var(--muted);
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+.qp-badges {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+    margin-top: 30px;
+}
+
+.qp-badge-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--bg-alt);
+    border: 1px solid rgba(4, 138, 129, .1);
+    border-radius: var(--radius-sm);
+    padding: 14px 18px;
+    font-weight: 600;
+    font-size: .9rem;
+    color: var(--dark);
+    transition: all .3s ease;
+}
+
+.qp-badge-item:hover {
+    background: rgba(4, 138, 129, .07);
+    border-color: var(--primary);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-sm);
+}
+
+.qp-badge-icon {
+    color: var(--primary);
+    flex-shrink: 0;
+    display: flex;
+}
+
+/* Visual card */
+.qp-visual-card {
+    background: linear-gradient(145deg, var(--dark) 0%, #0f2744 100%);
+    border-radius: var(--radius-lg);
+    padding: 50px 40px;
+    text-align: center;
+    color: #fff;
+    box-shadow: var(--shadow-lg);
+    position: relative;
+    overflow: hidden;
+}
+
+.qp-visual-card::before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    right: -60px;
+    width: 200px;
+    height: 200px;
+    background: rgba(4, 138, 129, .15);
+    border-radius: 50%;
+}
+
+.qp-icon-ring {
+    width: 110px;
+    height: 110px;
+    background: rgba(4, 138, 129, .25);
+    border: 2px solid rgba(4, 138, 129, .4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+    color: #5ed5cc;
+    position: relative;
+    z-index: 1;
+}
+
+.qp-visual-card h3 {
+    font-family: 'Outfit', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 6px;
+    position: relative;
+    z-index: 1;
+}
+
+.qp-visual-card p {
+    font-size: .9rem;
+    color: rgba(255, 255, 255, .6);
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    position: relative;
+    z-index: 1;
+}
+
+.qp-checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    position: relative;
+    z-index: 1;
+}
+
+.qp-checklist li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: .9rem;
+    color: rgba(255, 255, 255, .85);
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .07);
+    padding-bottom: 12px;
+}
+
+.qp-checklist li svg {
+    color: #5ed5cc;
+    flex-shrink: 0;
+}
+
+.qp-checklist li:last-child {
+    border: none;
+    padding: 0;
+}
+
+
+/* ════════════════════════════════════════════
+   CERTIFICATES GALLERY
+════════════════════════════════════════════ */
+.qp-certificates-section {
+    padding: 60px 0 80px;
+    /* Reduced from 80px 0 100px */
+    background: var(--bg-alt);
+}
+
+.qp-certs-header {
+    text-align: center;
+    margin-bottom: 55px;
+}
+
+.qp-certs-sub {
+    max-width: 600px;
+    margin: 0 auto;
+    color: var(--muted);
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+.qp-cert-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 28px;
+}
+
+.qp-cert-card {
+    background: #fff;
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    cursor: pointer;
+    transition: all .35s ease;
+    border: 1px solid rgba(0, 0, 0, .04);
+}
+
+.qp-cert-card:hover {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow-lg);
+    border-color: rgba(4, 138, 129, .2);
+}
+
+.qp-cert-img-wrap {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 208 / 300;
+    background: #f1f5f9;
+}
+
+.qp-cert-img-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .5s ease;
+}
+
+.qp-cert-card:hover .qp-cert-img-wrap img {
+    transform: scale(1.06);
+}
+
+.qp-cert-overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(1, 77, 78, 0.75);
+    /* Emerald overlay */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .3s ease;
+}
+
+.qp-cert-card:hover .qp-cert-overlay {
+    opacity: 1;
+}
+
+.qp-cert-zoom {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    background: rgba(255, 255, 255, .15);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .4);
+    letter-spacing: .5px;
+}
+
+.qp-cert-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 14px;
+    font-size: .85rem;
+    font-weight: 700;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-top: 1px solid rgba(0, 0, 0, .04);
+}
+
+
+/* ════════════════════════════════════════════
+   LIGHTBOX
+════════════════════════════════════════════ */
+.qp-lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, .85);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    animation: lb-in .25s ease;
+}
+
+@keyframes lb-in {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.qp-lightbox-inner {
+    position: relative;
+    max-width: 400px;
+    width: 100%;
+    background: #fff;
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    box-shadow: 0 40px 80px rgba(0, 0, 0, .4);
+    animation: lb-scale .25s ease;
+}
+
+@keyframes lb-scale {
+    from {
+        transform: scale(.9);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+.qp-lightbox-inner img {
+    width: 100%;
+    display: block;
+}
+
+.qp-lightbox-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 0, 0, .6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background .2s;
+    z-index: 1;
+}
+
+.qp-lightbox-close:hover {
+    background: var(--primary);
+}
+
+
+/* ════════════════════════════════════════════
+   RESPONSIVE
+════════════════════════════════════════════ */
+@media (max-width: 1100px) {
+    .qp-cert-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .qp-layout {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+
+    .qp-visual {
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .qp-policy-section {
+        padding: 60px 0;
+    }
+
+    .qp-certificates-section {
+        padding: 60px 0 70px;
+    }
+
+    .qp-badges {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .qp-cert-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .qp-visual-card {
+        padding: 36px 24px;
+    }
+}
