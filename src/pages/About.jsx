@@ -2,11 +2,12 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ShieldCheck, Target, Map, ChevronDown, Quote, Star, Award, Users, Globe, TrendingUp } from 'lucide-react';
 import './About.css';
+import { useMediaQuery } from 'react-responsive';
 
 const About = () => {
     const [openAccordion, setOpenAccordion] = useState(null);
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
-
+    const isMobile = useMediaQuery({query: '(max-width: 790px)'});  
     const testimonials = [
         {
             id: 1,
@@ -49,17 +50,48 @@ const About = () => {
         <div className="about-page">
 
             {/* ── HERO ── */}
-            <section className="about-hero" style={{ backgroundImage: "url('/images/heroes/about.jpg')" }}>
+            <section className="about-hero about-hero--modern" style={{ backgroundImage: isMobile ?  "url('/images/poultry3.jpg')" : "url('/images/heroes/about.jpg')" }}>
                 <div className="about-hero__overlay" />
+                <div className="about-hero__glow" />
                 <div className="container about-hero__inner">
-                    <div className="about-hero__content-box">
-                        <span className="about-hero__badge">Established 2016</span>
-                        <h1 className="about-hero__title">Pioneering Veterinary <br /><span className="text-secondary text-gold">Healthcare Solutions</span></h1>
-                        <nav className="about-hero__breadcrumb">
-                            <Link to="/">Home</Link>
-                            <span>/</span>
-                            <span className="active">About Us</span>
-                        </nav>
+                    <div className="about-hero__grid">
+                        <div className="about-hero__content">
+                            <span className="about-hero__eyebrow">Established 2016</span>
+                            <h1 className="about-hero__title">Pioneering Veterinary Healthcare Solutions</h1>
+                            <p className="about-hero__lead">
+                                A science-first team delivering safe, reliable care across poultry, aquaculture,
+                                and large animal health with measurable field impact.
+                            </p>
+                            <div className="about-hero__meta">
+                                <div className="meta-pill">Pan-India Reach</div>
+                                <div className="meta-pill">Quality Assured</div>
+                                <div className="meta-pill">Trusted by Farms</div>
+                            </div>
+                            <nav className="about-hero__breadcrumb">
+                                <Link to="/">Home</Link>
+                                <span>/</span>
+                                <span className="active">About Us</span>
+                            </nav>
+                        </div>
+                        <div className="about-hero__feature">
+                            <div className="about-hero__card">
+                                <div className="about-hero__card-head">Precision Care</div>
+                                <div className="about-hero__stat">10+ <span>Years</span></div>
+                                <div className="about-hero__list">
+                                    <div className="about-hero__list-item">Poultry & Aquaculture</div>
+                                    <div className="about-hero__list-item">Nationwide Distribution</div>
+                                    <div className="about-hero__list-item">Research-Backed Products</div>
+                                </div>
+                            </div>
+                            <div className="about-hero__card about-hero__card--accent">
+                                <div className="about-hero__card-head">Trusted Network</div>
+                                <div className="about-hero__stat">1000+ <span>Clients</span></div>
+                                <div className="about-hero__signal">
+                                    <span className="signal-dot" />
+                                    <span>On-ground teams in key regions</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -72,7 +104,7 @@ const About = () => {
                         {/* Left – Image */}
                         <div className="wwa-visual">
                             <div className="wwa-img-frame">
-                                <img src="/about/rrvcorevalues.jpg" alt="RRV Core Values" />
+                                <img src="/about/about-latest.png" alt="RRV Core Values" />
                             </div>
                             <div className="wwa-xp-badge">
                                 <span className="xp-number">10+</span>
@@ -122,7 +154,7 @@ const About = () => {
                                 <ChevronDown className="acc-arrow" size={18} />
                             </button>
                             <div className="acc-body acc-body--image">
-                                <img src="/about/roadmap.jpg" alt="RRV Roadmap" className="acc-roadmap-img" />
+                                <img src="/about/Picture1.png" alt="RRV Roadmap" className="acc-roadmap-img" />
                             </div>
                         </div>
 
@@ -210,7 +242,7 @@ const About = () => {
                                     </div>
                                     <div className="team-card__info">
                                         <h4>Dr. Sreekanth Devalraju</h4>
-                                        <p>Managing Director</p>
+                                        <p>Senior Consultant (Techno-Legal)</p>
                                     </div>
                                 </div>
                             </div>

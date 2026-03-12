@@ -7,11 +7,11 @@ const Contact = () => {
         <div className="contact-page fade-in">
             {/* Page Banner */}
             <section className="page-banner" style={{ backgroundImage: "url('/images/heroes/poultry-4.jpg')" }}>
-                {/* <div className="banner-overlay"></div> */}
+                <div className="banner-overlay"></div>
                 <div className="container">
                     <div className="banner-content-box slide-up">
                         <span className="banner-badge">Get In Touch</span>
-                        <h1 className="banner-title">Contact <span className="text-gold">Our Team</span></h1>
+                        <h1 className="banner-title">Contact Our Team</h1>
                         <p className="banner-subtitle">We'd love to hear from you. Professional support for your veterinary needs.</p>
                         <nav className="banner-breadcrumb">
                             <a href="/">Home</a>
@@ -66,11 +66,11 @@ const Contact = () => {
                                     </div>
                                     <div className="info-content">
                                         <h3>Email Addresses</h3>
-                                        <p><a href="mailto:info@rrvhc.in">info@rrvhc.in</a></p>
+                                        {/* <p><a href="mailto:info@rrvhc.in">info@rrvhc.in</a></p> */}
                                         <p><a href="mailto:info@rrveterinary.in">info@rrveterinary.in</a></p>
-                                        <p><a href="mailto:purchase@rrveterinary.in">purchase@rrveterinary.in</a></p>
+                                        {/* <p><a href="mailto:purchase@rrveterinary.in">purchase@rrveterinary.in</a></p> */}
                                         <p><a href="mailto:admin@rrveterinary.in">admin@rrveterinary.in</a></p>
-                                        <p><a href="mailto:hr@rrveterinary.in">hr@rrveterinary.in</a></p>
+                                        {/* <p><a href="mailto:hr@rrveterinary.in">hr@rrveterinary.in</a></p> */}
                                     </div>
                                 </div>
 
@@ -80,7 +80,7 @@ const Contact = () => {
                                     </div>
                                     <div className="info-content">
                                         <h3>Working Hours</h3>
-                                        <p>Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                                        <p>Monday - Saturday: 9:00 AM - 5:30 PM</p>
                                         <p>Sunday: Closed</p>
                                     </div>
                                 </div>

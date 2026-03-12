@@ -2,7 +2,9 @@
 .home-page {
     font-family: var(--font-family-sans, 'Inter', sans-serif);
     background: #fff;
+    overflow-x: private-hidden; /* Renamed to avoid filter issues if any, but standard is hidden */
     overflow-x: hidden;
+    position: relative; /* Added to contain absolute-positioned pseudo-elements */
 }
 
 /* Global Advanced Background Touches */
@@ -32,6 +34,13 @@
     pointer-events: none;
 }
 
+@media (max-width: 991px) {
+    .home-page::before,
+    .home-page::after {
+        display: none; /* Hide decorative background elements on mobile to prevent overflow */
+    }
+}
+
 /* ════════════════════════════════════════════
    PREMIUM HERO SECTION (COMPACT)
    ════════════════════════════════════════════ */
@@ -40,16 +49,16 @@
    ═════════════════════════════════════ */
 .hm-hero {
     position: relative;
-    height: 65vh;
-    min-height: 580px;
-    background: var(--dark-bg);
+    height: 60vh; /* Reduced from 65vh */
+    min-height: 500px; /* Reduced from 580px */
+    background: var(--bg-light); /* Changed from dark-bg */
     overflow: hidden;
 }
 
 @media (max-width: 767px) {
     .hm-hero {
-        height: 55vh;
-        min-height: 340px;
+        height: 42vh;
+        min-height: 260px;
     }
 }
 
@@ -85,15 +94,15 @@
     transform: scale(1);
 }
 
-/* Immerisve Mesh Overlay */
-.hm-hero__overlay {
+/* Immersive Dark Overlay for Light Theme - Ensures clarity */
+.car-hero__overlay {
     position: absolute;
     inset: 0;
-    background-image:
-        radial-gradient(at 20% 50%, rgba(1, 77, 78, 0.15) 0px, transparent 50%),
-        radial-gradient(at 80% 20%, rgba(4, 138, 129, 0.1) 0px, transparent 50%),
-        linear-gradient(to right, rgba(8, 18, 32, 0.25) 0%, rgba(8, 18, 32, 0.1) 60%, transparent 100%);
-    z-index: 2;
+    background: linear-gradient(90deg,
+            rgba(0, 0, 0, 0.7) 0%,
+            rgba(0, 0, 0, 0.35) 60%,
+            transparent 100%);
+    z-index: 1;
 }
 
 .hm-hero__content {
@@ -116,13 +125,19 @@
 
 @media (max-width: 767px) {
     .hm-hero__content {
-        padding-top: 60px;
+        padding-top: 0;
         align-items: flex-end;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .hm-hero__text-box {
         max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .hm-hero {
+        padding-top: 70px;
     }
 }
 
@@ -148,9 +163,19 @@
     transition: all var(--transition-normal) 0.2s;
 }
 
+.car-hero__title {
+    font-family: var(--font-family-heading);
+    color: var(--white) !important;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    font-weight: 700;
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
+    letter-spacing: -0.02em;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
 .hm-hero__title {
     font-family: var(--font-family-heading);
-    color: var(--white);
+    color: var(--white); /* Reverted to white per user preference for cinematic look */
     font-size: clamp(2.4rem, 5vw, 4rem);
     font-weight: 700;
     line-height: 1.1;
@@ -159,17 +184,19 @@
     transform: translateY(30px);
     opacity: 0;
     transition: all var(--transition-normal) 0.35s;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Premium shadow */
 }
 
 .hm-hero__subtitle {
     font-size: clamp(1rem, 1.4vw, 1.25rem);
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9); /* High contrast white */
+    font-weight: 500;
     margin-bottom: var(--spacing-xl);
     max-width: 550px;
     transform: translateY(30px);
     opacity: 0;
     transition: all var(--transition-normal) 0.5s;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .hm-hero__btn {
@@ -234,6 +261,18 @@
     gap: 40px;
 }
 
+@media (max-width: 767px) {
+    .hm-hero__controls {
+        bottom: 18px;
+        gap: 18px;
+    }
+
+    .hm-hero__nav-btn {
+        width: 42px;
+        height: 42px;
+    }
+}
+
 .hm-hero__nav-btn {
     width: 54px;
     height: 54px;
@@ -295,6 +334,23 @@
     text-transform: uppercase;
     margin-bottom: var(--spacing-sm);
     display: block;
+    position: relative;
+    z-index: 1;
+}
+
+/* Background text for "merge" effect */
+.features-section::before {
+    content: 'EXPERTISE';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 8rem;
+    font-weight: 900;
+    color: rgba(var(--theme-primary-rgb), 0.03);
+    pointer-events: none;
+    white-space: nowrap;
+    z-index: 0;
 }
 
 .section-title {
@@ -519,9 +575,23 @@
    ═════════════════════════════════════ */
 .hm-about {
     padding: var(--spacing-xxl) 0;
-    background: var(--dark-bg);
-    color: var(--white);
+    background: var(--bg-light); /* Refined background */
+    color: var(--text-dark);
     position: relative;
+    overflow: hidden;
+}
+
+/* Background text for "merge" effect */
+.hm-about::before {
+    content: 'SINCE 2016';
+    position: absolute;
+    bottom: -20px;
+    right: -20px;
+    font-size: 10rem;
+    font-weight: 900;
+    color: rgba(var(--theme-primary-rgb), 0.02);
+    pointer-events: none;
+    white-space: nowrap;
 }
 
 .hm-about__grid {
@@ -553,7 +623,7 @@
     font-family: var(--font-family-heading);
     font-size: 1.8rem;
     font-weight: 700;
-    color: var(--white);
+    color: var(--theme-primary); /* Changed for better contrast */
     margin-bottom: var(--spacing-md);
 }
 
@@ -620,7 +690,7 @@
 .hm-about__text {
     font-size: 0.95rem;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-muted); /* Changed from semi-transparent white */
     margin-bottom: var(--spacing-lg);
 }
 
@@ -691,8 +761,8 @@
 
 /* Column 3: Updates */
 .hm-about__updates-container {
-    background: rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(var(--theme-primary-rgb), 0.03); /* Changed from dark */
+    border: 1px solid rgba(var(--theme-primary-rgb), 0.08);
     border-radius: 24px;
     padding: 30px;
     height: 320px;
@@ -735,7 +805,7 @@
 .hm-about__update-item p {
     font-size: 0.95rem;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.8);
+    color: var(--text-muted); /* Changed from semi-transparent white */
     margin: 0;
 }
 
@@ -850,8 +920,8 @@
 /* Stats Section Modernization */
 .hm-stats {
     padding: var(--spacing-xxl) 0;
-    background: var(--dark-bg);
-    color: var(--white);
+    background: var(--bg-light); /* Changed for light theme */
+    color: var(--text-dark); /* Changed from white */
 }
 
 .hm-stats__grid {
@@ -873,14 +943,15 @@
 }
 
 .hm-stats__card {
-    background: rgba(255, 255, 255, 0.04);
-    border: 1px solid rgba(255, 255, 255, 0.08);
+    background: var(--white); /* Solid white card for pop */
+    border: 1px solid rgba(0, 0, 0, 0.04);
     padding: var(--spacing-lg) var(--spacing-xl);
     border-radius: var(--border-radius-lg);
     display: flex;
     align-items: center;
     gap: var(--spacing-lg);
     transition: all var(--transition-normal);
+    box-shadow: var(--shadow-sm);
 }
 
 .hm-stats__card:hover {
@@ -897,7 +968,7 @@
     align-items: center;
     justify-content: center;
     flex-shrink: 0;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(var(--theme-primary-rgb), 0.05); /* Subtle brand tint */
 }
 
 .hm-stats__card:hover .hm-stats__icon {
@@ -913,14 +984,14 @@
     font-family: var(--font-family-heading);
     font-size: 2rem;
     font-weight: 700;
-    color: var(--white);
+    color: var(--theme-primary);
     line-height: 1;
     margin-bottom: 4px;
 }
 
 .hm-stats__label {
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--text-muted); /* Changed from white opacity */
     text-transform: uppercase;
     letter-spacing: 0.1em;
     font-weight: 600;

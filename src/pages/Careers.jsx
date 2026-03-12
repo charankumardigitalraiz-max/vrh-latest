@@ -5,14 +5,12 @@ import './Careers.css';
 
 const jobs = [
     {
-        title: "Business Development Managers (AQUACULTURE)",
-        positions: "2 Positions",
-        location: "Bhimavaram & Amalapuram, Kakinada, Nellore, Gudiwada",
-        experience: "8 Years",
-        department: "Aquaculture",
+        title: "Business Development Executives (BDE) – Poultry",
+        positions: "9 Vacancies",
+        location: "Siddhipet (covering Warangal), Hyderabad commercials with Mahboobnagar, Namakkal, Coimbatore, Hospete (covering Davangare), Bangalore (covering Mysore), Vijayawada (covering Guntur), Tanuku, Anaparthy (covering Vizag)",
+        experience: "As per role",
+        department: "Poultry",
         responsibilities: [
-            "Develop a growth strategy focused both on financial gain and customer satisfaction",
-            "Conduct research to identify new markets and customer needs",
             "Arrange business meetings with prospective clients",
             "Promote the company's products/services addressing or predicting clients' objectives",
             "Keep records of sales, revenue, invoices etc.",
@@ -22,32 +20,10 @@ const jobs = [
         ]
     },
     {
-        title: "National Sales Manager",
-        positions: "1 Position",
-        location: "India",
-        experience: "15 Years",
-        department: "Sales",
-        responsibilities: [
-            "Developing and implementing effective sales strategies",
-            "Leading nationwide sales team members to achieve sales targets",
-            "Establish productive and professional relationships with key personnel in assigned customer accounts",
-            "Develop and implement effective sales strategies",
-            "Lead nationwide sales team members to achieve sales targets",
-            "Establish productive and professional relationships with key personnel in assigned customer accounts",
-            "Negotiate and close agreements with large customers",
-            "Monitor and analyze performance metrics and suggest improvements",
-            "Prepare monthly, quarterly and annual sales forecasts",
-            "Perform research and identify new potential customers and new market opportunities",
-            "Provide timely and effective solutions aligned with clients' needs",
-            "Liaise with Marketing and Product Development departments to ensure brand consistency",
-            "Stay up-to-date with new product launches and ensure sales team members are on board"
-        ]
-    },
-    {
-        title: "Business Development Managers – POULTRY & RUMINANTS",
-        positions: "12 Positions",
-        location: "HYDERABAD (2), KARNATAKA (1), CHITOOR (1), CHATTISGARH (1), TAMILNADU (1), PUNJAB (1), UP (1), MP (1), GUJRAT (1), PUNE (1), BIHAR (1)",
-        experience: "8 Years",
+        title: "Business Development Manager (BDM) – Poultry",
+        positions: "3 Vacancies",
+        location: "Telangana & AP, Karnataka (Bangalore), Tamilnadu (Namakkal & Coimbatore)",
+        experience: "As per role",
         department: "Poultry",
         responsibilities: [
             "Develop a growth strategy focused both on financial gain and customer satisfaction",
@@ -61,40 +37,10 @@ const jobs = [
         ]
     },
     {
-        title: "Assistant Business Development Manager (POULTRY)",
-        positions: "10 Positions",
-        location: "HYDERABAD, BANGALORE, CHATTISGARH, TN, PUNJAB, UP, MP, GUJRAT, MAHARASHTRA, BIHAR",
-        experience: "5 Years",
-        department: "Poultry",
-        responsibilities: [
-            "Arrange business meetings with prospective clients",
-            "Promote the company's products/services addressing or predicting clients' objectives",
-            "Keep records of sales, revenue, invoices etc.",
-            "Provide trustworthy feedback and after-sales support",
-            "Build long-term relationships with new and existing customers",
-            "Develop entry level staff into valuable salespeople"
-        ]
-    },
-    {
-        title: "Business Development Executives – Poultry",
-        positions: "11 Positions",
-        location: "SIDDIPET (1), HOSPET (1), MYSORE (1), CHATTISGARH (1), TAMILNADU (1), PUNJAB (1), UP (1), MP (1), GUJRAT (1), PUNE (1)",
-        experience: "2 Years",
-        department: "Poultry",
-        responsibilities: [
-            "Arrange business meetings with prospective clients",
-            "Promote the company's products/services addressing or predicting clients' objectives",
-            "Keep records of sales, revenue, invoices etc.",
-            "Provide trustworthy feedback and after-sales support",
-            "Build long-term relationships with new and existing customers",
-            "Develop entry level staff into valuable salespeople"
-        ]
-    },
-    {
-        title: "Business Development Executives – AQUACULTURE",
-        positions: "4 Positions",
-        location: "BHIMAVARAM (1), AMALAPURAM (1), NELLORE (1), KAIKALURU (1)",
-        experience: "2 Years",
+        title: "Business Development Executives (BDE) – Aquaculture",
+        positions: "6 Vacancies",
+        location: "Bhimavaram, Aakiveedu, Ganapavaram, Kaikaluru or Gudivada, Amalapuram, Kakinada",
+        experience: "As per role",
         department: "Aquaculture",
         responsibilities: [
             "Arrange business meetings with prospective clients",
@@ -106,129 +52,26 @@ const jobs = [
         ]
     },
     {
-        title: "Zonal Sales Manager",
-        positions: "4 Positions",
-        location: "EAST ZONE, WEST ZONE, NORTH ZONE, SOUTH ZONE",
-        experience: "10 Years",
-        department: "Sales",
+        title: "Business Development Manager (BDM) – Aquaculture",
+        positions: "1 Vacancy",
+        location: "Bhimavaram",
+        experience: "As per role",
+        department: "Aquaculture",
         responsibilities: [
-            "Developing and implementing effective sales strategies",
-            "Leading nationwide sales team members to achieve sales targets",
-            "Establish productive and professional relationships with key personnel in assigned customer accounts",
-            "Negotiate and close agreements with large customers",
-            "Monitor and analyze performance metrics and suggest improvements",
-            "Prepare monthly, quarterly and annual sales forecasts",
-            "Perform research and identify new potential customers and new market opportunities",
-            "Provide timely and effective solutions aligned with clients' needs",
-            "Liaise with Marketing and Product Development departments to ensure brand consistency",
-            "Stay up-to-date with new product launches and ensure sales team members are on board"
-        ]
-    },
-    {
-        title: "Manager (Technical)",
-        positions: "1 Position",
-        location: "Hyderabad",
-        experience: "M.V.Sc with 5 Years of relevant experience",
-        department: "Technical",
-        responsibilities: [
-            "Proven experience in working directly with Key Opinion Leaders in a Sales or Marketing role, preferably within Veterinary Pharmaceutical or Life Sciences areas",
-            "Experience with marketing strategic planning and advisory boards or consortia",
-            "Ability to train sales people with technical know how of products being developed in the company",
-            "Demonstrate strong business acumen and ability to develop and manage timelines, processes and procedures",
-            "Collaborative spirit and excellent communication and interpersonal skills",
-            "Ability to interact effectively with executives and all levels within an organization",
-            "Strategic thinker with ability to formulate, develop and execute KOL and customer input into tangible actions",
-            "Ability to travel up to 25%"
-        ]
-    },
-    {
-        title: "Product Development Manager",
-        positions: "1 Position",
-        location: "Hyderabad",
-        experience: "Graduates or Post Graduates in Sciences with MBA preferred. 5 Years of relevant experience",
-        department: "R&D",
-        responsibilities: [
-            "Proactively managing all aspects of the product line, evolving to stay ahead of the market",
-            "Development of business cases to support product development or enhancement",
-            "Input into annual marketing plan based on business objectives, franchise strategy and commercial area needs",
-            "Develop & execute robust launch plans across multiple functional areas and geographies",
-            "Closely documents and reports on launch plan, anticipates and mitigate risk to timing, scope or budget",
-            "Act as technical expert/SME for product to business and all key stakeholders",
-            "Full responsibility for lifecycle management",
-            "Engage and influence commercial area teams, R&D, regulatory etc. to set and meet launch timings and budgets"
-        ]
-    },
-    {
-        title: "Production & QC Chemist",
-        positions: "1 Position",
-        location: "Hyderabad",
-        experience: "Graduates or Post Graduates in pharmacy with 10 years of experience in formulations & GMP",
-        department: "Production",
-        responsibilities: [
-            "Issuance and receive of blank Batch Manufacturing Record (BMR) from QA department",
-            "Issuance of Raw Material from Raw Material store as per BMR and maintaining updated RM stock record",
-            "Maintaining the process parameters as per BMR",
-            "Batch manufacturing of Liquid and feed supplements",
-            "In process checking of formulations during each stage of processing and recording in BMR",
-            "Maintaining all the log books, prepare and maintain cGMP and WHO-GMP documents requirements & SOPs",
-            "Daily calibration of electronic weighing balance",
-            "To ensure timely preventive / breakdown maintenance of equipment"
-        ]
-    },
-    {
-        title: "Accounts Executive",
-        positions: "1 Position",
-        location: "Hyderabad",
-        experience: "2–3 Years",
-        department: "Finance",
-        responsibilities: [
-            "Knowledge in Tally ERP for handling day to day accounts",
-            "Closely coordinate with Purchase and Production department for hassle free production and dispatch",
-            "Create detailed business plans to facilitate the attainment of goals and quotas",
-            "Manage the entire sales cycle from finding a client to securing a deal",
-            "Unearth new sales opportunities through networking and turn them into long term partnerships",
-            "Respond to complaints and resolve issues aiming to customer contentment",
-            "Negotiate agreements and keep records of sales and data"
-        ]
-    },
-    {
-        title: "Purchase Executive",
-        positions: "1 Position",
-        location: "Hyderabad",
-        experience: "Graduates or Post Graduates with 5 Years of relevant experience",
-        department: "Operations",
-        responsibilities: [
-            "Experience in procurement of Key Raw material for manufacturing of feed supplements",
-            "Familiarity with sourcing and vendor management",
-            "Interest in market dynamics along with business sense",
-            "A knack for negotiation and networking",
-            "Working experience of vendor management software",
-            "Ability to gather and analyse data and to work with figures",
-            "Solid judgement along with decision making skills",
-            "Strong leadership capabilities"
-        ]
-    },
-    {
-        title: "Logistics Executive",
-        positions: "1 Position",
-        location: "Hyderabad",
-        experience: "Graduate with 2 Years of relevant experience",
-        department: "Operations",
-        responsibilities: [
-            "Manage the daily activities of the Logistics management as per defined SLA",
-            "Planning, organizing and coordinating with different stakeholders for delivery of materials",
-            "Ensure all inward materials are checked thoroughly as per delivery challan and stored in the designated areas",
-            "Ensure proper inventory management of all stock materials are followed and tracked properly",
-            "Generate reports based on need and consumption",
-            "Liaise with vendor and Security for smooth entry and exit of materials",
-            "Coordinate with the vendor to ensure necessary statutory documents are in place for shipment of materials",
-            "Review all check lists / log books and submit required details to the reporting manager for monthly report"
+            "Develop a growth strategy focused both on financial gain and customer satisfaction",
+            "Conduct research to identify new markets and customer needs",
+            "Arrange business meetings with prospective clients",
+            "Promote the company's products/services addressing or predicting clients' objectives",
+            "Keep records of sales, revenue, invoices etc.",
+            "Provide trustworthy feedback and after-sales support",
+            "Build long-term relationships with new and existing customers",
+            "Develop entry level staff into valuable salespeople"
         ]
     }
 ];
 
-const aquaLocations = ["Odisha", "West Bengal", "Andhra Pradesh", "Gujarat"];
-const poultryLocations = ["Odisha", "Mysore", "Pune", "Raipur", "MP", "UP", "Punjab", "Tanaku", "Gujarat"];
+const aquaLocations = ["Bhimavaram", "Aakiveedu", "Ganapavaram", "Kaikaluru/Gudivada", "Amalapuram", "Kakinada"];
+const poultryLocations = ["Siddhipet", "Hyderabad", "Namakkal", "Coimbatore", "Hospete", "Bangalore", "Vijayawada", "Tanuku", "Anaparthy"];
 
 const deptColors = {
     "Aquaculture": "#0e9f8d",
@@ -248,12 +91,12 @@ const Careers = () => {
         <div className="careers-page">
 
             {/* ── HERO ── */}
-            <section className="car-hero" style={{ backgroundImage: "url('/images/heroes/career.jpg')" }}>
+            <section className="car-hero" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1567326619821-2664df9c48da?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
                 <div className="car-hero__overlay" />
                 <div className="container car-hero__inner">
                     <div className="car-hero__content-box">
                         <span className="car-hero__badge">Join Our Team</span>
-                        <h1 className="car-hero__title">Build Your Future with <br /><span className="text-secondary text-gold">RR Veterinary Healthcare</span></h1>
+                        <h1 className="banner-title">Build Your Future with <br />RR Veterinary Healthcare</h1>
                         <nav className="car-hero__breadcrumb">
                             <Link to="/">Home</Link>
                             <span>/</span>
@@ -291,7 +134,7 @@ const Careers = () => {
                                 <h3>Be a Partner</h3>
                                 <p>in RR Veterinary's Growth Story</p>
                                 <div className="car-stats-row">
-                                    <div className="car-stat"><strong>13+</strong><span>Open Positions</span></div>
+                                    <div className="car-stat"><strong>19+</strong><span>Open Positions</span></div>
                                     <div className="car-stat"><strong>10+</strong><span>Years Legacy</span></div>
                                 </div>
                             </div>
@@ -305,7 +148,7 @@ const Careers = () => {
                 <div className="container">
                     <div className="car-map-header">
                         <div className="car-label">We're Expanding</div>
-                        <h2 className="car-heading car-heading--center">Hiring National Sales Manager<br /><span>(Poultry and Aqua)!</span></h2>
+                        <h2 className="car-heading car-heading--center">Hiring for Poultry & Aquaculture<br /><span>Business Development Teams</span></h2>
                     </div>
 
                     <div className="car-map-grid">
@@ -367,12 +210,12 @@ const Careers = () => {
                                             <span><Clock size={14} /> {job.experience}</span>
                                         </div>
                                     </div>
-                                    <div className="car-job-arrow">
+                                    {/* <div className="car-job-arrow">
                                         <ChevronDown size={20} className={openJob === i ? 'rotated' : ''} />
-                                    </div>
+                                    </div> */}
                                 </button>
 
-                                <div className="car-job-body">
+                                {/* <div className="car-job-body">
                                     <div className="car-job-body-inner">
                                         <h4>Key Responsibilities</h4>
                                         <ul>
@@ -388,7 +231,7 @@ const Careers = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         ))}
                     </div>

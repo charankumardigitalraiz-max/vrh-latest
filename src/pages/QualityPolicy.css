@@ -78,9 +78,9 @@
     position: absolute;
     inset: 0;
     background: linear-gradient(135deg,
-            rgba(12, 26, 46, .2) 0%,
-            rgba(4, 138, 129, .1) 60%,
-            rgba(230, 167, 39, .05) 100%);
+            rgba(0, 0, 0, 0.6) 0%,
+            rgba(0, 0, 0, 0.2) 60%,
+            rgba(var(--theme-primary-rgb), 0.3) 100%);
 }
 
 .qp-hero__inner {
@@ -93,11 +93,11 @@
     font-family: 'Outfit', sans-serif;
     font-size: clamp(1.8rem, 4vw, 2.8rem);
     font-weight: 800;
-    color: #fff;
+    color: var(--white); /* Reverted to white */
     letter-spacing: 3px;
     text-transform: uppercase;
     margin-bottom: 14px;
-    text-shadow: 0 4px 20px rgba(0, 0, 0, .3);
+    text-shadow: 0 4px 15px rgba(0, 0, 0, .3);
 }
 
 .qp-hero__breadcrumb {
@@ -105,14 +105,14 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    color: rgba(255, 255, 255, .7);
+    color: var(--text-muted); /* Changed from white opacity */
     font-size: .95rem;
 }
 
 .qp-hero__breadcrumb a {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, 0.85); /* Legible white */
     text-decoration: none;
-    transition: color .25s;
+    transition: color var(--transition-fast);
 }
 
 .qp-hero__breadcrumb a:hover {
@@ -120,7 +120,7 @@
 }
 
 .qp-hero__breadcrumb .active {
-    color: #fff;
+    color: var(--white); /* White for better visibility on dark overlay */
     font-weight: 600;
 }
 
@@ -197,14 +197,15 @@
     display: flex;
 }
 
-/* Visual card */
+/* Visual card - Light Theme */
 .qp-visual-card {
-    background: linear-gradient(145deg, var(--dark) 0%, #0f2744 100%);
+    background: linear-gradient(145deg, var(--bg-light) 0%, var(--dark-bg) 100%);
     border-radius: var(--radius-lg);
     padding: 50px 40px;
     text-align: center;
-    color: #fff;
-    box-shadow: var(--shadow-lg);
+    color: var(--text-dark); /* Changed from white */
+    box-shadow: var(--shadow-md);
+    border: 1px solid rgba(var(--theme-primary-rgb), 0.1);
     position: relative;
     overflow: hidden;
 }
@@ -246,7 +247,7 @@
 
 .qp-visual-card p {
     font-size: .9rem;
-    color: rgba(255, 255, 255, .6);
+    color: var(--text-muted); /* Changed from semi-transparent white */
     margin-bottom: 30px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -272,9 +273,9 @@
     align-items: center;
     gap: 12px;
     font-size: .9rem;
-    color: rgba(255, 255, 255, .85);
+    color: var(--text-dark); /* Changed from semi-transparent white */
     font-weight: 500;
-    border-bottom: 1px solid rgba(255, 255, 255, .07);
+    border-bottom: 1px solid rgba(var(--theme-primary-rgb), 0.1);
     padding-bottom: 12px;
 }
 
@@ -376,6 +377,15 @@
     border-radius: 50px;
     border: 2px solid rgba(255, 255, 255, .4);
     letter-spacing: .5px;
+}
+
+.banner-breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 0.85rem;
+    font-weight: 500;
 }
 
 .qp-cert-footer {

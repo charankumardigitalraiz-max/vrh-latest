@@ -52,14 +52,14 @@ const Header = () => {
     };
 
     return (
-        <div className="header-wrapper" style={{ paddingTop: isScrolled ? '75px' : '0' }}>
+        <div className={`header-wrapper ${isScrolled ? 'scrolled' : ''}`}>
             {/* Top Bar */}
             <div className={`top-bar ${isScrolled ? 'hidden' : ''}`}>
                 <div className="container">
                     <div className="top-bar-inner">
                         <div className="contact-info d-flex gap-4">
                             <a href="mailto:info@rrvhc.in" className="top-bar-link">
-                                <Mail size={16} className="text-warning" /> info@rrvhc.in
+                                <Mail size={16} className="text-warning" /> info@rrveterinary.in
                             </a>
                             <div className="top-bar-link">
                                 <Phone size={16} className="text-warning" /> +91 9490410562, +91-40 2970 5562

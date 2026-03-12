@@ -1,19 +1,20 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronRight, Users, Trophy, Briefcase, Heart, ChevronLeft } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Users, Trophy, Briefcase, Heart } from 'lucide-react';
 import './Home.css';
 
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
+
     const slides = [
         { id: 1, image: '/images/heroes/banner1.jpg', title: 'Helping to prolong\nthe quality of life', subtitle: 'Advanced solutions for modern poultry and livestock healthcare' },
-        { id: 2, image: '/images/heroes/banner2.jpg', title: 'Medicine, experience, \ncompassion together', subtitle: 'Committed to excellence in animal health since 2016' },
-        { id: 3, image: '/images/heroes/banner3.jpg', title: 'Sustainable Aqua\nCulture Solutions', subtitle: 'Expertise in biosecurity and water quality management' }
+        { id: 2, image: '/images/heroes/banner3.jpg', title: 'Sustainable Aqua\nCulture Solutions', subtitle: 'Expertise in biosecurity and water quality management' },
+        { id: 3, image: '/images/heroes/banner2.jpg', title: 'Science, experience, \ncompassion together', subtitle: 'Dedicated to providing advanced veterinary solutions for sustainable farming' }
     ];
 
     useEffect(() => {
         const timer = setInterval(() => {
-            setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+            setCurrentSlide(prev => (prev === slides.length - 1 ? 0 : prev + 1));
         }, 6000);
         return () => clearInterval(timer);
     }, [slides.length]);
@@ -22,7 +23,7 @@ const Home = () => {
     const prevSlide = () => setCurrentSlide(prev => (prev === 0 ? slides.length - 1 : prev - 1));
 
     const brands = [
-        '4-1.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg',
+        'sneha.png', 'suguna.png', 'vh-group.png', '4-1.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg',
         '9-1.jpg', '10-1.jpg', '11.jpg', '12-1.jpg', '13.jpg', '14.jpg'
     ];
 
@@ -79,8 +80,8 @@ const Home = () => {
             <section className="features-section">
                 <div className="container">
                     <div className="section-header">
-                        <span className="section-subtitle">Our Expertise</span>
-                        <h2 className="section-title">Veterinary Branches</h2>
+                        {/* <span className="section-subtitle">Our Expertise</span> */}
+                        <h2 className="section-title">Our Expertise</h2>
                     </div>
                     <div className="features-grid">
                         {[
@@ -100,30 +101,15 @@ const Home = () => {
                 </div>
             </section>
 
-
-
             {/* Modernized About Section */}
             <section className="hm-about">
                 <div className="hm-about__bg"></div>
                 <div className="container">
                     <div className="hm-about__grid">
-
-                        {/* Column 1: Our Pledge */}
                         <div className="hm-about__col hm-about__col--pledge">
-                            <div className="hm-about__label">Quality First</div>
-                            <h2 className="hm-about__title">Our <span>Pledge</span></h2>
-                            <div className="hm-about__pledge-wrapper">
-                                <div className="hm-about__pledge-card hm-about__pledge-card--primary">
-                                    <img src="/images/15-years.png" alt="15 Years of Excellence" className="hm-about__pledge-img" />
-                                    {/* <div className="hm-about__pledge-badge">Since 2016</div> */}
-                                </div>
-                                {/* <div className="hm-about__pledge-card hm-about__pledge-card--secondary">
-                                    <img src="/images/about-one.png" alt="Our Quality Commitment" className="hm-about__pledge-img" />
-                                </div> */}
-                            </div>
+                            <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="15 Years of Excellence" className="hm-about__pledge-img" />
                         </div>
 
-                        {/* Column 2: Who We Are (Main) */}
                         <div className="hm-about__col hm-about__col--main">
                             <h2 className="hm-about__title">Who <span>We Are</span></h2>
                             <p className="hm-about__text">
@@ -136,24 +122,8 @@ const Home = () => {
                                 <span>Read Our Story</span>
                                 <ChevronRight size={18} />
                             </Link>
-                            {/* 
-                            <div className="hm-about__values">
-                                {[
-                                    { name: 'Innovation', desc: 'Look beyond the obvious', color: '#0dcaf0' },
-                                    { name: 'Commitment', desc: 'Always with you - Nurturing', color: '#ffc107' },
-                                    { name: 'Integrity', desc: 'Values determine direction', color: '#048a81' },
-                                    { name: 'Teamwork', desc: 'Togetherness is strength', color: '#8b5cf6' }
-                                ].map(v => (
-                                    <div key={v.name} className="hm-about__value-card">
-                                        <div className="hm-about__value-accent" style={{ backgroundColor: v.color }}></div>
-                                        <div className="hm-about__value-name" style={{ color: v.color }}>{v.name}</div>
-                                        <div className="hm-about__value-desc">{v.desc}</div>
-                                    </div>
-                                ))}
-                            </div> */}
                         </div>
 
-                        {/* Column 3: Latest Updates */}
                         <div className="hm-about__col hm-about__col--updates">
                             <h2 className="hm-about__title">Latest <span>Updates</span></h2>
                             <div className="hm-about__updates-container">
@@ -161,8 +131,7 @@ const Home = () => {
                                     {[
                                         "Latest Poultry Solutions 2024 launched internally.",
                                         "New Aqua Biosecurity Range testing phase completed.",
-                                        "Expanding our distribution centers to North India.",
-                                        "Award Winning Feeds recognized globally."
+                                        "Expanding our distribution centers to Pan India."
                                     ].map((update, idx) => (
                                         <div key={idx} className="hm-about__update-item">
                                             <div className="hm-about__update-dot"></div>
@@ -175,11 +144,9 @@ const Home = () => {
                                 <p>Stay connected for more news</p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
-
 
             {/* Productivity & Delivery Section (Video Gallery) */}
             <section className="video-gallery-section" id="productivity">
@@ -191,7 +158,6 @@ const Home = () => {
 
                     <div className="video-master-grid">
                         <div className="row g-4">
-                            {/* Featured Large Video & Side Stack */}
                             <div className="col-lg-8">
                                 <div className="video-card large animate-slide-up">
                                     <div className="video-wrapper">
@@ -222,7 +188,6 @@ const Home = () => {
                             </div>
                         </div>
 
-                        {/* Bottom Grid Row */}
                         <div className="row g-4 mt-2">
                             {[
                                 { id: '0KzQgYVDcRg', title: 'Video 4' },

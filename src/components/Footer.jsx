@@ -28,7 +28,7 @@ const Footer = () => {
                                 </div>
                                 <div className="footer-contact-item">
                                     <Mail size={18} className="footer-icon" />
-                                    <a href="mailto:info@rrvhc.in" className="footer-contact-link">info@rrvhc.in</a>
+                                    <a href="mailto:info@rrveterinary.in" className="footer-contact-link">info@rrveterinary.in</a>
                                     {/* <a href="mailto:purchase@rrveterinary.in" className="footer-contact-link">purchase@rrveterinary.in</a>
                                     <a href="mailto:admin@rrveterinary.in" className="footer-contact-link">admin@rrveterinary.in</a>
                                     <a href="mailto:hr@rrveterinary.in" className="footer-contact-link">hr@rrveterinary.in</a> */}
@@ -70,7 +70,7 @@ const Footer = () => {
                             <h4 className="footer-heading">Find Us</h4>
                             <div className="map-placeholder">
                                 <span className="map-text d-flex align-items-center gap-2">
-                                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.14126468879!2d78.41766907421196!3d17.487283799921478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99873e24690d%3A0x33799185df144b72!2sRR%20VETERINARY%20HEALTH%20CARE%20PVT.LTD.!5e1!3m2!1sen!2sin!4v1773066563764!5m2!1sen!2sin" width="400" height="250"></iframe>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.14126468879!2d78.41766907421196!3d17.487283799921478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99873e24690d%3A0x33799185df144b72!2sRR%20VETERINARY%20HEALTH%20CARE%20PVT.LTD.!5e1!3m2!1sen!2sin!4v1773066563764!5m2!1sen!2sin" width="400" height="250"></iframe>
                                 </span>
                             </div>
                         </div>
