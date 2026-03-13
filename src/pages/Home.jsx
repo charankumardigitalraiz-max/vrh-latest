@@ -7,9 +7,9 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = [
-        { id: 1, image: '/images/heroes/banner1.jpg', title: 'Helping to prolong\nthe quality of life', subtitle: 'Advanced solutions for modern poultry and livestock healthcare' },
-        { id: 2, image: '/images/heroes/banner3.jpg', title: 'Sustainable Aqua\nCulture Solutions', subtitle: 'Expertise in biosecurity and water quality management' },
-        { id: 3, image: '/images/heroes/banner2.jpg', title: 'Science, experience, \ncompassion together', subtitle: 'Dedicated to providing advanced veterinary solutions for sustainable farming' }
+        { id: 1, image: '/images/heroes/banner1.jpg', title: "Helping to prolong\nthe quality of life", subtitle: "Advanced solutions for modern poultry and livestock healthcare" },
+        { id: 2, image: '/images/heroes/banner3.jpg', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in biosecurity and water quality management" },
+        { id: 3, image: '/images/heroes/banner2.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
     ];
 
     useEffect(() => {

@@ -171,10 +171,8 @@ export const productCategories = [
                 items: [
                     { id: 'ceesure', name: 'Ceesure' },
                     { id: 'eest', name: 'Eest' },
-                    { id: 'nutrinest', name: 'Nutrinest' },
                     { id: 'qualimin-aqua-forte', name: 'Qualimin Aqua forte' },
                     { id: 'qualimin-aqua', name: 'Qualimin Aqua' },
-                    { id: 'quitstress-aqua', name: 'Quitstress Aqua' },
                     { id: 'nurture-all', name: 'NURTURE-ALL' },
                     { id: 'bindosorb-n', name: 'BINDOSORB-N' }
                 ]
@@ -186,7 +184,6 @@ export const productCategories = [
                     { id: 'oxyenrich', name: 'Oxyenrich' },
                     { id: 'planktomore', name: 'Planktomore' },
                     { id: 'proboon-aqua', name: 'Proboon Aqua' },
-                    { id: 'toxiclean-aqua', name: 'Toxiclean Aqua' },
                     { id: 'toxiclean-fs', name: 'Toxiclean-fs' },
                     { id: 'yuwin-gold', name: 'Yuwin Gold' },
                     { id: 'yuwin', name: 'Yuwin' },

@@ -4,7 +4,7 @@
       "slug": "humifyaqua",
       "title": "Humify Aqua",
       "subtitle": "Effectively Stabilizes your Pond ecosystem",
-      "image": "/wp-content/uploads/2018/07/humifyaqua.png",
+      "image": "/product-images/aqua/humif aqua.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -24,7 +24,7 @@
       "slug": "microkil",
       "title": "MICROKIL",
       "subtitle": "Potent Virucidal Disinfectant for Prolonged Activity",
-      "image": "/wp-content/uploads/2018/05/microkil.png",
+      "image": "/product-images/aqua/microkil.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -44,7 +44,7 @@
       "slug": "quatsure",
       "title": "QUATSURE",
       "subtitle": "80% Benzalkonium Chloride",
-      "image": "/wp-content/uploads/2018/07/quatsure.png",
+      "image": "/product-images/aqua/quatsure.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -64,7 +64,7 @@
       "slug": "nurture-all",
       "title": "NURTURE-ALL",
       "subtitle": "Take that Extra Mile Advantage of Balanced Nutrition",
-      "image": "/wp-content/uploads/2018/07/nurture-all.png",
+      "image": "/product-images/aqua/nurture all.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -84,7 +84,7 @@
       "slug": "bindosorb-n",
       "title": "BINDOSORB-N",
       "subtitle": "An Improved Feed Binder Gel for Optimum Nutrition",
-      "image": "/wp-content/uploads/2018/07/bindosorb-n.png",
+      "image": "/product-images/aqua/bindosorb - n.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -104,7 +104,7 @@
       "slug": "yuwin",
       "title": "YUWIN",
       "subtitle": "Resolve ammonia stress naturally",
-      "image": "/wp-content/uploads/2018/07/yuwin.png",
+      "image": "/product-images/aqua/yuwin.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -124,7 +124,7 @@
       "slug": "yuwin-gold",
       "title": "YUWIN GOLD",
       "subtitle": "Resolve ammonia stress naturally",
-      "image": "/wp-content/uploads/2018/07/yuwin-gold.png",
+      "image": "/product-images/aqua/yuwin.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -144,7 +144,7 @@
       "slug": "ligabind",
       "title": "LIGABIND",
       "subtitle": "Best in class EDTA based Heavy Metal Chelator for Aquaculture",
-      "image": "/wp-content/uploads/2018/07/ligabind.png",
+      "image": "/product-images/aqua/ligabind.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -281,17 +281,10 @@
       }
     },
     {
-      "slug": "career",
-      "title": "Careers",
-      "subtitle": "Hiring National Sales Manager (Poultry and\n                                                                        Aqua)!",
-      "image": "uploads/2018/05/locationMap.jpg",
-      "tabs": {}
-    },
-    {
       "slug": "ceesure",
       "title": "Ceesure",
       "subtitle": "\"An effective enhancer of immunity in Aquacultureâ€",
-      "image": "/wp-content/uploads/2018/07/ceesure.png",
+      "image": "/product-images/aqua/ceesure.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -311,7 +304,7 @@
       "slug": "planktomore",
       "title": "PLANKTOMORE",
       "subtitle": "Phytoplankton Booster for Enhanced Productivity",
-      "image": "/wp-content/uploads/2018/07/planktomore.png",
+      "image": "/product-images/aqua/planktomore.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -331,7 +324,7 @@
       "slug": "qualimin-aqua",
       "title": "QUALIMIN-Aqua",
       "subtitle": "Enrich your aquatic environment with complete mineral mixture",
-      "image": "/wp-content/uploads/2018/07/QualiminAqua2.png",
+      "image": "/product-images/aqua/qualimin aqua.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -351,7 +344,7 @@
       "slug": "qualimin-aqua-forte",
       "title": "QUALIMIN-Aqua Forte",
       "subtitle": "Unique Combination of Minerals, Vitamins and Probiotics for achieving high Productivity",
-      "image": "/wp-content/uploads/2018/07/QualiminAquaforte2.jpg",
+      "image": "/product-images/aqua/qualimin aqus forte.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -371,7 +364,7 @@
       "slug": "proboon-aqua",
       "title": "PROBOON AQUA",
       "subtitle": "Soil & Water Probiotics for High Productivity",
-      "image": "/wp-content/uploads/2018/07/proboon-aqua.png",
+      "image": "/product-images/aqua/proboon aqua.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -391,7 +384,7 @@
       "slug": "toxiclean-fs",
       "title": "TOXICLEAN-FS",
       "subtitle": "An Eco-friendly approach for Elimination of Obnoxious Gases",
-      "image": "/wp-content/uploads/2018/07/toxiclean-fs.png",
+      "image": "/product-images/aqua/toxiclean-fs.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -438,7 +431,7 @@
       "slug": "eest",
       "title": "Eest",
       "subtitle": "Eest",
-      "image": "/wp-content/uploads/2018/07/eest.png",
+      "image": "/product-images/aqua/eest.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -458,7 +451,7 @@
       "slug": "eliminator",
       "title": "ELIMINATOR",
       "subtitle": "ELIMINATOR",
-      "image": "/product-images/poultry/antiMicroBials/biosecurity/prest-management/adult-chicken.png",
+      "image": "/product-images/aqua/eliminator powder.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -618,7 +611,7 @@
       "slug": "microkill-aqua",
       "title": "Microkil Aqua",
       "subtitle": "\"Best in Class Broad Spectrum Disinfectant for Aquaculture\"",
-      "image": "/wp-content/uploads/2018/05/microkil.png",
+      "image": "/product-images/aqua/microkil.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -718,7 +711,7 @@
       "slug": "nutrinest",
       "title": "Nutrinest",
       "subtitle": "\"Take that Extra Mile Advantage of Balanced Nutritionâ€",
-      "image": "/wp-content/uploads/2018/07/Nutrinest-5ltr.png",
+      "image": "/product-images/aqua/nurture all.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -758,7 +751,7 @@
       "slug": "oxyenrich",
       "title": "Oxyenrich",
       "subtitle": "\"We understand that Oxygen is vital\"",
-      "image": "/wp-content/uploads/2018/07/oxyenrich.png",
+      "image": "/product-images/aqua/oxyenrich.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -798,7 +791,7 @@
       "slug": "planktomore",
       "title": "Planktomore",
       "subtitle": "PLANKTOMORE",
-      "image": "/wp-content/uploads/2018/07/planktomore.png",
+      "image": "/product-images/aqua/planktomore.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -818,7 +811,7 @@
       "slug": "proboon-aqua",
       "title": "Proboon Aqua",
       "subtitle": "PROBOON AQUA",
-      "image": "/wp-content/uploads/2018/07/proboon-aqua.png",
+      "image": "/product-images/aqua/proboon aqua.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -878,7 +871,7 @@
       "slug": "qualimin-aqua-forte",
       "title": "Qualimin Aqua forte",
       "subtitle": "QUALIMIN-AQUA FORTE",
-      "image": "/wp-content/uploads/2018/07/QualiminAquaforte2.jpg",
+      "image": "/product-images/aqua/qualimin aqus forte.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -898,7 +891,7 @@
       "slug": "qualimin-aqua",
       "title": "Qualimin Aqua",
       "subtitle": "Qualimin Aqua",
-      "image": "/wp-content/uploads/2018/07/QualiminAqua2.png",
+      "image": "/product-images/aqua/qualimin aqua.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1218,7 +1211,7 @@
       "slug": "toxiclean-fs",
       "title": "Toxiclean-fs",
       "subtitle": "\"An Eco-friendly approach for Elimination of Obnoxious Gasses\"",
-      "image": "",
+      "image": "/product-images/aqua/toxiclean-fs.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1258,7 +1251,7 @@
       "slug": "yuwin-gold",
       "title": "Yuwin Gold",
       "subtitle": "YUWIN-GOLD",
-      "image": "/wp-content/uploads/2018/07/yuwin-gold2.jpg",
+      "image": "/product-images/aqua/yuwin.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1278,7 +1271,7 @@
       "slug": "yuwin",
       "title": "Yuwin",
       "subtitle": "YUWIN",
-      "image": "/wp-content/uploads/2018/07/yuwin-1kg.png",
+      "image": "/product-images/aqua/yuwin.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1698,7 +1691,7 @@
       "slug": "quatsure",
       "title": "QUATSURE",
       "subtitle": "80% Benzalkonium Chloride",
-      "image": "",
+      "image": "/product-images/aqua/quatsure.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1718,7 +1711,7 @@
       "slug": "nurture-all",
       "title": "NURTURE-ALL",
       "subtitle": "Take that Extra Mile Advantage of Balanced Nutrition",
-      "image": "",
+      "image": "/product-images/aqua/nurture all.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1734,31 +1727,12 @@
         }
       }
     },
-    {
-      "slug": "ligabind",
-      "title": "LIGABIND",
-      "subtitle": "Best in class EDTA based Heavy Metal Chelator for Aquaculture",
-      "image": "",
-      "tabs": {
-        "composition": {
-          "title": "Composition",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>LIGABIND is a unique formulation with high concentration of pure Ethylenediamine tetraaceticacid (EDTA) with stabilizers and carriers.</p>\n\t\t</div>\n\t</div>"
-        },
-        "indications_benefits": {
-          "title": "Indications & Benefits",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab\" class=\"tab-pane active\" role=\"tabpanel\">\n<ul><li>LIGABIND helps in removal of divalent and trivalent metal cations from pond environment and reduces the bioavailability of heavy metals by its complexation and improved chelation capacity, which in turn protects the aquatic forms from adverse effects of heavy metal poisoning.</li><li>LIGABIND helps in improving water quality by removing water hardness.</li><li>LIGABIND promotes alkalinity of pond water and stabilizes the phytoplankton growth.</li><li>LIGABIND helps in inhibition of bacterial agglutination and adhesion and the production of some extracellular proteases by pathogenic bacteria and thereby helps in control of bacterial diseases.</li><li>LIGABIND protects the eggs from bacterial contamination, allowing proper oxygen transfer into the egg and enhancing their hatching rate.</li><li>LIGABIND reduces the possibility of ectocommensal attack that eventually effects the juvenile molting process and survival rate of shrimps in the pond.</li></ul>\n</div>\n\t\t</div>\n\t</div>"
-        },
-        "dosage": {
-          "title": "Dosage & Presentation",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext \">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<div id=\"tab4\" class=\"tab-pane active\" role=\"tabpanel\">\n<p><strong>Directions for Use:</strong> Mix LIGABIND with pondwater and spread evenly in pond with vigorous aeration for about 15-20 mins. and allow for settlement without any further aeration. Note: Remove the sludge settlements from pond bottom periodically. Day time application of LIGABIND is preferable. (Or) As suggested by the Aquaculture consultant.</p><p><strong>Recommended Usage:</strong> 2-2.5 kg per hectare with 1-meter water depth.</p><p><strong>Presentation:</strong> 1kg Pouch.</p>\n</div>\n\t\t</div>\n\t</div>"
-        }
-      }
-    },
+
     {
       "slug": "bindosorb-n",
       "title": "BINDOSORB-N",
       "subtitle": "An Improved Feed Binder Gel for Optimum Nutrition",
-      "image": "",
+      "image": "/product-images/aqua/bindosorb - n.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1778,7 +1752,7 @@
       "slug": "oxyenrich",
       "title": "OXYENRICH",
       "subtitle": "Best in Class Water and Soil Bioremediator for High Productivity",
-      "image": "/wp-content/uploads/2018/07/oxyenrich.png",
+      "image": "/product-images/aqua/oxyenrich.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1798,7 +1772,7 @@
       "slug": "eliminator",
       "title": "ELIMINATOR",
       "subtitle": "India's No.1 Rat control product",
-      "image": "/product-images/poultry/antiMicroBials/biosecurity/prest-management/adult-chicken.png",
+      "image": "/product-images/aqua/eliminator powder.png",
       "tabs": {
         "composition": {
           "title": "Composition",

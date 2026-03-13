@@ -163,48 +163,48 @@ const Category = () => {
 
     // Filter products based on category slug and sub-category tree
     const products = useMemo(() => {
-        let allowedSlugs = null;
+        if (!currentCategory) return [];
 
-        if (subCategory && currentCategory) {
+        // Extracts ALL product IDs that live anywhere under this category tree!
+        const categoryProductIds = getProductSlugsFromNode(currentCategory);
+
+        // If a sub-category is active, narrow down the list
+        let activeProductIds = categoryProductIds;
+        if (subCategory) {
             const activeNode = findNodeById([currentCategory], subCategory);
             if (activeNode) {
-                // Extracts all product IDs that live under this selected category node!
-                allowedSlugs = getProductSlugsFromNode(activeNode);
+                activeProductIds = getProductSlugsFromNode(activeNode);
             }
         }
 
+        // Now filter productData.products to only include those in activeProductIds
+        // We use set to avoid duplicates if the same product is mapped multiple times in the tree
+        const allowedSet = new Set(activeProductIds.map(id => id.toLowerCase()));
+
         return productData.products.filter(p => {
-            if (!slug) return true;
+            const pSlug = (p.slug || '').toLowerCase();
+            // Strict match against allowed IDs from categories.js
+            if (allowedSet.has(pSlug)) return true;
 
-            const searchStr = (p.title + p.subtitle + p.slug + (p.image || '')).toLowerCase();
-            const isInMainCategory = searchStr.includes(slug.toLowerCase()) ||
-                (slug.toLowerCase() === 'aquaculture' && searchStr.includes('aqua'));
-
-            if (!isInMainCategory) return false;
-            if (!subCategory) return true;
-
-            // Direct mapping based on the categories.js exact tree structure
-            if (allowedSlugs && allowedSlugs.length > 0) {
-                const isExactMatch = allowedSlugs.some(s => s === p.slug || s === p.id);
-                if (isExactMatch) return true;
-
-                // Relaxed string match if slugs differ slightly from IDs
-                const isRelaxedMatch = allowedSlugs.some(s => {
-                    const cleanS = s.toLowerCase().replace(/-/g, '');
-                    const cleanP = (p.slug || '').toLowerCase().replace(/-/g, '');
-                    return cleanS.includes(cleanP) || cleanP.includes(cleanS);
-                });
-                if (isRelaxedMatch) return true;
+            // Relaxed match if slugs differ slightly (e.g. "microkil" vs "microkill")
+            const cleanP = pSlug.replace(/-/g, '');
+            for (let allowed of allowedSet) {
+                const cleanA = allowed.replace(/-/g, '');
+                if (cleanA === cleanP || cleanA.includes(cleanP) || cleanP.includes(cleanA)) {
+                    // One small safety: if it's "aqua" and the product is "microkil-aqua", count it!
+                    if (slug === 'aquaculture' && (pSlug.includes('aqua') || (p.image || '').includes('aqua'))) {
+                        return true;
+                    }
+                }
             }
 
-            // Fallback: Check if the subCategory name/id appears in the image path or title
-            const subCatId = subCategory.toLowerCase().replace(/-/g, '');
-            const normalizedPath = (p.image || '').toLowerCase().replace(/[^a-z0-9]/g, '');
-
-            return normalizedPath.includes(subCatId) || searchStr.includes(subCategory.toLowerCase());
-        });
+            return false;
+        }).filter((p, index, self) =>
+            // Final deduplication by slug to avoid "duplicate key" warnings if products.json has dupes
+            index === self.findIndex((t) => t.slug === p.slug)
+        );
     }, [slug, subCategory, currentCategory, findNodeById, getProductSlugsFromNode]);
-
+    console.log("products count: ", products.length);
     const categoryTitle = currentCategory ? currentCategory.name : (slug ? slug.charAt(0).toUpperCase() + slug.slice(1) : "Our Products");
 
     return (
@@ -212,13 +212,13 @@ const Category = () => {
             {/* Minimalist Top Header */}
             <div className="category-header-section">
                 <div className="container">
-                    <ul className="category-breadcrumb">
+                    {/* <ul className="category-breadcrumb">
                         <li><Link to="/" className="breadcrumb-link">Home</Link></li>
                         <li className="breadcrumb-divider">/</li>
                         <li><Link to="/products" className="breadcrumb-link">Products</Link></li>
                         <li className="breadcrumb-divider">/</li>
                         <li className="breadcrumb-current">{categoryTitle}</li>
-                    </ul>
+                    </ul> */}
                     <h1 className="category-display-title">{categoryTitle}</h1>
                     <div className="category-underline"></div>
                 </div>
