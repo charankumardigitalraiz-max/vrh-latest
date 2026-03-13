@@ -253,12 +253,10 @@
         display: none;
     }
 }
-.about-hero__feature
-
 .about-hero__card {
     padding: 22px 22px;
     border-radius: 18px;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 0.08);
     border: 1px solid rgba(var(--theme-primary-rgb), 0.1);
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(10px);

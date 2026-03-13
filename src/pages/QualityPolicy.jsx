@@ -4,10 +4,10 @@ import { ShieldCheck, Award, CheckCircle, BadgeCheck, X } from 'lucide-react';
 import './QualityPolicy.css';
 
 const certificates = [
-    { id: 1, src: '/certificate/rrvhcqp1-208x300@2x.jpg', alt: 'RR Veterinary Quality Certificate 1' },
-    { id: 2, src: '/certificate/rrvhcqp2-208x300@2x.jpg', alt: 'RR Veterinary Quality Certificate 2' },
-    { id: 3, src: '/certificate/rrvhcqp3-208x300@2x.jpg', alt: 'RR Veterinary Quality Certificate 3' },
-    { id: 4, src: '/certificate/rrvhcqp4-208x300@2x.jpg', alt: 'RR Veterinary Quality Certificate 4' },
+    { id: 1, src: '/certificate/1.png', alt: 'RR Veterinary Quality Certificate 1' },
+    { id: 2, src: '/certificate/2.png', alt: 'RR Veterinary Quality Certificate 2' },
+    { id: 3, src: '/certificate/3.png', alt: 'RR Veterinary Quality Certificate 3' },
+    { id: 4, src: '/certificate/4.png', alt: 'RR Veterinary Quality Certificate 4' },
 ];
 
 const QualityPolicy = () => {
@@ -94,7 +94,7 @@ const QualityPolicy = () => {
                 <div className="container">
                     <div className="qp-certs-header">
                         <div className="qp-label">Verified Excellence</div>
-                        <h2 className="qp-heading">Our <span>Certificates</span></h2>
+                        <h2 className="qp-heading">Our <span>Accreditations</span></h2>
                         <p className="qp-certs-sub">Recognized by national and international bodies for maintaining the highest standards in veterinary healthcare.</p>
                     </div>
 

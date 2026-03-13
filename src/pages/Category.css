@@ -127,8 +127,12 @@
 
 @media (min-width: 992px) {
     .category-layout {
-        grid-template-columns: 280px 1fr;
+        grid-template-columns: 240px 1fr;
         gap: var(--spacing-xxl);
+    }
+
+    .category-layout.no-sidebar {
+        grid-template-columns: 1fr;
     }
 }
 
@@ -240,6 +244,72 @@
     font-weight: 600;
 }
 
+/* Accordion & Nested Sidebar Styles */
+.sidebar-group {
+    margin-bottom: 2px;
+}
+
+.sidebar-label {
+    padding: 8px 12px;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: var(--border-radius-sm);
+    transition: all var(--transition-fast);
+    user-select: none;
+}
+
+.sidebar-label:hover {
+    color: var(--theme-primary);
+    background-color: var(--bg-light);
+}
+
+.sidebar-label.open {
+    color: var(--theme-primary);
+}
+
+.sidebar-sub-items {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    border-left: 1px solid rgba(0, 0, 0, 0.05); /* Subtle indentation line */
+    margin-left: 12px;
+}
+
+/* Nested links simple styling */
+.sidebar-link.sub-link {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    font-size: 0.85rem;
+    background-color: transparent;
+    border-radius: 0;
+    margin-left: 4px; /* Offset from the border line */
+}
+
+.sidebar-link.sub-link:hover {
+    color: var(--theme-primary);
+    background-color: transparent;
+}
+
+.sidebar-link.sub-link.active {
+    color: var(--theme-primary);
+    background-color: transparent;
+    position: relative;
+}
+
+/* Small visual indicator for active nested link */
+.sidebar-link.sub-link.active::before {
+    content: '';
+    position: absolute;
+    left: -5px; /* Align with the parent border-left */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 12px;
+    background-color: var(--theme-primary);
+    border-radius: 2px;
+}
+
 
 /* Active Filter Bar Modernization */
 .active-filter-bar {
@@ -289,8 +359,14 @@
 /* Product Grid Modernization */
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: var(--spacing-lg);
+}
+
+@media (min-width: 992px) {
+    .product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 /* Premium Card Design Modernization */

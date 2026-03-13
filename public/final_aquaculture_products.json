@@ -1,0 +1,341 @@
+{
+    "company_info": {
+        "name": "RR VETERINARY HEALTH CARE PVT. LTD.",
+        "address": "4-122/1/1, Plot No. 115 & 123, Kuntloor Village, Abdullapurmet Mandal, R R Dist - 501 505, Telangana, INDIA.",
+        "customer_care": "+91 94904 10562, +91 40 2970 5562",
+        "email": "info@rrveterinary.in",
+        "websites": "www.rrveterinary.in, www.rrvhc.in",
+        "certifications": "ISO 9001:2015, ISO 22000:2005, WHO-GMP, OHSAS 18001:2007"
+    },
+    "products": [
+        {
+            "product_name": "MICROKIL",
+            "tagline": "Potent Virucidal Disinfectant for Prolonged Activity",
+            "description": "",
+            "composition": "Potassium Monopersulphate compound 49.8% w/w. Containing a triple salt of Potassium mono per sulphate, Potassium hydrogen sulphate or Potassium bisulphate and Potassium sulphate.",
+            "benefits": [
+                "MICROKIL is effective in controlling the spread of viruses such as WSSV, IHHNV and MBV and also prevents the transmission of bacteria such as Vibrio sp.",
+                "MICROKIL is effective against pathogens in aquatic environment and prevents disease outbreaks in aquaculture systems.",
+                "MICROKIL prevents the growth of anaerobic species in pond environment that produces noxious gases that inturn affects the healthy growth of fish/shrimp.",
+                "MICROKIL is an ecosafe disinfectant with ingredients that can biodegrade very quickly and does not cause any harm to the pond environment in any manner.",
+                "MICROKIL is a non toxic and non-tainting disinfectant that does not affect plankton growth or water quality in pond.",
+                "MICROKIL is a fast acting disinfectant with very minimal contact time of less than 10 mins.",
+                "MICROKIL is an ecosafe disinfectant with ingredients that can biodegrade very quickly and does not cause any harm to the pond environment in any manner."
+            ],
+            "directions_for_use": "500g - 2 kg for 1 Hectare. (Or) As suggested by the Aquaculture Consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "2kg Container."
+        },
+        {
+            "product_name": "QUATSURE",
+            "tagline": "80% Benzalkonium Chloride",
+            "description": "QUATSURE is a powerful disinfectant specialized for prevention of microbial infections in shrimp.",
+            "composition": "80% Benzalkonium Chloride.",
+            "benefits": [
+                "QUAT SURE is an excellent disinfectant that provides protection against bacteria and most of the enveloped viruses.",
+                "QUAT SURE promotes good water quality, acts as an effective herbicide and inhibits growth of microalgae such as Chlorella, Tetraselmis, Chaetoceros, Isochrysis.",
+                "QUAT SURE disinfects the pond environment without significantly changing the concentration of orthophosphates, Ammonia and Nitrites in pond water.",
+                "QUAT SURE is free of activated chloride, phenol, mercury and other heavy metals that pose environmental biohazards.",
+                "QUAT SURE is a best solution for rot tail & gum diseases in aquatic species.",
+                "QUAT SURE can be used under a wide range of pH conditions and effective in reducing substrate odor, sludge and algae.",
+                "QUAT SURE is an ecosafe disinfectant that does not result in bioaccumulation of any reaction products in water."
+            ],
+            "directions_for_use": "Dilute QUAT SURE with pond water and spread evenly on pond and aerate vigorously. Apply during hot weather for better results.",
+            "dosage": {
+                "45-75 days": "1.0 liter / 1300 m2",
+                "75-100 days": "1.5 liters / 1300 m2",
+                "100 days to harvest": "2.0 liters / 1300 m2"
+            },
+            "recommended_usage": "",
+            "presentation": "1 liter and 5 liters Bottles."
+        },
+        {
+            "product_name": "PLANKTOMORE",
+            "tagline": "Phytoplankton Booster for Enhanced Productivity",
+            "description": "Growth & improved survival rate of cultured fish and shrimp mainly depends on Pond environment and Availability of variety of phytoplankton & their Nutritive values. PLANKTOMORE is a specially designed formulation that supports the overall growth & performance of fishes and shrimps by Enhancing the plankton growth, Combining all essential elements that support the metabolism, and Improving the pond water quality.",
+            "composition": "Combination of minerals, naturally sourced bioactives and amino acid mix that is derived from milk proteins.",
+            "benefits": [
+                "PLANKTOMORE maintains pond ecosystem and promotes the growth of Phytoplankton.",
+                "PLANKTOMORE helps in flocculation of organic ions in pond by means of ionic complexation, chelation and polar adsorption and there by removes water turbidity.",
+                "PLANKTOMORE helps in stabilization of water temperature and increases dissolved oxygen levels.",
+                "PLANKTOMORE helps in the maintenance of water quality by lowering toxic substances such as ammonia, nitrites, carbon dioxide and hydrogen sulfide.",
+                "PLANKTOMORE enriches the soil condition and promotes the phytoplankton growth which acts as a natural feed for growing fish/shrimp.",
+                "PLANKTOMORE improves feed efficacy and promotes growth & survival rate in fish /shrimp."
+            ],
+            "directions_for_use": "500ml - 1 Litre per acre (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "1 Ltr container."
+        },
+        {
+            "product_name": "HUMIFY AQUA",
+            "tagline": "Effectively Stabilizes your Pond ecosystem",
+            "description": "Improved health and vitality are the key factors that maximize the productivity in aquaculture. Increased toxin levels and poor water quality affects well being of aquatic organisms and results in huge losses in Aquaculture. Humify Aqua is an excellent humate composition that helps to improve health and well being of aquatic lives.",
+            "composition": "HUMIFY AQUA is a combination of sodium and potassium salts of humic acid and a blend of herbal immunostimulants.",
+            "benefits": [
+                "HUMIFY AQUA provides resistance to diseases by strengthening of immune system in aquatic organisms.",
+                "HUMIFY AQUA effectively increases the hatching rate by protecting the aquatic organisms from recurrent fungal and parasitic infections.",
+                "HUMIFY AQUA decreases the effects of prolonged stress and improves productivity.",
+                "HUMIFY AQUA helps in water treatment by detoxification of harmful metals and chemical species present within the water system.",
+                "HUMIFY AQUA activates bacterial species that specifically helps in the breakdown of organic matter in the aquatic environment.",
+                "HUMIFY AQUA helps in odour reduction by decreasing volatile ammonia and by improving the nitrogen to phosphorus ratio in the water.",
+                "HUMIFY AQUA contains certain humic substances such as Humic acid and Fulvic acid which helps in activation of pond ecosystem through physical, chemical and biological reactions that operates at general pH values."
+            ],
+            "directions_for_use": "300 - 500gm per acre (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "1kg Pouch."
+        },
+        {
+            "product_name": "NURTURE-ALL",
+            "tagline": "Take that Extra Mile Advantage of Balanced Nutrition",
+            "description": "Unfavourable conditions such as environmental stress, infectious/parasitic diseases and imbalanced nutrition often affects growth and productivity in aquatic organisms. Stress free aquatic environment and Balanced Nutrition are very much essential for maintenance of healthy growth and high productivity in aquaculture.",
+            "composition": "Nurture-ALL is a complete health supplement that contains Vitamins*, Minerals, hecato protectants Aminoacids, Immuno-stimulants, Herbal extracts and other bioactives. *Note: Vitamins are supplied in a separate pouch to safeguard their potency and to ensure maximum bio-availability.",
+            "benefits": [
+                "Nurture-ALL Provides balanced nutrition and thereby enhances growth and development of aquatic forms.",
+                "Nurture-ALL promotes proper digestion & absorption of nutrients from gut.",
+                "Nurture-ALL strengthens the immune system and prevents disease incidence.",
+                "Nurture-ALL protects the health of hepatopancreas & prevents EMS in shrimps.",
+                "Nurture-ALL helps to combat moulting stress.",
+                "Nurture-ALL finetunes body metabolism & improves FCR.",
+                "Directions For Use-Nurture-ALL Powder: Mix Vitamins (50gm pouch) thoroughly with the remaining portion (950gm) of the Nurture-ALL and use as recommended."
+            ],
+            "directions_for_use": "",
+            "dosage": {},
+            "recommended_usage": "- Powder: 15-20gm/ Kg of feed. - Liquid: 15-20ml/Kg of Feed. - (Or) As suggested by the Aquaculture Consultant.",
+            "presentation": "1 Ltr & 5Ltrs Containers, 1kg Pouch."
+        },
+        {
+            "product_name": "QUALIMIN-Aqua",
+            "tagline": "Enrich your aquatic environment with complete mineral mixture",
+            "description": "Mineral deficiencies can cause serious biochemical, structural and functional pathologies in aquatic organisms depending on duration and degree of mineral deprivation.",
+            "composition": "Each 1kg contains: Calcium: 24%, Phosphorous: 12%, Ferrous Sulphate: 17.4 g, Potassium iodide: 131 mg, Copper sulphate: 2.5 g, Cobalt sulphate: 442 mg, Manganese sulphate: 2.75 g, Zinc sulphate: 5.31 g, L-Lysine: 4.4 g, DL-Methionine: 2 g, Sodium selenite: 13 mg, Magnesium sulphate: 13 g, Excipients: q.s.",
+            "benefits": [
+                "QUALIMIN-Aqua is the most scientifically balanced mineral mixture for achieving enhanced growth, weight gain, survival rate and better FCR.",
+                "QUALIMIN-Aqua helps to achieve optimum mineral environment in the pond and facilitates mineral absorption by aquatic organisms.",
+                "QUALIMIN-Aqua improves plankton growth.",
+                "QUALIMIN-Aqua improves disease resistance, stimulates moulting, helps in formation of collagen, strengthens the endo and exoskeleton system.",
+                "QUALIMIN-Aqua helps achieving optimum production of fish, prawn and shrimps and maintains the stocks in healthy condition.",
+                "QUALIMIN-Aqua protects against body cramps and soft shells.",
+                "QUALIMIN-Aqua helps in regulating the osmotic balance and acid base equilibrium in aquatic animals."
+            ],
+            "directions_for_use": "8 -10 kg per acre, once in every 15-20 days (Or) As suggested by the Aquaculture Consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "10kg Bag."
+        },
+        {
+            "product_name": "QUALIMIN-Aqua Forte",
+            "tagline": "Unique Combination of Minerals, Vitamins and Probiotics for achieving high Productivity",
+            "description": "Mineral deficiencies can cause serious biochemical, structural and functional pathologies in aquatic organisms depending on duration and degree of mineral deprivation.",
+            "composition": "QUALIMIN-Aqua Forte Contains: Calcium, Phosphorus, Copper Sulphate, Cobalt Sulphate, Potassium Iodide, Ferrous Sulphate, Manganese Sulphate, Sodium Selenite, Zinc Sulphate, Magnesium Sulphate, Aluminium Sulphate, Sodium Sulphate, DL - Methionine, L - Lysine, Vitamin B2, Niacinamide, D-Pantothenate, Vitamin B6, Folic Acid, Vitamin C, Vitamin D3, Vitamin E, Biotin, Preservatives. Fortified with Blend of Probiotics, Yeast extract, Enzymes, Nucleotide metabolites and Yucca Schidigera.",
+            "benefits": [
+                "QUALIMIN Aqua Forte is a superior and improved mineral supplement for shrimp/fish.",
+                "QUALIMIN Aqua Forte improves immunity and prevents the onset of diseases. Added probiotics and their actives in QUALIMIN Aqua Forte executes antimicrobial effects and keeps away bacterial diseases.",
+                "QUALIMIN Aqua Forte protects the shrimps from Loose Shell Syndrome (LSS) and decreases mortality rate.",
+                "QUALIMIN Aqua Forte helps in instant recovery from molting stress, strengthens the endo and exoskeleton system and helps in formation of shell/cuticle.",
+                "QUALIMIN Aqua Forte helps in achieving enhanced growth, weight gain, survival rate and better FCR."
+            ],
+            "directions_for_use": "8 -10 kg per acre, once in every 15-20 days (Or) As suggested by the Aquaculture Consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "10kg Bucket."
+        },
+        {
+            "product_name": "YUWIN",
+            "tagline": "Resolve ammonia stress naturally",
+            "description": "YUWIN is a synergistic blend of extract from desert plant Yucca Schidigera and probiotics, bioactive saponins and sapogenins that prevent the ill effects of ammonia and obnoxious gases which seriously affect the growth and production in an aquaculture system.",
+            "composition": "Blend of Yucca Schidigera extracts, probiotics and bioremediation agents.",
+            "benefits": [
+                "YUWIN relieves aquatic animals from deleterious effects of ammonia stress.",
+                "YUWIN neutralizes off-flavours from water bodies.",
+                "YUWIN improves gut health and improves nutrient assimilation.",
+                "YUWIN restricts further production of ammonia by inhibiting urease activity.",
+                "Bioactive saponins and sapogenins in YUWIN supports the growth of micro biota at the pond bottom and helps effectively in bioremediation process.",
+                "YUWIN Improves steroid hormone synthesis as the composition is rich in Trigogenin.",
+                "YUWIN is an ecosafe product that improves and purifies overall water quality."
+            ],
+            "directions_for_use": "Thoroughly mix 150 - 250 gm of YUWIN per acre in required quantity of sand by sprinkling with water & Broadcast this mixture evenly on the entire water spread area of the pond. Repeat this application once in 10-15 days. (Or) As suggested by the Aquaculture Consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "500gm Container."
+        },
+        {
+            "product_name": "YUWIN GOLD",
+            "tagline": "Resolve ammonia stress naturally",
+            "description": "",
+            "composition": "Yucca Schidigera (30 %), Blend of probiotics and (Consortium of Ammonia Oxidizing Bacteria (AOB), Nitrite Oxidizing Bacteria (NOB) and Denitrifying Bacteria (DNB) and proven bioremediating agents. Preservatives: Q.S.",
+            "benefits": [
+                "Alleviates ammonia stress in an ecologically safer mode and restores the levels of DO and reduces the BOD.",
+                "Reduces the dissolved levels of obnoxious gases.",
+                "YUWIN GOLD contains bacterial strains that produce enzymes which specifically act on organic matter and helps in the process of detoxification.",
+                "Bioactive saponins and sapogenins of yucca such as Sarsasapogenin, Furostanol, and Spirostanol are delivered in a targeted and protected form for providing long lasting and best effects.",
+                "The bio actives of YUWIN GOLD possess anti-protozoal activity and natural surfactants in the composition allows better nutrient utilization by bacteria that digest waste materials at pond bottom.",
+                "Microbes present in YUWIN GOLD helps in Bioremediation and improve the water quality by breaking down pollutants and waste.",
+                "YUWIN GOLD promotes the growth of phytoplanktons and zoo planktons."
+            ],
+            "directions_for_use": "Thoroughly mix 150 - 250 gm of YUWIN GOLD per acre in required quantity of sand by sprinkling with water & Broadcast this mixture evenly on the entire water spread area of the pond. Repeat this application once in 10-15 days. (Or) As suggested by the Aquaculture Consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "500gm Container."
+        },
+        {
+            "product_name": "PROBOON AQUA",
+            "tagline": "Soil & Water Probiotics for High Productivity",
+            "description": "Accumulation and degradation of organic waste in pond results in increased consumption of oxygen in the pond. Production of toxic gases such as ammonia (NH3), nitrites (NO2-) and hydrogen sulphide (H2S), are toxic to the fish/shrimp and affects growth and leads to high mortality. Water and soil thus contaminated in the pond creates a scope for enormous growth of pathogenic organisms making the fish/shrimp susceptible to stress and disease, which eventually results in crop failure and poor productivity in aquaculture.",
+            "composition": "PROBOON AQUA contains Bacillus sp., Nitrosomonas sp., Nitrobacter sp., Cellulomonas sp., Acetobacter sp. etc.",
+            "benefits": [
+                "PROBOON AQUA enhances decomposition of organic matter.",
+                "PROBOON AQUA controls the levels of ammonia, nitrite, and hydrogen sulfide in pond water.",
+                "PROBOON AQUA helps to achieve reduction in nitrogen and phosphorus concentrations.",
+                "PROBOON AQUA promotes algal growth and controls the growth of cyanobacteria (blue-green algae).",
+                "PROBOON AQUA enhances the availability of dissolved oxygen.",
+                "PROBOON AQUA promotes disease resistance and improves survival rate.",
+                "PROBOON AQUA works even in case of high salinity and pH variance."
+            ],
+            "directions_for_use": "500gm per Acre / once in 15 - 21 days (Or) As suggested by the Aquaculture Consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "500gm & 1kg Pouches."
+        },
+        {
+            "product_name": "LIGABIND",
+            "tagline": "Best in class EDTA based Heavy Metal Chelator for Aquaculture",
+            "description": "",
+            "composition": "LIGABIND is a unique formulation with high concentration of pure Ethylenediamine tetraaceticacid (EDTA) with stabilizers and carriers.",
+            "benefits": [
+                "LIGABIND helps in removal of divalent and trivalent metal cations from pond environment and reduces the bioavailability of heavy metals by its complexation and improved chelation capacity, which in turn protects the aquatic forms from adverse effects of heavy metal poisoning.",
+                "LIGABIND helps in improving water quality by removing water hardness.",
+                "LIGABIND promotes alkalinity of pond water and stabilizes the phytoplankton growth.",
+                "LIGABIND helps in inhibition of bacterial agglutination and adhesion and the production of some extracellular proteases by pathogenic bacteria and thereby helps in control of bacterial diseases.",
+                "LIGABIND protects the eggs from bacterial contamination, allowing proper oxygen transfer into the egg and enhancing their hatching rate.",
+                "LIGABIND reduces the possibility of ectocommensal attack that eventually effects the juvenile molting process and survival rate of shrimps in the pond."
+            ],
+            "directions_for_use": "Mix LIGABIND with pondwater and spread evenly in pond with vigorous aeration for about 15-20 mins. and allow for settlement without any further aeration. Note: Remove the sludge settlements from pond bottom periodically. Day time application of LIGABIND is preferable. (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "2-2.5 kg per hectare with 1-meter water depth.",
+            "presentation": "1kg Pouch."
+        },
+        {
+            "product_name": "BINDOSORB-N",
+            "tagline": "An Improved Feed Binder Gel for Optimum Nutrition",
+            "description": "Feed for Aquaculture always differs from feed for livestock. Adequate level of processing and improved stability in water for long time are the two vital factors to be considered for selecting appropriate feed for aquaculture. It is therefore crucial to stabilize feed to minimize nutrient leaching and disintegration in aquatic environment. This can be achieved by inclusion of a binder matrix that stabilizes the feed and protects its nutrient content for longer duration in water. BINDOSORB-N is a unique gel based Multi-Nutrient feed binder formulation from RR Veterinary Health Care Private Limited that acts as an excellent growth promoter for achieving optimum and uniform growth in shrimps.",
+            "composition": "Contains Amino acids, Vitamins, Minerals, Hepatoprotectants, Antioxidants, immunostimulants and feed attractants in a natural binder base.",
+            "benefits": [
+                "BINDOSORB-N acts as an excellent feed binding agent & ensures optimum and uniform growth.",
+                "BINDOSORB-N is highly stable in aquatic environment.",
+                "BINDOSORB-N increases bioavailability of nutrients in the feed supplements.",
+                "BINDOSORB-N enhances digestibility and assimilation of nutrients from feed.",
+                "BINDOSORB-N improves the physiological health of hepatopancreas."
+            ],
+            "directions_for_use": "25-30 ml per Kg feed. (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "5 Ltr Can & 10 Ltrs Bucket."
+        },
+        {
+            "product_name": "TOXICLEAN-FS",
+            "tagline": "An Eco-friendly approach for Elimination of Obnoxious Gases",
+            "description": "",
+            "composition": "TOXICLEAN-FS is a unique combination of Zeolites such as HSCAS and Bio actives from Yucca Schidigera extracts that provides high adsorption of toxic substances/noxious gases present in water and eliminates them from pond environment to support the healthy growth of fish/shrimp.",
+            "benefits": [
+                "TOXICLEAN-FS reduces the levels of obnoxious gases present in the pond and creates healthy environment that supports the growth of aquatic species.",
+                "TOXICLEAN-FS rejuvenates the phytoplankton growth in the pond.",
+                "TOXICLEAN-FS clears pond bottom by adsorbing and removal of wastes, bacteria from pond bottom.",
+                "TOXICLEAN-FS reduces obnoxious gases and provides stress free environment that supports the growth of aquatic organisms.",
+                "TOXICLEAN-FS improves water quality by its high CEC and thereby enhances the healthy growth of fish/shrimp.",
+                "TOXICLEAN-FS is effective even in high ranges of salinity and pH."
+            ],
+            "directions_for_use": "Thoroughly mix required quantity of product with wet sand and apply over the pond with aeration.",
+            "dosage": {
+                "For pond preparation": "50 kg/ hec.",
+                "For use during culture period": "10 - 20 kg/hec, depending on water depth in pond."
+            },
+            "recommended_usage": "",
+            "presentation": "10 kg and 20 kg bags."
+        },
+        {
+            "product_name": "EEST",
+            "tagline": "Yeast based probiotic supplement for high productivity in Aquaculture",
+            "description": "Hampered productivity and unpredictable mortalities due to negative interactions between fish/shrimp and pathogenic bacteria is growing day by day in aquaculture. Scientific evidences indicate that supplementation with yeast and its bio actives promotes growth, and survival rate of aquatic forms by stimulating their immune system and preventing the onset of pathogenic diseases.",
+            "composition": "Eest is a unique combination of SCP based bio actives from natural yeast, Saccharomyces Cerevisiae, Saccharomyces boulardii and Debaryomyces hansenii.",
+            "benefits": [
+                "Eest supplementation enhances bioavailability of phosphorus and other minerals for fish/shrimp in pond environment.",
+                "Eest stabilizes the pond pH, enhances the proliferation of beneficial bacteria.",
+                "Eest is rich in \u03b2-glucan, mannoproteins, chitin and nucleic acids, which helps in immunomodulation and improvement of immune system and helps in fighting pathogens in fish/shrimp.",
+                "Eest with its SCP bio actives acts as an excellent and well-balanced source for vitamins, Minerals, Amino acids and possesses certain lipid and carbohydrate derivatives that are very much important for metabolism.",
+                "Eest improves water quality and controls bacterial infections.",
+                "Eest supplemented diets stimulate growth, blood biochemistry and non- specific immune responses in aquatic organisms under culture.",
+                "Eest improves FCR and survival rate."
+            ],
+            "directions_for_use": "300 - 500gm per acre (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "500gm Pouch."
+        },
+        {
+            "product_name": "OXYENRICH",
+            "tagline": "We understand that Oxygen is vital",
+            "description": "Accumulation of organic remnants from dead organisms, partially decayed feed materials and animal excreta in the pond bottom creates anaerobic conditions in the pond environment by absorbing available oxygen levels in the pond. On the other hand increased release of metabolic by-products and toxic gasses such as Hydrogen Sulphide (H2S), Ammonia (NH3), Nitrite (NO2) will further deteriorate the pond environment making the fish/shrimp to suffer from stress. Low oxygen availability in pond environment leads to HYPOXIA, weakness, decreased immune resistance, and eventually death due to viral or bacterial infections.",
+            "composition": "OXYENRICH is a unique combination of Sodium per borate, adsorbents and de-odorizes and stabilizers with suitable carriers.",
+            "benefits": [
+                "OXYENRICH improves and restores the levels of oxygen in the pond bottom.",
+                "OXYENRICH provides oxygen instantaneously and relieves the aquatic organisms from HYPOXIC stress.",
+                "OXYENRICH prevents the growth of harmful & pathogenic microbes in pond environment.",
+                "OXYENRICH promotes growth of microbes that take part in bioremediation and improves the pond environment.",
+                "OXYENRICH eliminates toxic gasses, bad odours and off-flavor from pond environment and promotes the healthy growth of shrimp, prawn and fish."
+            ],
+            "directions_for_use": "500gm per acre (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "1kg Container."
+        },
+        {
+            "product_name": "CEESURE",
+            "tagline": "An effective enhancer of immunity in Aquaculture",
+            "description": "",
+            "composition": "One gram of Ceesure contains 500 mg of concentrated and coated form of vitamin C.",
+            "benefits": [
+                "Ceesure controls the stress by restoring the levels of ascorbate concentrations in tissues which enormously decreased due to the effect of stress factors (Stressors).",
+                "Ceesure helps in improving the growth rate by enhancing the digestion efficiency during very low or fluctuating pond water temperatures.",
+                "Ceesure promotes collagen synthesis in the fish/shrimp body and helps in quick/optimal wound repair.",
+                "Ceesure helps in the elimination of toxic effects of ammonia & other toxic gasses that gets accumulated in the pond under intensive aquaculture setup.",
+                "Ceesure supplementation in aquaculture promotes the growth of healthy brooders, facilitates proper sperm/egg formation and improves hatchability.",
+                "Ceesure promotes the development of embryo/ larvae and reduces early stage mortality in fish/shrimp.",
+                "Ceesure acts as a natural immunostimulant and activates phagocytes that control microbial attack and subsequent infections.",
+                "Ceesure acts as an excellent antioxidant. Oxidation of feed ingredients initiated by free radicals are terminated by reduction with ascorbic acid of CEESURE, as one electron is transferred to the free radical from the ascorbate anion the result being formation of the ascorbate radical."
+            ],
+            "directions_for_use": "0.5 to 2.0 grams per kg of feed. During stress: 3.0 gm per kg feed. (Or) As suggested by the Aquaculture consultant.",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "1kg Pouch."
+        },
+        {
+            "product_name": "ELIMINATOR",
+            "tagline": "India's No.1 Rat control product",
+            "description": "Rats are the main culprits for huge losses in aqua, poultry, agriculture, food and other industries. ELIMINATOR is the best in class rat control product that achieves minimum 70-90% of rat mortality immediately after its first application.",
+            "composition": "",
+            "benefits": [
+                "ELIMINATOR can also be used to eradicate rat problems in and around Feed Godowns & Agriculture farming yards.",
+                "ELIMINATOR protects the farmer from huge losses due to feed damage by rats."
+            ],
+            "directions_for_use": "",
+            "dosage": {},
+            "recommended_usage": "",
+            "presentation": "10kg Bucket, 25 kg Container & Bait Stations."
+        }
+    ],
+    "other_products_catalog": [
+        "TOXICLEAN-Aqua Forte",
+        "DUCHLOR",
+        "ZYMOLAST",
+        "Formagen",
+        "QUITSTRESS GOLD Aqua",
+        "QUALIMIN-C",
+        "PROBOON LIQUID",
+        "Aquenhance",
+        "SUCCICAL GOLD-Aqua",
+        "TOXELIM-B GOLD- AQUA"
+    ]
+}

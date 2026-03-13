@@ -107,8 +107,7 @@ const Category = () => {
         const children = node.items || node.subCategories;
         const isCategoryContainer = children && children.some(child => child.items && child.items.length > 0);
 
-        // Indentation logic for deeper levels
-        const paddingLeft = level === 0 ? undefined : `${16 + (level * 12)}px`;
+        // Removed programmatic padding to let Category.css handle clean indentation naturally.
 
         if (isCategoryContainer) {
             return (
@@ -121,8 +120,7 @@ const Category = () => {
                                 cursor: 'pointer',
                                 display: 'flex',
                                 justifyContent: 'space-between',
-                                alignItems: 'center',
-                                paddingLeft: paddingLeft
+                                alignItems: 'center'
                             }}
                         >
                             <span>{node.name}</span>
@@ -137,7 +135,7 @@ const Category = () => {
                         </div>
 
                         {isOpen && (
-                            <div className="sidebar-sub-items animate-fade-in-down" style={{ marginTop: level === 0 ? '8px' : '4px' }}>
+                            <div className="sidebar-sub-items animate-fade-in-down">
                                 {children.map(child => (
                                     <SidebarNode key={child.id} node={child} level={level + 1} />
                                 ))}
@@ -153,7 +151,6 @@ const Category = () => {
             <Link
                 to={`/category/${slug}?sub=${node.id}`}
                 className={`sidebar-link sub-link level-${level} ${isActive ? 'active' : ''}`}
-                style={{ paddingLeft: paddingLeft }}
             >
                 {node.name}
             </Link>
@@ -180,7 +177,8 @@ const Category = () => {
             if (!slug) return true;
 
             const searchStr = (p.title + p.subtitle + p.slug + (p.image || '')).toLowerCase();
-            const isInMainCategory = searchStr.includes(slug.toLowerCase());
+            const isInMainCategory = searchStr.includes(slug.toLowerCase()) ||
+                (slug.toLowerCase() === 'aquaculture' && searchStr.includes('aqua'));
 
             if (!isInMainCategory) return false;
             if (!subCategory) return true;
@@ -229,69 +227,71 @@ const Category = () => {
             <div className="container products-container">
 
                 {/* Mobile Filter Toggle Bar */}
-                <div className="mobile-filter-toggle-bar">
-                    <button
-                        className={`mobile-filter-btn ${isFilterOpen ? 'open' : ''}`}
-                        onClick={() => setIsFilterOpen(prev => !prev)}
-                    >
-                        <Filter size={16} />
-                        <span>Filter by Category</span>
-                        {currentCategory?.subCategories?.length > 0 && (
-                            <span className="filter-count-badge">{currentCategory.subCategories.length}</span>
-                        )}
-                        <ChevronDown
-                            size={16}
-                            className={`filter-chevron ${isFilterOpen ? 'rotate' : ''}`}
-                        />
-                    </button>
-                    {subCategory && (
-                        <span className="active-filter-pill">
-                            {subCategory.replace(/-/g, ' ')}
-                            <Link to={`/category/${slug}`} className="remove-filter-pill">
-                                <X size={12} />
-                            </Link>
-                        </span>
-                    )}
-                </div>
-
-                <div className="category-layout">
-                    {/* Sidebar Navigator */}
-                    {/* {currentCategory?.subCategories && ( */}
-                    <aside className={`category-sidebar ${isFilterOpen ? 'filter-open' : ''}`}>
-                        <div className="sidebar-section">
-                            <h4 className="sidebar-title">
-                                <Filter size={18} className="me-2" />
-                                Filter by Category
-                                {/* Close button — visible only on mobile */}
-                                <button
-                                    className="sidebar-close-btn"
-                                    onClick={() => setIsFilterOpen(false)}
-                                    aria-label="Close filters"
-                                >
-                                    <X size={18} />
-                                </button>
-                            </h4>
-                            <div className="sidebar-menu">
-                                <Link
-                                    to={`/category/${slug}`}
-                                    className={`sidebar-link ${!subCategory ? 'active' : ''}`}
-                                >
-                                    All {categoryTitle || ""}
+                {slug !== 'aquaculture' && (
+                    <div className="mobile-filter-toggle-bar">
+                        <button
+                            className={`mobile-filter-btn ${isFilterOpen ? 'open' : ''}`}
+                            onClick={() => setIsFilterOpen(prev => !prev)}
+                        >
+                            <Filter size={16} />
+                            <span>Filter by Category</span>
+                            {currentCategory?.subCategories?.length > 0 && (
+                                <span className="filter-count-badge">{currentCategory.subCategories.length}</span>
+                            )}
+                            <ChevronDown
+                                size={16}
+                                className={`filter-chevron ${isFilterOpen ? 'rotate' : ''}`}
+                            />
+                        </button>
+                        {subCategory && (
+                            <span className="active-filter-pill">
+                                {subCategory.replace(/-/g, ' ')}
+                                <Link to={`/category/${slug}`} className="remove-filter-pill">
+                                    <X size={12} />
                                 </Link>
+                            </span>
+                        )}
+                    </div>
+                )}
 
-                                {(currentCategory?.subCategories || []).map(sub => (
-                                    <SidebarNode key={sub.id} node={sub} />
-                                ))}
+                <div className={`category-layout ${slug === 'aquaculture' ? 'no-sidebar' : ''}`}>
+                    {/* Sidebar Navigator */}
+                    {slug !== 'aquaculture' && (
+                        <aside className={`category-sidebar ${isFilterOpen ? 'filter-open' : ''}`}>
+                            <div className="sidebar-section">
+                                <h4 className="sidebar-title">
+                                    <Filter size={18} className="me-2" />
+                                    Filter by Category
+                                    {/* Close button — visible only on mobile */}
+                                    <button
+                                        className="sidebar-close-btn"
+                                        onClick={() => setIsFilterOpen(false)}
+                                        aria-label="Close filters"
+                                    >
+                                        <X size={18} />
+                                    </button>
+                                </h4>
+                                <div className="sidebar-menu">
+                                    <Link
+                                        to={`/category/${slug}`}
+                                        className={`sidebar-link ${!subCategory ? 'active' : ''}`}
+                                    >
+                                        All {categoryTitle || ""}
+                                    </Link>
+
+                                    {(currentCategory?.subCategories || []).map(sub => (
+                                        <SidebarNode key={sub.id} node={sub} />
+                                    ))}
+                                </div>
                             </div>
-                        </div>
 
-                        {/* <div className="sidebar-cta">
+                            {/* <div className="sidebar-cta">
                                 <h5>Need Assistance?</h5>
                                 <p>Our experts are here to help you find the right solution.</p>
                                 <Link to="/contact-us" className="cta-link">Contact Us</Link>
                             </div> */}
-                    </aside>
-                    {/* )} */}
+                        </aside>
+                    )}
 
                     {/* Product Listing Area */}
                     <div className="category-content">
