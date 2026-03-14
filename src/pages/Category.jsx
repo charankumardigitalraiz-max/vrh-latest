@@ -310,6 +310,25 @@ const Category = () => {
                                 <div key={product.slug} className="animate-slide-up" style={{ animationDelay: `${(i % 5 + 1) * 100}ms` }}>
                                     <Link to={`/product/${product.slug}`} className="product-card-premium">
                                         <div className="card-accent"></div>
+
+
+                                        <div className="product-image-container">
+                                            {product.image ? (
+                                                <img
+                                                    src={product.image || '/images/no_image.png'}
+                                                    alt={product.title}
+                                                    loading="lazy"
+                                                />
+                                            ) : (
+                                                <img
+                                                    src='/images/no_image.png'
+                                                    alt={product.title}
+                                                    loading="lazy"
+                                                />
+                                            )}
+                                        </div>
+
+
                                         <div className="product-content">
                                             <div className="product-type-badge">{slug || 'Product'}</div>
                                             <h3 className="product-title-premium">{product.title}</h3>
