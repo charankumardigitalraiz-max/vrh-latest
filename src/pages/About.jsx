@@ -7,7 +7,7 @@ import { useMediaQuery } from 'react-responsive';
 const About = () => {
     const [openAccordion, setOpenAccordion] = useState(null);
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
-    const isMobile = useMediaQuery({query: '(max-width: 790px)'});  
+    const isMobile = useMediaQuery({ query: '(max-width: 790px)' });
     const testimonials = [
         {
             id: 1,
@@ -50,7 +50,7 @@ const About = () => {
         <div className="about-page">
 
             {/* ── HERO ── */}
-            <section className="about-hero about-hero--modern" style={{ backgroundImage: isMobile ?  "url('/images/poultry3.jpg')" : "url('/images/heroes/about.jpg')" }}>
+            <section className="about-hero about-hero--modern" style={{ backgroundImage: isMobile ? "url('/images/poultry3.jpg')" : "url('/images/heroes/about.jpg')" }}>
                 <div className="about-hero__overlay" />
                 <div className="about-hero__glow" />
                 <div className="container about-hero__inner">
