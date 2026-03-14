@@ -94,17 +94,17 @@ const Header = () => {
                         <nav className={`nav-container`}>
                             <ul className={`nav-links ${isMobileMenuOpen ? 'open' : ''}`}>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/">Home</Link>
+                                    <Link className={`nav-link ${location.pathname === '/' ? 'active' : ''}`} to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/about-us">About Us</Link>
+                                    <Link className={`nav-link ${location.pathname === '/about-us' ? 'active' : ''}`} to="/about-us">About Us</Link>
                                 </li>
                                 <li className={`nav-item dropdown ${openDropdown === 'products' ? 'open' : ''}`}
                                     onMouseEnter={() => window.innerWidth >= 992 && setOpenDropdown('products')}
                                     onMouseLeave={() => window.innerWidth >= 992 && setOpenDropdown(null)}
                                 >
                                     <button
-                                        className="nav-link w-100 bg-transparent border-0"
+                                        className={`nav-link w-100 bg-transparent border-0 ${(location.pathname.startsWith('/category') || location.pathname.startsWith('/product')) ? 'active' : ''}`}
                                         onClick={() => toggleDropdown('products')}
                                     >
                                         Products <ChevronDown size={14} className="ms-1" />
@@ -118,16 +118,16 @@ const Header = () => {
                                     </div>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/quality-policy">Quality Policy</Link>
+                                    <Link className={`nav-link ${location.pathname === '/quality-policy' ? 'active' : ''}`} to="/quality-policy">Quality Policy</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/careers">Careers</Link>
+                                    <Link className={`nav-link ${location.pathname === '/careers' ? 'active' : ''}`} to="/careers">Careers</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/gallery">Gallery</Link>
+                                    <Link className={`nav-link ${location.pathname === '/gallery' ? 'active' : ''}`} to="/gallery">Gallery</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <Link className="nav-link" to="/contact-us">Contact Us</Link>
+                                    <Link className={`nav-link ${location.pathname === '/contact-us' ? 'active' : ''}`} to="/contact-us">Contact Us</Link>
                                 </li>
                             </ul>
                         </nav>

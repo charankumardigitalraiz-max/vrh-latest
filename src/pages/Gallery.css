@@ -41,12 +41,12 @@
 
 .banner-content {
     max-width: 700px;
-    background: rgba(255, 255, 255, 0.05);
+    /* background: rgba(255, 255, 255, 0.05); */
     /* backdrop-filter: blur(8px); */
     /* -webkit-backdrop-filter: blur(8px); */
     padding: var(--spacing-xl);
     border-radius: var(--border-radius-lg);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .banner-title {
