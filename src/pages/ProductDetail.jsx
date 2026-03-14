@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams, Link, useLocation } from 'react-router-dom';
+import { useParams, Link, useLocation, useNavigate } from 'react-router-dom';
 import productData from '../data/products.json';
 import { Download, ChevronRight, ArrowLeft } from 'lucide-react';
 import './ProductDetail.css';
@@ -7,6 +7,7 @@ import './ProductDetail.css';
 const ProductDetail = () => {
     const { slug } = useParams();
     const location = useLocation();
+    const navigate = useNavigate();
     const product = productData.products.find(p => p.slug === slug);
     const [activeTab, setActiveTab] = useState(0);
 
@@ -58,9 +59,9 @@ const ProductDetail = () => {
                             <li className="breadcrumb-divider">/</li>
                             <li className="breadcrumb-current">{product.title}</li>
                         </ul> */}
-                        <Link to={location.state?.from || "/products"} className="back-to-products">
+                        <button onClick={() => navigate(-1)} className="back-to-products">
                             <ArrowLeft size={16} className="me-2" /> Back to Products
-                        </Link>
+                        </button>
                     </div>
                 </div>
             </div>

@@ -53,6 +53,8 @@
     text-decoration: none;
     font-size: 0.85rem;
     font-weight: 600;
+    background: none;
+    border: none;
     transition: color var(--transition-fast);
 }
 
@@ -330,6 +332,61 @@
     left: 0;
     color: var(--theme-secondary);
     font-weight: 700;
+}
+
+/* Premium Table Styles for Rich Text content */
+.content-rich-text table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 2rem 0;
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg, 12px);
+    overflow: hidden;
+    box-shadow: var(--shadow-md, 0 8px 30px rgba(0, 0, 0, 0.05));
+    border: 1px solid var(--border-glass, rgba(0, 0, 0, 0.08));
+}
+
+.content-rich-text table th {
+    background: var(--theme-primary, #0a2540);
+    color: var(--white);
+    padding: 18px 20px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 0.95rem;
+    letter-spacing: 0.05em;
+    border-bottom: 3px solid var(--theme-secondary, #f0b429);
+}
+
+.content-rich-text table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    color: var(--text-dark);
+    font-size: 0.95rem;
+    vertical-align: middle;
+    line-height: 1.5;
+}
+
+.content-rich-text table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.content-rich-text table tbody tr:nth-child(even) td {
+    background-color: var(--bg-light, #f8f9fa);
+}
+
+.content-rich-text table tbody tr:hover td {
+    background-color: rgba(0, 0, 0, 0.03);
+    transition: background-color var(--transition-fast, 0.2s ease);
+}
+
+/* Make table scrollable on mobile */
+@media (max-width: 768px) {
+    .content-rich-text table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
 }
 
 /* Related Products Section */

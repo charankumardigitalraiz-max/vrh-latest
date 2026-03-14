@@ -44,6 +44,16 @@ const Footer = () => {
                             <h4 className="footer-heading">Quick Links</h4>
                             <ul className="footer-links">
                                 <li className="footer-link-item">
+                                    <Link to="/" className="footer-custom-link">
+                                        <ChevronRight size={16} className="footer-chevron" /> Home
+                                    </Link>
+                                </li>
+                                <li className="footer-link-item">
+                                    <Link to="/about-us" className="footer-custom-link">
+                                        <ChevronRight size={16} className="footer-chevron" /> About Us
+                                    </Link>
+                                </li>
+                                <li className="footer-link-item">
                                     <Link to="/quality-policy" className="footer-custom-link">
                                         <ChevronRight size={16} className="footer-chevron" /> Quality Policy
                                     </Link>
@@ -54,15 +64,16 @@ const Footer = () => {
                                     </Link>
                                 </li>
                                 <li className="footer-link-item">
-                                    <Link to="/contact-us" className="footer-custom-link">
-                                        <ChevronRight size={16} className="footer-chevron" /> Contact Us
-                                    </Link>
-                                </li>
-                                <li className="footer-link-item">
                                     <Link to="/gallery" className="footer-custom-link">
                                         <ChevronRight size={16} className="footer-chevron" /> Gallery
                                     </Link>
                                 </li>
+                                <li className="footer-link-item">
+                                    <Link to="/contact-us" className="footer-custom-link">
+                                        <ChevronRight size={16} className="footer-chevron" /> Contact Us
+                                    </Link>
+                                </li>
+
                             </ul>
                         </div>
 
