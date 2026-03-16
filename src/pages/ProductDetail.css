@@ -206,23 +206,45 @@
     display: flex;
     align-items: center;
     gap: var(--spacing-lg);
-    background: var(--bg-light);
+    background: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding: var(--spacing-md) var(--spacing-xl);
     border-radius: var(--border-radius-lg);
     border: 1px solid var(--border-glass);
     margin-bottom: var(--spacing-xxl);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+    transition: all var(--transition-normal);
+}
+
+.download-section:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.6);
+    border-color: var(--theme-secondary);
 }
 
 .download-icon-box {
-    width: 48px;
-    height: 48px;
-    background: var(--white);
-    border-radius: 12px;
+    width: 54px;
+    height: 54px;
+    background: linear-gradient(135deg, #fff 0%, #f8f9fa 100%);
+    border-radius: 14px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #ef4444; /* PDF Red */
+    color: #ff4d4d; /* Premium PDF Red */
     box-shadow: var(--shadow-sm);
+    position: relative;
+    overflow: hidden;
+}
+
+.download-icon-box::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(255, 77, 77, 0.05));
+    top: 0;
+    left: 0;
 }
 
 .download-title {
@@ -240,17 +262,26 @@
     margin-left: auto;
     background: var(--theme-primary);
     color: var(--white);
-    padding: 8px 16px;
+    padding: 10px 24px;
     border-radius: var(--border-radius-pill);
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     font-weight: 700;
     text-decoration: none;
     transition: all var(--transition-fast);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
 }
 
 .download-btn-compact:hover {
     background: var(--theme-secondary);
-    transform: scale(1.05);
+    color: var(--theme-primary);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.download-btn-compact:active {
+    transform: translateY(1px);
 }
 
 /* Tabs Premium */

@@ -165,6 +165,7 @@
       "title": "Avicure-FS",
       "subtitle": "Avicure-FS",
       "image": "/product-images/poultry/antiMicroBials/antiBiotics/adult-chicken.png",
+      "brochure": "/LeafLets/AVICURE-FS.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -245,6 +246,7 @@
       "title": "BROMELEV",
       "subtitle": "BROMELEV",
       "image": "/product-images/poultry/antiMicroBials/antiBiotics/bromolev.png",
+      "brochure": "/LeafLets/bromolev.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -325,6 +327,7 @@
       "title": "QUALIMIN-Aqua",
       "subtitle": "Enrich your aquatic environment with complete mineral mixture",
       "image": "/product-images/aqua/qualimin aqua.png",
+      "brochure": "/LeafLets/Qualimin Gold new.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -452,6 +455,7 @@
       "title": "ELIMINATOR",
       "subtitle": "ELIMINATOR",
       "image": "/product-images/aqua/eliminator powder.png",
+      "brochure": "/LeafLets/eliminator.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -492,6 +496,7 @@
       "title": "ERYTHROBOON-FS",
       "subtitle": "ERYTHROBOON-FS",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/adult-chicken.png",
+      "brochure": "/LeafLets/erythroboon NEW.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -512,6 +517,7 @@
       "title": "ERYTHROBOON",
       "subtitle": "An excellent haematinic formulation that controls anaemic condition and improves the process of haemopoiesis in birds.",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/erythroboon.png",
+      "brochure": "/LeafLets/erythroboon NEW.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -572,6 +578,7 @@
       "title": "FORMA KLEEN",
       "subtitle": "Contains formaldehyde 37%w/w with higher percentage of methanol and added\nstabilizers.",
       "image": "/product-images/poultry/antiMicroBials/biosecurity/vehicledip-fooddip/formakleen.png",
+      "brochure": "/LeafLets/Farmakleen.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -592,6 +599,7 @@
       "title": "LINEODX",
       "subtitle": "LINEODX",
       "image": "/product-images/poultry/antiMicroBials/biosecurity/fumigation-device-product/adult-chicken.png",
+      "brochure": "/LeafLets/LINEODOX.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -612,6 +620,7 @@
       "title": "Microkil Aqua",
       "subtitle": "\"Best in Class Broad Spectrum Disinfectant for Aquaculture\"",
       "image": "/product-images/aqua/microkil.png",
+      "brochure": "/LeafLets/micro kill new.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -772,6 +781,7 @@
       "title": "PHENOKIL",
       "subtitle": "An Ideal black phenyl that kills microbes effectively. Best choice of phenolic cleaner for foot dip & vehicle dip",
       "image": "/product-images/poultry/antiMicroBials/biosecurity/vehicledip-fooddip/phenokil.png",
+      "brochure": "/LeafLets/Pheno Kil.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -912,6 +922,7 @@
       "title": "QUALIMIN",
       "subtitle": "QUALIMIN",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/qualimin-gold-25kg.png",
+      "brochure": "/LeafLets/Qualimin Gold new.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1092,6 +1103,7 @@
       "title": "THERMIQUIT",
       "subtitle": "THERMIQUIT",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/thermiquit.png",
+      "brochure": "/LeafLets/thermiquit.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1132,6 +1144,7 @@
       "title": "TOXELIM - B GOLD TM (Powder)",
       "subtitle": "TOXELIM - B GOLD TM (Powder)",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/TOXELIM-B-GOLD.png",
+      "brochure": "/LeafLets/TOXIELIM-B  POWDER.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1152,6 +1165,7 @@
       "title": "TOXELIM-B GOLD & TOXELIM-B GOLD PLUS (LIQUID SUPPLEMENTS)",
       "subtitle": "TOXELIM-B GOLD & TOXELIM-B GOLD PLUS",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/TOXELIM-B-GOLD.png",
+      "brochure": "/LeafLets/TOXELIM-B GOLD & TOXELIM GOLD PLUS.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1232,6 +1246,7 @@
       "title": "TOXICLEAN",
       "subtitle": "Best in class Toxin binder for poultry",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/toxi-clean-gold.png",
+      "brochure": "/LeafLets/Toxi Clean Gold new.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1412,6 +1427,7 @@
       "title": "ANTIPROL",
       "subtitle": "FEED SUPPLEMENTS / THERAPEUTIC FORMULATIONS",
       "image": "",
+      "brochure": "/LeafLets/ANTIPROL.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1452,6 +1468,7 @@
       "title": "LINEODOX",
       "subtitle": "THERAPEUTIC FORMULATIONS",
       "image": "",
+      "brochure": "/LeafLets/LINEODOX.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1552,6 +1569,7 @@
       "title": "ZITHROSURE",
       "subtitle": "THERAPEUTIC FORMULATIONS",
       "image": "",
+      "brochure": "/LeafLets/zithrosure.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1612,6 +1630,7 @@
       "title": "FreAll",
       "subtitle": "BIO-SECURITY",
       "image": "",
+      "brochure": "/LeafLets/free all.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1632,6 +1651,7 @@
       "title": "CHEQVIR",
       "subtitle": "BIO-SECURITY",
       "image": "",
+      "brochure": "/LeafLets/CHEQVIR-TT.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",

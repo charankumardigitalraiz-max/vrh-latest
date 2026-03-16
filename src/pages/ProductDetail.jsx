@@ -109,15 +109,16 @@ const ProductDetail = () => {
                                     </div>
                                     <div className="download-info">
                                         <h3 className="download-title">Product Brochure</h3>
-                                        <div className="download-subtitle">PDF Document (1.2 MB)</div>
+                                        <div className="download-subtitle">Technical Specifications (PDF)</div>
                                     </div>
                                     <a
                                         href={product.brochure}
+                                        download={product.brochure.split('/').pop()}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="download-btn-compact"
                                     >
-                                        View PDF
+                                        Download PDF
                                     </a>
                                 </div>
                             )}
