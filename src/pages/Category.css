@@ -413,7 +413,8 @@
     padding: 4px; /* Further reduced from var(--spacing-sm) */
     display: flex;
     flex-direction: column;
-    height: 100%;
+    flex: 1;
+    min-height: 0;
 }
 
 .product-card-premium:hover {
@@ -452,15 +453,15 @@
 
 .product-description-premium {
     color: var(--text-muted);
-    font-size: 0.8rem; /* Slightly smaller */
+    font-size: 0.8rem;
     line-height: 1.4;
-    margin-bottom: var(--spacing-sm); /* Reduced from var(--spacing-md) */
+    margin-bottom: var(--spacing-sm);
     display: -webkit-box;
-    -webkit-line-clamp: 1;
-    line-clamp: 1;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    flex-grow: 1;
+    /* flex-grow removed — fixed line-clamp requires a stable height, not a stretchy one */
 }
 
 .product-footer-premium {
@@ -468,7 +469,8 @@
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid rgba(0, 0, 0, 0.05);
-    padding-top: var(--spacing-sm); /* Reduced from var(--spacing-md) */
+    padding-top: var(--spacing-sm);
+    margin-top: auto; /* Push footer to bottom regardless of content height */
 }
 
 .view-link {

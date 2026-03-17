@@ -1,5 +1,6 @@
 # Dependencies
 node_modules/
+public/products-download/
 old_static/
 /.pnp
 .pnp.js
