@@ -226,22 +226,24 @@ const About = () => {
                             <div className="team-cards">
                                 <div className="team-card">
                                     <div className="team-card__photo">
+                                        <div className="team-card__glow" />
                                         <img src="/images/Rammohan_DirectorA-443x600.jpg" alt="Mr. Y. Ram Mohan Rao" />
-                                        <div className="team-card__badge">Director</div>
                                     </div>
                                     <div className="team-card__info">
                                         <h4>Mr. Y. Ram Mohan Rao</h4>
+                                        <div className="team-card__divider" />
                                         <p>Founder & Director</p>
                                     </div>
                                 </div>
 
                                 <div className="team-card">
                                     <div className="team-card__photo">
+                                        <div className="team-card__glow" />
                                         <img src="/images/srikanth.jpg" alt="Dr. Sreekanth Devalraju" />
-                                        <div className="team-card__badge gold">Managing Director</div>
                                     </div>
                                     <div className="team-card__info">
                                         <h4>Dr. Sreekanth Devalraju</h4>
+                                        <div className="team-card__divider" />
                                         <p>Senior Consultant (Techno-Legal)</p>
                                     </div>
                                 </div>

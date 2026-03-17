@@ -85,16 +85,32 @@ const Home = () => {
                     </div>
                     <div className="features-grid">
                         {[
-                            { id: 'poultry', name: 'Poultry', img: 'hen.png' },
-                            { id: 'aquaculture', name: 'Aquaculture', img: 'aqua.png' },
-                            { id: 'large-animals', name: 'Large Animals', img: 'large-animals.png' },
-                            { id: 'sheep-goat', name: 'Sheep & Goat', img: 'sheep.png' }
+                            { id: 'poultry', name: 'Poultry', img: 'hen.png', label: 'Veterinary Solutions' },
+                            { id: 'aquaculture', name: 'Aquaculture', img: 'aqua.png', label: 'Water Health' },
+                            { id: 'large-animals', name: 'Large Animals', img: 'large-animals.png', label: 'Livestock Care' },
+                            { id: 'sheep-goat', name: 'Sheep & Goat', img: 'sheep.png', label: 'Small Ruminants' }
                         ].map((feature, i) => (
-                            <Link to={`/category/${feature.id}`} key={feature.id} className="feature-card animate-slide-up" style={{ animationDelay: `${(i + 1) * 100}ms` }}>
-                                <div className="feature-icon-wrapper">
-                                    <img src={`/images/${feature.img}`} alt={feature.name} className="feature-img" />
+                            <Link
+                                to={`/category/${feature.id}`}
+                                key={feature.id}
+                                className="feature-card animate-slide-up"
+                                style={{ animationDelay: `${(i + 1) * 100}ms` }}
+                            >
+                                <div className="feature-card__bg">
+                                    <img src={`/images/${feature.img}`} alt={feature.name} className="feature-card__img" />
                                 </div>
-                                <h3 className="feature-title">{feature.name}</h3>
+                                <div className="feature-card__overlay" />
+                                <div className="feature-card__shine" />
+                                <div className="feature-card__body">
+                                    <span className="feature-card__label">{feature.label}</span>
+                                    <h3 className="feature-card__title">{feature.name}</h3>
+                                    <div className="feature-card__arrow">
+                                        <span>Explore</span>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+                                        </svg>
+                                    </div>
+                                </div>
                             </Link>
                         ))}
                     </div>
