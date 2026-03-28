@@ -67,9 +67,9 @@ const Header = () => {
                         </div>
                         <div className="social-links">
                             <span className="me-2 text-white text-opacity-75" style={{ fontSize: '0.8rem' }}>Connect with us:</span>
-                            <a href="https://www.facebook.com/RR-Veterinary-896662690480674/" aria-label="Facebook"><Facebook size={15} /></a>
-                            <a href="https://x.com/RrVeterinary" aria-label="Twitter"><Twitter size={15} /></a>
-                            <a href="https://www.linkedin.com/in/rr-veterinary-124445163/" aria-label="LinkedIn"><Linkedin size={15} /></a>
+                            <a href="https://www.facebook.com/RR-Veterinary-896662690480674/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><Facebook size={15} /></a>
+                            <a href="https://x.com/RrVeterinary" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><Twitter size={15} /></a>
+                            <a href="https://www.linkedin.com/in/rr-veterinary-124445163/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><Linkedin size={15} /></a>
                         </div>
                     </div>
                 </div>
