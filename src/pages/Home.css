@@ -1051,11 +1051,11 @@
 
 .premium-about__title {
     font-family: var(--font-family-heading);
-    font-size: clamp(1.8rem, 3.5vw, 2.5rem);
-    font-weight: 800;
-    color: #1e293b;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
 }
 
 .premium-about__title span {
@@ -1107,13 +1107,13 @@
 
 .premium-about__updates-title {
     font-family: var(--font-family-heading);
-    font-size: 1.3rem;
-    font-weight: 800;
-    color: #1e293b;
-    margin-bottom: 20px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 16px;
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 }
 
 .premium-about__updates-title::before {
@@ -1238,12 +1238,12 @@
 
 .premium-video__title {
     font-family: var(--font-family-heading);
-    font-size: clamp(1.8rem, 3.5vw, 2.5rem);
-    font-weight: 800;
-    color: #1e293b; /* Dark slate for high contrast */
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    margin-bottom: 16px;
+    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
+    margin-bottom: 12px;
 }
 
 .premium-video__title span {
@@ -1330,11 +1330,11 @@
 
 .premium-brands__title {
     font-family: var(--font-family-heading);
-    font-size: clamp(1.8rem, 3.5vw, 2.5rem);
-    font-weight: 800;
-    color: #1e293b;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
+    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    font-weight: 700;
+    color: #0f172a;
+    line-height: 1.2;
+    letter-spacing: -0.015em;
 }
 
 .premium-brands__title span {
@@ -1468,7 +1468,7 @@
 
 .hm-stats__value {
     font-family: var(--font-family-heading);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--theme-primary);
     line-height: 1;

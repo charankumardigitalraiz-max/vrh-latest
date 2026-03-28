@@ -9,9 +9,8 @@ const Home = () => {
     const slides = [
         { id: 1, image: '/images/heroes/banner1.jpg', title: "Helping to prolong\nthe quality of life", subtitle: "Advanced solutions for modern poultry and livestock healthcare" },
         { id: 2, image: '/images/heroes/banner3.jpg', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in biosecurity and water quality management" },
-        { id: 3, image: '/images/heroes/banner2.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
+        // { id: 3, image: '/images/heroes/banner2.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
     ];
-
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide(prev => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -238,9 +237,9 @@ const Home = () => {
                             { id: 'OfeGs-uhqeQ', title: 'Video 6' }
                         ].map((vid, idx) => (
                             <div key={vid.id} className="premium-video__item" style={{ animationDelay: `${idx * 150}ms` }}>
-                                <iframe 
-                                    src={`https://www.youtube.com/embed/${vid.id}?feature=oembed&modestbranding=1&rel=0`} 
-                                    title={vid.title} 
+                                <iframe
+                                    src={`https://www.youtube.com/embed/${vid.id}?feature=oembed&modestbranding=1&rel=0`}
+                                    title={vid.title}
                                     allowFullScreen
                                     loading="lazy"
                                 ></iframe>
@@ -257,7 +256,7 @@ const Home = () => {
                         <span className="premium-brands__subtitle">Trusted Quality</span>
                         <h2 className="premium-brands__title">Our <span>Products</span></h2>
                     </div>
-                    
+
                     <div className="premium-brands__marquee">
                         <div className="premium-brands__track">
                             {[...brands, ...brands, ...brands, ...brands].map((brand, i) => (

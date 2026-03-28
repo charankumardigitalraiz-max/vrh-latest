@@ -150,7 +150,7 @@ const About = () => {
                         <div className="vm-unique__card vm-unique__card--vision">
                             <div className="vm-unique__bg-pattern"></div>
                             <div className="vm-unique__header">
-                                <Globe size={45} className="vm-unique__icon" />
+                                <Globe size={30} className="vm-unique__icon" />
                                 <h3>Our Vision</h3>
                             </div>
                             <p>We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.</p>
@@ -159,7 +159,7 @@ const About = () => {
 
                         <div className="vm-unique__card vm-unique__card--mission">
                             <div className="vm-unique__header">
-                                <Target size={45} className="vm-unique__icon" />
+                                <Target size={30} className="vm-unique__icon" />
                                 <h3>Our Mission</h3>
                             </div>
                             <p>To establish the company as the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, setting a new benchmark by growing together with all stake holders.</p>
