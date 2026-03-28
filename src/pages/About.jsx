@@ -115,7 +115,7 @@ const About = () => {
                         {/* Right – Content */}
                         <div className="wwa-content">
                             <div className="section-label">Behind the Scenes</div>
-                            <h2 className="section-heading">Who We Are?</h2>
+                            <h2 className="section-heading">Who <span className="text-theme">We Are?</span></h2>
                             <p className="wwa-lead">
                                 RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
                             </p>
@@ -141,38 +141,41 @@ const About = () => {
                                         </p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
-                    <div className='second-collapse'>
-                        {/* Accordion 2 */}
-                        <div className={`acc-item ${openAccordion === 2 ? 'open' : ''}`}>
-                            <button className="acc-header" onClick={() => toggleAccordion(2)}>
-                                <div className="acc-icon"><Map size={20} /></div>
-                                <span>Roadmap</span>
-                                <ChevronDown className="acc-arrow" size={18} />
-                            </button>
-                            <div className="acc-body acc-body--image">
-                                <img src="/about/Picture1.png" alt="RRV Roadmap" className="acc-roadmap-img" />
+
+                    {/* ── VISION & MISSION BLOCKS ─ UNIQUE REDESIGN ── */}
+                    <div className="vm-unique">
+                        <div className="vm-unique__card vm-unique__card--vision">
+                            <div className="vm-unique__bg-pattern"></div>
+                            <div className="vm-unique__header">
+                                <Globe size={45} className="vm-unique__icon" />
+                                <h3>Our Vision</h3>
                             </div>
+                            <p>We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.</p>
+                            <div className="vm-unique__accent"></div>
                         </div>
 
-                        {/* Accordion 3 */}
-                        <div className={`acc-item ${openAccordion === 3 ? 'open' : ''}`}>
-                            <button className="acc-header" onClick={() => toggleAccordion(3)}>
-                                <div className="acc-icon"><Target size={20} /></div>
-                                <span>Vision & Mission</span>
-                                <ChevronDown className="acc-arrow" size={18} />
-                            </button>
-                            <div className="acc-body">
-                                <p>
-                                    <strong>Vision:</strong> We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.
-                                </p>
-                                <p className="mt-2">
-                                    <strong>Mission:</strong> Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.
-                                </p>
+                        <div className="vm-unique__card vm-unique__card--mission">
+                            <div className="vm-unique__header">
+                                <Target size={45} className="vm-unique__icon" />
+                                <h3>Our Mission</h3>
                             </div>
+                            <p>To establish the company as the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, setting a new benchmark by growing together with all stake holders.</p>
+                            <div className="vm-unique__accent vm-unique__accent--teal"></div>
+                        </div>
+                    </div>
+
+                    {/* ── ROADMAP FEATURE ── */}
+                    <div className="roadmap-feature">
+                        <div className="roadmap-feature__header text-center">
+                            <div className="section-label">Our Journey</div>
+                            <h2 className="section-heading">Strategic <span className="text-theme">Roadmap</span></h2>
+                            <p className="roadmap-feature__desc">Tracking our milestones and future continuous growth in providing the best veterinary healthcare solutions.</p>
+                        </div>
+                        <div className="roadmap-feature__img-wrapper">
+                            <img src="/about/Picture1.png" alt="RRV Roadmap" className="roadmap-feature__img" />
                         </div>
                     </div>
                 </div>
@@ -281,70 +284,34 @@ const About = () => {
                                 </div>
                             </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </section>
 
-            {/* Productivity & Delivery Section (Video Gallery) */}
-            <section className="video-gallery-section" id="productivity">
+            {/* Productivity & Delivery Section (Compact Video Gallery) */}
+            <section className="compact-video-gallery" id="productivity">
                 <div className="container">
-                    <div className="section-header text-center mb-5">
-                        <span className="section-subtitle">Real Impact</span>
-                        <h2 className="section-title">Productivity and <span className="text-theme">Delivery on Ground</span></h2>
+                    <div className="compact-video__header text-center">
+                        <span className="compact-video__subtitle">Real Impact</span>
+                        <h2 className="compact-video__title">Productivity & <span>Delivery on Ground</span></h2>
+                        <p className="compact-video__desc">Watch our industry-leading solutions in action across diverse environments.</p>
                     </div>
 
-                    <div className="video-master-grid">
-                        <div className="row g-4">
-                            {/* Featured Large Video & Side Stack */}
-                            <div className="col-lg-8">
-                                <div className="video-card large animate-slide-up">
-                                    <div className="video-wrapper">
-                                        <iframe
-                                            src="https://www.youtube.com/embed/gniEV7wDjNA?feature=oembed"
-                                            title="Main Video"
-                                            allowFullScreen
-                                        ></iframe>
-                                    </div>
-                                    <div className="video-info">
-                                        <h4>RR Veterinary Health Care | Poultry India 2016</h4>
-                                    </div>
+                    <div className="compact-video__grid">
+                        {[
+                            { id: 'gniEV7wDjNA', title: 'Main Video' },
+                            { id: 'jzX4s0uK0qo', title: 'Video 2' },
+                            { id: 'EeDUiPJIy8Q', title: 'Video 3' },
+                            { id: '0KzQgYVDcRg', title: 'Video 4' },
+                            { id: '8DGo_HlHCJ8', title: 'Video 5' },
+                            { id: 'OfeGs-uhqeQ', title: 'Video 6' }
+                        ].map((vid, idx) => (
+                            <div key={vid.id} className="compact-video__card animate-slide-up" style={{ animationDelay: `${idx * 150}ms` }}>
+                                <div className="compact-video__wrapper">
+                                    <iframe src={`https://www.youtube.com/embed/${vid.id}?feature=oembed`} title={vid.title} allowFullScreen></iframe>
                                 </div>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="video-stack">
-                                    <div className="video-card small animate-slide-up" style={{ animationDelay: '200ms' }}>
-                                        <div className="video-wrapper">
-                                            <iframe src="https://www.youtube.com/embed/jzX4s0uK0qo?feature=oembed" title="Video 2" allowFullScreen></iframe>
-                                        </div>
-                                    </div>
-                                    <div className="video-card small animate-slide-up" style={{ animationDelay: '400ms' }}>
-                                        <div className="video-wrapper">
-                                            <iframe src="https://www.youtube.com/embed/EeDUiPJIy8Q?feature=oembed" title="Video 3" allowFullScreen></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Bottom Grid Row */}
-                        <div className="row g-4 mt-2">
-                            {[
-                                { id: '0KzQgYVDcRg', title: 'Video 4' },
-                                { id: '8DGo_HlHCJ8', title: 'Video 5' },
-                                { id: 'OfeGs-uhqeQ', title: 'Video 6' }
-                            ].map((vid, idx) => (
-                                <div key={vid.id} className="col-lg-4 col-md-6">
-                                    <div className="video-card animate-slide-up" style={{ animationDelay: `${(idx + 3) * 200}ms` }}>
-                                        <div className="video-wrapper">
-                                            <iframe src={`https://www.youtube.com/embed/${vid.id}?feature=oembed`} title={vid.title} allowFullScreen></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>

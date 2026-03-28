@@ -76,165 +76,193 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Features Section */}
-            <section className="features-section">
+            {/* Features Section — Horizontal Showcase */}
+            <section className="expertise-section">
                 <div className="container">
-                    <div className="section-header">
-                        {/* <span className="section-subtitle">Our Expertise</span> */}
-                        <h2 className="section-title">Our Expertise</h2>
+                    <div className="expertise-header">
+                        <span className="expertise-eyebrow">What We Do</span>
+                        <h2 className="expertise-title">Our <span>Expertise</span></h2>
+                        <p className="expertise-desc">Comprehensive veterinary healthcare solutions tailored for every segment of animal farming.</p>
                     </div>
-                    <div className="features-grid">
-                        {[
-                            { id: 'poultry', name: 'Poultry', img: 'hen.png', label: 'Veterinary Solutions' },
-                            { id: 'aquaculture', name: 'Aquaculture', img: 'aqua.png', label: 'Water Health' },
-                            { id: 'large-animals', name: 'Large Animals', img: 'large-animals.png', label: 'Livestock Care' },
-                            { id: 'sheep-goat', name: 'Sheep & Goat', img: 'sheep.png', label: 'Small Ruminants' }
-                        ].map((feature, i) => (
-                            <Link
-                                to={`/category/${feature.id}`}
-                                key={feature.id}
-                                className="feature-card animate-slide-up"
-                                style={{ animationDelay: `${(i + 1) * 100}ms` }}
-                            >
-                                <div className="feature-card__bg">
-                                    <img src={`/images/${feature.img}`} alt={feature.name} className="feature-card__img" />
+                </div>
+
+                <div className="expertise-showcase">
+                    {[
+                        {
+                            id: 'poultry',
+                            num: '01',
+                            name: 'Poultry',
+                            label: 'Veterinary Solutions',
+                            img: '/poultry_showcase.avif',
+                            color: '#e8f5e9',
+                            accent: '#2e7d32',
+                            desc: 'End-to-end health management for broilers and layers — from biosecurity to growth optimization.'
+                        },
+                        {
+                            id: 'aquaculture',
+                            num: '02',
+                            name: 'Aquaculture',
+                            label: 'Water Health',
+                            img: 'https://images.unsplash.com/photo-1583122624875-e5621df595b3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                            color: '#e3f2fd',
+                            accent: '#0277bd',
+                            desc: 'Precision water quality solutions and disease management for shrimp and fish farming.'
+                        },
+                        // {
+                        //     id: 'large-animals',
+                        //     num: '03',
+                        //     name: 'Large Animals',
+                        //     label: 'Livestock Care',
+                        //     img: '/images/large-animals.png',
+                        //     color: '#fff8e1',
+                        //     accent: '#f57f17',
+                        //     desc: 'Nutritional and pharmaceutical support for cattle, horses, and working livestock.'
+                        // },
+                        // {
+                        //     id: 'sheep-goat',
+                        //     num: '04',
+                        //     name: 'Sheep & Goat',
+                        //     label: 'Small Ruminants',
+                        //     img: '/images/sheep.png',
+                        //     color: '#fce4ec',
+                        //     accent: '#ad1457',
+                        //     desc: 'Specialized health programs for small ruminant farmers focused on productivity and welfare.'
+                        // },
+                    ].map((item) => (
+                        <Link
+                            to={`/category/${item.id}`}
+                            key={item.id}
+                            className="showcase-panel"
+                            style={{ '--panel-bg': item.color, '--panel-accent': item.accent }}
+                        >
+                            <div className="showcase-panel__number">{item.num}</div>
+                            <div className="showcase-panel__img-wrap">
+                                <img src={item.img} alt={item.name} className="showcase-panel__img" />
+                            </div>
+                            <div className="showcase-panel__content">
+                                <span className="showcase-panel__label">{item.label}</span>
+                                <h3 className="showcase-panel__name">{item.name}</h3>
+                                <p className="showcase-panel__desc">{item.desc}</p>
+                                <div className="showcase-panel__cta">
+                                    <span>Explore Range</span>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+                                        <path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                                    </svg>
                                 </div>
-                                <div className="feature-card__overlay" />
-                                <div className="feature-card__shine" />
-                                <div className="feature-card__body">
-                                    <span className="feature-card__label">{feature.label}</span>
-                                    <h3 className="feature-card__title">{feature.name}</h3>
-                                    <div className="feature-card__arrow">
-                                        <span>Explore</span>
-                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                            <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </div>
-                                </div>
-                            </Link>
-                        ))}
-                    </div>
+                            </div>
+                        </Link>
+                    ))}
                 </div>
             </section>
 
             {/* Modernized About Section */}
-            <section className="hm-about">
-                <div className="hm-about__bg"></div>
+            <section className="premium-about">
                 <div className="container">
-                    <div className="hm-about__grid">
-                        <div className="hm-about__col hm-about__col--pledge">
-                            <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="15 Years of Excellence" className="hm-about__pledge-img" />
+                    <div className="premium-about__wrapper">
+
+                        {/* Left: Visual/Image */}
+                        <div className="premium-about__visual">
+                            <div className="premium-about__img-wrap">
+                                <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="15 Years of Excellence" className="premium-about__img" />
+                                <div className="premium-about__badge">
+                                    <span className="premium-about__badge-year">2016</span>
+                                    <span className="premium-about__badge-text">Est. Year</span>
+                                </div>
+                            </div>
                         </div>
 
-                        <div className="hm-about__col hm-about__col--main">
-                            <h2 className="hm-about__title">Who <span>We Are</span></h2>
-                            <p className="hm-about__text">
-                                RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited.
-                            </p>
-                            <p className="hm-about__text">
-                                Reorganized in the year 2016, we are driven by relentless pursuit for quality products at a better price and persistent dedication to serve our clientele.
-                            </p>
-                            <Link to="/about-us" className="hm-about__btn">
-                                <span>Read Our Story</span>
-                                <ChevronRight size={18} />
-                            </Link>
-                        </div>
+                        {/* Right: Content & Updates */}
+                        <div className="premium-about__content">
+                            <div className="premium-about__header">
+                                <span className="premium-about__eyebrow">Company Profile</span>
+                                <h2 className="premium-about__title">Who <span>We Are</span></h2>
+                            </div>
 
-                        <div className="hm-about__col hm-about__col--updates">
-                            <h2 className="hm-about__title">Latest <span>Updates</span></h2>
-                            <div className="hm-about__updates-container">
-                                <div className="hm-about__updates-list">
+                            <div className="premium-about__text-block">
+                                <p className="premium-about__text">
+                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited.
+                                </p>
+                                <p className="premium-about__text">
+                                    Reorganized in the year 2016, we are driven by relentless pursuit for quality products at a better price and persistent dedication to serve our clientele.
+                                </p>
+                                <Link to="/about-us" className="premium-about__btn">
+                                    <span>Read Our Story</span>
+                                    <ChevronRight size={18} />
+                                </Link>
+                            </div>
+
+                            <div className="premium-about__updates">
+                                <h3 className="premium-about__updates-title">Latest Updates</h3>
+                                <div className="premium-about__updates-list">
                                     {[
                                         "Latest Poultry Solutions 2024 launched internally.",
                                         "New Aqua Biosecurity Range testing phase completed.",
                                         "Expanding our distribution centers to Pan India."
                                     ].map((update, idx) => (
-                                        <div key={idx} className="hm-about__update-item">
-                                            <div className="hm-about__update-dot"></div>
-                                            <p>{update}</p>
+                                        <div key={idx} className="premium-about__update-item">
+                                            <div className="premium-about__update-icon">
+                                                <div className="pulse-dot"></div>
+                                            </div>
+                                            <p className="premium-about__update-text">{update}</p>
                                         </div>
                                     ))}
                                 </div>
-                            </div>
-                            <div className="hm-about__updates-footer">
-                                <p>Stay connected for more news</p>
+                                <div className="premium-about__updates-footer">
+                                    <p>Stay connected for more news</p>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </section>
 
             {/* Productivity & Delivery Section (Video Gallery) */}
-            <section className="video-gallery-section" id="productivity">
+            {/* Productivity & Delivery Section (Video Gallery) - Cinematic Dark Mode */}
+            <section className="premium-video-gallery" id="productivity">
+                <div className="premium-video__bg-glow"></div>
                 <div className="container">
-                    <div className="section-header text-center mb-5">
-                        <span className="section-subtitle">Real Impact</span>
-                        <h2 className="section-title">Productivity and <span className="text-theme">Delivery on Ground</span></h2>
+                    <div className="premium-video__header text-center">
+                        <span className="premium-video__subtitle">Real Impact</span>
+                        <h2 className="premium-video__title">Productivity & <span>Delivery on Ground</span></h2>
+                        <p className="premium-video__desc">Watch our industry-leading solutions in action.</p>
                     </div>
 
-                    <div className="video-master-grid">
-                        <div className="row g-4">
-                            <div className="col-lg-8">
-                                <div className="video-card large animate-slide-up">
-                                    <div className="video-wrapper">
-                                        <iframe
-                                            src="https://www.youtube.com/embed/gniEV7wDjNA?feature=oembed"
-                                            title="Main Video"
-                                            allowFullScreen
-                                        ></iframe>
-                                    </div>
-                                    <div className="video-info">
-                                        <h4>RR Veterinary Health Care | Poultry India 2016</h4>
-                                    </div>
-                                </div>
+                    <div className="premium-video__grid">
+                        {[
+                            { id: 'gniEV7wDjNA', title: 'Main Video' },
+                            { id: 'jzX4s0uK0qo', title: 'Video 2' },
+                            { id: 'EeDUiPJIy8Q', title: 'Video 3' },
+                            { id: '0KzQgYVDcRg', title: 'Video 4' },
+                            { id: '8DGo_HlHCJ8', title: 'Video 5' },
+                            { id: 'OfeGs-uhqeQ', title: 'Video 6' }
+                        ].map((vid, idx) => (
+                            <div key={vid.id} className="premium-video__item" style={{ animationDelay: `${idx * 150}ms` }}>
+                                <iframe 
+                                    src={`https://www.youtube.com/embed/${vid.id}?feature=oembed&modestbranding=1&rel=0`} 
+                                    title={vid.title} 
+                                    allowFullScreen
+                                    loading="lazy"
+                                ></iframe>
                             </div>
-                            <div className="col-lg-4">
-                                <div className="video-stack">
-                                    <div className="video-card small animate-slide-up" style={{ animationDelay: '200ms' }}>
-                                        <div className="video-wrapper">
-                                            <iframe src="https://www.youtube.com/embed/jzX4s0uK0qo?feature=oembed" title="Video 2" allowFullScreen></iframe>
-                                        </div>
-                                    </div>
-                                    <div className="video-card small animate-slide-up" style={{ animationDelay: '400ms' }}>
-                                        <div className="video-wrapper">
-                                            <iframe src="https://www.youtube.com/embed/EeDUiPJIy8Q?feature=oembed" title="Video 3" allowFullScreen></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="row g-4 mt-2">
-                            {[
-                                { id: '0KzQgYVDcRg', title: 'Video 4' },
-                                { id: '8DGo_HlHCJ8', title: 'Video 5' },
-                                { id: 'OfeGs-uhqeQ', title: 'Video 6' }
-                            ].map((vid, idx) => (
-                                <div key={vid.id} className="col-lg-4 col-md-6">
-                                    <div className="video-card animate-slide-up" style={{ animationDelay: `${(idx + 3) * 200}ms` }}>
-                                        <div className="video-wrapper">
-                                            <iframe src={`https://www.youtube.com/embed/${vid.id}?feature=oembed`} title={vid.title} allowFullScreen></iframe>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
 
-            {/* Our Products Brands Section */}
-            <section className="product-brands-section">
+            {/* Our Products Brands Section - Premium Redesign */}
+            <section className="premium-brands">
                 <div className="container">
-                    <div className="section-header">
-                        <span className="section-subtitle">Trusted Quality</span>
-                        <h2 className="section-title">Our Products</h2>
+                    <div className="premium-brands__header text-center">
+                        <span className="premium-brands__subtitle">Trusted Quality</span>
+                        <h2 className="premium-brands__title">Our <span>Products</span></h2>
                     </div>
-                    <div className="brands-carousel-container">
-                        <div className="brands-carousel-track">
-                            {[...brands, ...brands].map((brand, i) => (
-                                <div key={i} className="brand-logo-card">
-                                    <img src={`/product-brands/${brand}`} alt={`Product Brand ${i + 1}`} className="brand-logo-img" />
+                    
+                    <div className="premium-brands__marquee">
+                        <div className="premium-brands__track">
+                            {[...brands, ...brands, ...brands, ...brands].map((brand, i) => (
+                                <div key={i} className="premium-brands__card">
+                                    <img src={`/product-brands/${brand}`} alt={`Product Brand ${i + 1}`} className="premium-brands__img" />
                                 </div>
                             ))}
                         </div>

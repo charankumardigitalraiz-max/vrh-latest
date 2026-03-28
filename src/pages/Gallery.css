@@ -16,11 +16,10 @@
 .gallery-banner {
     position: relative;
     background: url('/images/banner.jpg') center/cover no-repeat;
-    /* min-height: 220px !important; */
-    max-height: 230px;
+    min-height: 280px;
     display: flex;
     align-items: center;
-    padding: 30px 0;
+    padding: 120px 0 60px; /* Increased top padding to clear fixed header */
     overflow: hidden;
 }
 
@@ -50,14 +49,14 @@
 }
 
 .banner-title {
-    font-family: 'Outfit', sans-serif;
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 800;
-    color: var(--white); /* Changed for light theme */
+    font-family: var(--font-family-heading);
+    font-size: clamp(1.8rem, 4vw, 2.5rem); /* Reduced from 2.8rem */
+    font-weight: 600; /* Reduced from 800 */
+    color: var(--white);
     margin-bottom: var(--spacing-md);
     line-height: 1.1;
-    letter-spacing: -0.02em;
-    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    letter-spacing: -0.015em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .banner-subtitle {
@@ -100,7 +99,7 @@
     padding: 6px 20px;
     /* Reduced */
     border-radius: 30px;
-    font-family: var(--font-family-sans, 'Inter', sans-serif);
+    font-family: var(--font-family-sans);
     font-weight: 600;
     font-size: 0.95rem;
     cursor: pointer;
@@ -186,9 +185,9 @@
 
 .view-text {
     color: white;
-    font-family: 'Outfit', sans-serif;
+    font-family: var(--font-family-heading);
     font-weight: 600;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 10px 20px;
     border: 2px solid white;
     border-radius: 30px;

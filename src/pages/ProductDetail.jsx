@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
+import { createPortal } from 'react-dom';
 import { useParams, Link, useLocation, useNavigate } from 'react-router-dom';
 import productData from '../data/products.json';
-import { Download, ChevronRight, ArrowLeft } from 'lucide-react';
+import { Download, ChevronRight, ArrowLeft, X, Phone, Mail, MessageSquare } from 'lucide-react';
 import './ProductDetail.css';
 
 const ProductDetail = () => {
@@ -10,6 +11,7 @@ const ProductDetail = () => {
     const navigate = useNavigate();
     const product = productData.products.find(p => p.slug === slug);
     const [activeTab, setActiveTab] = useState(0);
+    const [showContactModal, setShowContactModal] = useState(false);
 
     // Scroll to top when product changes
     useEffect(() => {
@@ -87,9 +89,12 @@ const ProductDetail = () => {
                                         <ChevronRight className="help-icon" /> Technical Support
                                     </h3>
                                     <p className="help-text">Expert guidance for using {product.title} in your farm management.</p>
-                                    <Link to="/contact-us" className="help-btn">
+                                    <button 
+                                        onClick={() => setShowContactModal(true)} 
+                                        className="help-btn"
+                                    >
                                         Ask an Expert
-                                    </Link>
+                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -172,6 +177,48 @@ const ProductDetail = () => {
                     </div>
                 )} */}
             </div>
+
+            {/* ── Contact Modal ── */}
+            {showContactModal && createPortal(
+                <div className="contact-modal-overlay" onClick={() => setShowContactModal(false)}>
+                    <div className="contact-modal-container animate-scale-in" onClick={e => e.stopPropagation()}>
+                        <button className="modal-close-btn" onClick={() => setShowContactModal(false)}>
+                            <X size={20} />
+                        </button>
+                        
+                        <div className="modal-header">
+                            <div className="modal-icon-box">
+                                <MessageSquare size={24} />
+                            </div>
+                            <h2 className="modal-title">Expert Support</h2>
+                            <p className="modal-subtitle">Direct line to our technical team for {product.title}.</p>
+                        </div>
+
+                        <div className="modal-content-grid">
+                            <a href="tel:+919490410562" className="modal-contact-pill hover-lift">
+                                <div className="pill-icon-box"><Phone size={20} /></div>
+                                <div className="pill-info">
+                                    <span className="pill-label">Call Us</span>
+                                    <span className="pill-value">+91 94904 10562</span>
+                                </div>
+                            </a>
+
+                            <a href="mailto:info@rrveterinary.in" className="modal-contact-pill hover-lift">
+                                <div className="pill-icon-box"><Mail size={20} /></div>
+                                <div className="pill-info">
+                                    <span className="pill-label">Email Us</span>
+                                    <span className="pill-value">info@rrveterinary.in</span>
+                                </div>
+                            </a>
+
+                            <div className="modal-footer-note">
+                                <p>Available Monday - Saturday: 9:00 AM - 5:30 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>,
+                document.body
+            )}
         </div>
     );
 };

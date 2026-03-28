@@ -45,8 +45,8 @@
     background: rgba(197, 160, 89, 0.15);
     border: 1px solid var(--border-gold);
     color: var(--theme-secondary);
-    font-size: 0.7rem;
-    font-weight: 700;
+    font-size: 0.68rem; /* Slightly smaller */
+    font-weight: 600; /* Reduced from 700 */
     text-transform: uppercase;
     letter-spacing: 2px;
     border-radius: var(--border-radius-pill);
@@ -56,11 +56,11 @@
 .car-hero__title {
     font-family: var(--font-family-heading);
     color: var(--white) !important;
-    font-size: clamp(2.2rem, 5vw, 3.8rem);
-    font-weight: 700;
+    font-size: clamp(1.8rem, 4vw, 2.5rem); /* Reduced from 2.8rem */
+    font-weight: 600; /* Reduced from 700 */
     line-height: 1.1;
     margin-bottom: var(--spacing-md);
-    letter-spacing: -0.02em;
+    letter-spacing: -0.015em;
     text-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
 }
 
@@ -97,107 +97,107 @@
 
 /* Partner Section Modernization */
 .car-partner-section {
-    padding: var(--spacing-xxl) 0;
-    position: relative;
-    overflow: hidden;
-}
-
-/* Background text for "merge" effect */
-.car-partner-section::before {
-    content: 'CAREERS';
-    position: absolute;
-    top: 50px;
-    right: -20px;
-    font-size: 10rem;
-    font-weight: 900;
-    color: rgba(var(--theme-primary-rgb), 0.02);
-    pointer-events: none;
-    white-space: nowrap;
-    z-index: 0;
+    padding: 60px 0; /* Compact padding */
+    background: #ffffff;
 }
 
 .car-partner-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: var(--spacing-xl);
+    gap: 40px;
     align-items: center;
 }
 
 @media (min-width: 992px) {
     .car-partner-grid {
-        grid-template-columns: 1.2fr 0.8fr;
-        gap: var(--spacing-xxl);
+        grid-template-columns: 1fr 0.8fr;
+        gap: 60px;
     }
 }
 
 .car-label {
     display: inline-flex;
-    padding: 4px 12px;
-    background: rgba(1, 77, 78, 0.05);
-    color: var(--theme-primary);
+    padding: 6px 14px;
+    background: #f8fafc;
+    color: var(--theme-secondary, #c5a059);
     font-weight: 700;
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
-    border-radius: var(--border-radius-pill);
-    margin-bottom: var(--spacing-md);
+    letter-spacing: 0.08em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0,0,0,0.03);
 }
 
 .car-heading {
     font-family: var(--font-family-heading);
-    font-size: 2.25rem;
-    font-weight: 700;
-    color: var(--theme-primary);
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #1e293b;
     line-height: 1.2;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 20px;
+}
+
+.car-heading span {
+    color: var(--theme-primary, #048a81);
 }
 
 .car-lead {
-    font-size: 1.1rem;
-    color: var(--theme-primary);
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #334155;
     font-weight: 600;
-    margin-bottom: var(--spacing-md);
+    margin-bottom: 16px;
 }
 
 .car-body {
-    color: var(--text-muted);
+    color: #64748b;
     font-size: 0.95rem;
     line-height: 1.6;
-    margin-bottom: var(--spacing-sm);
+    margin-bottom: 12px;
+}
+
+.car-cta-text {
+    font-family: var(--font-family-heading);
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 24px 0 16px;
 }
 
 .car-email-btn {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--theme-primary);
-    color: var(--white);
+    background: #f8fafc;
+    color: #1e293b;
     padding: 12px 24px;
-    border-radius: var(--border-radius-pill);
+    border-radius: 12px;
     font-weight: 700;
     font-size: 0.9rem;
     text-decoration: none;
-    transition: all var(--transition-normal);
-    margin-top: var(--spacing-md);
+    transition: all 0.3s ease;
+    border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .car-email-btn:hover {
-    background: var(--theme-secondary);
+    background: #ffffff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    border-color: rgba(197, 160, 89, 0.3);
+    color: var(--theme-secondary, #c5a059);
     transform: translateY(-2px);
-    box-shadow: var(--shadow-gold);
 }
 
 /* Partner Card Modernization */
 .car-partner-card {
-    background: var(--bg-light); /* Changed from dark-bg */
-    padding: var(--spacing-xl);
-    border-radius: var(--border-radius-lg);
-    color: var(--text-dark); /* Changed from white */
+    background: #f8fafc;
+    padding: 40px;
+    border-radius: 20px;
     text-align: center;
     position: relative;
     overflow: hidden;
-    box-shadow: var(--shadow-lg);
-    border: 1px solid rgba(var(--theme-primary-rgb), 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.02);
+    border: 1px solid rgba(0, 0, 0, 0.03);
 }
 
 .car-partner-card::before {
@@ -207,7 +207,7 @@
     right: -50px;
     width: 150px;
     height: 150px;
-    background: rgba(197, 160, 89, 0.1);
+    background: rgba(197, 160, 89, 0.08);
     border-radius: 50%;
 }
 
@@ -234,39 +234,57 @@
 }
 
 .car-partner-icon {
-    width: 80px;
-    height: 80px;
-    background: rgba(255, 255, 255, 0.05);
-    color: var(--theme-secondary);
-    border-radius: 50%;
-    margin: 0 auto var(--spacing-lg);
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    color: var(--theme-secondary, #c5a059);
+    border-radius: 16px;
+    margin: 0 auto 20px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+}
+
+.car-partner-card h3 {
+    font-family: var(--font-family-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin: 0 0 4px 0;
+}
+
+.car-partner-card p {
+    font-size: 0.9rem;
+    color: #64748b;
+    margin: 0;
 }
 
 .car-stats-row {
     display: flex;
-    gap: var(--spacing-xl);
+    gap: 30px;
     justify-content: center;
-    margin-top: var(--spacing-lg);
-    padding-top: var(--spacing-lg);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 .car-stat strong {
     font-family: var(--font-family-heading);
     font-size: 1.5rem;
-    color: var(--theme-secondary);
+    color: var(--theme-secondary, #c5a059);
     display: block;
+    line-height: 1.2;
 }
 
 .car-stat span {
     font-size: 0.75rem;
-    opacity: 0.6;
+    color: #64748b;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.05em;
+    margin-top: 4px;
 }
 
 /* Map Section Modernization */
@@ -456,7 +474,7 @@
     --shadow-md: 0 12px 35px rgba(0, 0, 0, .08);
     --shadow-lg: 0 24px 60px rgba(var(--theme-primary-rgb), .1);
 
-    font-family: 'Inter', 'Segoe UI', sans-serif;
+    font-family: var(--font-family-sans);
     background: #fff;
     color: var(--dark);
     overflow-x: hidden;
