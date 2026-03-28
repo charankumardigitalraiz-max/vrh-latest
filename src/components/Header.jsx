@@ -30,9 +30,9 @@ const Header = () => {
 
     return (
         <>
-            {/* Fixed floating pill header - permanently in scrolled state for solid background */}
-            <div className="header-wrapper scrolled">
-                <header className="site-header is-scrolled">
+            {/* Fixed floating pill header that becomes full-width sticky on scroll */}
+            <div className={`header-wrapper ${isScrolled ? 'scrolled' : ''}`}>
+                <header className={`site-header ${isScrolled ? 'is-scrolled' : ''}`}>
                     {/* Logo */}
                     <Link className="header-logo" to="/">
                         <img src="/images/logo.png" alt="RR Veterinary Logo" className="logo-img" />
