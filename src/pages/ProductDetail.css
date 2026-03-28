@@ -3,6 +3,7 @@
 .product-detail-page {
     background-color: var(--white);
     min-height: 100vh;
+    padding-top: 110px;
     padding-bottom: var(--spacing-xxl);
     color: var(--theme-primary);
 }
@@ -148,25 +149,56 @@
 }
 
 .help-btn {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     width: 100%;
-    text-align: center;
-    background: var(--theme-secondary);
-    color: var(--theme-primary);
-    padding: 12px;
-    border-radius: var(--border-radius-pill);
-    font-weight: 800;
-    text-decoration: none;
-    transition: all var(--transition-normal);
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(135deg, var(--theme-secondary, #c5a059) 0%, #e8c170 100%);
+    color: #1a1a1a;
+    padding: 13px 20px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
     text-transform: uppercase;
-    font-size: 0.8rem;
-    letter-spacing: 0.05em;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 16px rgba(197, 160, 89, 0.35);
+}
+
+.help-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -75%;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.35),
+        transparent
+    );
+    transition: left 0.5s ease;
+    pointer-events: none;
 }
 
 .help-btn:hover {
-    background: var(--white);
     transform: translateY(-3px);
-    box-shadow: var(--shadow-md);
+    box-shadow: 0 10px 28px rgba(197, 160, 89, 0.45);
+}
+
+.help-btn:hover::before {
+    left: 125%;
+}
+
+.help-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 14px rgba(197, 160, 89, 0.3);
 }
 
 /* Main Content Wrapper */
@@ -683,6 +715,10 @@
 }
 
 @media (max-width: 991px) {
+    .product-detail-page {
+        padding-top: 90px;
+    }
+
     .product-content-wrapper {
         padding-left: 0;
     }
@@ -694,5 +730,9 @@
     
     .product-image-box {
         margin-bottom: var(--spacing-lg);
+    }
+
+    .help-box {
+        display: none;
     }
 }

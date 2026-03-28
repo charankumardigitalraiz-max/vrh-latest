@@ -89,8 +89,8 @@ const ProductDetail = () => {
                                         <ChevronRight className="help-icon" /> Technical Support
                                     </h3>
                                     <p className="help-text">Expert guidance for using {product.title} in your farm management.</p>
-                                    <button 
-                                        onClick={() => setShowContactModal(true)} 
+                                    <button
+                                        onClick={() => setShowContactModal(true)}
                                         className="help-btn"
                                     >
                                         Ask an Expert
@@ -185,7 +185,7 @@ const ProductDetail = () => {
                         <button className="modal-close-btn" onClick={() => setShowContactModal(false)}>
                             <X size={20} />
                         </button>
-                        
+
                         <div className="modal-header">
                             <div className="modal-icon-box">
                                 <MessageSquare size={24} />
