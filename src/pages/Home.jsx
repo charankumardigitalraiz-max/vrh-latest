@@ -1,7 +1,53 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import { ChevronLeft, ChevronRight, Users, Trophy, Briefcase, Heart } from 'lucide-react';
 import './Home.css';
+
+const AnimatedCounter = ({ value, duration = 2000 }) => {
+    const [count, setCount] = useState(0);
+    const [hasAnimated, setHasAnimated] = useState(false);
+    const countRef = useRef(null);
+
+    const target = parseInt(value, 10) || 0;
+    const suffix = value.toString().replace(/[0-9]/g, '');
+
+    useEffect(() => {
+        const observer = new IntersectionObserver((entries) => {
+            if (entries[0].isIntersecting && !hasAnimated) {
+                setHasAnimated(true);
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    // easeOut effect
+                    const easeProgress = 1 - Math.pow(1 - progress, 4);
+                    setCount(Math.floor(easeProgress * target));
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    } else {
+                        setCount(target);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+        }, { threshold: 0.1 });
+
+        const currentRef = countRef.current;
+        if (currentRef) {
+            observer.observe(currentRef);
+        }
+
+        return () => {
+            if (currentRef) observer.unobserve(currentRef);
+        };
+    }, [target, duration, hasAnimated]);
+
+    return (
+        <span ref={countRef}>
+            {count}{suffix}
+        </span>
+    );
+};
 
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -163,10 +209,10 @@ const Home = () => {
                         <div className="premium-about__visual">
                             <div className="premium-about__img-wrap">
                                 <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="15 Years of Excellence" className="premium-about__img" />
-                                <div className="premium-about__badge">
-                                    <span className="premium-about__badge-year">2016</span>
-                                    <span className="premium-about__badge-text">Est. Year</span>
-                                </div>
+                            </div>
+                            <div className="premium-about__badge">
+                                <span className="premium-about__badge-year">2016</span>
+                                <span className="premium-about__badge-text">Est. Year</span>
                             </div>
                         </div>
 
@@ -284,7 +330,9 @@ const Home = () => {
                                     {stat.icon}
                                 </div>
                                 <div className="hm-stats__info">
-                                    <div className="hm-stats__value">{stat.count}</div>
+                                    <div className="hm-stats__value">
+                                        <AnimatedCounter value={stat.count} />
+                                    </div>
                                     <div className="hm-stats__label">{stat.label}</div>
                                 </div>
                             </div>
