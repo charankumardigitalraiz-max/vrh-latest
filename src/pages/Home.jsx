@@ -53,9 +53,10 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = [
-        { id: 1, image: '/images/heroes/banner1.jpg', title: "Helping to prolong\nthe quality of life", subtitle: "Advanced solutions for modern poultry and livestock healthcare" },
-        { id: 2, image: '/images/heroes/banner3.jpg', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in biosecurity and water quality management" },
-        // { id: 3, image: '/images/heroes/banner2.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
+        { id: 1, image: '/images/heroes/banner1.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
+        { id: 2, image: '/images/heroes/fish_group_water.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in biosecurity, pond management, and water quality" },
+        { id: 3, image: '/images/heroes/fish_in_water.png', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
+        { id: 4, image: 'https://plus.unsplash.com/premium_photo-1661963032593-f1318e153cb8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
     ];
     useEffect(() => {
         const timer = setInterval(() => {
@@ -148,11 +149,12 @@ const Home = () => {
                             num: '02',
                             name: 'Aquaculture',
                             label: 'Water Health',
-                            img: 'https://images.unsplash.com/photo-1583122624875-e5621df595b3?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                            img: '/images/fish.png',
                             color: '#e3f2fd',
                             accent: '#0277bd',
                             desc: 'Precision water quality solutions and disease management for shrimp and fish farming.'
                         },
+
                         // {
                         //     id: 'large-animals',
                         //     num: '03',
@@ -257,7 +259,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>

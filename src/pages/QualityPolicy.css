@@ -150,11 +150,10 @@
 
 /* Statement side */
 .qp-lead {
-    font-size: 1.2rem;
-    color: var(--primary);
-    font-weight: 600;
-    line-height: 1.6;
-    margin-bottom: 18px;
+    color: var(--muted);
+    line-height: 1.8;
+    font-size: 1rem;
+    margin-bottom: 16px;
 }
 
 .qp-body {
