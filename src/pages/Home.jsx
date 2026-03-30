@@ -1,7 +1,8 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Users, Trophy, Briefcase, Heart } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Users, Trophy, Briefcase, Heart, ShoppingBag, ArrowRight } from 'lucide-react';
 import './Home.css';
+import productsData from '../data/products.json';
 
 const AnimatedCounter = ({ value, duration = 2000 }) => {
     const [count, setCount] = useState(0);
@@ -51,6 +52,12 @@ const AnimatedCounter = ({ value, duration = 2000 }) => {
 
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
+    const [activeProdCategory, setActiveProdCategory] = useState('poultry');
+
+    const featuredProducts = {
+        poultry: ['avigrow', 'avit', 'calciboost', 'avicure-fs'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean),
+        aquaculture: ['humifyaqua', 'quatsure', 'ligabind', 'oxyenrich'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean)
+    };
 
     const slides = [
         { id: 1, image: '/images/heroes/banner1.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
@@ -202,6 +209,8 @@ const Home = () => {
                 </div>
             </section>
 
+
+
             {/* Modernized About Section */}
             <section className="premium-about">
                 <div className="container">
@@ -242,7 +251,7 @@ const Home = () => {
                                 <h3 className="premium-about__updates-title">Latest Updates</h3>
                                 <div className="premium-about__updates-list">
                                     {[
-                                        "Latest Poultry Solutions 2024 launched internally.",
+                                        "Latest Poultry Solutions 2026 launched internally.",
                                         "New Aqua Biosecurity Range testing phase completed.",
                                         "Expanding our distribution centers to Pan India."
                                     ].map((update, idx) => (
@@ -259,6 +268,69 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            {/* Featured Products Section - Highlighting Key Categories */}
+            <section className="featured-products">
+                <div className="container">
+                    <div className="section-header text-center">
+                        <span className="section-subtitle">Premium Selections</span>
+                        <h2 className="section-title">Featured <span>Products</span></h2>
+                        <div className="category-tabs">
+                            <button
+                                className={`category-tab ${activeProdCategory === 'poultry' ? 'active' : ''}`}
+                                onClick={() => setActiveProdCategory('poultry')}
+                            >
+                                Poultry
+                            </button>
+                            <button
+                                className={`category-tab ${activeProdCategory === 'aquaculture' ? 'active' : ''}`}
+                                onClick={() => setActiveProdCategory('aquaculture')}
+                            >
+                                Aquaculture
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="products-grid-wrapper">
+                        <div className={`products-grid ${activeProdCategory}`}>
+                            {featuredProducts[activeProdCategory].map((product, idx) => (
+                                <Link
+                                    to={`/product/${product.slug}`}
+                                    key={product.slug}
+                                    className="prod-card"
+                                    style={{ animationDelay: `${idx * 100}ms` }}
+                                >
+                                    <div className="prod-card__img-wrap">
+                                        <img src={product.image} alt={product.title} className="prod-card__img" />
+                                        <div className="prod-card__badge">
+                                            {activeProdCategory === 'poultry' ? 'Poultry' : 'Aqua'}
+                                        </div>
+                                    </div>
+                                    <div className="prod-card__content">
+                                        <h3 className="prod-card__title">{product.title}</h3>
+                                        <p className="prod-card__subtitle">{product.subtitle}</p>
+                                        <div className="prod-card__footer">
+                                            <span className="prod-card__view">
+                                                View Details
+                                                <ArrowRight size={14} />
+                                            </span>
+                                        </div>
+                                    </div>
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+
+                    <div className="featured-products__action text-center">
+                        <Link to={`/category/${activeProdCategory}`} className="view-all-btn">
+                            <span>Explore All {activeProdCategory === 'poultry' ? 'Poultry' : 'Aquaculture'} Products</span>
+                            <ShoppingBag size={18} />
+                        </Link>
                     </div>
                 </div>
             </section>
