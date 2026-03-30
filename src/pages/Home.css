@@ -1,10 +1,9 @@
 /* Home.css */
 .home-page {
-    font-family: var(--font-family-sans, 'Inter', sans-serif);
+    font-family: var(--font-family-sans, 'Plus Jakarta Sans', sans-serif);
     background: #fff;
-    overflow-x: private-hidden; /* Renamed to avoid filter issues if any, but standard is hidden */
     overflow-x: hidden;
-    position: relative; /* Added to contain absolute-positioned pseudo-elements */
+    position: relative;
 }
 
 /* Global Advanced Background Touches */
@@ -15,7 +14,7 @@
     right: -200px;
     width: 600px;
     height: 600px;
-    background: radial-gradient(circle, rgba(4, 138, 129, 0.05) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(var(--theme-primary-rgb), 0.05) 0%, transparent 70%);
     border-radius: 50%;
     z-index: 0;
     pointer-events: none;
@@ -338,8 +337,8 @@
 
 .expertise-title {
     font-family: var(--font-family-heading);
-    font-size: clamp(1.5rem, 3vw, 2rem); /* Smaller aligned size */
-    font-weight: 600; /* Reduced from 800 */
+    font-size: clamp(1.8rem, 4vw, 2.4rem);
+    font-weight: 700;
     color: #1e293b;
     line-height: 1.1;
     letter-spacing: -0.015em;
@@ -1156,52 +1155,16 @@
     border-radius: 50%;
 }
 
-.premium-about__update-text {
-    font-size: 0.95rem;
-    color: #334155;
-    line-height: 1.5;
-    margin: 0;
-    font-weight: 500;
-}
-
-.premium-about__updates-footer {
-    margin-top: 16px;
-    padding-top: 14px;
-    border-top: 1px dashed rgba(0, 0, 0, 0.08);
-    text-align: right;
-}
-
-.premium-about__updates-footer p {
-    font-size: 0.75rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #94a3b8;
-    margin: 0;
-}
-
-@media (max-width: 991px) {
-    .premium-about__wrapper {
-        grid-template-columns: 1fr;
-        gap: 50px;
-    }
-
-    .premium-about__visual {
-        max-width: 500px;
-        margin: 0 auto;
-    }
-
-    .premium-about__badge {
-        right: 0;
-        bottom: 20px;
-    }
-}
-/* ═════════════════════════════════════
-   CINEMATIC VIDEO GALLERY (LIGHT MODE)
-   ═════════════════════════════════════ */
 .premium-video-gallery {
-    padding: 60px 0;
-    background: #f8fafc; /* Premium light off-white */
+    padding: var(--spacing-xxl) 0;
+    background: #f8fafc;
+    position: relative;
+    overflow: hidden;
+}
+
+.premium-video-gallery {
+    padding: var(--spacing-xxl) 0;
+    background: #f8fafc;
     position: relative;
     overflow: hidden;
 }
@@ -1212,38 +1175,37 @@
     left: 50%;
     width: 80%;
     height: 100%;
-    background: radial-gradient(circle, rgba(4, 138, 129, 0.05) 0%, transparent 60%);
+    background: radial-gradient(circle, rgba(var(--theme-primary-rgb), 0.05) 0%, transparent 60%);
     transform: translateX(-50%);
     pointer-events: none;
     z-index: 0;
 }
 
 .premium-video__header {
-    margin-bottom: 60px;
-    max-width: 600px;
+    margin-bottom: var(--spacing-xxl);
+    max-width: 650px;
     margin-inline: auto;
     position: relative;
-    z-index: 1;
+    z-index: 10;
 }
 
 .premium-video__subtitle {
     display: inline-block;
-    color: var(--theme-secondary, #c5a059);
-    font-size: 0.8rem;
+    color: var(--theme-secondary);
+    font-size: 0.75rem;
     font-weight: 800;
     text-transform: uppercase;
-    letter-spacing: 2px;
-    margin-bottom: 15px;
+    letter-spacing: 0.15em;
+    margin-bottom: var(--spacing-sm);
 }
 
 .premium-video__title {
     font-family: var(--font-family-heading);
-    font-size: clamp(1.35rem, 2.2vw, 1.75rem);
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
     font-weight: 700;
-    color: #0f172a;
-    line-height: 1.2;
-    letter-spacing: -0.015em;
-    margin-bottom: 12px;
+    color: var(--text-dark);
+    line-height: 1.1;
+    margin-bottom: var(--spacing-md);
 }
 
 .premium-video__title span {
@@ -1251,8 +1213,8 @@
 }
 
 .premium-video__desc {
-    color: #475569; /* Balanced slate for description */
-    font-size: 1.05rem;
+    font-size: 1.1rem;
+    color: var(--text-muted);
 }
 
 .premium-video__grid {
@@ -1502,8 +1464,8 @@
 
 .hm-stats__value {
     font-family: var(--font-family-heading);
-    font-size: 2.2rem;
-    font-weight: 800;
+    font-size: 1.8rem;
+    font-weight: 700;
     color: var(--theme-primary, #014d4e);
     line-height: 1;
     margin-bottom: 6px;

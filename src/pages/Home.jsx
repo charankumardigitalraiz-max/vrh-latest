@@ -322,7 +322,7 @@ const Home = () => {
                     <div className="hm-stats__grid">
                         {[
                             { icon: <Users size={32} />, count: '1200+', label: 'Happy Clients', color: '#0dcaf0' },
-                            { icon: <Briefcase size={32} />, count: '30+', label: 'Years Experience', color: '#ffc107' },
+                            { icon: <Briefcase size={32} />, count: '10+', label: 'Years Experience', color: '#ffc107' },
                             { icon: <Trophy size={32} />, count: '35+', label: 'Awards Won', color: '#048a81' },
                             { icon: <Heart size={32} />, count: '100%', label: 'Satisfaction', color: '#f43f5e' }
                         ].map((stat, i) => (

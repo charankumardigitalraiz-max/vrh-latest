@@ -215,23 +215,25 @@ const Careers = () => {
                                     </div> */}
                                 </button>
 
-                                {/* <div className="car-job-body">
-                                    <div className="car-job-body-inner">
-                                        <h4>Key Responsibilities</h4>
-                                        <ul>
-                                            {job.responsibilities.map((r, ri) => <li key={ri}>{r}</li>)}
-                                        </ul>
-                                        <div className="car-job-apply-row">
-                                            <div className="car-job-exp-tag">
-                                                <Award size={15} />
-                                                <span>Experience: {job.experience}</span>
+                                {openJob === i && (
+                                    <div className="car-job-body">
+                                        <div className="car-job-body-inner">
+                                            <h4>Key Responsibilities</h4>
+                                            <ul>
+                                                {job.responsibilities.map((r, ri) => <li key={ri}>{r}</li>)}
+                                            </ul>
+                                            <div className="car-job-apply-row">
+                                                <div className="car-job-exp-tag">
+                                                    <Award size={15} />
+                                                    <span>Experience: {job.experience}</span>
+                                                </div>
+                                                <a href="http://rrvhc.in/resume.php" target="_blank" rel="noopener noreferrer" className="car-apply-btn">
+                                                    Apply Now
+                                                </a>
                                             </div>
-                                            <a href="http://rrvhc.in/resume.php" target="_blank" rel="noopener noreferrer" className="car-apply-btn">
-                                                Apply Now
-                                            </a>
                                         </div>
                                     </div>
-                                </div> */}
+                                )}
                             </div>
                         ))}
                     </div>
