@@ -473,6 +473,7 @@
 ════════════════════════════════════════ */
 .vm-unique {
   display: grid;
+  grid-auto-rows: 1fr;
   grid-template-columns: 1fr;
   gap: 24px;
   margin: 60px auto 0;
@@ -481,8 +482,9 @@
 
 @media (min-width: 900px) {
   .vm-unique {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 38% 62%;
     gap: 30px;
+    align-items: stretch;
   }
 }
 
@@ -490,9 +492,9 @@
   position: relative;
   padding: 35px;
   background: var(--white);
-  border-radius: 24px;
+  border-radius: 28px;
   border: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.04);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.03);
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
   display: flex;
@@ -501,72 +503,89 @@
 
 @media (min-width: 900px) {
   .vm-unique__card {
-    padding: 40px 38px;
+    padding: 45px 40px;
   }
 }
 
-.vm-unique__card:hover {
-  z-index: 10;
-  box-shadow: inset 0 0 0 1px rgba(197, 160, 89, 0.25);
-}
-
+/* Vision Specific Enhancements (to fill space) */
 .vm-unique__card--vision {
-  background: #ffffff;
-  color: #1e293b;
+  background: linear-gradient(135deg, #ffffff 0%, #fffcf5 100%);
+  border-left: 5px solid var(--theme-secondary, #c5a059);
+  justify-content: center;
 }
 
-.vm-unique__bg-pattern {
+.vm-unique__card--vision .vm-unique__header {
+  margin-bottom: 24px;
+}
+
+.vm-unique__card--vision p {
+  color: #475569;
+  flex: 0 1 auto;
+}
+
+.vm-unique__card--vision::after {
+  content: "";
   position: absolute;
-  inset: 0;
-  opacity: 0.1;
-  background-image: radial-gradient(
-    rgba(197, 160, 89, 0.5) 1.5px,
-    transparent 1.5px
+  bottom: -30px;
+  right: -30px;
+  width: 160px;
+  height: 160px;
+  background: radial-gradient(
+    circle,
+    rgba(197, 160, 89, 0.08) 0%,
+    transparent 70%
   );
-  background-size: 22px 22px;
+  z-index: 1;
   pointer-events: none;
 }
 
+.vm-unique__card--vision p {
+  color: #475569;
+}
+
+/* Mission Specific Enhancements */
 .vm-unique__card--mission {
-  background: #f0fdfa;
-  color: #1e293b;
+  background: linear-gradient(135deg, #f0fdfa 0%, #ffffff 100%);
+  border-left: 5px solid var(--theme-primary, #048a81);
 }
 
 .vm-unique__header {
   display: flex;
   align-items: center;
-  gap: 12px;
-  margin-bottom: 14px;
+  gap: 14px;
+  margin-bottom: 18px;
   position: relative;
   z-index: 2;
 }
 
 .vm-unique__icon {
   flex-shrink: 0;
+  transition: transform 0.4s ease;
+}
+
+.vm-unique__card--vision:hover .vm-unique__icon {
+  transform: rotate(10deg) scale(1.1);
 }
 
 .vm-unique__card--vision .vm-unique__icon {
   color: var(--theme-secondary, #c5a059);
-  filter: drop-shadow(0 0 10px rgba(197, 160, 89, 0.25));
 }
 
 .vm-unique__card--mission .vm-unique__icon {
   color: var(--theme-primary, #048a81);
-  filter: drop-shadow(0 0 10px rgba(4, 138, 129, 0.2));
 }
 
 .vm-unique__header h3 {
   font-family: var(--font-family-heading, "Outfit", sans-serif);
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   font-weight: 700;
   margin: 0;
-  letter-spacing: -0.01em;
   color: #0f172a;
 }
 
 .vm-unique__card p {
-  font-size: 0.92rem;
-  line-height: 1.8;
+  font-size: 0.95rem;
+  line-height: 1.75;
   position: relative;
   z-index: 2;
   margin: 0;
@@ -576,18 +595,19 @@
 
 .vm-unique__accent {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 3px;
-  background: var(--theme-secondary, #c5a059);
-  transition: width 0.5s ease;
+  top: 0;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(
+    circle at top right,
+    rgba(197, 160, 89, 0.05),
+    transparent 70%
+  );
+  pointer-events: none;
 }
 
-.vm-unique__accent--teal {
-  background: var(--theme-primary, #048a81);
-}
-.vm-unique__card:hover .vm-unique__accent {
+.vm-unique__card--vision:hover .vm-unique__accent {
   width: 100%;
 }
 

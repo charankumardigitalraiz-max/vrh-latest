@@ -120,7 +120,8 @@ const About = () => {
                                 RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
                                 {/* </p>
                             <p className="wwa-body"> */}
-                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture and Animal Healthcare segments additionally. Ever since our reorganization in the year 2016 our products in the different verticals have found increasing acceptance and we hope to meet the industry requirements at a better price than competitors.
+                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture and Animal Healthcare segments additionally. Ever since our reorganization in the year 2016 our products in the different verticals have found  monro casino portugal
+                                increasing acceptance and we hope to meet the industry requirements at a better price than competitors. We are driven by the relentless pursuit of Quality in our products and persistently dedicated to serve our clientele in the field of animal health care.
                             </p>
                             <p className="wwa-body">
                                 Head quartered at Hyderabad-India, the company incessantly strives to produce and supply quality products that are efficacious, safe, highly reliable and improves the quality of life in animals. Our emphasis is basically on understanding the animal diseases deeply and focusing on unmet nutritional/clinical needs in animals. Products emanating from RR Veterinary Healthcare Pvt. Ltd. are specially designed and formulated to provide instant solutions for animal health concerns and exceeds client expectations in all respects.
@@ -152,7 +153,7 @@ const About = () => {
                                 <Globe size={30} className="vm-unique__icon" />
                                 <h3>Our Vision</h3>
                             </div>
-                            <p>We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.</p>
+                            <p> We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.</p>
                             <div className="vm-unique__accent"></div>
                         </div>
 
@@ -161,8 +162,7 @@ const About = () => {
                                 <Target size={30} className="vm-unique__icon" />
                                 <h3>Our Mission</h3>
                             </div>
-                            <p>To establish the company as the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, setting a new benchmark by growing together with all stake holders.</p>
-                            <div className="vm-unique__accent vm-unique__accent--teal"></div>
+                            <p>Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.</p>
                         </div>
                     </div>
 
