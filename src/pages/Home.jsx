@@ -445,10 +445,7 @@ const Home = () => {
                                 We at RR Veterinary Health Care Private Limited follow National and International standards to ensure that the quality is maintained at all systems deployed.
                             </p>
                         </div>
-                        <Link to="/quality-policy" className="premium-about__btn">
-                            <span>View Quality Policy</span>
-                            <ChevronRight size={18} />
-                        </Link>
+
                     </div>
                     <div className="hm-stats__grid">
                         {[
@@ -470,6 +467,10 @@ const Home = () => {
                             </div>
                         ))}
                     </div>
+                    <Link to="/quality-policy" className="premium-about__btn">
+                        <span>View Quality Policy</span>
+                        <ChevronRight size={18} />
+                    </Link>
                 </div>
             </section>
         </div>

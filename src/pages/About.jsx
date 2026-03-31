@@ -5,9 +5,10 @@ import './About.css';
 import { useMediaQuery } from 'react-responsive';
 
 const About = () => {
-    const [openAccordion, setOpenAccordion] = useState(null);
+    const [expandedCards, setExpandedCards] = useState({ history: false, vision: false, mission: false });
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
     const isMobile = useMediaQuery({ query: '(max-width: 790px)' });
+
     const testimonials = [
         {
             id: 1,
@@ -42,13 +43,22 @@ const About = () => {
         return () => clearInterval(timer);
     }, [testimonials.length]);
 
-    const toggleAccordion = (id) => {
-        setOpenAccordion(openAccordion === id ? null : id);
+    const toggleCard = (card) => {
+        setExpandedCards(prev => ({ ...prev, [card]: !prev[card] }));
     };
+
+    const truncate = (text, isExpanded, limit = 180) => {
+        if (!text) return "";
+        if (text.length <= limit || isExpanded) return text;
+        return text.substring(0, limit) + "...";
+    };
+
+    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and large animal health care. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
+    const visionText = "We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.";
+    const missionText = "Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.";
 
     return (
         <div className="about-page">
-
             {/* ── HERO ── */}
             <section className="about-hero about-hero--modern" style={{ backgroundImage: isMobile ? "url('/images/poultry3.jpg')" : "url('/images/heroes/about.jpg')" }}>
                 <div className="about-hero__overlay" />
@@ -100,27 +110,22 @@ const About = () => {
             <section className="wwa-section">
                 <div className="container">
                     <div className="wwa-grid">
-
-                        {/* Left – Image */}
                         <div className="wwa-visual">
                             <div className="wwa-img-frame">
-                                <img src="/about/about-latest.png" alt="RRV Core Values" />
+                                <img src="/images/home-2.jpg" alt="Who We Are" />
                             </div>
                             <div className="wwa-xp-badge">
-                                <span className="xp-number">10+</span>
-                                <span className="xp-label">Years of<br />Excellence</span>
+                                <div className="xp-number">10+</div>
+                                <div className="xp-label">Years of<br />Excellence</div>
                             </div>
                         </div>
 
-                        {/* Right – Content */}
                         <div className="wwa-content">
-                            <div className="section-label">Behind the Scenes</div>
-                            <h2 className="section-heading">Who <span className="text-theme">We Are?</span></h2>
+                            <div className="section-label">Company Profile</div>
+                            <h2 className="section-heading">Who <span>We Are</span></h2>
                             <p className="wwa-body">
                                 RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
-                                {/* </p>
-                            <p className="wwa-body"> */}
-                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture and Animal Healthcare segments additionally. Ever since our reorganization in the year 2016 our products in the different verticals have found  monro casino portugal
+                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture and Animal Healthcare segments additionally. Ever since our reorganization in the year 2016 our products in the different verticals have found
                                 increasing acceptance and we hope to meet the industry requirements at a better price than competitors. We are driven by the relentless pursuit of Quality in our products and persistently dedicated to serve our clientele in the field of animal health care.
                             </p>
                             <p className="wwa-body">
@@ -129,42 +134,57 @@ const About = () => {
                         </div>
                     </div>
 
-                    {/* Accordion */}
-                    <div className="wwa-accordion">
-                        {/* Accordion 1 */}
-                        <div className={`acc-item ${openAccordion === 1 ? 'open' : ''}`}>
-                            <button className="acc-header" onClick={() => toggleAccordion(1)}>
-                                <div className="acc-icon"><ShieldCheck size={20} /></div>
-                                <span>Read More About RR Veterinary Health Care</span>
-                                <ChevronDown className="acc-arrow" size={18} />
-                            </button>
-                            <div className="acc-body">
-                                <p>
-                                    RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and large animal health care. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.
-                                </p>
+                    {/* ── STANDARDIZED CARD GRID (History, Vision, Mission) ── */}
+                    <div className="vm-grid">
+                        {/* History Card */}
+                        <div className={`vm-card ${expandedCards.history ? 'expanded' : ''}`}>
+                            <div className="vm-card__header">
+                                <ShieldCheck size={32} className="vm-card__icon gold" />
+                                <h3>Our History</h3>
                             </div>
-                        </div>
-                    </div>
-                    {/* ── VISION & MISSION BLOCKS ─ UNIQUE REDESIGN ── */}
-                    <div className="vm-unique">
-                        <div className="vm-unique__card vm-unique__card--vision">
-                            <div className="vm-unique__bg-pattern"></div>
-                            <div className="vm-unique__header">
-                                <Globe size={30} className="vm-unique__icon" />
-                                <h3>Our Vision</h3>
-                            </div>
-                            <p> We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.</p>
-                            <div className="vm-unique__accent"></div>
+                            <p className="vm-card__text">
+                                {truncate(historyText, expandedCards.history)}
+                            </p>
+                            {historyText.length > 180 && (
+                                <button className="vm-card__toggle" onClick={() => toggleCard('history')}>
+                                    {expandedCards.history ? 'Read Less' : 'Read More'}
+                                </button>
+                            )}
                         </div>
 
-                        <div className="vm-unique__card vm-unique__card--mission">
-                            <div className="vm-unique__header">
-                                <Target size={30} className="vm-unique__icon" />
+                        {/* Vision Card */}
+                        <div className={`vm-card ${expandedCards.vision ? 'expanded' : ''}`}>
+                            <div className="vm-card__header">
+                                <Globe size={32} className="vm-card__icon teal" />
+                                <h3>Our Vision</h3>
+                            </div>
+                            <p className="vm-card__text">
+                                {truncate(visionText, expandedCards.vision)}
+                            </p>
+                            {visionText.length > 180 && (
+                                <button className="vm-card__toggle" onClick={() => toggleCard('vision')}>
+                                    {expandedCards.vision ? 'Read Less' : 'Read More'}
+                                </button>
+                            )}
+                        </div>
+
+                        {/* Mission Card */}
+                        <div className={`vm-card ${expandedCards.mission ? 'expanded' : ''}`}>
+                            <div className="vm-card__header">
+                                <Target size={32} className="vm-card__icon slate" />
                                 <h3>Our Mission</h3>
                             </div>
-                            <p>Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.</p>
+                            <p className="vm-card__text">
+                                {truncate(missionText, expandedCards.mission)}
+                            </p>
+                            {missionText.length > 180 && (
+                                <button className="vm-card__toggle" onClick={() => toggleCard('mission')}>
+                                    {expandedCards.mission ? 'Read Less' : 'Read More'}
+                                </button>
+                            )}
                         </div>
                     </div>
+
 
                     {/* ── ROADMAP FEATURE ── */}
                     <div className="roadmap-feature">

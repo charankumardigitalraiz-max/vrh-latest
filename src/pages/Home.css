@@ -1129,19 +1129,21 @@
 }
 
 .premium-about__btn {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 8px;
+  justify-content: center;
+  gap: 10px;
   background: var(--theme-primary);
   color: #fff;
-  padding: 8px 18px;
+  padding: 12px 28px;
   border-radius: 50px;
   font-weight: 700;
-  font-size: 0.88rem;
+  font-size: 0.95rem;
   text-decoration: none;
-  margin-top: 8px;
+  margin: 40px auto 0;
+  width: fit-content;
   transition: all 0.3s ease;
-  box-shadow: 0 6px 20px rgba(1, 77, 78, 0.2);
+  box-shadow: 0 10px 25px rgba(1, 77, 78, 0.25);
 }
 
 .premium-about__btn:hover {

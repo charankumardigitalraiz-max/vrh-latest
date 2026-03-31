@@ -149,7 +149,9 @@
   color: #64748b;
   font-size: 0.95rem;
   line-height: 1.6;
-  margin-bottom: 12px;
+  margin-bottom: 15px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .car-cta-text {
@@ -268,7 +270,7 @@
 
 @media (min-width: 992px) {
   .car-map-grid {
-    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-template-columns: 1fr 1.2fr 1fr; /* More balanced ratio */
     align-items: stretch;
   }
 }
@@ -325,19 +327,22 @@
 
 .car-map-img-wrap {
   background: var(--white);
-  padding: 12px;
+  padding: 20px;
   border-radius: var(--border-radius-lg);
-  box-shadow: var(--shadow-lg);
-  height: 100%;
+  /* box-shadow: var(--shadow-sm); */
+  /* border: 1px solid rgba(0, 0, 0, 0.03); */
+  height: 100%; /* Match side cards */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .car-map-img-wrap img {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
+  /* max-height: 240px; Reduces map scale independent of card height */
   border-radius: var(--border-radius-md);
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media (min-width: 992px) {
@@ -517,7 +522,11 @@
   box-shadow: none;
 }
 
-.car-job-header, .car-apply-btn, .car-back-btn, .car-modal-close, .submit-btn {
+.car-job-header,
+.car-apply-btn,
+.car-back-btn,
+.car-modal-close,
+.submit-btn {
   border: none !important;
   outline: none !important;
   box-shadow: none !important;
@@ -527,7 +536,6 @@
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(var(--theme-primary-rgb), 0.2) !important;
 }
-
 
 .car-job-title {
   font-family: var(--font-family-heading);

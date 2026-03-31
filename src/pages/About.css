@@ -370,7 +370,9 @@
   color: #64748b;
   line-height: 1.75;
   font-size: 0.92rem;
-  margin-bottom: 14px;
+  margin-bottom: 20px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Accordion */
@@ -453,11 +455,11 @@
 }
 
 .acc-body p {
-  padding: 0 20px 20px 46px;
+  padding: 0 28px 24px 68px;
   margin: 0;
-  color: #64748b;
-  line-height: 1.75;
-  font-size: 0.88rem;
+  color: #475569;
+  line-height: 1.7;
+  font-size: 0.92rem;
 }
 
 .acc-item.open .acc-body {
@@ -468,147 +470,93 @@
   padding: 0 16px 0 16px;
 }
 
-/* ════════════════════════════════════════
-   VISION & MISSION
-════════════════════════════════════════ */
-.vm-unique {
+/* ── Standardized Card Grid (History, Vision, Mission) ── */
+.vm-grid {
   display: grid;
-  grid-auto-rows: 1fr;
-  grid-template-columns: 1fr;
-  gap: 24px;
-  margin: 60px auto 0;
-  max-width: 1050px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin: 60px auto 30px;
+  max-width: 1200px;
 }
 
-@media (min-width: 900px) {
-  .vm-unique {
-    grid-template-columns: 38% 62%;
-    gap: 30px;
-    align-items: stretch;
+@media (max-width: 991px) {
+  .vm-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.vm-unique__card {
-  position: relative;
-  padding: 35px;
+@media (max-width: 767px) {
+  .vm-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+.vm-card {
   background: var(--white);
-  border-radius: 28px;
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.03);
-  overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.03);
   display: flex;
   flex-direction: column;
+  transition: all 0.3s ease;
+  height: max-content; /* Each card takes only as much space as needed */
 }
 
-@media (min-width: 900px) {
-  .vm-unique__card {
-    padding: 45px 40px;
-  }
+.vm-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.06);
 }
 
-/* Vision Specific Enhancements (to fill space) */
-.vm-unique__card--vision {
-  background: linear-gradient(135deg, #ffffff 0%, #fffcf5 100%);
-  border-left: 5px solid var(--theme-secondary, #c5a059);
-  justify-content: center;
-}
-
-.vm-unique__card--vision .vm-unique__header {
-  margin-bottom: 24px;
-}
-
-.vm-unique__card--vision p {
-  color: #475569;
-  flex: 0 1 auto;
-}
-
-.vm-unique__card--vision::after {
-  content: "";
-  position: absolute;
-  bottom: -30px;
-  right: -30px;
-  width: 160px;
-  height: 160px;
-  background: radial-gradient(
-    circle,
-    rgba(197, 160, 89, 0.08) 0%,
-    transparent 70%
-  );
-  z-index: 1;
-  pointer-events: none;
-}
-
-.vm-unique__card--vision p {
-  color: #475569;
-}
-
-/* Mission Specific Enhancements */
-.vm-unique__card--mission {
-  background: linear-gradient(135deg, #f0fdfa 0%, #ffffff 100%);
-  border-left: 5px solid var(--theme-primary, #048a81);
-}
-
-.vm-unique__header {
+.vm-card__header {
   display: flex;
   align-items: center;
-  gap: 14px;
-  margin-bottom: 18px;
-  position: relative;
-  z-index: 2;
+  gap: 15px;
+  margin-bottom: 20px;
 }
 
-.vm-unique__icon {
+.vm-card__icon {
   flex-shrink: 0;
-  transition: transform 0.4s ease;
 }
 
-.vm-unique__card--vision:hover .vm-unique__icon {
-  transform: rotate(10deg) scale(1.1);
-}
+.vm-card__icon.gold { color: #c5a059; }
+.vm-card__icon.teal { color: #048a81; }
+.vm-card__icon.slate { color: #334155; }
 
-.vm-unique__card--vision .vm-unique__icon {
-  color: var(--theme-secondary, #c5a059);
-}
-
-.vm-unique__card--mission .vm-unique__icon {
-  color: var(--theme-primary, #048a81);
-}
-
-.vm-unique__header h3 {
-  font-family: var(--font-family-heading, "Outfit", sans-serif);
-  font-size: 1.25rem;
+.vm-card__header h3 {
+  font-family: var(--font-family-heading);
+  font-size: 1.35rem;
   font-weight: 700;
-  margin: 0;
   color: #0f172a;
-}
-
-.vm-unique__card p {
-  font-size: 0.95rem;
-  line-height: 1.75;
-  position: relative;
-  z-index: 2;
   margin: 0;
+}
+
+.vm-card__text {
+  font-size: 0.95rem;
+  line-height: 1.7;
   color: #475569;
-  flex: 1;
+  margin: 0;
 }
 
-.vm-unique__accent {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 80px;
-  height: 80px;
-  background: radial-gradient(
-    circle at top right,
-    rgba(197, 160, 89, 0.05),
-    transparent 70%
-  );
-  pointer-events: none;
+.vm-card__toggle {
+  background: none;
+  border: none;
+  color: var(--theme-primary, #048a81);
+  font-weight: 700;
+  font-size: 0.88rem;
+  cursor: pointer;
+  padding: 0;
+  margin-top: 15px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.2s ease;
 }
 
-.vm-unique__card--vision:hover .vm-unique__accent {
-  width: 100%;
+.vm-card__toggle:hover {
+  opacity: 0.8;
+  text-decoration: underline;
 }
 
 /* ════════════════════════════════════════
