@@ -110,19 +110,19 @@
 }
 
 .car-label {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background: rgba(var(--theme-primary-rgb), 0.08);
-    color: var(--theme-primary);
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    padding: 6px 16px;
-    border-radius: var(--border-radius-pill);
-    margin-bottom: var(--spacing-md);
-    border: 1px solid rgba(var(--theme-primary-rgb), 0.15);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(var(--theme-primary-rgb), 0.08);
+  color: var(--theme-primary);
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-radius: var(--border-radius-pill);
+  margin-bottom: var(--spacing-md);
+  border: 1px solid rgba(var(--theme-primary-rgb), 0.15);
 }
 
 .car-heading {
@@ -399,47 +399,96 @@
 
 .car-job-item {
   background: var(--white);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  border-radius: var(--border-radius-md);
-  padding: var(--spacing-lg);
-  transition: all var(--transition-normal);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 12px;
+  padding: 24px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (max-width: 790px) {
-  .car-job-header {
-    display: flex;
-    flex-direction: column;
-  }
-  .car-job-dept-badge {
-    align-items: center;
-    object-fit: contain;
-  }
+.car-job-item::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  background: var(--dept-color, var(--theme-primary));
+  transition: width 0.3s ease;
 }
 
-.car-job-item:hover,
-.car-job-item.open {
-  border-color: var(--border-gold);
-  box-shadow: var(--shadow-md);
+.car-job-item:hover {
   transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  border-color: rgba(var(--theme-primary-rgb), 0.15);
 }
 
-.car-job.qp-page {
-  --primary: #13899b; /* Refined to match theme-primary */
-  --secondary: #e6a727; /* Refined to match theme-secondary */
-  --dark: #1e293b;
-  --muted: #64748b;
-  --bg-alt: #f1f5f9;
-  --radius-sm: 12px;
-  --radius-md: 20px;
-  --radius-lg: 28px;
-  --shadow-sm: 0 4px 15px rgba(0, 0, 0, 0.06);
-  --shadow-md: 0 12px 35px rgba(0, 0, 0, 0.08);
-  --shadow-lg: 0 24px 60px rgba(var(--theme-primary-rgb), 0.1);
+.car-job-item:hover::before {
+  width: 6px;
+}
 
-  font-family: var(--font-family-sans);
-  background: #fff;
-  color: var(--dark);
-  overflow-x: hidden;
+.car-job-header {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.car-job-title-group {
+  flex: 1;
+}
+
+.car-job-title {
+  font-family: var(--font-family-heading);
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.car-job-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.car-meta-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  background: #f8fafc;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #64748b;
+  border: 1px solid #f1f5f9;
+}
+
+.car-meta-tag svg {
+  color: var(--dept-color, var(--theme-primary));
+  opacity: 0.8;
+}
+
+.car-job-action {
+  color: #cbd5e1;
+  transition: all 0.3s ease;
+  transform: rotate(-90deg);
+}
+
+.car-job-item:hover .car-job-action {
+  color: var(--theme-primary);
+  transform: rotate(-90deg) translateX(4px);
 }
 
 .car-job-header {
@@ -454,16 +503,31 @@
 }
 
 .car-job-dept-badge {
-  padding: 4px 10px;
-  border-radius: var(--border-radius-pill);
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 12px;
+  border-radius: 6px;
   font-size: 0.65rem;
-  font-weight: 700;
+  font-weight: 800;
   color: var(--white);
   text-transform: uppercase;
-  height: fit-content;
+  width: fit-content;
   white-space: nowrap;
-  max-width: 100%;
+  letter-spacing: 0.08em;
+  box-shadow: none;
 }
+
+.car-job-header, .car-apply-btn, .car-back-btn, .car-modal-close, .submit-btn {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.car-apply-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(var(--theme-primary-rgb), 0.2) !important;
+}
+
 
 .car-job-title {
   font-family: var(--font-family-heading);
@@ -491,52 +555,265 @@
   color: var(--theme-secondary);
 }
 
-.car-job-body {
-  max-height: 0;
-  overflow: hidden;
-  transition: all var(--transition-normal);
+/* Job Modal Styles */
+.car-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 20px;
+  backdrop-filter: blur(4px);
 }
 
-.car-job-item.open .car-job-body {
-  max-height: 1000px;
-  margin-top: var(--spacing-lg);
-  padding-top: var(--spacing-lg);
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+.car-modal-content {
+  background: #fff;
+  width: 100%;
+  max-width: 600px;
+  max-height: 90vh;
+  border-radius: 20px;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  animation: modalIn 0.3s ease-out;
+  /* Hide scrollbar but keep functionality */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
-.car-job-body h4 {
-  font-family: var(--font-family-heading);
-  font-size: 0.9rem;
-  font-weight: 700;
-  text-transform: uppercase;
+.car-modal-content::-webkit-scrollbar {
+  display: none; /* Chrome, Safari and Opera */
+}
+
+@keyframes modalIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.car-modal-close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #64748b;
+  transition: all 0.2s;
+}
+
+.car-modal-close:hover {
+  background: rgba(var(--theme-primary-rgb), 0.1);
   color: var(--theme-primary);
-  margin-bottom: var(--spacing-md);
+  transform: rotate(90deg);
 }
 
-.car-job-body ul {
+.car-modal-header {
+  padding: 30px 30px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.car-modal-header h2 {
+  font-family: var(--font-family-heading);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 12px 0;
+}
+
+.car-modal-body {
+  padding: 30px;
+}
+
+.car-job-details-view h4,
+.car-job-apply-view h4 {
+  font-family: var(--font-family-heading);
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--theme-primary);
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.car-job-details-view ul {
   list-style: none;
   padding: 0;
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  margin-bottom: var(--spacing-lg);
+  gap: 12px;
+  margin-bottom: 30px;
 }
 
-.car-job-body li {
-  font-size: 0.9rem;
+.car-job-details-view li {
+  font-size: 0.95rem;
   color: var(--text-muted);
   position: relative;
-  padding-left: 16px;
+  padding-left: 20px;
+  line-height: 1.5;
 }
 
-.car-job-body li::after {
+.car-job-details-view li::after {
   content: "";
   position: absolute;
   left: 0;
   top: 10px;
-  width: 6px;
-  height: 1px;
+  width: 8px;
+  height: 2px;
   background: var(--theme-secondary);
+}
+
+.car-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.car-modal-footer.dual-btns {
+  justify-content: flex-end;
+  gap: 12px;
+}
+
+.car-job-exp-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  background: rgba(var(--theme-primary-rgb), 0.05);
+  border-radius: 8px;
+  color: var(--theme-primary);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.car-apply-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.car-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.car-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.car-form-group label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.car-form-group input[type="text"],
+.car-form-group input[type="email"],
+.car-form-group input[type="tel"] {
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.car-form-group input:focus {
+  border-color: var(--theme-primary);
+}
+
+.car-file-upload {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 20px;
+  border: 2px dashed #cbd5e1;
+  border-radius: 10px;
+  background: #f8fafc;
+  color: #64748b;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.car-file-upload:hover {
+  border-color: var(--theme-secondary);
+  color: var(--theme-primary);
+  background: #f1f5f9;
+}
+
+.car-file-upload input[type="file"] {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.car-back-btn {
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #cbd5e1;
+  color: #64748b;
+  border-radius: var(--border-radius-pill);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.car-back-btn:hover {
+  background: #f1f5f9;
+  color: var(--text-dark);
+}
+
+.car-apply-btn.submit-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+@media (max-width: 640px) {
+  .car-form-row {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .car-modal-footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .car-modal-footer.dual-btns {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+  .car-modal-footer .car-apply-btn,
+  .car-modal-footer .car-back-btn {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    /* border: none; */
+  }
 }
 
 .car-apply-btn {
@@ -549,6 +826,7 @@
   font-weight: 700;
   font-size: 0.85rem;
   transition: all var(--transition-fast);
+  border: none;
 }
 
 .car-apply-btn:hover {

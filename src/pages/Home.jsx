@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { ChevronLeft, ChevronRight, Users, Trophy, Briefcase, Heart, ShoppingBag, ArrowRight } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Users, Trophy, Briefcase, Heart, ShoppingBag, ArrowRight, Lightbulb, ShieldCheck, Handshake } from 'lucide-react';
 import './Home.css';
 import productsData from '../data/products.json';
 
@@ -65,6 +65,7 @@ const Home = () => {
         { id: 3, image: '/images/heroes/fish_in_water.png', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
         { id: 4, image: 'https://plus.unsplash.com/premium_photo-1661963032593-f1318e153cb8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
     ];
+
     useEffect(() => {
         const timer = setInterval(() => {
             setCurrentSlide(prev => (prev === slides.length - 1 ? 0 : prev + 1));
@@ -78,6 +79,14 @@ const Home = () => {
     const brands = [
         'sneha.png', 'suguna.png', 'vh-group.png', '4-1.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg',
         '9-1.jpg', '10-1.jpg', '11.jpg', '12-1.jpg', '13.jpg', '14.jpg'
+    ];
+
+    const coreValues = [
+        { title: "Innovation", desc: "Look beyond the obvious to discover anew", icon: <Lightbulb size={18} /> },
+        { title: "Commitment", desc: "Always with you – Nurturing, Empowering, Caring", icon: <Heart size={18} /> },
+        { title: "Integrity", desc: "Values determine the direction of your success path", icon: <ShieldCheck size={18} /> },
+        { title: "Teamwork", desc: "Togetherness in our strength – Catalyst for growth", icon: <Users size={18} /> },
+        { title: "Excellence", desc: "Steer steadily on the path of success", icon: <Trophy size={18} /> }
     ];
 
     return (
@@ -236,37 +245,55 @@ const Home = () => {
 
                             <div className="premium-about__text-block">
                                 <p className="premium-about__text">
-                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited.
+                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Animal Healthcare segments in recent times. Reorganized in the year 2016, RR Veterinary Healthcare Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele in the field of health care.
                                 </p>
-                                <p className="premium-about__text">
-                                    Reorganized in the year 2016, we are driven by relentless pursuit for quality products at a better price and persistent dedication to serve our clientele.
-                                </p>
+                                {/* <p className="premium-about__text">
+                                    Here, you can find general materials, updates, and resources that reflect the core activities and goals of the platform. The content is organized to help users quickly understand what the site offers without unnecessary complexity. The website also serves as a point of communication, helping share announcements and relevant news in a timely manner. This ensures that visitors stay informed about important changes or developments.
+                                </p> */}
+                                {/* <p className="premium-about__text">
+                                    Attention is given to accessibility and consistency, allowing the site to function effectively across different devices. This approach supports a comfortable browsing experience for both new and returning visitors.
+                                </p> */}
+
                                 <Link to="/about-us" className="premium-about__btn">
                                     <span>Read Our Story</span>
                                     <ChevronRight size={18} />
                                 </Link>
-                            </div>
 
-                            <div className="premium-about__updates">
-                                <h3 className="premium-about__updates-title">Latest Updates</h3>
-                                <div className="premium-about__updates-list">
-                                    {[
-                                        "Latest Poultry Solutions 2026 launched internally.",
-                                        "New Aqua Biosecurity Range testing phase completed.",
-                                        "Expanding our distribution centers to Pan India."
-                                    ].map((update, idx) => (
-                                        <div key={idx} className="premium-about__update-item">
-                                            <div className="premium-about__update-icon">
-                                                <div className="pulse-dot"></div>
+                                <div className="premium-about__info-row">
+                                    <div className="premium-about__values">
+                                        {coreValues.map((val, i) => (
+                                            <div key={i} className="value-item">
+                                                <div className="value-icon">{val.icon}</div>
+                                                <div className="value-content">
+                                                    <h4 className="value-title">{val.title}</h4>
+                                                    <p className="value-desc">{val.desc}</p>
+                                                </div>
                                             </div>
-                                            <p className="premium-about__update-text">{update}</p>
+                                        ))}
+                                    </div>
+
+                                    <div className="premium-about__updates">
+                                        <h3 className="premium-about__updates-title">Latest Updates</h3>
+                                        <div className="premium-about__updates-list">
+                                            {[
+                                                "Latest Poultry Solutions 2026 launched internally.",
+                                                "New Aqua Biosecurity Range testing phase completed.",
+                                                "Expanding our distribution centers to Pan India."
+                                            ].map((update, idx) => (
+                                                <div key={idx} className="premium-about__update-item">
+                                                    <div className="premium-about__update-icon">
+                                                        <div className="pulse-dot"></div>
+                                                    </div>
+                                                    <p className="premium-about__update-text">{update}</p>
+                                                </div>
+                                            ))}
                                         </div>
-                                    ))}
-                                </div>
-                                <div className="premium-about__updates-footer">
-                                    <p>Stay connected for more news</p>
+                                    </div>
                                 </div>
                             </div>
+                            {/* <div className="premium-about__updates-footer">
+                                <p>Stay connected for more news</p>
+                            </div> */}
                         </div>
                     </div>
                 </div>
@@ -388,15 +415,47 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* What Makes Us Special Section */}
+            {/* <section className="hm-special">
+                <div className="container">
+                    <div className="hm-special__content text-center">
+                        <span className="section-subtitle">Commitment to Quality</span>
+                        <h2 className="section-title">What <span>Makes Us Special</span></h2>
+                        <div className="hm-special__text-block">
+                            <p className="hm-special__text">
+                                We are committed to maintain and improve the quality of products that are being manufactured and supplied.
+
+                                We at RR Veterinary Health Care Private Limited follow National and International standards to ensure that the quality is maintained at all systems deployed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section> */}
+
             {/* Stats Section: Premium Counters */}
             <section className="hm-stats">
                 <div className="container">
+                    <div className="hm-special__content text-center">
+                        <span className="section-subtitle">Commitment to Quality</span>
+                        <h2 className="section-title">What <span>Makes Us Special</span></h2>
+                        <div className="hm-special__text-block">
+                            <p className="hm-special__text">
+                                We are committed to maintain and improve the quality of products that are being manufactured and supplied.
+
+                                We at RR Veterinary Health Care Private Limited follow National and International standards to ensure that the quality is maintained at all systems deployed.
+                            </p>
+                        </div>
+                        <Link to="/quality-policy" className="premium-about__btn">
+                            <span>View Quality Policy</span>
+                            <ChevronRight size={18} />
+                        </Link>
+                    </div>
                     <div className="hm-stats__grid">
                         {[
                             { icon: <Users size={32} />, count: '1200+', label: 'Happy Clients', color: '#0dcaf0' },
-                            { icon: <Briefcase size={32} />, count: '10+', label: 'Years Experience', color: '#ffc107' },
-                            { icon: <Trophy size={32} />, count: '35+', label: 'Awards Won', color: '#048a81' },
-                            { icon: <Heart size={32} />, count: '100%', label: 'Satisfaction', color: '#f43f5e' }
+                            { icon: <Handshake size={32} />, count: '30+', label: 'Supporters', color: '#ffc107' },
+                            { icon: <Trophy size={32} />, count: '10+', label: 'Experience', color: '#048a81' },
+                            { icon: <Heart size={32} />, count: '35+', label: 'Employees', color: '#f43f5e' }
                         ].map((stat, i) => (
                             <div key={i} className="hm-stats__card">
                                 <div className="hm-stats__icon" style={{ backgroundColor: `${stat.color}15`, color: stat.color }}>

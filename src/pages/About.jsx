@@ -116,35 +116,34 @@ const About = () => {
                         <div className="wwa-content">
                             <div className="section-label">Behind the Scenes</div>
                             <h2 className="section-heading">Who <span className="text-theme">We Are?</span></h2>
-                            <p className="wwa-lead">
-                                RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
-                            </p>
                             <p className="wwa-body">
+                                RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
+                                {/* </p>
+                            <p className="wwa-body"> */}
                                 RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture and Animal Healthcare segments additionally. Ever since our reorganization in the year 2016 our products in the different verticals have found increasing acceptance and we hope to meet the industry requirements at a better price than competitors.
                             </p>
                             <p className="wwa-body">
-                                Head quartered at Hyderabad-India, the company incessantly strives to produce and supply quality products that are efficacious, safe, highly reliable and improves the quality of life in animals.
+                                Head quartered at Hyderabad-India, the company incessantly strives to produce and supply quality products that are efficacious, safe, highly reliable and improves the quality of life in animals. Our emphasis is basically on understanding the animal diseases deeply and focusing on unmet nutritional/clinical needs in animals. Products emanating from RR Veterinary Healthcare Pvt. Ltd. are specially designed and formulated to provide instant solutions for animal health concerns and exceeds client expectations in all respects.
                             </p>
-
-                            {/* Accordion */}
-                            <div className="wwa-accordion">
-                                {/* Accordion 1 */}
-                                <div className={`acc-item ${openAccordion === 1 ? 'open' : ''}`}>
-                                    <button className="acc-header" onClick={() => toggleAccordion(1)}>
-                                        <div className="acc-icon"><ShieldCheck size={20} /></div>
-                                        <span>Read More About RR Veterinary Health Care</span>
-                                        <ChevronDown className="acc-arrow" size={18} />
-                                    </button>
-                                    <div className="acc-body">
-                                        <p>
-                                            RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and large animal health care. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
 
+                    {/* Accordion */}
+                    <div className="wwa-accordion">
+                        {/* Accordion 1 */}
+                        <div className={`acc-item ${openAccordion === 1 ? 'open' : ''}`}>
+                            <button className="acc-header" onClick={() => toggleAccordion(1)}>
+                                <div className="acc-icon"><ShieldCheck size={20} /></div>
+                                <span>Read More About RR Veterinary Health Care</span>
+                                <ChevronDown className="acc-arrow" size={18} />
+                            </button>
+                            <div className="acc-body">
+                                <p>
+                                    RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and large animal health care. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     {/* ── VISION & MISSION BLOCKS ─ UNIQUE REDESIGN ── */}
                     <div className="vm-unique">
                         <div className="vm-unique__card vm-unique__card--vision">

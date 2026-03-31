@@ -5,6 +5,7 @@ import productData from '../data/products.json';
 import { Download, ChevronRight, ArrowLeft, X, Phone, Mail, MessageSquare } from 'lucide-react';
 import './ProductDetail.css';
 
+
 const ProductDetail = () => {
     const { slug } = useParams();
     const location = useLocation();

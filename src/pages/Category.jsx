@@ -2,7 +2,7 @@ import React, { useMemo, useState, useEffect, useCallback } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import productData from '../data/products.json';
 import { productCategories } from '../data/categories';
-import { ChevronRight, ChevronDown, Filter, X } from 'lucide-react';
+import { ChevronRight, ChevronDown, Filter, X, Search } from 'lucide-react';
 import './Category.css';
 
 const Category = () => {
@@ -52,6 +52,7 @@ const Category = () => {
     // ──────────────────────────────
     const [openGroups, setOpenGroups] = useState(new Set());
     const [isFilterOpen, setIsFilterOpen] = useState(false);
+    const [searchTerm, setSearchTerm] = useState('');
 
     // Helper to recursively check if an item or its children contains the active ID
     const containsActiveItem = useCallback((item, activeId) => {
@@ -162,7 +163,7 @@ const Category = () => {
     }
 
     // Filter products based on category slug and sub-category tree
-    const products = useMemo(() => {
+    const categoryFilteredProducts = useMemo(() => {
         if (!currentCategory) return [];
 
         // Extracts ALL product IDs that live anywhere under this category tree!
@@ -204,6 +205,17 @@ const Category = () => {
             index === self.findIndex((t) => t.slug === p.slug)
         );
     }, [slug, subCategory, currentCategory, findNodeById, getProductSlugsFromNode]);
+
+    // Further filter by the search term (scoped to the already-filtered list)
+    const products = useMemo(() => {
+        if (!searchTerm.trim()) return categoryFilteredProducts;
+        const lower = searchTerm.toLowerCase();
+        return categoryFilteredProducts.filter(p =>
+            (p.title || '').toLowerCase().includes(lower) ||
+            (p.subtitle || '').toLowerCase().includes(lower) ||
+            (p.slug || '').toLowerCase().replace(/-/g, ' ').includes(lower)
+        );
+    }, [categoryFilteredProducts, searchTerm]);
     console.log("products count: ", products.length);
     const categoryTitle = currentCategory ? currentCategory.name : (slug ? slug.charAt(0).toUpperCase() + slug.slice(1) : "Our Products");
 
@@ -295,6 +307,35 @@ const Category = () => {
 
                     {/* Product Listing Area */}
                     <div className="category-content">
+                        {/* Search Bar */}
+                        <div className="product-search-bar">
+                            <div className="search-input-wrapper">
+                                <Search size={16} className="search-icon" />
+                                <input
+                                    type="text"
+                                    className="search-input"
+                                    placeholder={`Search in ${categoryTitle}…`}
+                                    value={searchTerm}
+                                    onChange={e => setSearchTerm(e.target.value)}
+                                    id="category-search-input"
+                                />
+                                {searchTerm && (
+                                    <button
+                                        className="search-clear-btn"
+                                        onClick={() => setSearchTerm('')}
+                                        aria-label="Clear search"
+                                    >
+                                        <X size={14} />
+                                    </button>
+                                )}
+                            </div>
+                            {searchTerm && (
+                                <span className="search-results-count">
+                                    {products.length} result{products.length !== 1 ? 's' : ''} for &ldquo;{searchTerm}&rdquo;
+                                </span>
+                            )}
+                        </div>
+
                         {subCategory && (
                             <div className="active-filter-bar">
                                 <span className="filter-label">Showing results for:</span>
@@ -348,9 +389,20 @@ const Category = () => {
                         {products.length === 0 && (
                             <div className="empty-state-premium animate-fade-in">
                                 <div className="empty-icon">!</div>
-                                <h3 className="empty-title">No products found</h3>
-                                <p className="empty-text">We couldn't find any products matching your selection in this category.</p>
-                                <Link to={`/category/${slug}`} className="btn-premium">Clear All Filters</Link>
+                                <h3 className="empty-title">
+                                    {searchTerm ? 'No matches found' : 'No products found'}
+                                </h3>
+                                <p className="empty-text">
+                                    {searchTerm
+                                        ? `We couldn't find any products matching "${searchTerm}" in this category.`
+                                        : "We couldn't find any products matching your selection in this category."
+                                    }
+                                </p>
+                                {searchTerm ? (
+                                    <button className="btn-premium" onClick={() => setSearchTerm('')}>Clear Search</button>
+                                ) : (
+                                    <Link to={`/category/${slug}`} className="btn-premium">Clear All Filters</Link>
+                                )}
                             </div>
                         )}
                     </div>

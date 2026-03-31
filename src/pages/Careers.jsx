@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Briefcase, MapPin, Clock, ChevronDown, Mail, Users, Award } from 'lucide-react';
+import { Briefcase, MapPin, Clock, ChevronDown, Mail, Users, Award, X, FileText, Send } from 'lucide-react';
 import './Careers.css';
 
 const jobs = [
@@ -74,18 +74,20 @@ const aquaLocations = ["Bhimavaram", "Aakiveedu", "Ganapavaram", "Kaikaluru/Gudi
 const poultryLocations = ["Siddhipet", "Hyderabad", "Namakkal", "Coimbatore", "Hospete", "Bangalore", "Vijayawada", "Tanuku", "Anaparthy"];
 
 const deptColors = {
-    "Aquaculture": "#0e9f8d",
-    "Sales": "#048a81",
-    "Poultry": "#e6a727",
-    "Technical": "#5c80cc",
-    "R&D": "#9b59b6",
-    "Production": "#e67e22",
-    "Finance": "#27ae60",
-    "Operations": "#2980b9",
+    "Aquaculture": "#009688",
+    "Sales": "#00796B",
+    "Poultry": "#FFB300",
+    "Technical": "#3F51B5",
+    "R&D": "#8E24AA",
+    "Production": "#F4511E",
+    "Finance": "#43A047",
+    "Operations": "#1E88E5",
 };
 
+
 const Careers = () => {
-    const [openJob, setOpenJob] = useState(null);
+    const [selectedJob, setSelectedJob] = useState(null);
+    const [isApplying, setIsApplying] = useState(false);
 
     return (
         <div className="careers-page">
@@ -113,19 +115,19 @@ const Careers = () => {
                         <div className="car-partner-text">
                             <div className="car-label">Join Us</div>
                             <h2 className="car-heading">Not an employee!<br /><span>We are looking for Partners!</span></h2>
-                            <p className="car-lead">
-                                We at RR Veterinary Healthcare Pvt. Ltd. consider our staff as invaluable assets. Resources with an ability to lead the company into new avenue of growth and can work in synergy with the leadership will be equally rewarded.
+                            <p className="car-body">
+                                We at RR Veterinary Healthcare Pvt. Ltd. consider our staff as invaluable assets. Resources with an ability to lead the company into new avenue of growth and can work in synergy with the leadership will be equally rewarded. As the company is venturing into new areas, there is a vast potential for the right mined people to grow and sustain.
                             </p>
                             <p className="car-body">
-                                As the company is venturing into new areas, there is a vast potential for the right minded people to grow and sustain. Hiring the best of you, who could drive and ensure the business growth.
+                                Hiring the best of you, who could drive and ensure the business growth.
                             </p>
                             <p className="car-body">
-                                We are firm believers of <strong>"Company's Growth = Employee's Growth"</strong>
+                                We are a firm believers of <strong>“Company’s Growth = Employee’s Growth “</strong>
                             </p>
                             <h4 className="car-cta-text">Come and Join us if you feel you are challenging enough!</h4>
                             <a href="mailto:careers@rrveterinary.in" className="car-email-btn">
                                 <Mail size={18} />
-                                careers@rrveterinary.in
+                                Mail Us: careers@rrveterinary.in
                             </a>
                         </div>
                         <div className="car-partner-visual">
@@ -134,7 +136,7 @@ const Careers = () => {
                                 <h3>Be a Partner</h3>
                                 <p>in RR Veterinary's Growth Story</p>
                                 <div className="car-stats-row">
-                                    <div className="car-stat"><strong>19+</strong><span>Open Positions</span></div>
+                                    <div className="car-stat"><strong>{jobs.length}+</strong><span>Open Positions</span></div>
                                     <div className="car-stat"><strong>10+</strong><span>Years Legacy</span></div>
                                 </div>
                             </div>
@@ -193,52 +195,122 @@ const Careers = () => {
                         {jobs.map((job, i) => (
                             <div
                                 key={i}
-                                className={`car-job-item ${openJob === i ? 'open' : ''}`}
+                                className="car-job-item"
+                                style={{ "--dept-color": deptColors[job.department] || '#048a81' }}
                             >
                                 <button
                                     className="car-job-header"
-                                    onClick={() => setOpenJob(openJob === i ? null : i)}
+                                    onClick={() => {
+                                        setSelectedJob(job);
+                                        setIsApplying(false);
+                                    }}
                                 >
-                                    <div className="car-job-dept-badge" style={{ background: deptColors[job.department] || '#048a81' }}>
-                                        {job.department}
-                                    </div>
                                     <div className="car-job-title-group">
                                         <h3 className="car-job-title">{job.title}</h3>
                                         <div className="car-job-meta">
-                                            <span><Briefcase size={14} /> {job.positions}</span>
-                                            <span><MapPin size={14} /> {job.location}</span>
-                                            <span><Clock size={14} /> {job.experience}</span>
-                                        </div>
-                                    </div>
-                                    {/* <div className="car-job-arrow">
-                                        <ChevronDown size={20} className={openJob === i ? 'rotated' : ''} />
-                                    </div> */}
-                                </button>
+                                            <span className="car-meta-tag"><Briefcase size={14} /> {job.positions}</span>
+                                            <span className="car-meta-tag"><Clock size={14} /> {job.experience}</span>
+                                            <span className="car-meta-tag"><MapPin size={14} /> {job.location}</span>
 
-                                {openJob === i && (
-                                    <div className="car-job-body">
-                                        <div className="car-job-body-inner">
-                                            <h4>Key Responsibilities</h4>
-                                            <ul>
-                                                {job.responsibilities.map((r, ri) => <li key={ri}>{r}</li>)}
-                                            </ul>
-                                            <div className="car-job-apply-row">
-                                                <div className="car-job-exp-tag">
-                                                    <Award size={15} />
-                                                    <span>Experience: {job.experience}</span>
-                                                </div>
-                                                <a href="http://rrvhc.in/resume.php" target="_blank" rel="noopener noreferrer" className="car-apply-btn">
-                                                    Apply Now
-                                                </a>
-                                            </div>
                                         </div>
                                     </div>
-                                )}
+                                    <div className="car-job-action">
+                                        <ChevronDown size={20} />
+                                    </div>
+                                </button>
                             </div>
                         ))}
                     </div>
                 </div>
             </section>
+
+            {/* ── JOB MODAL ── */}
+            {selectedJob && (
+                <div className="car-modal-overlay" onClick={() => setSelectedJob(null)}>
+                    <div className="car-modal-content" onClick={e => e.stopPropagation()}>
+                        <button className="car-modal-close" onClick={() => setSelectedJob(null)}>
+                            <X size={24} />
+                        </button>
+
+                        <div className="car-modal-header">
+                            <div className="car-job-dept-badge" style={{ background: deptColors[selectedJob.department] || '#048a81' }}>
+                                {selectedJob.department}
+                            </div>
+                            <h2>{selectedJob.title}</h2>
+                            <div className="car-job-meta">
+                                <span><Briefcase size={14} /> {selectedJob.positions}</span>
+                                <span><Clock size={14} /> {selectedJob.experience}</span>
+                                <span><MapPin size={14} /> {selectedJob.location}</span>
+
+                            </div>
+                        </div>
+
+                        <div className="car-modal-body">
+                            {!isApplying ? (
+                                <div className="car-job-details-view">
+                                    <h4>Key Responsibilities</h4>
+                                    <ul>
+                                        {selectedJob.responsibilities.map((r, ri) => <li key={ri}>{r}</li>)}
+                                    </ul>
+                                    <div className="car-modal-footer">
+                                        <div className="car-job-exp-tag">
+                                            <Award size={15} />
+                                            <span>Experience: {selectedJob.experience}</span>
+                                        </div>
+                                        <button className="car-apply-btn" onClick={() => setIsApplying(true)}>
+                                            Apply for this Role
+                                        </button>
+                                    </div>
+                                </div>
+                            ) : (
+                                <div className="car-job-apply-view">
+                                    <h4>Application Form</h4>
+                                    <form className="car-apply-form" onSubmit={(e) => {
+                                        e.preventDefault();
+                                        alert("Application Submitted Successfully!");
+                                        setIsApplying(false);
+                                        setSelectedJob(null);
+                                    }}>
+                                        <div className="car-form-group">
+                                            <label>Full Name</label>
+                                            <input type="text" placeholder="Enter your full name" required />
+                                        </div>
+                                        <div className="car-form-row">
+                                            <div className="car-form-group">
+                                                <label>Email Address</label>
+                                                <input type="email" placeholder="Enter your email" required />
+                                            </div>
+                                            <div className="car-form-group">
+                                                <label>Phone Number</label>
+                                                <input type="tel" placeholder="Enter your phone" required />
+                                            </div>
+                                        </div>
+                                        <div className="car-form-group">
+                                            <label>Total Experience (Years)</label>
+                                            <input type="text" placeholder="e.g. 2+ Years" required />
+                                        </div>
+                                        <div className="car-form-group">
+                                            <label>Upload Resume</label>
+                                            <div className="car-file-upload">
+                                                <FileText size={20} />
+                                                <input type="file" accept=".pdf,.doc,.docx" required />
+                                            </div>
+                                        </div>
+                                        <div className="car-modal-footer dual-btns">
+                                            <button type="button" className="car-back-btn" onClick={() => setIsApplying(false)}>
+                                                Back to Details
+                                            </button>
+                                            <button type="submit" className="car-apply-btn submit-btn">
+                                                <Send size={16} /> Submit Application
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
+            )}
 
         </div>
     );
