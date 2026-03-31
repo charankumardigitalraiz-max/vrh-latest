@@ -467,7 +467,7 @@ const Home = () => {
                             </div>
                         ))}
                     </div>
-                    <Link to="/quality-policy" className="premium-about__btn">
+                    <Link to="/quality-policy" className="premium-about__btn premium-about__btn--centered">
                         <span>View Quality Policy</span>
                         <ChevronRight size={18} />
                     </Link>
