@@ -29,6 +29,7 @@
       "title": "MICROKIL",
       "subtitle": "Potent Virucidal Disinfectant for Prolonged Activity",
       "image": "/product-images/aqua/microkil.png",
+      "brochure": "/product-download/MICROKILL_PDF_2018.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -217,6 +218,7 @@
       "slug": "avigrow",
       "title": "AVIGROW",
       "subtitle": "AVIGROW",
+      "brochure": "products-download/Avigrow.pdf",
       "image": "/product-images/poultry/nutritionalAndsupplements/growthAndpromotors/avigrow.png",
       "tabs": {
         "composition": {
@@ -314,6 +316,7 @@
       "slug": "calciboost",
       "title": "CALCIBOOST",
       "subtitle": "CALCIBOOST",
+      "brochure": "products-download/CALCIBOOST.pdf",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/adult-chicken.png",
       "tabs": {
         "composition": {
@@ -535,7 +538,7 @@
       "title": "ELIMINATOR",
       "subtitle": "ELIMINATOR",
       "image": "/product-images/aqua/eliminator powder.png",
-      "brochure": "/LeafLets/eliminator.pdf",
+      "brochure": "/products-download/RR ELIMINATOR_RAT CONTROL_NEW _NOVEMBER 2022 _PDF COPY.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -559,6 +562,7 @@
       "slug": "entrowin-ws-fs",
       "title": "ENTROWIN -WS & FS",
       "subtitle": "ENTROWIN -WS & FS",
+      "brochure": "products-download/ENTROWIN_FS_WS_19082016.pdf",
       "image": "/product-images/poultry/antiMicroBials/biosecurity/pest-management-larvicides/adult-chicken.png",
       "tabs": {
         "composition": {
@@ -605,7 +609,7 @@
       "title": "ERYTHROBOON",
       "subtitle": "An excellent haematinic formulation that controls anaemic condition and improves the process of haemopoiesis in birds.",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/erythroboon.png",
-      "brochure": "/LeafLets/erythroboon NEW.pdf",
+      "brochure": "products-download/ERYTHROBOON_LIT_PDF SCANNED COPY.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -913,7 +917,7 @@
       "title": "PHENOKIL",
       "subtitle": "An Ideal black phenyl that kills microbes effectively. Best choice of phenolic cleaner for foot dip & vehicle dip",
       "image": "/product-images/poultry/antiMicroBials/biosecurity/vehicledip-fooddip/phenokil.png",
-      "brochure": "/LeafLets/Pheno Kil.pdf",
+      "brochure": "/product-download/PHENOKIL.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1082,7 +1086,7 @@
       "title": "QUALIMIN",
       "subtitle": "QUALIMIN",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/qualimin-gold-25kg.png",
-      "brochure": "/LeafLets/Qualimin Gold new.pdf",
+      "brochure": "/products-download/Qualimin Gold new.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
