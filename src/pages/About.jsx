@@ -66,11 +66,10 @@ const About = () => {
                 <div className="container about-hero__inner">
                     <div className="about-hero__grid">
                         <div className="about-hero__content">
-                            <span className="about-hero__eyebrow">Established 2016</span>
+                            {/* <span className="about-hero__eyebrow">Established 2016</span> */}
                             <h1 className="about-hero__title">Pioneering Veterinary Healthcare Solutions</h1>
                             <p className="about-hero__lead">
-                                A science-first team delivering safe, reliable care across poultry, aquaculture,
-                                and large animal health with measurable field impact.
+                                Keen about delivery reliable and quality healthcare solutions for poultry, aquaculture and large animals segments.
                             </p>
                             <div className="about-hero__meta">
                                 <div className="meta-pill">Pan-India Reach</div>
@@ -89,8 +88,8 @@ const About = () => {
                                 <div className="about-hero__stat">10+ <span>Years</span></div>
                                 <div className="about-hero__list">
                                     <div className="about-hero__list-item">Poultry & Aquaculture</div>
-                                    <div className="about-hero__list-item">Nationwide Distribution</div>
-                                    <div className="about-hero__list-item">Research-Backed Products</div>
+                                    <div className="about-hero__list-item">Nationwide Distribution Channels</div>
+                                    <div className="about-hero__list-item">Products of high repute</div>
                                 </div>
                             </div>
                             <div className="about-hero__card about-hero__card--accent">
@@ -98,7 +97,7 @@ const About = () => {
                                 <div className="about-hero__stat">1000+ <span>Clients</span></div>
                                 <div className="about-hero__signal">
                                     <span className="signal-dot" />
-                                    <span>On-ground teams in key regions</span>
+                                    <span>On-ground teams accross key regions of poultry and aquaculture</span>
                                 </div>
                             </div>
                         </div>

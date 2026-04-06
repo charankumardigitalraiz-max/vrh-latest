@@ -61,9 +61,9 @@ const Home = () => {
 
     const slides = [
         { id: 1, image: '/images/heroes/banner1.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
-        { id: 2, image: '/images/heroes/fish_group_water.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in biosecurity, pond management, and water quality" },
-        { id: 3, image: '/images/heroes/fish_in_water.png', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
-        { id: 4, image: 'https://plus.unsplash.com/premium_photo-1661963032593-f1318e153cb8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', title: "Science, experience, \ncompassion together", subtitle: "Dedicated to providing advanced veterinary solutions for sustainable farming" }
+        { id: 2, image: '/images/heroes/fish_group_water.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
+        // { id: 3, image: '/images/heroes/fish_in_water.png', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
+        { id: 4, image: 'https://plus.unsplash.com/premium_photo-1661963032593-f1318e153cb8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" }
     ];
 
     useEffect(() => {
@@ -103,7 +103,7 @@ const Home = () => {
                             <div className="container h-100">
                                 <div className="hm-hero__content">
                                     <div className="hm-hero__text-box">
-                                        <div className="hm-hero__badge">Leading Care Since 2016</div>
+                                        {/* <div className="hm-hero__badge">Leading Care Since 2016</div> */}
                                         <h1 className="hm-hero__title">{slide.title}</h1>
                                         <p className="hm-hero__subtitle">{slide.subtitle}</p>
                                         <div className="hm-hero__actions">
@@ -154,21 +154,21 @@ const Home = () => {
                             id: 'poultry',
                             num: '01',
                             name: 'Poultry',
-                            label: 'Veterinary Solutions',
+                            // label: 'Veterinary Solutions',
                             img: '/poultry_showcase.avif',
                             color: '#e8f5e9',
                             accent: '#2e7d32',
-                            desc: 'End-to-end health management for broilers and layers — from biosecurity to growth optimization.'
+                            desc: 'Providing End-to-End Health Management for Broilers, Layers and Parents-emphasize on Bio Security and Growth Optimization Strategy '
                         },
                         {
                             id: 'aquaculture',
                             num: '02',
                             name: 'Aquaculture',
-                            label: 'Water Health',
+                            // label: 'Water Health',
                             img: '/images/fish.png',
                             color: '#e3f2fd',
                             accent: '#0277bd',
-                            desc: 'Precision water quality solutions and disease management for shrimp and fish farming.'
+                            desc: 'A precision water quality and disease management solution for thriving aquatic growth.'
                         },
 
                         // {
@@ -230,10 +230,10 @@ const Home = () => {
                             <div className="premium-about__img-wrap">
                                 <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="15 Years of Excellence" className="premium-about__img" />
                             </div>
-                            <div className="premium-about__badge">
+                            {/* <div className="premium-about__badge">
                                 <span className="premium-about__badge-year">2016</span>
                                 <span className="premium-about__badge-text">Est. Year</span>
-                            </div>
+                            </div> */}
                         </div>
 
                         {/* Right: Content & Updates */}
@@ -272,7 +272,7 @@ const Home = () => {
                                         ))}
                                     </div>
 
-                                    <div className="premium-about__updates">
+                                    {/* <div className="premium-about__updates">
                                         <h3 className="premium-about__updates-title">Latest Updates</h3>
                                         <div className="premium-about__updates-list">
                                             {[
@@ -288,7 +288,7 @@ const Home = () => {
                                                 </div>
                                             ))}
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                             </div>
                             {/* <div className="premium-about__updates-footer">

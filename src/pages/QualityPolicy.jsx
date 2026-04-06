@@ -40,7 +40,7 @@ const QualityPolicy = () => {
                             <h2 className="qp-heading">Quality <span>Policy</span></h2>
                             <p className="qp-body">
                                 We are committed to maintain and improve the quality of products that are being manufactured and supplied.
-                                We at  <strong>RR Veterinary Health Care Private Limited</strong> follows National and International standards to ensure that the quality is maintained at all systems deployed.
+                                We at  <strong>RR Veterinary Health Care Private Limited</strong> follows National and International highest standards to ensure that the quality is maintained at all systems deployed.
                                 Our emphasis is to enhance customer satisfaction and to achieve continual improvement and effectiveness of the system through the implementation of Quality Management System and complying with statutory requirements applicable to the products of animal health.
                             </p>
 
