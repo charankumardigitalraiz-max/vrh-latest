@@ -221,22 +221,23 @@ const Home = () => {
 
 
             {/* Modernized About Section */}
-            <section className="premium-about">
+            <section className="premium-about" id="about">
                 <div className="container">
                     <div className="premium-about__wrapper">
 
-                        {/* Left: Visual/Image */}
+                        {/* Left: Visual/Image side with Floating Badge */}
                         <div className="premium-about__visual">
                             <div className="premium-about__img-wrap">
-                                <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="15 Years of Excellence" className="premium-about__img" />
+                                <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop" alt="RR Veterinary Healthcare" className="premium-about__img" />
+                                <div className="premium-about__overlay-shape"></div>
                             </div>
                             {/* <div className="premium-about__badge">
-                                <span className="premium-about__badge-year">2016</span>
-                                <span className="premium-about__badge-text">Est. Year</span>
+                                <div className="premium-about__badge-year">15+</div>
+                                <div className="premium-about__badge-text">Years of<br />Excellence</div>
                             </div> */}
                         </div>
 
-                        {/* Right: Content & Updates */}
+                        {/* Right: Content side */}
                         <div className="premium-about__content">
                             <div className="premium-about__header">
                                 <span className="premium-about__eyebrow">Company Profile</span>
@@ -247,12 +248,6 @@ const Home = () => {
                                 <p className="premium-about__text">
                                     RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Animal Healthcare segments in recent times. Reorganized in the year 2016, RR Veterinary Healthcare Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele in the field of health care.
                                 </p>
-                                {/* <p className="premium-about__text">
-                                    Here, you can find general materials, updates, and resources that reflect the core activities and goals of the platform. The content is organized to help users quickly understand what the site offers without unnecessary complexity. The website also serves as a point of communication, helping share announcements and relevant news in a timely manner. This ensures that visitors stay informed about important changes or developments.
-                                </p> */}
-                                {/* <p className="premium-about__text">
-                                    Attention is given to accessibility and consistency, allowing the site to function effectively across different devices. This approach supports a comfortable browsing experience for both new and returning visitors.
-                                </p> */}
 
                                 <Link to="/about-us" className="premium-about__btn">
                                     <span>Read Our Story</span>
@@ -271,29 +266,8 @@ const Home = () => {
                                             </div>
                                         ))}
                                     </div>
-
-                                    {/* <div className="premium-about__updates">
-                                        <h3 className="premium-about__updates-title">Latest Updates</h3>
-                                        <div className="premium-about__updates-list">
-                                            {[
-                                                "Latest Poultry Solutions 2026 launched internally.",
-                                                "New Aqua Biosecurity Range testing phase completed.",
-                                                "Expanding our distribution centers to Pan India."
-                                            ].map((update, idx) => (
-                                                <div key={idx} className="premium-about__update-item">
-                                                    <div className="premium-about__update-icon">
-                                                        <div className="pulse-dot"></div>
-                                                    </div>
-                                                    <p className="premium-about__update-text">{update}</p>
-                                                </div>
-                                            ))}
-                                        </div>
-                                    </div> */}
                                 </div>
                             </div>
-                            {/* <div className="premium-about__updates-footer">
-                                <p>Stay connected for more news</p>
-                            </div> */}
                         </div>
                     </div>
                 </div>

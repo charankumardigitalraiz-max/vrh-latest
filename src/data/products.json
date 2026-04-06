@@ -125,7 +125,7 @@
       "title": "ANTIPROL",
       "subtitle": "For effective management of Cloacal / Vent Prolapse & Intussusception in birds.",
       "image": "/product-images/poultry/ANTIPROL.png",
-      "brochure": "/LeafLets/ANTIPROL.pdf",
+      "brochure": "/products-download/today/ANTIPROL NEW_2026.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -174,7 +174,7 @@
       "title": "LINEODOX",
       "subtitle": "For the control of Gram Positive & Gram Negative bacterial infections, wet dropp...",
       "image": "/product-images/poultry/LINEODOX.png",
-      "brochure": "/LeafLets/LINEODOX.pdf",
+      "brochure": "/products-download/today/LINEODOX.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -367,7 +367,7 @@
       "title": "ZITHROSURE",
       "subtitle": "For treatment of Chronic Respiratory Diseases (CRD) caused by Mycoplasma spp. an...",
       "image": "/product-images/poultry/adult-chicken.png",
-      "brochure": "/LeafLets/zithrosure.pdf",
+      "brochure": "/products-download/today/zithrosure.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -560,7 +560,7 @@
       "title": "FreAll",
       "subtitle": "For efficient control of insects including Lice, Mites, Ticks and Flies.",
       "image": "/product-images/poultry/FreAll.png",
-      "brochure": "/LeafLets/free all.pdf",
+      "brochure": "/products-download/today/free all.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -609,7 +609,7 @@
       "title": "PHENOKIL",
       "subtitle": "An effective germicide for disinfection of vehicle dips, foot dips, hatcheries a...",
       "image": "/product-images/poultry/PHENOKIL.png",
-      "brochure": "/product-download/PHENOKIL.pdf",
+      "brochure": "/products-download/today/PHENOKIL.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -634,7 +634,7 @@
       "title": "FORMA KLEEN",
       "subtitle": "An effective disinfectant with potent Bactericidal, Sporicidal, Fungicidal and V...",
       "image": "/product-images/poultry/formakleen.png",
-      "brochure": "/LeafLets/Farmakleen.pdf",
+      "brochure": "/products-download/today/Farmakleen.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -659,7 +659,7 @@
       "title": "CHEQVIR",
       "subtitle": "An excellent broad spectrum biocide for controlling Gram Positive & Gram Negativ...",
       "image": "/product-images/poultry/CHEQVIR.png",
-      "brochure": "/LeafLets/CHEQVIR-TT.pdf",
+      "brochure": "/products-download/today/CHEQVIR-TT.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -797,7 +797,8 @@
           "title": "Packing",
           "content": "<p><strong>Presentation:</strong> 25 kg BOPP Bag.</p>"
         }
-      }
+      },
+      "brochure": "/products-download/today/Toxiclean.pdf"
     },
     {
       "slug": "toxelim-b-gold",
@@ -900,7 +901,7 @@
       "title": "AVIGROW",
       "subtitle": "For achieving optimum growth and performance by fine tuning of body physiology a...",
       "image": "/product-images/poultry/AVIGROW.png",
-      "brochure": "products-download/Avigrow.pdf",
+      "brochure": "/products-download/today/Avigrow.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1092,7 +1093,7 @@
       "slug": "calciboost",
       "title": "CALCIBOOST",
       "subtitle": "CALCIBOOST",
-      "brochure": "products-download/CALCIBOOST.pdf",
+      "brochure": "/products-download/today/CALCIBOOST.pdf",
       "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/adult-chicken.png",
       "tabs": {
         "composition": {
@@ -1125,7 +1126,7 @@
       "title": "Microkil Aqua",
       "subtitle": "\"Best in Class Broad Spectrum Disinfectant for Aquaculture\"",
       "image": "/product-images/aqua/microkil.png",
-      "brochure": "/LeafLets/micro kill new.pdf",
+      "brochure": "/products-download/today/micro kill new.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1241,7 +1242,7 @@
       "slug": "microkil",
       "title": "MICROKIL",
       "subtitle": "Potent Virucidal Disinfectant for Prolonged Activity",
-      "image": "/product-images/aquaculture/microkil.png",
+      "image": "/product-images/aqua/microkil.png",
       "brochure": "/products-download/today/MicroKIL.pdf",
       "tabs": {
         "composition": {
@@ -1266,7 +1267,7 @@
       "slug": "quatsure",
       "title": "QUATSURE",
       "subtitle": "80% Benzalkonium Chloride",
-      "image": "/product-images/aquaculture/quatsure.png",
+      "image": "/product-images/aqua/quatsure.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1291,7 +1292,7 @@
       "slug": "planktomore",
       "title": "PLANKTOMORE",
       "subtitle": "Phytoplankton Booster for Enhanced Productivity",
-      "image": "/product-images/aquaculture/planktomore.png",
+      "image": "/product-images/aqua/planktomore.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1312,36 +1313,12 @@
         }
       }
     },
-    {
-      "slug": "humify-aqua",
-      "title": "HUMIFY AQUA",
-      "subtitle": "Effectively Stabilizes your Pond ecosystem",
-      "image": "/product-images/aquaculture/humify-aqua.png",
-      "brochure": null,
-      "tabs": {
-        "composition": {
-          "title": "Composition",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>HUMIFY AQUA is a combination of sodium and potassium salts of humic acid and a blend of herbal immunostimulants.</p></div></div>"
-        },
-        "indications_benefits": {
-          "title": "Indications & Benefits",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><ul><li>HUMIFY AQUA provides resistance to diseases by strengthening of immune system in aquatic organisms.</li><li>HUMIFY AQUA effectively increases the hatching rate by protecting the aquatic organisms from recurrent fungal and parasitic infections.</li><li>HUMIFY AQUA decreases the effects of prolonged stress and improves productivity.</li><li>HUMIFY AQUA helps in water treatment by detoxification of harmful metals and chemical species present within the water system.</li><li>HUMIFY AQUA activates bacterial species that specifically helps in the breakdown of organic matter in the aquatic environment.</li><li>HUMIFY AQUA helps in odour reduction by decreasing volatile ammonia and by improving the nitrogen to phosphorus ratio in the water.</li><li>HUMIFY AQUA contains certain humic substances such as Humic acid and Fulvic acid which helps in activation of pond ecosystem through physical, chemical and biological reactions that operates at general pH values.</li></ul></div></div>"
-        },
-        "dosage": {
-          "title": "Direction of Use",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>300 - 500gm per acre (Or) As suggested by the Aquaculture consultant.</p></div></div>"
-        },
-        "packing": {
-          "title": "Packing",
-          "content": "<p><strong>Presentation:</strong> 1kg Pouch.</p>"
-        }
-      }
-    },
+
     {
       "slug": "nurture-all",
       "title": "NURTURE-ALL",
       "subtitle": "Take that Extra Mile Advantage of Balanced Nutrition",
-      "image": "/product-images/aquaculture/nurture-all.png",
+      "image": "/product-images/aqua/nurture all.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1366,7 +1343,7 @@
       "slug": "qualimin-aqua",
       "title": "QUALIMIN-Aqua",
       "subtitle": "Enrich your aquatic environment with complete mineral mixture",
-      "image": "/product-images/aquaculture/qualimin-aqua.png",
+      "image": "/product-images/aqua/qualimin aqua.png",
       "brochure": "/products-download/today/QUALIMIN AQUA.pdf",
       "tabs": {
         "composition": {
@@ -1391,7 +1368,7 @@
       "slug": "qualimin-aqua-forte",
       "title": "QUALIMIN-Aqua Forte",
       "subtitle": "Unique Combination of Minerals, Vitamins and Probiotics for achieving high Productivity",
-      "image": "/product-images/aquaculture/qualimin-aqua-forte.png",
+      "image": "/product-images/aqua/qualimin aqua.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1416,7 +1393,7 @@
       "slug": "yuwin",
       "title": "YUWIN",
       "subtitle": "Resolve ammonia stress naturally",
-      "image": "/product-images/aquaculture/yuwin.png",
+      "image": "/product-images/aqua/yuwin.png",
       "brochure": "/products-download/today/YUWIN.pdf",
       "tabs": {
         "composition": {
@@ -1441,7 +1418,7 @@
       "slug": "yuwin-gold",
       "title": "YUWIN GOLD",
       "subtitle": "Resolve ammonia stress naturally",
-      "image": "/product-images/aquaculture/yuwin-gold.png",
+      "image": "/product-images/aqua/yuwin.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1466,7 +1443,7 @@
       "slug": "proboon-aqua",
       "title": "PROBOON AQUA",
       "subtitle": "Soil & Water Probiotics for High Productivity",
-      "image": "/product-images/aquaculture/proboon-aqua.png",
+      "image": "/product-images/aqua/proboon aqua.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1491,7 +1468,7 @@
       "slug": "ligabind",
       "title": "LIGABIND",
       "subtitle": "Best in class EDTA based Heavy Metal Chelator for Aquaculture",
-      "image": "/product-images/aquaculture/ligabind.png",
+      "image": "/product-images/aqua/ligabind.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1516,7 +1493,7 @@
       "slug": "bindosorb-n",
       "title": "BINDOSORB-N",
       "subtitle": "An Improved Feed Binder Gel for Optimum Nutrition",
-      "image": "/product-images/aquaculture/bindosorb-n.png",
+      "image": "/product-images/aqua/bindosorb - n.png",
       "brochure": "/products-download/today/byindo sorbe N.pdf",
       "tabs": {
         "composition": {
@@ -1541,7 +1518,7 @@
       "slug": "toxiclean-fs",
       "title": "TOXICLEAN-FS",
       "subtitle": "An Eco-friendly approach for Elimination of Obnoxious Gases",
-      "image": "/product-images/aquaculture/toxiclean-fs.png",
+      "image": "/product-images/aqua/toxiclean-fs.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1566,7 +1543,7 @@
       "slug": "eest",
       "title": "EEST",
       "subtitle": "Yeast based probiotic supplement for high productivity in Aquaculture",
-      "image": "/product-images/aquaculture/eest.png",
+      "image": "/product-images/aqua/eest.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1591,7 +1568,7 @@
       "slug": "oxyenrich",
       "title": "OXYENRICH",
       "subtitle": "We understand that Oxygen is vital",
-      "image": "/product-images/aquaculture/oxyenrich.png",
+      "image": "/product-images/aqua/oxyenrich.png",
       "brochure": "/products-download/today/Oxy ENrich.pdf",
       "tabs": {
         "composition": {
@@ -1616,8 +1593,8 @@
       "slug": "ceesure",
       "title": "CEESURE",
       "subtitle": "An effective enhancer of immunity in Aquaculture",
-      "image": "/product-images/aquaculture/ceesure.png",
-      "brochure": null,
+      "image": "/product-images/aqua/ceesure.png",
+      "brochure": "/products-download/today/ASKOCURE_PDF COPY_SD.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1641,8 +1618,8 @@
       "slug": "eliminator",
       "title": "ELIMINATOR",
       "subtitle": "India's No.1 Rat control product",
-      "image": "/product-images/aquaculture/eliminator.png",
-      "brochure": null,
+      "image": "/product-images/aqua/eliminator powder.png",
+      "brochure": "/products-download/today/RR ELIMINATOR_RAT CONTROL_NEW _NOVEMBER 2022 _PDF COPY.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
