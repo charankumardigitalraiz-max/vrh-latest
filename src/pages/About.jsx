@@ -207,28 +207,28 @@ const About = () => {
                             <div className="stat-icon"><Award size={30} /></div>
                             <div className="stat-body">
                                 <strong>Quality</strong>
-                                <span>International Standards</span>
+                                <span className='stacs-cards-value'>International Standards</span>
                             </div>
                         </div>
                         <div className="stat-card">
                             <div className="stat-icon"><Users size={30} /></div>
                             <div className="stat-body">
                                 <strong>Expert Team</strong>
-                                <span>Science & Management Professionals</span>
+                                <span className='stacs-cards-value'>Science & Management Professionals</span>
                             </div>
                         </div>
                         <div className="stat-card">
                             <div className="stat-icon"><Globe size={30} /></div>
                             <div className="stat-body">
                                 <strong>Pan-India</strong>
-                                <span>Nationwide Coverage & Reach</span>
+                                <span className='stacs-cards-value'>Nationwide Coverage & Reach</span>
                             </div>
                         </div>
                         <div className="stat-card">
                             <div className="stat-icon"><TrendingUp size={30} /></div>
                             <div className="stat-body">
                                 <strong>10+ Years</strong>
-                                <span>Consistent Growth & Innovation</span>
+                                <span className='stacs-cards-value' >Consistent Growth & Innovation</span>
                             </div>
                         </div>
                     </div>

@@ -28,6 +28,15 @@
   font-size: clamp(2rem, 5vw, 2.5rem);
   font-weight: 700;
   line-height: 1.1;
+  color: var(--theme-primary);
+  margin-bottom: var(--spacing-lg);
+}
+
+.section-heading span {
+  font-family: var(--font-family-heading);
+  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-weight: 700;
+  line-height: 1.1;
   color: var(--text-dark);
   margin-bottom: var(--spacing-lg);
 }
@@ -367,7 +376,7 @@
 }
 
 .wwa-body {
-  color: #64748b;
+  color: var(--text-dark);
   line-height: 1.75;
   font-size: 0.92rem;
   margin-bottom: 20px;
@@ -520,9 +529,15 @@
   flex-shrink: 0;
 }
 
-.vm-card__icon.gold { color: #c5a059; }
-.vm-card__icon.teal { color: #048a81; }
-.vm-card__icon.slate { color: #334155; }
+.vm-card__icon.gold {
+  color: #c5a059;
+}
+.vm-card__icon.teal {
+  color: #048a81;
+}
+.vm-card__icon.slate {
+  color: #334155;
+}
 
 .vm-card__header h3 {
   font-family: var(--font-family-heading);
@@ -535,7 +550,7 @@
 .vm-card__text {
   font-size: 0.95rem;
   line-height: 1.7;
-  color: #475569;
+  color: var(--text-dark);
   margin: 0;
 }
 
@@ -574,7 +589,7 @@
 }
 
 .roadmap-feature__desc {
-  color: #64748b;
+  color: var(--text-dark);
   font-size: 0.92rem;
   line-height: 1.7;
   margin-top: 12px;
@@ -653,7 +668,7 @@
 
 .stat-body span {
   font-size: 0.75rem;
-  color: #64748b;
+  color: var(--text-dark);
   font-weight: 500;
   margin-top: 2px;
   display: block;

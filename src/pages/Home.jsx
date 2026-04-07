@@ -220,52 +220,57 @@ const Home = () => {
 
 
 
-            {/* Modernized About Section */}
-            <section className="premium-about" id="about">
+            {/* Standardized "Who We Are" Section */}
+            <section className="premium-about section-padding" id="about">
                 <div className="container">
                     <div className="premium-about__wrapper">
 
-                        {/* Left: Visual/Image side with Floating Badge */}
+                        {/* Left: Standard Visual with Accent */}
                         <div className="premium-about__visual">
-                            <div className="premium-about__img-wrap">
-                                <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=520&auto=format&fit=crop" alt="RR Veterinary Healthcare" className="premium-about__img" />
-                                <div className="premium-about__overlay-shape"></div>
+                            <div className="premium-about__img-container">
+                                <div className="item-main">
+                                    <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=1200&auto=format&fit=crop" alt="RR Veterinary Healthcare" />
+                                    <div className="item-main__overlay"></div>
+                                </div>
+                                <div className="premium-about__experience-badge">
+                                    <div className="badge-value">10+</div>
+                                    <div className="badge-label">Years of<br />Excellence</div>
+                                </div>
                             </div>
-                            {/* <div className="premium-about__badge">
-                                <div className="premium-about__badge-year">15+</div>
-                                <div className="premium-about__badge-text">Years of<br />Excellence</div>
-                            </div> */}
                         </div>
 
-                        {/* Right: Content side */}
+                        {/* Right: Content consistent with Global Design Tokens */}
                         <div className="premium-about__content">
                             <div className="premium-about__header">
-                                <span className="premium-about__eyebrow">Company Profile</span>
-                                <h2 className="premium-about__title">Who <span>We Are</span></h2>
+                                <span className="section-subtitle-premium">Established Excellence</span>
+                                <h2 className="section-title-premium">Who <span>We Are</span></h2>
                             </div>
 
-                            <div className="premium-about__text-block">
+                            <div className="premium-about__narrative">
                                 <p className="premium-about__text">
-                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Animal Healthcare segments in recent times. Reorganized in the year 2016, RR Veterinary Healthcare Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele in the field of health care.
+                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Animal Healthcare segments in recent times.
+
+                                    {/* <p className="premium-about__text highlighted"> */}
+                                    Reorganized in the year 2016, RR Veterinary Healthcare Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele.
                                 </p>
 
-                                <Link to="/about-us" className="premium-about__btn">
-                                    <span>Read Our Story</span>
-                                    <ChevronRight size={18} />
-                                </Link>
+                                <div className="premium-about__actions">
+                                    <Link to="/about-us" className="btn btn-theme">
+                                        <span>Read Our Story</span>
+                                        <ArrowRight size={18} />
+                                    </Link>
+                                </div>
 
-                                <div className="premium-about__info-row">
-                                    <div className="premium-about__values">
-                                        {coreValues.map((val, i) => (
-                                            <div key={i} className="value-item">
-                                                <div className="value-icon">{val.icon}</div>
-                                                <div className="value-content">
-                                                    <h4 className="value-title">{val.title}</h4>
-                                                    <p className="value-desc">{val.desc}</p>
-                                                </div>
+                                <div className="premium-about__core-values-grid">
+                                    {coreValues.map((val, i) => (
+                                        <div key={i} className="premium-value-card">
+                                            <div className="premium-value-card__icon">{val.icon}</div>
+                                            <div className="premium-value-card__info">
+                                                <h4 className="premium-value-card__title">{val.title}</h4>
+                                                <p className="premium-value-card__desc">{val.desc}</p>
                                             </div>
-                                        ))}
-                                    </div>
+                                        </div>
+                                    ))}
                                 </div>
                             </div>
                         </div>

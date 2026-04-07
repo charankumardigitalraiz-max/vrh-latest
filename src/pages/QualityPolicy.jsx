@@ -4,10 +4,10 @@ import { ShieldCheck, Award, CheckCircle, BadgeCheck, X } from 'lucide-react';
 import './QualityPolicy.css';
 
 const certificates = [
-    { id: 1, src: '/certificate/1.png', alt: 'RR Veterinary Quality Certificate 1' },
-    { id: 2, src: '/certificate/2.png', alt: 'RR Veterinary Quality Certificate 2' },
-    { id: 3, src: '/certificate/3.png', alt: 'RR Veterinary Quality Certificate 3' },
-    { id: 4, src: '/certificate/4.png', alt: 'RR Veterinary Quality Certificate 4' },
+    { id: 1, src: '/certificate/1.png', alt: 'Quality Management System', title: 'GMP Certified', category: 'Management System' },
+    { id: 2, src: '/certificate/2.png', alt: 'Good Manufacturing Practice', title: 'ISO 45001:2018', category: 'Manufacturing' },
+    { id: 3, src: '/certificate/3.png', alt: 'Hazard Analysis Critical Control Point', title: 'ISO 9001:2015', category: 'Food Safety' },
+    { id: 4, src: '/certificate/4.png', alt: 'International Quality Standard', title: 'ISO 22000:2018', category: 'International' },
 ];
 
 const QualityPolicy = () => {
@@ -87,6 +87,7 @@ const QualityPolicy = () => {
 
             {/* ── CERTIFICATES GALLERY ── */}
             <section className="qp-certificates-section">
+                <div className="qp-certs-bg-accent"></div>
                 <div className="container">
                     <div className="qp-certs-header">
                         <div className="qp-label">Verified Excellence</div>
@@ -98,15 +99,25 @@ const QualityPolicy = () => {
                         {certificates.map((cert) => (
                             <div key={cert.id} className="qp-cert-card" onClick={() => setLightbox(cert)}>
                                 <div className="qp-cert-img-wrap">
+                                    <div className="qp-cert-badge">{cert.category}</div>
                                     <img src={cert.src} alt={cert.alt} />
                                     <div className="qp-cert-overlay">
-                                        <div className="qp-cert-zoom">🔍 View</div>
+                                        <div className="qp-cert-zoom-btn">
+                                            <div className="qp-cert-zoom-icon">🔍</div>
+                                            <span>Full Preview</span>
+                                        </div>
                                     </div>
                                 </div>
-                                {/* <div className="qp-cert-footer">
-                                    <Award size={18} />
-                                    <span>Certificate of Quality</span>
-                                </div> */}
+                                <div className="qp-cert-info">
+                                    <div className="qp-cert-meta">
+                                        <Award size={14} className="qp-icon-primary" />
+                                        <span>Certified Quality</span>
+                                    </div>
+                                    <h4 className="qp-cert-title">{cert.title}</h4>
+                                    {/* <div className="qp-cert-footer-link">
+                                        View Details <span className="qp-arrow">→</span>
+                                    </div> */}
+                                </div>
                             </div>
                         ))}
                     </div>
