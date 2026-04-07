@@ -55,7 +55,7 @@ const Home = () => {
     const [activeProdCategory, setActiveProdCategory] = useState('poultry');
 
     const featuredProducts = {
-        poultry: ['avigrow', 'avit', 'calciboost', 'avicure-fs'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean),
+        poultry: ['avigrow', 'rr-eliminator', 'thermiquit-fs', 'spoton'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean),
         aquaculture: ['humifyaqua', 'quatsure', 'ligabind', 'oxyenrich'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean)
     };
 
