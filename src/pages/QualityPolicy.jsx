@@ -91,7 +91,7 @@ const QualityPolicy = () => {
                     <div className="qp-certs-header">
                         <div className="qp-label">Verified Excellence</div>
                         <h2 className="qp-heading">Our <span>Accreditations</span></h2>
-                        <p className="qp-certs-sub">Recognized by national and international bodies for maintaining the highest standards in veterinary healthcare.</p>
+                        <p className="qp-certs-sub">Recognized by national and international bodies for maintaining the highest quality standards in veterinary healthcare.</p>
                     </div>
 
                     <div className="qp-cert-grid">

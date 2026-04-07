@@ -158,7 +158,7 @@ export const productCategories = [
                 items: [
                     { id: 'quatsure', name: 'QUATSURE' },
                     { id: 'microkil', name: 'MICROKIL' },
-                    { id: 'eliminator', name: 'ELIMINATOR' }
+                    // { id: 'eliminator', name: 'ELIMINATOR' }
                 ]
             },
             { id: 'pond-preparation', name: 'Pond Preparation' }

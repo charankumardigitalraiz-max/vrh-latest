@@ -391,7 +391,7 @@
       "slug": "rr-eliminator",
       "title": "RR ELIMINATOR",
       "subtitle": "For control of rodent infestation in poultry farms.",
-      "image": "/product-images/poultry/ANTIPROL.png",
+      "image": "/product-images/poultry/eliminator powder.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1708,13 +1708,15 @@
         "proboon-aqua",
         "toxiclean-fs",
         "eest",
-        "eliminator",
+         "eliminator",
         "microkill-aqua",
         "nutrinest",
         "oxyenrich",
         "quitstress-aqua",
         "toxiclean-aqua"
       ]
+
+      
     },
     "large-animals": {
       "name": "Large Animals",
