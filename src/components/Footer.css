@@ -1,82 +1,133 @@
 /* ============================================================
-   FOOTER COMPONENT — Component-specific styles only
+   FOOTER COMPONENT — Premium Redesign
    ============================================================ */
 
+/* ── Footer Base ── */
 .site-footer {
-  background-color: var(--dark-bg); /* Now a light tint */
-  color: var(--text-muted); /* Changed from semi-transparent white */
+  background: linear-gradient(180deg, #e9eff5 0%, #dce6f0 100%);
+  color: var(--text-muted);
   position: relative;
   overflow: hidden;
   font-family: var(--font-family-sans);
   margin-top: auto;
-  border-top: 1px solid rgba(var(--theme-primary-rgb), 0.1);
 }
 
-.footer-top-border {
+/* Subtle grain texture overlay */
+.site-footer::before {
+  content: "";
   position: absolute;
-  top: 0;
-  left: 0;
+  inset: 0;
+  background: radial-gradient(
+    ellipse 80% 50% at 50% 0%,
+    rgba(var(--theme-primary-rgb), 0.05) 0%,
+    transparent 70%
+  );
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ── Top Accent Border ── */
+.footer-top-border {
+  position: relative;
   width: 100%;
-  height: 1px;
+  height: 3px;
   background: linear-gradient(
     90deg,
-    transparent,
-    var(--theme-secondary),
-    transparent
+    transparent 0%,
+    var(--theme-secondary) 25%,
+    var(--theme-primary) 50%,
+    var(--theme-secondary) 75%,
+    transparent 100%
   );
   z-index: 2;
-  opacity: 0.3;
 }
 
+/* ── Footer Main ── */
 .footer-main {
-  padding: var(--spacing-xxl) 0 var(--spacing-xl);
-  background-color: transparent; /* Inherits from site-footer */
   position: relative;
+  z-index: 1;
+  padding: 60px 0 40px;
 }
 
+/* ── Footer Grid ── */
 .footer-grid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: var(--spacing-xl);
+  gap: 40px;
 }
 
 @media (min-width: 992px) {
   .footer-grid {
-    grid-template-columns: 1.5fr 1fr 1.5fr;
-    gap: var(--spacing-xxl);
+    grid-template-columns: 1.4fr 0.8fr 1.2fr;
+    gap: 48px;
   }
 }
 
+/* ── Brand Column ── */
 .footer-logo {
-  max-width: 160px;
+  max-width: 150px;
   background-color: var(--white);
-  padding: 10px;
-  border-radius: var(--border-radius-md);
-  box-shadow: var(--shadow-md);
-  margin-bottom: var(--spacing-md);
+  padding: 10px 14px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  margin-bottom: 16px;
+  transition: transform var(--transition-fast);
 }
 
+.footer-logo:hover {
+  transform: scale(1.03);
+}
+
+.footer-tagline {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 24px;
+  max-width: 300px;
+}
+
+/* ── Contact List ── */
 .footer-contact-list {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-sm);
-  font-size: 0.9rem;
+  gap: 14px;
 }
 
 .footer-contact-item {
   display: flex;
   align-items: flex-start;
   gap: 12px;
-  line-height: 1.5;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  transition: color var(--transition-fast);
 }
 
-.footer-icon {
+.footer-contact-item:hover {
+  color: var(--text-dark);
+}
+
+/* Icon wrapper — small circle with subtle glow */
+.footer-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  min-width: 32px;
+  border-radius: 8px;
+  background: rgba(var(--theme-secondary-rgb), 0.12);
   color: var(--theme-secondary);
-  flex-shrink: 0;
+  transition: all var(--transition-fast);
+}
+
+.footer-contact-item:hover .footer-icon-wrapper {
+  background: rgba(var(--theme-secondary-rgb), 0.22);
+  box-shadow: 0 0 12px rgba(var(--theme-secondary-rgb), 0.15);
 }
 
 .footer-contact-link {
-  color: var(--text-muted); /* Changed from white */
+  color: var(--text-muted);
   text-decoration: none;
   transition: color var(--transition-fast);
 }
@@ -85,69 +136,186 @@
   color: var(--theme-secondary);
 }
 
+/* ── Widget Headings ── */
 .footer-heading {
-  color: var(--theme-primary); /* Changed from white */
+  color: var(--theme-primary);
   font-family: var(--font-family-heading);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: 24px;
   position: relative;
+  padding-bottom: 12px;
+  letter-spacing: 0.01em;
 }
 
 .footer-heading::after {
   content: "";
   position: absolute;
-  bottom: -8px;
+  bottom: 0;
   left: 0;
-  width: 24px;
-  height: 2px;
-  background-color: var(--theme-secondary);
+  width: 32px;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(
+    90deg,
+    var(--theme-secondary),
+    rgba(var(--theme-secondary-rgb), 0.3)
+  );
 }
 
+/* ── Quick Links ── */
 .footer-links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 6px;
   list-style: none;
   padding: 0;
 }
 
+.footer-link-item {
+  position: relative;
+}
+
 .footer-custom-link {
-  color: var(--text-muted); /* Changed from white */
+  color: var(--text-muted);
   text-decoration: none;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
+  padding: 6px 0;
+  font-size: 0.875rem;
+  font-weight: 400;
   transition: all var(--transition-fast);
-  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+.footer-chevron {
+  color: rgba(var(--theme-primary-rgb), 0.4);
+  transition: all var(--transition-fast);
+  flex-shrink: 0;
 }
 
 .footer-custom-link:hover {
-  color: var(--theme-secondary);
-  transform: translateX(4px);
+  color: var(--theme-primary);
+  transform: translateX(6px);
 }
 
+.footer-custom-link:hover .footer-chevron {
+  color: var(--theme-secondary);
+}
+
+/* ── Map ── */
 .map-placeholder {
-  background-color: rgba(255, 255, 255, 0.02);
-  border-radius: var(--border-radius-lg);
+  border-radius: 12px;
   overflow: hidden;
-  border: 1px solid var(--border-glass);
+  border: 1px solid rgba(var(--theme-primary-rgb), 0.1);
+  box-shadow: var(--shadow-lg);
   transition: all var(--transition-normal);
+}
+
+.map-placeholder:hover {
+  border-color: rgba(var(--theme-secondary-rgb), 0.25);
+  box-shadow: var(--shadow-xl);
 }
 
 .map-placeholder iframe {
   width: 100%;
-  height: 100%;
-  filter: none; /* Removed inversion for light theme */
+  height: 220px;
+  display: block;
+  border: none;
 }
 
+/* ── Social Bar (full-width below grid) ── */
+.footer-social-bar {
+  margin-top: 48px;
+  padding-top: 32px;
+  border-top: 1px solid rgba(var(--theme-primary-rgb), 0.08);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.footer-heading--social {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-size: 0.95rem;
+  white-space: nowrap;
+}
+
+.footer-heading--social::after {
+  display: none;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: rgba(var(--theme-primary-rgb), 0.06);
+  color: var(--text-muted);
+  border: 1px solid rgba(var(--theme-primary-rgb), 0.08);
+  transition: all var(--transition-fast);
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background: rgba(var(--theme-secondary-rgb), 0.15);
+  color: var(--theme-secondary);
+  border-color: rgba(var(--theme-secondary-rgb), 0.25);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(var(--theme-secondary-rgb), 0.15);
+}
+
+/* ── Footer Bottom ── */
 .footer-bottom {
-  padding: var(--spacing-md) 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  z-index: 1;
+  padding: 18px 0;
+  background: rgba(var(--theme-primary-rgb), 0.05);
+  border-top: 1px solid rgba(var(--theme-primary-rgb), 0.08);
 }
 
 .footer-bottom-text {
-  color: var(--text-muted); /* Changed from semi-transparent white */
+  color: var(--text-muted);
   font-size: 0.8rem;
   text-align: center;
+  letter-spacing: 0.02em;
+}
+
+/* ── Responsive ── */
+@media (max-width: 991px) {
+  .footer-main {
+    padding: 40px 0 30px;
+  }
+
+  .footer-social-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .map-placeholder iframe {
+    height: 200px;
+  }
+}
+
+@media (max-width: 576px) {
+  .footer-grid {
+    gap: 32px;
+  }
+
+  .social-link {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+  }
 }

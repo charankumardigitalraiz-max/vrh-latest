@@ -50,6 +50,20 @@ const AnimatedCounter = ({ value, duration = 2000 }) => {
     );
 };
 
+
+const ClientName = [
+    { id: 1, name: 'Hitech' },
+    { id: 2, name: 'Shalimar Group' },
+    { id: 3, name: 'Premier' },
+    { id: 4, name: 'Komarla' },
+    { id: 5, name: 'Srinivasa Hatcheries' },
+    { id: 6, name: 'Hitech' },
+    { id: 7, name: 'Shalimar Group' },
+    { id: 8, name: 'Premier' },
+    { id: 9, name: 'Komarla' },
+    { id: 10, name: 'Srinivasa Hatcheries' },
+];
+
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const [activeProdCategory, setActiveProdCategory] = useState('poultry');
@@ -60,10 +74,10 @@ const Home = () => {
     };
 
     const slides = [
-        { id: 1, image: '/images/heroes/banner1.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
+        { id: 1, image: '/images/hen2.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
         { id: 2, image: '/images/heroes/fish_group_water.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
         // { id: 3, image: '/images/heroes/fish_in_water.png', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
-        { id: 4, image: 'https://plus.unsplash.com/premium_photo-1661963032593-f1318e153cb8?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" }
+        { id: 4, image: '/images/hen1.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" }
     ];
 
     useEffect(() => {
@@ -77,7 +91,7 @@ const Home = () => {
     const prevSlide = () => setCurrentSlide(prev => (prev === 0 ? slides.length - 1 : prev - 1));
 
     const brands = [
-        'sneha.png', 'suguna.png', 'vh-group.png', '4-1.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg',
+        '4-1.jpg', '5.jpg', '6.jpg', '7.jpg', '8.jpg',
         '9-1.jpg', '10-1.jpg', '11.jpg', '12-1.jpg', '13.jpg', '14.jpg'
     ];
 
@@ -171,26 +185,26 @@ const Home = () => {
                             desc: 'A precision water quality and disease management solution for thriving aquatic growth.'
                         },
 
-                        // {
-                        //     id: 'large-animals',
-                        //     num: '03',
-                        //     name: 'Large Animals',
-                        //     label: 'Livestock Care',
-                        //     img: '/images/large-animals.png',
-                        //     color: '#fff8e1',
-                        //     accent: '#f57f17',
-                        //     desc: 'Nutritional and pharmaceutical support for cattle, horses, and working livestock.'
-                        // },
-                        // {
-                        //     id: 'sheep-goat',
-                        //     num: '04',
-                        //     name: 'Sheep & Goat',
-                        //     label: 'Small Ruminants',
-                        //     img: '/images/sheep.png',
-                        //     color: '#fce4ec',
-                        //     accent: '#ad1457',
-                        //     desc: 'Specialized health programs for small ruminant farmers focused on productivity and welfare.'
-                        // },
+                        {
+                            id: 'livestock',
+                            num: '03',
+                            name: 'Livestock',
+                            // label: 'Livestock Care',
+                            img: '/images/livestock.jpg',
+                            color: '#fff8e1',
+                            accent: '#f57f17',
+                            desc: 'Comprehensive health solutions for cattle, horses, and working livestock.'
+                        },
+                        {
+                            id: 'canine',
+                            num: '04',
+                            name: 'Canine',
+                            // label: 'Dog Care',
+                            img: '/images/dog.jpg',
+                            color: '#fce4ec',
+                            accent: '#ad1457',
+                            desc: 'Targeted veterinary care and nutrition for dogs across breeds.'
+                        },
                     ].map((item) => (
                         <Link
                             to={`/category/${item.id}`}
@@ -233,7 +247,7 @@ const Home = () => {
                                     <div className="item-main__overlay"></div>
                                 </div>
                                 <div className="premium-about__experience-badge">
-                                    <div className="badge-value">10+</div>
+                                    <div className="badge-value">18+</div>
                                     <div className="badge-label">Years of<br />Excellence</div>
                                 </div>
                             </div>
@@ -248,7 +262,7 @@ const Home = () => {
 
                             <div className="premium-about__narrative">
                                 <p className="premium-about__text">
-                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Animal Healthcare segments in recent times.
+                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Livestock and Canine segments since 2008.
 
                                     {/* <p className="premium-about__text highlighted"> */}
                                     Reorganized in the year 2016, RR Veterinary Healthcare Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele.
@@ -394,6 +408,28 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Our Clients Section - Premium Showcase */}
+            <section className="our-clients section-padding">
+                <div className="container">
+                    <div className="premium-brands__header text-center">
+                        <span className="premium-brands__subtitle">Our Clients</span>
+                        <h2 className="premium-brands__title">Our <span>Clients</span></h2>
+                    </div>
+
+                    {/* Scrollable client cards with logos (repeating like product brands) */}
+                    <div className="premium-brands__marquee">
+                        <div className="premium-brands__track">
+                            {ClientName.map((logo, i) => (
+                                <div key={logo.id} className="client-card">
+                                    <div className="client-card__text">{logo.name}</div>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             {/* What Makes Us Special Section */}
             {/* <section className="hm-special">
                 <div className="container">
@@ -428,10 +464,10 @@ const Home = () => {
                     </div>
                     <div className="hm-stats__grid">
                         {[
-                            { icon: <Users size={32} />, count: '1200+', label: 'Happy Clients', color: '#0dcaf0' },
-                            { icon: <Handshake size={32} />, count: '30+', label: 'Supporters', color: '#ffc107' },
-                            { icon: <Trophy size={32} />, count: '10+', label: 'Experience', color: '#048a81' },
-                            { icon: <Heart size={32} />, count: '35+', label: 'Employees', color: '#f43f5e' }
+                            { icon: <Users size={32} />, count: '2000+', label: 'Happy Clients', color: '#0B4A8F' },
+                            // { icon: <Handshake size={32} />, count: '30+', label: 'Supporters', color: '#39B54A' },
+                            { icon: <Trophy size={32} />, count: '18+', label: 'Experience', color: '#0B4A8F' },
+                            // { icon: <Heart size={32} />, count: '35+', label: 'Employees', color: '#39B54A' }
                         ].map((stat, i) => (
                             <div key={i} className="hm-stats__card">
                                 <div className="hm-stats__icon" style={{ backgroundColor: `${stat.color}15`, color: stat.color }}>
@@ -446,10 +482,10 @@ const Home = () => {
                             </div>
                         ))}
                     </div>
-                    <Link to="/quality-policy" className="premium-about__btn premium-about__btn--centered">
+                    {/* <Link to="/quality-policy" className="premium-about__btn premium-about__btn--centered">
                         <span>View Quality Policy</span>
                         <ChevronRight size={18} />
-                    </Link>
+                    </Link> */}
                 </div>
             </section>
         </div>

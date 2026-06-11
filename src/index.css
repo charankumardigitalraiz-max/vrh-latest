@@ -9,11 +9,11 @@
 /* ── Design Tokens ── */
 :root {
   /* Brand - Refreshed to match logo better */
-  --theme-primary: hsl(188, 78%, 35%);
-  --theme-primary-dark: hsl(188, 78%, 25%);
-  --theme-secondary: hsl(42, 58%, 56%);
-  --theme-primary-rgb: 19, 137, 155;
-  --theme-secondary-rgb: 230, 167, 39;
+  --theme-primary: hsl(211, 86%, 30%);       /* Official Corporate Blue: #0B4A8F */
+  --theme-primary-dark: hsl(211, 86%, 22%);  /* Darker Blue: #083260 */
+  --theme-secondary: hsl(128, 52%, 47%);     /* Official Accent Green: #39B54A */
+  --theme-primary-rgb: 11, 74, 143;
+  --theme-secondary-rgb: 57, 181, 74;
 
   /* Neutrals - Shifted to light theme */
   --white: #ffffff;

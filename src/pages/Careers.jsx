@@ -5,73 +5,85 @@ import './Careers.css';
 
 const jobs = [
     {
-        title: "Business Development Executives (BDE) – Poultry",
-        positions: "9 Vacancies",
-        location: "Siddhipet (covering Warangal), Hyderabad commercials with Mahboobnagar, Namakkal, Coimbatore, Hospete (covering Davangare), Bangalore (covering Mysore), Vijayawada (covering Guntur), Tanuku, Anaparthy (covering Vizag)",
-        experience: "As per role",
-        department: "Poultry",
-        responsibilities: [
-            "Arrange business meetings with prospective clients",
-            "Promote the company's products/services addressing or predicting clients' objectives",
-            "Keep records of sales, revenue, invoices etc.",
-            "Provide trustworthy feedback and after-sales support",
-            "Build long-term relationships with new and existing customers",
-            "Develop entry level staff into valuable salespeople"
-        ]
-    },
-    {
         title: "Business Development Manager (BDM) – Poultry",
         positions: "3 Vacancies",
-        location: "Telangana & AP, Karnataka (Bangalore), Tamilnadu (Namakkal & Coimbatore)",
-        experience: "As per role",
+        location: "Hyderabad, Vijayawada, Bangalore, Coimbatore",
+        experience: "Min 4+ Years",
         department: "Poultry",
         responsibilities: [
-            "Develop a growth strategy focused both on financial gain and customer satisfaction",
-            "Conduct research to identify new markets and customer needs",
-            "Arrange business meetings with prospective clients",
-            "Promote the company's products/services addressing or predicting clients' objectives",
-            "Keep records of sales, revenue, invoices etc.",
-            "Provide trustworthy feedback and after-sales support",
-            "Build long-term relationships with new and existing customers",
-            "Develop entry level staff into valuable salespeople"
+            "Team Leadership & Performance: Lead, mentor, and manage a high-performing team of 5 to 8 Business Development Executives (BDEs) to consistently meet and exceed regional sales and collection targets.",
+            "Strategic Market Development: Direct team initiatives to identify high-potential markets for RRVHC products, driving strategic planning for aggressive new client acquisition.",
+            "Key Account Oversight: Guide the team in maintaining robust, long-term relationships with key clients, serving as an escalation point to ensure top-tier service delivery.",
+            "Supply Chain Optimization: Oversee the team’s evaluation and appointment of strategic dealers and distributors to expand and strengthen the regional supply chain network.",
+            "Data-Driven Market Intelligence: Synthesize field insights gathered by the team to deliver actionable market intelligence, improving overall product positioning and sales strategies.",
+            "People Development: Conduct regular performance reviews, identify skill gaps, and provide active coaching to maximize individual sales capabilities and foster a collaborative team culture."
         ]
     },
     {
-        title: "Business Development Executives (BDE) – Aquaculture",
-        positions: "6 Vacancies",
-        location: "Bhimavaram, Aakiveedu, Ganapavaram, Kaikaluru or Gudivada, Amalapuram, Kakinada",
-        experience: "As per role",
-        department: "Aquaculture",
+        title: "Business Development Executives (BDE) – Poultry",
+        positions: "9 Vacancies",
+        location: "Telangana, Andhra Pradesh, Karnataka, Tamilnadu (Multiple Locations)",
+        experience: "Min 2+ Years",
+        department: "Poultry",
         responsibilities: [
-            "Arrange business meetings with prospective clients",
-            "Promote the company's products/services addressing or predicting clients' objectives",
-            "Keep records of sales, revenue, invoices etc.",
-            "Provide trustworthy feedback and after-sales support",
-            "Build long-term relationships with new and existing customers",
-            "Develop entry level staff into valuable salespeople"
+            "Sales & Collections: Manage and drive sales and collection activities within the assigned territory.",
+            "Market Development: Identify potential customers for RRVHC products and actively acquire new client accounts.",
+            "Client Relations: Maintain regular contact with identified customers to promote brand products and services.",
+            "Supply Chain Expansion: Source, evaluate, and appoint dealers or distributors to strengthen the supply chain network.",
+            "Market Intelligence: Monitor market trends and developments to provide continuous feedback for strategic improvements."
         ]
     },
     {
         title: "Business Development Manager (BDM) – Aquaculture",
         positions: "1 Vacancy",
-        location: "Bhimavaram",
-        experience: "As per role",
+        location: "Bhimavaram (Andhra Pradesh)",
+        experience: "Min 4+ Years",
         department: "Aquaculture",
         responsibilities: [
-            "Develop a growth strategy focused both on financial gain and customer satisfaction",
-            "Conduct research to identify new markets and customer needs",
-            "Arrange business meetings with prospective clients",
-            "Promote the company's products/services addressing or predicting clients' objectives",
-            "Keep records of sales, revenue, invoices etc.",
-            "Provide trustworthy feedback and after-sales support",
-            "Build long-term relationships with new and existing customers",
-            "Develop entry level staff into valuable salespeople"
+            "Team Leadership & Performance: Lead, mentor, and manage a high-performing team of 5 to 8 Business Development Executives (BDEs) to consistently meet and exceed regional sales and collection targets.",
+            "Strategic Market Development: Direct team initiatives to identify high-potential markets for RRVHC products, driving strategic planning for aggressive new client acquisition.",
+            "Key Account Oversight: Guide the team in maintaining robust, long-term relationships with key clients, serving as an escalation point to ensure top-tier service delivery.",
+            "Supply Chain Optimization: Oversee the team’s evaluation and appointment of strategic dealers and distributors to expand and strengthen the regional supply chain network.",
+            "Data-Driven Market Intelligence: Synthesize field insights gathered by the team to deliver actionable market intelligence, improving overall product positioning and sales strategies.",
+            "People Development: Conduct regular performance reviews, identify skill gaps, and provide active coaching to maximize individual sales capabilities and foster a collaborative team culture."
+        ]
+    },
+    {
+        title: "Business Development Executives (BDE) – Aquaculture",
+        positions: "6 Vacancies",
+        location: "Bhimavaram, Kakinada, Ganapavaram, Akavidu, Kaikaluru, Gudivada",
+        experience: "Min 2+ Years",
+        department: "Aquaculture",
+        responsibilities: [
+            "Sales & Collections: Manage and drive sales and collection activities within the assigned territory.",
+            "Market Development: Identify potential customers for RRVHC products and actively acquire new client accounts.",
+            "Client Relations: Maintain regular contact with identified customers to promote brand products and services.",
+            "Supply Chain Expansion: Source, evaluate, and appoint dealers or distributors to strengthen the supply chain network.",
+            "Market Intelligence: Monitor market trends and developments to provide continuous feedback for strategic improvements."
+        ]
+    },
+    {
+        title: "Purchase Executive",
+        positions: "1 Vacancy",
+        location: "Corporate Office (Hyderabad)",
+        experience: "Min 3+ Years",
+        department: "Office",
+        responsibilities: [
+            "Vendor Management: Source, evaluate, and establish strong relationships with reliable suppliers and vendors.",
+            "Procurement Operations: Process purchase orders, negotiate pricing, terms, and delivery schedules to optimize procurement costs.",
+            "Inventory & Quality Control: Coordinate with inventory teams to monitor stock levels and ensure received goods meet quality standards.",
+            "Documentation & Reporting: Maintain accurate purchase records, invoices, and prepare periodic cost-benefit reports for leadership."
         ]
     }
 ];
 
-const aquaLocations = ["Bhimavaram", "Aakiveedu", "Ganapavaram", "Kaikaluru/Gudivada", "Amalapuram", "Kakinada"];
-const poultryLocations = ["Siddhipet", "Hyderabad", "Namakkal", "Coimbatore", "Hospete", "Bangalore", "Vijayawada", "Tanuku", "Anaparthy"];
+const aquaLocations = ["Bhimavaram", "Kakinada", "Ganapavaram", "Akavidu", "Kaikaluru", "Gudivada"];
+const poultryLocations = [
+    "Hyderabad", "Karimnagar", "Siddipet", "Warangal",
+    "Vijayawada", "Tanuku", "Anaparthy", "Chittoor",
+    "Bangalore", "Mysore", "Hospet",
+    "Coimbatore", "Namakkal"
+];
 
 const deptColors = {
     "Aquaculture": "#009688",
@@ -82,6 +94,7 @@ const deptColors = {
     "Production": "#F4511E",
     "Finance": "#43A047",
     "Operations": "#1E88E5",
+    "Office": "#E91E63",
 };
 
 
@@ -114,9 +127,9 @@ const Careers = () => {
                     <div className="car-partner-grid">
                         <div className="car-partner-text">
                             <div className="car-label">Join Us</div>
-                            <h2 className="car-heading">Not an employee!<br /><span>We are looking for Partners!</span></h2>
+                            <h2 className="car-heading">More than employees,<br /><span>we are looking for growth partners.</span></h2>
                             <p className="car-body">
-                                We at RR Veterinary Healthcare Pvt. Ltd. consider our staff as invaluable assets. Resources with an ability to lead the company into new avenue of growth and can work in synergy with the leadership will be equally rewarded. As the company is venturing into new areas, there is a vast potential for the right mined people to grow and sustain.
+                                We at RR Veterinary Healthcare Pvt. Ltd. consider our staff as invaluable assets. Resources with an ability to lead the company into new avenue of growth and can work in synergy with the leadership will be equally rewarded. As the company is venturing into new areas, there is a vast potential for the right Minded people to grow and sustain.
                             </p>
                             <p className="car-body">
                                 Hiring the best of you, who could drive and ensure the business growth.
@@ -124,23 +137,105 @@ const Careers = () => {
                             <p className="car-body">
                                 We are a firm believers of <strong>“Company’s Growth = Employee’s Growth “</strong>
                             </p>
-                            <h4 className="car-cta-text">Come and Join us if you feel you are challenging enough!</h4>
+                            {/* <h4 className="car-cta-text">Come and Join us if you feel you are challenging enough!</h4>
                             <a href="mailto:careers@rrveterinary.in" className="car-email-btn">
                                 <Mail size={18} />
                                 Mail Us: careers@rrveterinary.in
-                            </a>
+                            </a>*/}
                         </div>
                         <div className="car-partner-visual">
                             <div className="car-partner-card">
-                                <div className="car-partner-icon"><Users size={56} /></div>
-                                <h3>Be a Partner</h3>
-                                <p>in RR Veterinary's Growth Story</p>
-                                <div className="car-stats-row">
-                                    <div className="car-stat"><strong>{jobs.length}+</strong><span>Open Positions</span></div>
-                                    <div className="car-stat"><strong>10+</strong><span>Years Legacy</span></div>
-                                </div>
+                                <div className="car-partner-icon"><Users size={32} /></div>
+                                <h3>Partner with us</h3>
+                                <p>Grow together with RR Veterinary Healthcare.</p>
+                            </div>
+                            <div className="car-partner-card car-upload-cv-card">
+                                <div className="car-partner-icon"><FileText size={32} /></div>
+                                <h3>Upload Your CV</h3>
+                                <p>Drop your resume directly for opportunities.</p>
+                                <button
+                                    className="car-apply-btn mt-3"
+                                    onClick={() => {
+                                        setSelectedJob({
+
+                                            positions: "Open",
+                                            location: "Corporate Office (Hyderabad)",
+                                            experience: "Any",
+                                            department: "Office",
+                                            responsibilities: ["Submit your CV for review across all our business domains."]
+                                        });
+                                        setIsApplying(true);
+                                    }}
+                                >
+                                    Apply Now
+                                </button>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* ── DISTRIBUTION OPPORTUNITIES ── */}
+            <section className="car-distributor-section">
+                <div className="container">
+                    <div className="car-distributor-box">
+                        <div className="car-distributor-content text-center">
+                            <span className="car-distributor-badge">Distribution Opportunities</span>
+                            <br />
+                            <p className="car-distributor-highlight">
+                                We are looking for distributors in unrepresented areas.
+                            </p>
+                            <p className="car-distributor-desc">
+                                Partner with RR Veterinary Health Care Pvt. Ltd. to expand our high-quality veterinary solutions to new markets.
+                            </p>
+                            <Link to="/contact-us" className="car-distributor-btn" onClick={() => window.scrollTo(0,0)}>
+                                Contact Us for Distribution
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* Map section removed from here to go below Job Listings */}
+
+            {/* ── JOB LISTINGS ── */}
+            <section className="car-jobs-section">
+                <div className="container">
+                    <div className="car-jobs-header">
+                        <div className="car-label">Open Positions</div>
+                        <h2 className="car-heading car-heading--center">Current <span>Openings</span></h2>
+                        <p className="car-jobs-sub">Click on any role to view full details and responsibilities.</p>
+                    </div>
+
+                    <div className="car-jobs-list">
+                        {jobs.map((job, i) => (
+                            <div
+                                key={i}
+                                className="car-job-item"
+                                style={{ "--dept-color": deptColors[job.department] || 'var(--theme-primary)' }}
+                            >
+                                <button
+                                    className="car-job-header"
+                                    onClick={() => {
+                                        setSelectedJob(job);
+                                        setIsApplying(false);
+                                    }}
+                                >
+                                    <div className="car-job-title-group">
+                                        <h3 className="car-job-title">{job.title}</h3>
+                                        <div className="car-job-meta">
+                                            <span className="car-meta-tag"><Briefcase size={14} /> {job.positions}</span>
+                                            <span className="car-meta-tag"><Clock size={14} /> {job.experience}</span>
+                                            <span className="car-meta-tag"><MapPin size={14} /> {job.location}</span>
+
+                                        </div>
+                                    </div>
+                                    <div className="car-job-action">
+                                        <ChevronDown size={20} />
+                                    </div>
+                                </button>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -182,48 +277,6 @@ const Careers = () => {
                 </div>
             </section>
 
-            {/* ── JOB LISTINGS ── */}
-            <section className="car-jobs-section">
-                <div className="container">
-                    <div className="car-jobs-header">
-                        <div className="car-label">Open Positions</div>
-                        <h2 className="car-heading car-heading--center">Current <span>Openings</span></h2>
-                        <p className="car-jobs-sub">Click on any role to view full details and responsibilities.</p>
-                    </div>
-
-                    <div className="car-jobs-list">
-                        {jobs.map((job, i) => (
-                            <div
-                                key={i}
-                                className="car-job-item"
-                                style={{ "--dept-color": deptColors[job.department] || '#048a81' }}
-                            >
-                                <button
-                                    className="car-job-header"
-                                    onClick={() => {
-                                        setSelectedJob(job);
-                                        setIsApplying(false);
-                                    }}
-                                >
-                                    <div className="car-job-title-group">
-                                        <h3 className="car-job-title">{job.title}</h3>
-                                        <div className="car-job-meta">
-                                            <span className="car-meta-tag"><Briefcase size={14} /> {job.positions}</span>
-                                            <span className="car-meta-tag"><Clock size={14} /> {job.experience}</span>
-                                            <span className="car-meta-tag"><MapPin size={14} /> {job.location}</span>
-
-                                        </div>
-                                    </div>
-                                    <div className="car-job-action">
-                                        <ChevronDown size={20} />
-                                    </div>
-                                </button>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
             {/* ── JOB MODAL ── */}
             {selectedJob && (
                 <div className="car-modal-overlay" onClick={() => setSelectedJob(null)}>
@@ -233,7 +286,7 @@ const Careers = () => {
                         </button>
 
                         <div className="car-modal-header">
-                            <div className="car-job-dept-badge" style={{ background: deptColors[selectedJob.department] || '#048a81' }}>
+                            <div className="car-job-dept-badge" style={{ background: deptColors[selectedJob.department] || 'var(--theme-primary)' }}>
                                 {selectedJob.department}
                             </div>
                             <h2>{selectedJob.title}</h2>
@@ -264,7 +317,7 @@ const Careers = () => {
                                 </div>
                             ) : (
                                 <div className="car-job-apply-view">
-                                    <h4>Application Form</h4>
+
                                     <form className="car-apply-form" onSubmit={(e) => {
                                         e.preventDefault();
                                         alert("Application Submitted Successfully!");

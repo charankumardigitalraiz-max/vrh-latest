@@ -53,7 +53,7 @@ const About = () => {
         return text.substring(0, limit) + "...";
     };
 
-    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and large animal health care. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
+    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and Livestock Healthcare. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
     const visionText = "We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.";
     const missionText = "Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.";
 
@@ -69,12 +69,12 @@ const About = () => {
                             {/* <span className="about-hero__eyebrow">Established 2016</span> */}
                             <h1 className="about-hero__title">Pioneering Veterinary Healthcare Solutions</h1>
                             <p className="about-hero__lead">
-                                Keen about delivery reliable and quality healthcare solutions for poultry, aquaculture and large animals segments.
+                                Keen on delivering reliable and high-quality healthcare solutions for the poultry, aquaculture, Livestock and Canine Segments.
                             </p>
                             <div className="about-hero__meta">
                                 <div className="meta-pill">Pan-India Reach</div>
                                 <div className="meta-pill">Quality Assured</div>
-                                <div className="meta-pill">Trusted by Farms</div>
+                                <div className="meta-pill">Trusted by Farmers</div>
                             </div>
                             <nav className="about-hero__breadcrumb">
                                 <Link to="/">Home</Link>
@@ -85,7 +85,7 @@ const About = () => {
                         <div className="about-hero__feature">
                             <div className="about-hero__card">
                                 <div className="about-hero__card-head">Precision Care</div>
-                                <div className="about-hero__stat">10+ <span>Years</span></div>
+                                <div className="about-hero__stat">18+ <span>Years</span></div>
                                 <div className="about-hero__list">
                                     <div className="about-hero__list-item">Poultry & Aquaculture</div>
                                     <div className="about-hero__list-item">Nationwide Distribution Channels</div>
@@ -94,7 +94,7 @@ const About = () => {
                             </div>
                             <div className="about-hero__card about-hero__card--accent">
                                 <div className="about-hero__card-head">Trusted Network</div>
-                                <div className="about-hero__stat">1000+ <span>Clients</span></div>
+                                <div className="about-hero__stat">2000+ <span>Clients</span></div>
                                 <div className="about-hero__signal">
                                     <span className="signal-dot" />
                                     <span>On-ground teams accross key regions of poultry and aquaculture</span>
@@ -114,7 +114,7 @@ const About = () => {
                                 <img src="/images/home-2.jpg" alt="Who We Are" />
                             </div>
                             <div className="wwa-xp-badge">
-                                <div className="xp-number">10+</div>
+                                <div className="xp-number">18+</div>
                                 <div className="xp-label">Years of<br />Excellence</div>
                             </div>
                         </div>
@@ -193,7 +193,7 @@ const About = () => {
                             <p className="roadmap-feature__desc">Tracking our milestones and future continuous growth in providing the best veterinary healthcare solutions.</p>
                         </div>
                         <div className="roadmap-feature__img-wrapper">
-                            <img src="/about/Picture1.png" alt="RRV Roadmap" className="roadmap-feature__img" />
+                            <img src="images\milestones.png" alt="RRV Roadmap" className="roadmap-feature__img" />
                         </div>
                     </div>
                 </div>
@@ -227,7 +227,7 @@ const About = () => {
                         <div className="stat-card">
                             <div className="stat-icon"><TrendingUp size={30} /></div>
                             <div className="stat-body">
-                                <strong>10+ Years</strong>
+                                <strong>18+ Years</strong>
                                 <span className='stacs-cards-value' >Consistent Growth & Innovation</span>
                             </div>
                         </div>

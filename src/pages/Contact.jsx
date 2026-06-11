@@ -1,9 +1,55 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock } from 'lucide-react';
 import './Contact.css';
 
 const Contact = () => {
-    return (
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [email, setEmail] = useState('');
+  const [phone, setPhone] = useState('');
+  const [message, setMessage] = useState('');
+  const [showSuccess, setShowSuccess] = useState(false);
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    // Prepare payload for EmailJS (replace USER_ID, SERVICE_ID, TEMPLATE_ID with your actual values)
+    const payload = {
+      service_id: 'YOUR_SERVICE_ID',
+      template_id: 'YOUR_TEMPLATE_ID',
+      user_id: 'YOUR_USER_ID',
+      template_params: {
+        first_name: firstName,
+        last_name: lastName,
+        email: email,
+        phone: phone,
+        message: message,
+      },
+    };
+    try {
+      const response = await fetch('https://api.emailjs.com/api/v1.0/email/send', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (response.ok) {
+        // Show success message and reset form fields
+        setShowSuccess(true);
+        setFirstName('');
+        setLastName('');
+        setEmail('');
+        setPhone('');
+        setMessage('');
+        // Hide success after 3 seconds to allow another submission
+        setTimeout(() => setShowSuccess(false), 3000);
+      } else {
+        console.error('EmailJS error:', await response.text());
+      }
+    } catch (err) {
+      console.error('Network error while sending email:', err);
+    }
+  };
+
+  return (
         <div className="contact-page fade-in">
             {/* Page Banner */}
             <section className="page-banner" style={{ backgroundImage: "url('/images/heroes/poultry-4.jpg')" }}>
@@ -41,24 +87,16 @@ const Contact = () => {
                                     </div>
                                     <div className="info-content">
                                         <h3>Head Office</h3>
-                                        <p>H.No. 5-5-81/5/1, 5th Floor,<br />
-                                            Sangeeta colony, Hitension Rd,<br />
-                                            Near Nallachervu,<br />
-                                            Kukatpally, Hyderabad - 500072.
+                                        <p>RR Veterinary Healthcare</p>
+<p>RR Heights, #5-5-81/5/1, 5th Floor,
+Sai Baba Nagar, High Tension Line Road,
+Kukatpally, Hyderabad – 500072
+
                                         </p>
                                     </div>
                                 </div>
 
-                                <div className="info-card hover-lift" style={{ animationDelay: '0.2s' }}>
-                                    <div className="icon-wrapper">
-                                        <Phone size={24} />
-                                    </div>
-                                    <div className="info-content">
-                                        <h3>Phone Numbers</h3>
-                                        <p>+91 94904 10562</p>
-                                        <p>+91 40 2970 5562</p>
-                                    </div>
-                                </div>
+                        
 
                                 <div className="info-card hover-lift" style={{ animationDelay: '0.3s' }}>
                                     <div className="icon-wrapper">
@@ -71,6 +109,17 @@ const Contact = () => {
                                         {/* <p><a href="mailto:purchase@rrveterinary.in">purchase@rrveterinary.in</a></p> */}
                                         <p><a href="mailto:admin@rrveterinary.in">admin@rrveterinary.in</a></p>
                                         {/* <p><a href="mailto:hr@rrveterinary.in">hr@rrveterinary.in</a></p> */}
+                                    </div>
+                                </div>
+
+                                 <div className="info-card hover-lift" style={{ animationDelay: '0.2s' }}>
+                                    <div className="icon-wrapper">
+                                        <Phone size={24} />
+                                    </div>
+                                    <div className="info-content">
+                                        <h3>Phone Numbers</h3>
+                                        <p>+91 89784 17078</p>
+                                        <p>+91 94904 10562</p>
                                     </div>
                                 </div>
 
@@ -87,25 +136,45 @@ const Contact = () => {
                             </div>
                         </div>
 
-                        {/* Contact Form OR Map */}
-                        <div className="contact-map-wrapper slide-up" style={{ animationDelay: '0.3s' }}>
-                            <div className="glass-panel map-container">
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3176.14126468879!2d78.41766907421196!3d17.487283799921478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99873e24690d%3A0x33799185df144b72!2sRR%20VETERINARY%20HEALTH%20CARE%20PVT.LTD.!5e1!3m2!1sen!2sin!4v1773066563764!5m2!1sen!2sin"
-                                    width="100%"
-                                    height="100%"
-                                    style={{ border: 0 }}
-                                    allowFullScreen=""
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                    title="RR Veterinary Location Map"
-                                ></iframe>
-                            </div>
-                        </div>
+    {showSuccess && (
+  <div className="toast">Message sent successfully!</div>
+)}
+    {/* Enquiry Form */}
+    {!showSuccess && (
+      <div className="contact-form-wrapper slide-up" style={{ animationDelay: '0.3s' }}>
+        <div className="glass-panel form-container">
+          <h2 className="enquiry-title">Enquiry Form</h2>
+          <form className="enquiry-form" onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="firstName">First Name</label>
+              <input type="text" id="firstName" name="firstName" value={firstName} onChange={(e)=>setFirstName(e.target.value)} required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="lastName">Last Name</label>
+              <input type="text" id="lastName" name="lastName" value={lastName} onChange={(e)=>setLastName(e.target.value)} required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
+              <input type="email" id="email" name="email" value={email} onChange={(e)=>setEmail(e.target.value)} required />
+            </div>
+            <div className="form-group">
+              <label htmlFor="phone">Phone Number</label>
+              <input type="tel" id="phone" name="phone" value={phone} onChange={(e)=>setPhone(e.target.value)} required />
+            </div>
+            <div className="form-group full-width">
+              <label htmlFor="message">Message</label>
+              <textarea id="message" name="message" rows={4} value={message} onChange={(e)=>setMessage(e.target.value)} required></textarea>
+            </div>
+            <button type="submit" className="send-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    )}
 
                     </div>
                 </div>
             </section>
+
         </div>
     );
 };

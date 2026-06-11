@@ -14,8 +14,17 @@ const galleryImages = [
     // { id: 6, src: '/gallery/k4729qQ66x.jpg', alt: 'Flynnil Gold', category: 'products' },
 ];
 
+// Video entries – using mp4 files placed under /videos folder
+const galleryVideos = [
+    { id: 101, src: '/videos/clinic-tour.mp4', alt: 'Clinic Tour Video', category: 'events', type: 'video' },
+    { id: 102, src: '/videos/annual-meeting.mp4', alt: 'Annual Meeting Highlights', category: 'events', type: 'video' },
+];
+
+// Unified media list
+const galleryMedia = [...galleryImages, ...galleryVideos];
+
 const Gallery = () => {
-    const [filter, setFilter] = useState('all');
+    const [filter, setFilter] = useState('all'); const [mediaTab, setMediaTab] = useState('photos');
     const [lightboxImg, setLightboxImg] = useState(null);
 
     const openLightbox = (imgSrc) => {
@@ -28,9 +37,30 @@ const Gallery = () => {
         document.body.style.overflow = 'auto';
     };
 
-    const filteredImages = filter === 'all'
+    const filteredMedia = mediaTab === 'photos'
         ? galleryImages
-        : galleryImages.filter(img => img.category === filter);
+        : galleryVideos;
+
+    // Helper to render either image or video based on type
+    const renderMedia = (item) => {
+        if (item.type === 'video') {
+            return (
+                <div className="gallery-media-wrapper" key={item.id} onClick={() => openLightbox(item.src)}>
+                    <video src={item.src} className="gallery-video" muted controls preload="metadata" />
+                    <div className="gallery-overlay"><span className="view-text">Click to View</span></div>
+                </div>
+            );
+        }
+        // default to image
+        return (
+            <div key={item.id} className="gallery-item slide-up" style={{ animationDelay: `${0.1 * (item.id % 6 + 1)}s` }} onClick={() => openLightbox(item.src)}>
+                <div className="gallery-img-wrapper">
+                    <img src={item.src} alt={item.alt} className="gallery-img" loading="lazy" />
+                    <div className="gallery-overlay"><span className="view-text">Click to View</span></div>
+                </div>
+            </div>
+        );
+    };
 
     return (
         <div className="gallery-page fade-in">
@@ -48,53 +78,26 @@ const Gallery = () => {
             <section className="gallery-content section-padding">
                 <div className="container">
 
-                    {/* Gallery Filters */}
-                    {/* <div className="gallery-filters slide-up" style={{ animationDelay: '0.1s' }}>
+                    {/* Media Tabs */}
+                    <div className="gallery-filters">
                         <button
-                            className={`filter-btn ${filter === 'all' ? 'active' : ''}`}
-                            onClick={() => setFilter('all')}
+                            className={`filter-btn ${mediaTab === 'photos' ? 'active' : ''}`}
+                            onClick={() => setMediaTab('photos')}
                         >
-                            All Images
+                            Photos
                         </button>
                         <button
-                            className={`filter-btn ${filter === 'facility' ? 'active' : ''}`}
-                            onClick={() => setFilter('facility')}
+                            className={`filter-btn ${mediaTab === 'videos' ? 'active' : ''}`}
+                            onClick={() => setMediaTab('videos')}
                         >
-                            Facilities
+                            Videos
                         </button>
-                        <button
-                            className={`filter-btn ${filter === 'products' ? 'active' : ''}`}
-                            onClick={() => setFilter('products')}
-                        >
-                            Products
-                        </button>
-                        <button
-                            className={`filter-btn ${filter === 'events' ? 'active' : ''}`}
-                            onClick={() => setFilter('events')}
-                        >
-                            Events
-                        </button>
-                    </div> */}
-
+                    </div>
                     {/* Gallery Grid */}
                     <div className="gallery-grid">
-                        {filteredImages.map((image, index) => (
-                            <div
-                                key={image.id}
-                                className="gallery-item slide-up"
-                                style={{ animationDelay: `${0.1 * (index % 6 + 1)}s` }}
-                                onClick={() => openLightbox(image.src)}
-                            >
-                                <div className="gallery-img-wrapper">
-                                    <img src={image.src} alt={image.alt} className="gallery-img" loading="lazy" />
-                                    <div className="gallery-overlay">
-                                        <span className="view-text">Click to View</span>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
+                        {filteredMedia.map((item, index) => renderMedia(item, index))}
 
-                        {filteredImages.length === 0 && (
+                        {filteredMedia.length === 0 && (
                             <div className="col-12 text-center py-5">
                                 <p className="text-muted lead">No images found in this category.</p>
                             </div>
@@ -110,7 +113,11 @@ const Gallery = () => {
                         <X size={32} />
                     </button>
                     <div className="lightbox-content" onClick={e => e.stopPropagation()}>
-                        <img src={lightboxImg} alt="Enlarged view" className="lightbox-image" />
+                        {lightboxImg.endsWith('.mp4') ? (
+                            <video src={lightboxImg} className="lightbox-video" controls autoPlay />
+                        ) : (
+                            <img src={lightboxImg} alt="Enlarged view" className="lightbox-image" />
+                        )}
                     </div>
                 </div>
             )}

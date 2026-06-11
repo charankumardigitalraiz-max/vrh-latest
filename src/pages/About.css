@@ -530,10 +530,10 @@
 }
 
 .vm-card__icon.gold {
-  color: #c5a059;
+  color: var(--theme-secondary);
 }
 .vm-card__icon.teal {
-  color: #048a81;
+  color: var(--theme-primary);
 }
 .vm-card__icon.slate {
   color: #334155;
