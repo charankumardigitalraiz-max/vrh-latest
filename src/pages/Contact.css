@@ -189,8 +189,11 @@
 .info-content a {
   color: var(--theme-primary);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 200;
   transition: color var(--transition-fast);
+ 
+ 
+
 }
 
 .info-content a:hover {

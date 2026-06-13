@@ -6,7 +6,7 @@ import './Careers.css';
 const jobs = [
     {
         title: "Business Development Manager (BDM) – Poultry",
-        positions: "3 Vacancies",
+        positions: "4 Vacancies",
         location: "Hyderabad, Vijayawada, Bangalore, Coimbatore",
         experience: "Min 4+ Years",
         department: "Poultry",
@@ -21,8 +21,9 @@ const jobs = [
     },
     {
         title: "Business Development Executives (BDE) – Poultry",
-        positions: "9 Vacancies",
-        location: "Telangana, Andhra Pradesh, Karnataka, Tamilnadu (Multiple Locations)",
+        positions: "14 Vacancies",
+        location: "Karimnagar,Siddipet, Hyderabad,Warangal,Vijayawada,Tanuku,Anaparthy,Chittoor,Bangalore,Hospet,Mysore,Coimbatore,Namakkal",
+
         experience: "Min 2+ Years",
         department: "Poultry",
         responsibilities: [
@@ -175,26 +176,7 @@ const Careers = () => {
                 </div>
             </section>
 
-            {/* ── DISTRIBUTION OPPORTUNITIES ── */}
-            <section className="car-distributor-section">
-                <div className="container">
-                    <div className="car-distributor-box">
-                        <div className="car-distributor-content text-center">
-                            <span className="car-distributor-badge">Distribution Opportunities</span>
-                            <br />
-                            <p className="car-distributor-highlight">
-                                We are looking for distributors in unrepresented areas.
-                            </p>
-                            <p className="car-distributor-desc">
-                                Partner with RR Veterinary Health Care Pvt. Ltd. to expand our high-quality veterinary solutions to new markets.
-                            </p>
-                            <Link to="/contact-us" className="car-distributor-btn" onClick={() => window.scrollTo(0,0)}>
-                                Contact Us for Distribution
-                            </Link>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        
 
             {/* Map section removed from here to go below Job Listings */}
 
@@ -236,6 +218,27 @@ const Careers = () => {
                                 </button>
                             </div>
                         ))}
+                    </div>
+                </div>
+            </section>
+
+               {/* ── DISTRIBUTION OPPORTUNITIES ── */}
+            <section className="car-distributor-section">
+                <div className="container">
+                    <div className="car-distributor-box">
+                        <div className="car-distributor-content text-center">
+                            <span className="car-distributor-badge">Distribution Opportunities</span>
+                            <br />
+                            <p className="car-distributor-highlight">
+                                We are looking for distributors in unrepresented areas.
+                            </p>
+                            <p className="car-distributor-desc">
+                                Partner with RR Veterinary Health Care Pvt. Ltd. to expand our high-quality veterinary solutions to new markets.
+                            </p>
+                            <Link to="/contact-us" className="car-distributor-btn" onClick={() => window.scrollTo(0,0)}>
+                                Contact Us for Distribution
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>

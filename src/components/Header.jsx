@@ -89,7 +89,7 @@ const Header = () => {
                                     <Link className="dropdown-item" to="/category/aquaculture">Aquaculture</Link>
                                     <Link className="dropdown-item" to="/category/large-animals">Large Animals</Link>
                                     <Link className="dropdown-item" to="/category/canine">Canine</Link>
-                                    <Link className="dropdown-item" to="/category/sheep-goat">Sheep & Goat</Link>
+
                                 </div>
                             </li>
                             <li>

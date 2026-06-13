@@ -50,19 +50,35 @@ const AnimatedCounter = ({ value, duration = 2000 }) => {
     );
 };
 
-
 const ClientName = [
-    { id: 1, name: 'Hitech' },
-    { id: 2, name: 'Shalimar Group' },
-    { id: 3, name: 'Premier' },
-    { id: 4, name: 'Komarla' },
-    { id: 5, name: 'Srinivasa Hatcheries' },
-    { id: 6, name: 'Hitech' },
-    { id: 7, name: 'Shalimar Group' },
-    { id: 8, name: 'Premier' },
-    { id: 9, name: 'Komarla' },
-    { id: 10, name: 'Srinivasa Hatcheries' },
+    { id: 1, name: 'Sneha', logo: '/product-brands/sneha1.png' },
+    { id: 2, name: 'Sneha Farms', logo: '/product-brands/hitech.png' },
+    { id: 3, name: 'VH Group', logo: '/product-brands/komar.png' },
+    { id: 4, name: 'Hitech', logo: '/product-brands/ppl.png' },
+    { id: 5, name: 'Shalimar Group', logo: '/product-brands/shalimar.png' },
+    { id: 6, name: 'Premier', logo: '/product-brands/srinivasa.png' },
+    { id: 7, name: 'Komarla', logo: '/product-brands/sugunafoods.png' },
+    { id: 8, name: 'Srinivasa Hatcheries', logo: '/product-brands/venky.png' },
+    { id: 9, name: 'vhgroup ', logo: '/product-brands/vhgroup.png'},
 ];
+
+const ClientCard = ({ client }) => {
+    const [imgFailed, setImgFailed] = React.useState(false);
+    return (
+        <div className="client-card">
+            {!imgFailed && client.logo ? (
+                <img
+                    src={client.logo}
+                    alt={client.name}
+                    className="client-card__img"
+                    onError={() => setImgFailed(true)}
+                />
+            ) : (
+                <div className="client-card__text">{client.name}</div>
+            )}
+        </div>
+    );
+};
 
 const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -357,7 +373,7 @@ const Home = () => {
 
             {/* Productivity & Delivery Section (Video Gallery) */}
             {/* Productivity & Delivery Section (Video Gallery) - Cinematic Dark Mode */}
-            <section className="premium-video-gallery" id="productivity">
+            {/* <section className="premium-video-gallery" id="productivity">
                 <div className="premium-video__bg-glow"></div>
                 <div className="container">
                     <div className="premium-video__header text-center">
@@ -386,7 +402,7 @@ const Home = () => {
                         ))}
                     </div>
                 </div>
-            </section>
+            </section> */}
 
             {/* Our Products Brands Section - Premium Redesign */}
             <section className="premium-brands">
@@ -407,22 +423,19 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
             {/* Our Clients Section - Premium Showcase */}
             <section className="our-clients section-padding">
                 <div className="container">
                     <div className="premium-brands__header text-center">
-                        <span className="premium-brands__subtitle">Our Clients</span>
+                       
                         <h2 className="premium-brands__title">Our <span>Clients</span></h2>
                     </div>
 
                     {/* Scrollable client cards with logos (repeating like product brands) */}
                     <div className="premium-brands__marquee">
                         <div className="premium-brands__track">
-                            {ClientName.map((logo, i) => (
-                                <div key={logo.id} className="client-card">
-                                    <div className="client-card__text">{logo.name}</div>
-                                </div>
+                            {[...ClientName, ...ClientName, ...ClientName, ...ClientName].map((client, i) => (
+                                <ClientCard key={`${client.id}-${i}`} client={client} />
                             ))}
                         </div>
                     </div>

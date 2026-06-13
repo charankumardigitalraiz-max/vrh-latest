@@ -193,7 +193,7 @@ const About = () => {
                             <p className="roadmap-feature__desc">Tracking our milestones and future continuous growth in providing the best veterinary healthcare solutions.</p>
                         </div>
                         <div className="roadmap-feature__img-wrapper">
-                            <img src="images\milestones.png" alt="RRV Roadmap" className="roadmap-feature__img" />
+                            <img src="images\image.png" alt="RRV Roadmap" className="roadmap-feature__img" />
                         </div>
                     </div>
                 </div>

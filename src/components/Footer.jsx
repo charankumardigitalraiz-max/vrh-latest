@@ -30,8 +30,8 @@ const Footer = () => {
                                         <MapPin size={16} />
                                     </div>
                                     <span>
-                                        <p>RR Veterinary Healthcare</p>
-                                        RR Heights, #5-5-81/5/1, 5th Floor,
+                                        <p>RR VETERINARY HEALTHCARE PRIVATE LIMITED</p>
+                                        RR Heights, # 5-5-81/5/1, 5th Floor,
                                         Sai Baba Nagar, High Tension Line Road,
                                         Kukatpally, Hyderabad – 500072
                                     </span>
@@ -107,19 +107,19 @@ const Footer = () => {
                     <div className="footer-social-bar">
                         <h4 className="footer-heading footer-heading--social">Follow Us</h4>
                         <div className="social-links">
-                            <a href="https://www.instagram.com/rrveterinary/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">
+                            <a href="https://www.instagram.com/rrveterinary/" target="_blank" rel="noopener noreferrer" className="social-link instagram" aria-label="Instagram">
                                 <Instagram size={18} />
                             </a>
-                            <a href="https://www.facebook.com/profile.php?id=61583758705952" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">
+                            <a href="https://www.facebook.com/profile.php?id=61583758705952" target="_blank" rel="noopener noreferrer" className="social-link facebook" aria-label="Facebook">
                                 <Facebook size={18} />
                             </a>
-                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">
+                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="social-link linkedin" aria-label="LinkedIn">
                                 <Linkedin size={18} />
                             </a>
-                            <a href="https://youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="YouTube">
+                            <a href="https://youtube.com/channel/yourchannel" target="_blank" rel="noopener noreferrer" className="social-link youtube" aria-label="YouTube">
                                 <Youtube size={18} />
                             </a>
-                            <a href="https://x.com/Veterinary015" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Twitter">
+                            <a href="https://x.com/Veterinary015" target="_blank" rel="noopener noreferrer" className="social-link twitter" aria-label="Twitter">
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="16"

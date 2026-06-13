@@ -16,9 +16,17 @@ const galleryImages = [
 
 // Video entries – using mp4 files placed under /videos folder
 const galleryVideos = [
-    { id: 101, src: '/videos/clinic-tour.mp4', alt: 'Clinic Tour Video', category: 'events', type: 'video' },
-    { id: 102, src: '/videos/annual-meeting.mp4', alt: 'Annual Meeting Highlights', category: 'events', type: 'video' },
+    {  id: 'gniEV7wDjNA', title: 'Main Video', category: 'events', type: 'video' },
+    { id: 'jzX4s0uK0qo', title: 'Video 2', category: 'events', type: 'video' },
+    { id: 'EeDUiPJIy8Q', title: 'Video 3', category: 'events', type: 'video' },
+    { id: '0KzQgYVDcRg', title: 'Video 4', category: 'events', type: 'video' },
+    { id: '8DGo_HlHCJ8', title: 'Video 5', category: 'events', type: 'video' },
+    { id: 'OfeGs-uhqeQ', title: 'Video 6', category: 'events', type: 'video' },
 ];
+
+
+
+
 
 // Unified media list
 const galleryMedia = [...galleryImages, ...galleryVideos];
@@ -37,30 +45,14 @@ const Gallery = () => {
         document.body.style.overflow = 'auto';
     };
 
-    const filteredMedia = mediaTab === 'photos'
-        ? galleryImages
-        : galleryVideos;
-
-    // Helper to render either image or video based on type
-    const renderMedia = (item) => {
-        if (item.type === 'video') {
-            return (
-                <div className="gallery-media-wrapper" key={item.id} onClick={() => openLightbox(item.src)}>
-                    <video src={item.src} className="gallery-video" muted controls preload="metadata" />
-                    <div className="gallery-overlay"><span className="view-text">Click to View</span></div>
-                </div>
-            );
-        }
-        // default to image
-        return (
-            <div key={item.id} className="gallery-item slide-up" style={{ animationDelay: `${0.1 * (item.id % 6 + 1)}s` }} onClick={() => openLightbox(item.src)}>
-                <div className="gallery-img-wrapper">
-                    <img src={item.src} alt={item.alt} className="gallery-img" loading="lazy" />
-                    <div className="gallery-overlay"><span className="view-text">Click to View</span></div>
-                </div>
+    const renderPhoto = (item) => (
+        <div key={item.id} className="gallery-item slide-up" style={{ animationDelay: `${0.1 * (item.id % 6 + 1)}s` }} onClick={() => openLightbox(item.src)}>
+            <div className="gallery-img-wrapper">
+                <img src={item.src} alt={item.alt} className="gallery-img" loading="lazy" />
+                <div className="gallery-overlay"><span className="view-text">Click to View</span></div>
             </div>
-        );
-    };
+        </div>
+    );
 
     return (
         <div className="gallery-page fade-in">
@@ -94,15 +86,30 @@ const Gallery = () => {
                         </button>
                     </div>
                     {/* Gallery Grid */}
-                    <div className="gallery-grid">
-                        {filteredMedia.map((item, index) => renderMedia(item, index))}
+                    {mediaTab === 'videos' ? (
+                        <div className="premium-video__grid">
+                            {galleryVideos.map((vid, idx) => (
+                                <div key={vid.id} className="premium-video__item" style={{ animationDelay: `${idx * 150}ms` }}>
+                                    <iframe
+                                        src={`https://www.youtube.com/embed/${vid.id}?feature=oembed&modestbranding=1&rel=0`}
+                                        title={vid.title}
+                                        allowFullScreen
+                                        loading="lazy"
+                                    />
+                                </div>
+                            ))}
+                        </div>
+                    ) : (
+                        <div className="gallery-grid">
+                            {galleryImages.map(renderPhoto)}
 
-                        {filteredMedia.length === 0 && (
-                            <div className="col-12 text-center py-5">
-                                <p className="text-muted lead">No images found in this category.</p>
-                            </div>
-                        )}
-                    </div>
+                            {galleryImages.length === 0 && (
+                                <div className="col-12 text-center py-5">
+                                    <p className="text-muted lead">No images found in this category.</p>
+                                </div>
+                            )}
+                        </div>
+                    )}
                 </div>
             </section>
 
