@@ -87,9 +87,9 @@ const Contact = () => {
                   </div>
                   <div className="info-content">
                     <h3>Head Office</h3>
-                    <p>RR VETERINARY HEALTHCARE PRIVATE LIMITED</p>
+                    <b>RR VETERINARY HEALTH CARE PRIVATE LIMITED</b>
                     <p>RR Heights, # 5-5-81/5/1, 5th Floor,
-                      Sai Baba Nagar, High Tension Line Road,
+                      Sai Baba Nagar Colony, High Tension Line Road,
                       Kukatpally, Hyderabad – 500072
                     </p>
                   </div>
@@ -101,7 +101,7 @@ const Contact = () => {
                   <div className="info-content">
                     <h3>Email ID</h3>
                     {/* <p><a href="mailto:info@rrvhc.in">info@rrvhc.in</a></p> */}
-                    <p><a href="mailto:info@rrveterinary.in" >info@rrveterinary.in</a></p>
+                    <p><a href="mailto:sreekanthdevalraju@rrveterinary.in" >sreekanthdevalraju@rrveterinary.in</a></p>
                     {/* <p><a href="mailto:purchase@rrveterinary.in">purchase@rrveterinary.in</a></p> */}
                     {/*<p><a href="mailto:admin@rrveterinary.in">admin@rrveterinary.in</a></p>*/}
                     {/* <p><a href="mailto:hr@rrveterinary.in">hr@rrveterinary.in</a></p> */}
@@ -114,8 +114,8 @@ const Contact = () => {
                   </div>
                   <div className="info-content">
                     <h3>Customer Care Number</h3>
-                    <p>+91 89784 17078</p>
-                    <p>+91 94904 10562</p>
+                    <p>+91 94410 31794</p>
+                    {/* <p>+91 94904 10562</p> */}
                   </div>
                 </div>
 

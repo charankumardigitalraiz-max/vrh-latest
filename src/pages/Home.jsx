@@ -59,7 +59,31 @@ const ClientName = [
     { id: 6, name: 'Premier', logo: '/product-brands/srinivasa.png' },
     { id: 7, name: 'Komarla', logo: '/product-brands/sugunafoods.png' },
     { id: 8, name: 'Srinivasa Hatcheries', logo: '/product-brands/venky.png' },
-    { id: 9, name: 'vhgroup ', logo: '/product-brands/vhgroup.png'},
+    { id: 9, name: 'vhgroup ', logo: '/product-brands/vhgroup.png' },
+];
+
+const testimonials = [
+    {
+        quote: "We have been using RR Veterinary's biosecurity and nutritional products for our poultry flocks since 2018. The flock uniformity and health have improved drastically, and their customer support is outstanding.",
+        name: "Dr. Rajesh Kumar",
+        designation: "Poultry Consultant & Farm Owner",
+        location: "Hyderabad, Telangana",
+        avatar: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?q=80&w=150&auto=format&fit=crop"
+    },
+    {
+        quote: "Their aquaculture water sanitizers like Quatsure and Pond probiotics have helped us maintain excellent water quality parameters in our shrimp ponds, resulting in higher survival rates and better yields.",
+        name: "M. Srinivasa Rao",
+        designation: "Aquaculture Hatchery Manager",
+        location: "Bhimavaram, Andhra Pradesh",
+        avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=150&auto=format&fit=crop"
+    },
+    {
+        quote: "Switching to Succical Vet and Qualimin Vet for our dairy cattle led to a visible increase in daily milk yield and improved the overall health of our herd. Highly recommend their livestock range.",
+        name: "Suresh Patel",
+        designation: "Managing Director, Patel Dairy Farms",
+        location: "Anand, Gujarat",
+        avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=150&auto=format&fit=crop"
+    }
 ];
 
 const ClientCard = ({ client }) => {
@@ -86,14 +110,17 @@ const Home = () => {
 
     const featuredProducts = {
         poultry: ['avigrow', 'rr-eliminator', 'thermiquit-fs', 'spoton'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean),
-        aquaculture: ['humifyaqua', 'quatsure', 'ligabind', 'oxyenrich'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean)
+        aquaculture: ['humifyaqua', 'quatsure', 'ligabind', 'oxyenrich'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean),
+        livestock: ['toxelim-b-gold', 'succical-gold', 'trimectin-z', 'qualimin-vet'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean),
+        canine: ['quit-stress', 'succical-c', 'qualimin-c', 'proboon'].map(slug => productsData.products.find(p => p.slug === slug)).filter(Boolean)
     };
 
     const slides = [
-        { id: 1, image: '/images/hen2.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
-        { id: 2, image: '/images/heroes/fish_group_water.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
-        // { id: 3, image: '/images/heroes/fish_in_water.png', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
-        { id: 4, image: '/images/hen1.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" }
+        { id: 1, image: '/images/Banners/shrimp 1.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
+        { id: 2, image: '/images/Banners/poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
+        { id: 3, image: '/images/Banners/shrimp-2.jpg', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
+        { id: 4, image: '/images/Banners/Aquafish-4.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" },
+        { id: 5, image: '/images/Banners/Canine-3.jpg', title: "Shrimp", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" }
     ];
 
     useEffect(() => {
@@ -112,7 +139,7 @@ const Home = () => {
     ];
 
     const coreValues = [
-        { title: "Innovation", desc: "Look beyond the obvious to discover anew", icon: <Lightbulb size={18} /> },
+        { title: "Innovation", desc: "Look beyond the obvious to discover better solutions", icon: <Lightbulb size={18} /> },
         { title: "Commitment", desc: "Always with you – Nurturing, Empowering, Caring", icon: <Heart size={18} /> },
         { title: "Integrity", desc: "Values determine the direction of your success path", icon: <ShieldCheck size={18} /> },
         { title: "Teamwork", desc: "Togetherness in our strength – Catalyst for growth", icon: <Users size={18} /> },
@@ -120,7 +147,7 @@ const Home = () => {
     ];
 
     return (
-        <div className="home-page animate-fade-in">
+        <div className="home-page page-content-offset animate-fade-in">
             {/* Premium Hero Section */}
             <section className="hm-hero">
                 <div className="hm-hero__slider">
@@ -134,14 +161,14 @@ const Home = () => {
                                 <div className="hm-hero__content">
                                     <div className="hm-hero__text-box">
                                         {/* <div className="hm-hero__badge">Leading Care Since 2016</div> */}
-                                        <h1 className="hm-hero__title">{slide.title}</h1>
-                                        <p className="hm-hero__subtitle">{slide.subtitle}</p>
-                                        <div className="hm-hero__actions">
+                                        {/* <h1 className="hm-hero__title">{slide.title}</h1>
+                                        <p className="hm-hero__subtitle">{slide.subtitle}</p> */}
+                                        {/* <div className="hm-hero__actions">
                                             <Link to="/about-us" className="hm-hero__btn hvr-bounce-to-right">
                                                 <span>Discover More</span>
                                                 <ChevronRight size={20} />
                                             </Link>
-                                        </div>
+                                        </div> */}
                                     </div>
                                 </div>
                             </div>
@@ -329,6 +356,18 @@ const Home = () => {
                             >
                                 Aquaculture
                             </button>
+                            <button
+                                className={`category-tab ${activeProdCategory === 'livestock' ? 'active' : ''}`}
+                                onClick={() => setActiveProdCategory('livestock')}
+                            >
+                                Livestock
+                            </button>
+                            <button
+                                className={`category-tab ${activeProdCategory === 'canine' ? 'active' : ''}`}
+                                onClick={() => setActiveProdCategory('canine')}
+                            >
+                                Canine
+                            </button>
                         </div>
                     </div>
 
@@ -344,7 +383,7 @@ const Home = () => {
                                     <div className="prod-card__img-wrap">
                                         <img src={product.image} alt={product.title} className="prod-card__img" />
                                         <div className="prod-card__badge">
-                                            {activeProdCategory === 'poultry' ? 'Poultry' : 'Aqua'}
+                                            {activeProdCategory === 'aquaculture' ? 'Aqua' : activeProdCategory.charAt(0).toUpperCase() + activeProdCategory.slice(1)}
                                         </div>
                                     </div>
                                     <div className="prod-card__content">
@@ -364,7 +403,7 @@ const Home = () => {
 
                     <div className="featured-products__action text-center">
                         <Link to={`/category/${activeProdCategory}`} className="view-all-btn">
-                            <span>Explore All {activeProdCategory === 'poultry' ? 'Poultry' : 'Aquaculture'} Products</span>
+                            <span>Explore All {activeProdCategory === 'aquaculture' ? 'Aquaculture' : activeProdCategory.charAt(0).toUpperCase() + activeProdCategory.slice(1)} Products</span>
                             <ShoppingBag size={18} />
                         </Link>
                     </div>
@@ -427,7 +466,7 @@ const Home = () => {
             <section className="our-clients section-padding">
                 <div className="container">
                     <div className="premium-brands__header text-center">
-                       
+
                         <h2 className="premium-brands__title">Our <span>Clients</span></h2>
                     </div>
 
@@ -440,6 +479,33 @@ const Home = () => {
                         </div>
                     </div>
 
+                </div>
+            </section>
+
+            {/* Testimonials Section */}
+            <section className="premium-testimonials section-padding">
+                <div className="container">
+                    <div className="section-header text-center">
+                        <span className="section-subtitle">Client Success Stories</span>
+                        <h2 className="section-title">What Our <span>Partners Say</span></h2>
+                    </div>
+
+                    <div className="testimonials-grid">
+                        {testimonials.map((t, idx) => (
+                            <div key={idx} className="testimonial-card">
+                                <div className="testimonial-quote-icon">“</div>
+                                <p className="testimonial-text">{t.quote}</p>
+                                <div className="testimonial-author">
+                                    <img src={t.avatar} alt={t.name} className="testimonial-avatar" />
+                                    <div className="testimonial-info">
+                                        <h4 className="testimonial-name">{t.name}</h4>
+                                        <span className="testimonial-desc">{t.designation}</span>
+                                        <span className="testimonial-location">{t.location}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
                 </div>
             </section>
 

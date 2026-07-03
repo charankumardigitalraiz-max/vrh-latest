@@ -2,9 +2,9 @@
   "products": [
     {
       "slug": "toxi-clean-gold",
-      "title": "TOXI CLEAN GOLD",
+      "title": "Toxiclean Gold",
       "subtitle": "Provides large surface area for higher adsorption of toxins & prevents Mycotoxic...",
-      "image": "/product-images/poultry/TOXI CLEAN GOLD.png",
+      "image": "/images/Poultry Products/Toxiclean-Gold - 25 Kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -26,9 +26,9 @@
     },
     {
       "slug": "colferol-d3",
-      "title": "Colferol-D3",
+      "title": "Colferol D3 Gold",
       "subtitle": "For strengthening of bones, Improving BMD & Prevention of lameness, Rickets and ...",
-      "image": "/product-images/poultry/COLFEROL D3 GOLD.png",
+      "image": "/images/Poultry Products/Colferol - D3 Gold.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -52,7 +52,7 @@
       "slug": "thermiquit-fs",
       "title": "THERMIQUIT (FS)",
       "subtitle": "For effective management of Heat stress in birds.",
-      "image": "/product-images/poultry/THERMEQUIT FS.png",
+      "image": "/images/Poultry Products/Thermiquit Powder - 10 Kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -76,7 +76,7 @@
       "slug": "thermiquit-liquid",
       "title": "THERMIQUIT Liquid",
       "subtitle": "For prevention of hyperthermia and to regulate body temperature during heat stre...",
-      "image": "/product-images/poultry/thermiquit.png",
+      "image": "/images/Poultry Products/Thermiquit - 5 Litres.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -100,7 +100,7 @@
       "slug": "thermiquit-ws",
       "title": "THERMIQUIT (WS)",
       "subtitle": "For replenishment of lost body electrolytes during heat stress and restoration o...",
-      "image": "/product-images/poultry/THERMEQUIT.png",
+      "image": "/images/Poultry Products/Thermiquit Powder - 10 Kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -124,7 +124,7 @@
       "slug": "antiprol",
       "title": "ANTIPROL",
       "subtitle": "For effective management of Cloacal / Vent Prolapse & Intussusception in birds.",
-      "image": "/product-images/poultry/ANTIPROL.png",
+      "image": "/images/Poultry Products/Antiprol.png",
       "brochure": "/products-download/today/ANTIPROL NEW_2026.pdf",
       "tabs": {
         "composition": {
@@ -173,7 +173,7 @@
       "slug": "lineodox",
       "title": "LINEODOX",
       "subtitle": "For the control of Gram Positive & Gram Negative bacterial infections, wet dropp...",
-      "image": "/product-images/poultry/LINEODOX.png",
+      "image": "/images/Poultry Products/Lineodox.png",
       "brochure": "/products-download/today/LINEODOX.pdf",
       "tabs": {
         "composition": {
@@ -198,7 +198,7 @@
       "slug": "d-beak",
       "title": "D-BEAK",
       "subtitle": "Helps as antihaemorrhagic agent during debeaking & protects against coccidiosis ...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/D- Beak.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -222,7 +222,7 @@
       "slug": "avitopam",
       "title": "AVITOPAM",
       "subtitle": "For effective rejuvenation of epithelial tissues, maintenance of Bone health & c...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Avitopan.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -270,7 +270,7 @@
       "slug": "proboon-ws",
       "title": "PROBOON-WS",
       "subtitle": "For establishing the state of EUBIOSIS by creating good intestinal microflora an...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Praboon - WS.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -294,7 +294,7 @@
       "slug": "proboon-fs",
       "title": "PROBOON-FS",
       "subtitle": "For establishing the state of EUBIOSIS by creating good intestinal microflora an...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Proboon - FS.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -342,7 +342,7 @@
       "slug": "brome-lev",
       "title": "BROME LEV",
       "subtitle": "For treatment of respiratory infections caused by bacteria including Mycoplasmos...",
-      "image": "/product-images/poultry/BROME LEV.png",
+      "image": "/images/Poultry Products/Bromelev.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -391,11 +391,11 @@
       "slug": "rr-eliminator",
       "title": "RR ELIMINATOR",
       "subtitle": "For control of rodent infestation in poultry farms.",
-      "image": "/product-images/poultry/eliminator powder.png",
+      "image": "/images/Poultry Products/Eliminator.png",
       "tabs": {
         "composition": {
           "title": "Composition",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Premix : Contains homogeneous blend of Rice, Maize, Wheat, Jowar and Bajra flours with added flavours. Eliminator Concentrate: Bromadiolone 0.25% w/w</p>\n\t\t</div>\n\t</div>"
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\">\n\t\t<div class=\"wpb_wrapper\">\n\t\t\t<p>Proprietary Blend of Feed Attractants and Flavour. Eliminator Concentrate Tin 500 Grams: Bromadiolone 0.25% w/w.</p>\n\t\t</div>\n\t</div>"
         },
         "indications_benefits": {
           "title": "Indications & Benefits",
@@ -415,7 +415,7 @@
       "slug": "fly-nil-gold",
       "title": "FLY NIL GOLD",
       "subtitle": "For control of fly larval propagation.",
-      "image": "/product-images/poultry/flynilgold.png",
+      "image": "/images/Poultry Products/Flynil Gold - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -439,7 +439,7 @@
       "slug": "fly-nil-gold-plus",
       "title": "FLY NIL GOLD PLUS",
       "subtitle": "For improved litter management and control of fly larval propagation.",
-      "image": "/product-images/poultry/flynil gold plus.png",
+      "image": "/images/Poultry Products/Flynil Gold Plus - 5 Litres.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -463,7 +463,7 @@
       "slug": "larvend",
       "title": "LARVEND",
       "subtitle": "For litter conditioning and management. Also for control of fly larval propagati...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Larvend - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -487,7 +487,7 @@
       "slug": "larvend-gold-plus",
       "title": "LARVEND Gold Plus",
       "subtitle": "Unique litter conditioning agent for proper litter management.",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Larvend Gold Plus - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -511,7 +511,7 @@
       "slug": "nolarve-c",
       "title": "NOLARVE-C",
       "subtitle": "For fly larval control.",
-      "image": "/product-images/poultry/nolarve-c.png",
+      "image": "/images/Poultry Products/NoLarve - C.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -535,7 +535,7 @@
       "slug": "spoton",
       "title": "SPOTON",
       "subtitle": "For killing adult house flies.",
-      "image": "/product-images/poultry/spoton.png",
+      "image": "/images/Poultry Products/Spoton.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -559,7 +559,7 @@
       "slug": "freall",
       "title": "FreAll",
       "subtitle": "For efficient control of insects including Lice, Mites, Ticks and Flies.",
-      "image": "/product-images/poultry/FreAll.png",
+      "image": "/images/Poultry Products/FreAll - 1 Litre.png",
       "brochure": "/products-download/today/free all.pdf",
       "tabs": {
         "composition": {
@@ -584,7 +584,8 @@
       "slug": "microkill",
       "title": "MICROKILL",
       "subtitle": "Broad spectrum disinfectant that offers potent antimicrobial activity.",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Microkill - 2 Kgs.png",
+      "brochure": "/products-download/today/MicroKIL.pdf",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -608,7 +609,7 @@
       "slug": "phenokil",
       "title": "PHENOKIL",
       "subtitle": "An effective germicide for disinfection of vehicle dips, foot dips, hatcheries a...",
-      "image": "/product-images/poultry/PHENOKIL.png",
+      "image": "/images/Poultry Products/Phenokil - 20 litres.png",
       "brochure": "/products-download/today/PHENOKIL.pdf",
       "tabs": {
         "composition": {
@@ -633,7 +634,7 @@
       "slug": "forma-kleen",
       "title": "FORMA KLEEN",
       "subtitle": "An effective disinfectant with potent Bactericidal, Sporicidal, Fungicidal and V...",
-      "image": "/product-images/poultry/formakleen.png",
+      "image": "/images/Poultry Products/Forma Kleen - 5 kgs..png",
       "brochure": "/products-download/today/Farmakleen.pdf",
       "tabs": {
         "composition": {
@@ -658,7 +659,7 @@
       "slug": "cheqvir",
       "title": "CHEQVIR",
       "subtitle": "An excellent broad spectrum biocide for controlling Gram Positive & Gram Negativ...",
-      "image": "/product-images/poultry/CHEQVIR.png",
+      "image": "/images/Poultry Products/Cheqvir TT - 1 Litre.png",
       "brochure": "/products-download/today/CHEQVIR-TT.pdf",
       "tabs": {
         "composition": {
@@ -683,7 +684,7 @@
       "slug": "aqua-remid",
       "title": "AQUA REMID",
       "subtitle": "Fast acting Biocide with potent Bactericidal, Virucidal, Fungicidal and Algaecid...",
-      "image": "/product-images/poultry/AQUAREMID.png",
+      "image": "/images/Poultry Products/Aquaremin - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -731,7 +732,7 @@
       "slug": "toxelim-b-gold",
       "title": "TOXELIM-B GOLD",
       "subtitle": "Unique and complete health tonic For improved productivity.",
-      "image": "/product-images/poultry/TOXELIM-B-GOLD.png",
+      "image": "/images/Poultry Products/Toxelim-B Gold - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -755,7 +756,7 @@
       "slug": "toxelim-b-gold-plus",
       "title": "TOXELIM-B GOLD PLUS",
       "subtitle": "Unique and complete health tonic for improved productivity.",
-      "image": "/product-images/poultry/TOXELIM-B-GOLD (1).png",
+      "image": "/images/Poultry Products/Toxelim-B Gold Plus - 5 Litres.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -779,7 +780,7 @@
       "slug": "toxelim-b",
       "title": "TOXELIM-B",
       "subtitle": "An ideal hepatoprotectant that prevents Mycotoxicosis.",
-      "image": "/product-images/poultry/TOXELIM-B.png",
+      "image": "/images/Poultry Products/Toxelim-B Powder - 25 Kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -804,7 +805,7 @@
       "slug": "toxelim-b-gold",
       "title": "TOXELIM-B GOLD",
       "subtitle": "Complete Health Supplement for increased productivity.",
-      "image": "/product-images/poultry/TOXELIM-B-GOLD.png",
+      "image": "/images/Poultry Products/Toxelim-B Gold - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -828,7 +829,7 @@
       "slug": "erythroboon-liquid",
       "title": "ERYTHROBOON Liquid",
       "subtitle": "An excellent Haematinic for time management of Anaemic condition in birds & offe...",
-      "image": "/product-images/poultry/ERYTHROBOON.png",
+      "image": "/images/Poultry Products/Erythroboon - 1 litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -852,7 +853,7 @@
       "slug": "erythroboon-fs",
       "title": "ERYTHROBOON (FS)",
       "subtitle": "An excellent Haematinic for time management of Anaemic condition in birds & offe...",
-      "image": "/product-images/poultry/ERYTHROBOON-FS.png",
+      "image": "/images/Poultry Products/Erythroboon - FS.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -876,7 +877,7 @@
       "slug": "b-commore",
       "title": "B-ComMORE",
       "subtitle": "For management of general debility & prevention of polyneuritis in birds.",
-      "image": "/product-images/poultry/B - comMORE.png",
+      "image": "/images/Poultry Products/B-Commore - 1 Litre.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -900,7 +901,7 @@
       "slug": "avigrow",
       "title": "AVIGROW",
       "subtitle": "For achieving optimum growth and performance by fine tuning of body physiology a...",
-      "image": "/product-images/poultry/AVIGROW.png",
+      "image": "/images/Poultry Products/Avigrow - 1 litre.png",
       "brochure": "/products-download/today/Avigrow.pdf",
       "tabs": {
         "composition": {
@@ -925,7 +926,7 @@
       "slug": "succical-gold",
       "title": "SUCCICAL GOLD",
       "subtitle": "For achieving Calcium homeostasis, strengthening of Bones, Nervous system & for ...",
-      "image": "/product-images/poultry/SUCCICAL GOLD.png",
+      "image": "/images/Poultry Products/Succical Gold - 5 Litres.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -949,7 +950,7 @@
       "slug": "succical-fs",
       "title": "SUCCICAL-FS",
       "subtitle": "For achieving Calcium homeostasis, strengthening of Bones, Nervous system.",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Succical-FS - 10 Kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -973,7 +974,7 @@
       "slug": "succical-m",
       "title": "SUCCICAL-M",
       "subtitle": "Enhances bioavailability of Calcium and Phosphorous especially during egg laying...",
-      "image": "/product-images/poultry/SUCCICAL- M.png",
+      "image": "/images/Poultry Products/Succical M - 25 Kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -997,7 +998,7 @@
       "slug": "qualimin-plus",
       "title": "QUALIMIN PLUS",
       "subtitle": "For improving mineral absorption and assimilation & for improvement of other phy...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Qualimin Plus - 25 kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1021,7 +1022,7 @@
       "slug": "qualimin-gold",
       "title": "QUALIMIN-GOLD",
       "subtitle": "For improved GIT absorption and bioavailability which in turn enhances immunity,...",
-      "image": "/product-images/poultry/adult-chicken.png",
+      "image": "/images/Poultry Products/Qualimin Gold - 25 kgs..png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1069,7 +1070,7 @@
       "slug": "humifyaqua",
       "title": "Humify Aqua",
       "subtitle": "Effectively Stabilizes your Pond ecosystem",
-      "image": "/product-images/aqua/humif aqua.png",
+      "image": "/images/Aqua Products/Humify Aqua.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1172,9 +1173,9 @@
     },
     {
       "slug": "quit-stress",
-      "title": "QUIT STRESS",
+      "title": "Quitstress",
       "subtitle": "QUIT STRESS",
-      "image": "/product-images/poultry/nutritionalAndsupplements/vitaminAndMineralSupplements/quitstress-gold.png",
+      "image": "/images/Poultry Products/Quitstress.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1222,7 +1223,7 @@
       "slug": "toxiclean-aqua",
       "title": "Toxiclean Aqua",
       "subtitle": "\"Provides An Unparalleled & Synergistic Protection from Toxic Insults\"",
-      "image": "/product-images/poultry/TOXI CLEAN.png",
+      "image": "/images/Aqua Products/Toxiclean Aqua Forte - 25 kg.png",
       "tabs": {
         "composition": {
           "title": "Composition",
@@ -1239,35 +1240,10 @@
       }
     },
     {
-      "slug": "microkil",
-      "title": "MICROKIL",
-      "subtitle": "Potent Virucidal Disinfectant for Prolonged Activity",
-      "image": "/product-images/aqua/microkil.png",
-      "brochure": "/products-download/today/MicroKIL.pdf",
-      "tabs": {
-        "composition": {
-          "title": "Composition",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Potassium Monopersulphate compound 49.8% w/w. Containing a triple salt of Potassium mono per sulphate, Potassium hydrogen sulphate or Potassium bisulphate and Potassium sulphate.</p></div></div>"
-        },
-        "indications_benefits": {
-          "title": "Indications & Benefits",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><ul><li>MICROKIL is effective in controlling the spread of viruses such as WSSV, IHHNV and MBV and also prevents the transmission of bacteria such as Vibrio sp.</li><li>MICROKIL is effective against pathogens in aquatic environment and prevents disease outbreaks in aquaculture systems.</li><li>MICROKIL prevents the growth of anaerobic species in pond environment that produces noxious gases that inturn affects the healthy growth of fish/shrimp.</li><li>MICROKIL is an ecosafe disinfectant with ingredients that can biodegrade very quickly and does not cause any harm to the pond environment in any manner.</li><li>MICROKIL is a non toxic and non-tainting disinfectant that does not affect plankton growth or water quality in pond.</li><li>MICROKIL is a fast acting disinfectant with very minimal contact time of less than 10 mins.</li><li>MICROKIL is an ecosafe disinfectant with ingredients that can biodegrade very quickly and does not cause any harm to the pond environment in any manner.</li></ul></div></div>"
-        },
-        "dosage": {
-          "title": "Direction of Use",
-          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>500g - 2 kg for 1 Hectare. (Or) As suggested by the Aquaculture Consultant.</p></div></div>"
-        },
-        "packing": {
-          "title": "Packing",
-          "content": "<p><strong>Presentation:</strong> 2kg Container.</p>"
-        }
-      }
-    },
-    {
       "slug": "quatsure",
       "title": "QUATSURE",
       "subtitle": "80% Benzalkonium Chloride",
-      "image": "/product-images/aqua/quatsure.png",
+      "image": "/images/Aqua Products/Quat sure.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1292,7 +1268,7 @@
       "slug": "planktomore",
       "title": "PLANKTOMORE",
       "subtitle": "Phytoplankton Booster for Enhanced Productivity",
-      "image": "/product-images/aqua/planktomore.png",
+      "image": "/images/Aqua Products/Planktomore.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1313,12 +1289,11 @@
         }
       }
     },
-
     {
       "slug": "nurture-all",
       "title": "NURTURE-ALL",
       "subtitle": "Take that Extra Mile Advantage of Balanced Nutrition",
-      "image": "/product-images/aqua/nurture all.png",
+      "image": "/images/Aqua Products/Nurture-All - 1 litre.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1343,7 +1318,7 @@
       "slug": "qualimin-aqua",
       "title": "QUALIMIN-Aqua",
       "subtitle": "Enrich your aquatic environment with complete mineral mixture",
-      "image": "/product-images/aqua/qualimin aqua.png",
+      "image": "/images/Aqua Products/Qualimin Aqua - 10 kgs..png",
       "brochure": "/products-download/today/QUALIMIN AQUA.pdf",
       "tabs": {
         "composition": {
@@ -1368,7 +1343,7 @@
       "slug": "qualimin-aqua-forte",
       "title": "QUALIMIN-Aqua Forte",
       "subtitle": "Unique Combination of Minerals, Vitamins and Probiotics for achieving high Productivity",
-      "image": "/product-images/aqua/qualimin aqua.png",
+      "image": "/images/Aqua Products/Qualimin Aqua Forte - 10 Kg.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1393,7 +1368,7 @@
       "slug": "yuwin",
       "title": "YUWIN",
       "subtitle": "Resolve ammonia stress naturally",
-      "image": "/product-images/aqua/yuwin.png",
+      "image": "/images/Aqua Products/Yuwim.png",
       "brochure": "/products-download/today/YUWIN.pdf",
       "tabs": {
         "composition": {
@@ -1418,7 +1393,7 @@
       "slug": "yuwin-gold",
       "title": "YUWIN GOLD",
       "subtitle": "Resolve ammonia stress naturally",
-      "image": "/product-images/aqua/yuwin.png",
+      "image": "/images/Aqua Products/Yuwin Gold.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1493,7 +1468,7 @@
       "slug": "bindosorb-n",
       "title": "BINDOSORB-N",
       "subtitle": "An Improved Feed Binder Gel for Optimum Nutrition",
-      "image": "/product-images/aqua/bindosorb - n.png",
+      "image": "/images/Aqua Products/Bindosorb-N - 1 litre.png",
       "brochure": "/products-download/today/byindo sorbe N.pdf",
       "tabs": {
         "composition": {
@@ -1518,7 +1493,7 @@
       "slug": "toxiclean-fs",
       "title": "TOXICLEAN-FS",
       "subtitle": "An Eco-friendly approach for Elimination of Obnoxious Gases",
-      "image": "/product-images/aqua/toxiclean-fs.png",
+      "image": "/images/Aqua Products/Toxiclean-FS.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1543,7 +1518,7 @@
       "slug": "eest",
       "title": "EEST",
       "subtitle": "Yeast based probiotic supplement for high productivity in Aquaculture",
-      "image": "/product-images/aqua/eest.png",
+      "image": "/images/Aqua Products/Eest.png",
       "brochure": null,
       "tabs": {
         "composition": {
@@ -1568,7 +1543,7 @@
       "slug": "oxyenrich",
       "title": "OXYENRICH",
       "subtitle": "We understand that Oxygen is vital",
-      "image": "/product-images/aqua/oxyenrich.png",
+      "image": "/images/Aqua Products/Oxyenrich.png",
       "brochure": "/products-download/today/Oxy ENrich.pdf",
       "tabs": {
         "composition": {
@@ -1593,7 +1568,7 @@
       "slug": "ceesure",
       "title": "CEESURE",
       "subtitle": "An effective enhancer of immunity in Aquaculture",
-      "image": "/product-images/aqua/ceesure.png",
+      "image": "/images/Aqua Products/Ceesure.png",
       "brochure": "/products-download/today/ASKOCURE_PDF COPY_SD.pdf",
       "tabs": {
         "composition": {
@@ -1636,6 +1611,678 @@
         "packing": {
           "title": "Packing",
           "content": "<p><strong>Presentation:</strong> 10kg Bucket, 25 kg Container & Bait Stations.</p>"
+        }
+      }
+    },
+    {
+      "slug": "amiking",
+      "title": "Amiking",
+      "subtitle": "Potent disinfectant and sanitizer for poultry farm biosecurity.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Synergistic blend of quaternary ammonium compounds and glutaraldehyde.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Highly effective against virus, bacteria, and fungi. Safe for aerial disinfection and surface sanitation in poultry houses.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1-2 ml per Litre of water for routine spraying, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Litre & 5 Litres HDPE Containers.</p>"
+        }
+      }
+    },
+    {
+      "slug": "freeall-d",
+      "title": "FreeAll D",
+      "subtitle": "Advanced formulation for effective ectoparasite and pest management.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Synergistic blend of insect growth regulators and synthetic pyrethroids.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Highly effective against ticks, mites, lice, and beetles in poultry sheds.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Mix 5-10 ml per Litre of water and spray on cracks, crevices, and walls. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Litre Aluminium Container.</p>"
+        }
+      }
+    },
+    {
+      "slug": "aerovita",
+      "title": "Aerovita",
+      "subtitle": "Premium air sanitizer and respiratory health support for poultry.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Fortified with natural essential oils (Eucalyptus, Menthol) and bio-sanitizers.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Reduces respiratory distress, sanitizes air, and controls airborne pathogens in poultry sheds.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Use 5-10 ml in 1 Litre of water for aerial spraying/fumigation. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Litre HDPE Container.</p>"
+        }
+      }
+    },
+    {
+      "slug": "omni-clean",
+      "title": "Omni Clean",
+      "subtitle": "Heavy-duty cleaner and organic matter remover for poultry farms.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>High concentration of surfactants, chelating agents, and bio-detergents.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Removes biofilm and organic soil from poultry surfaces, equipment, and pipelines prior to disinfection.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Dilute 10-20 ml per Litre of water for washing farm equipment and floors. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 5 Litres & 20 Litres Drums.</p>"
+        }
+      }
+    },
+    {
+      "slug": "no-larve-d",
+      "title": "No Larve-D",
+      "subtitle": "Effective fly larvicide to control fly breeding in poultry litter.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Diflubenzuron and organic fillers.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Inhibits chitin synthesis in fly larvae, preventing development into adult flies. Controls larval populations in litter.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Sprinkle 100-150 g per 100 sft of litter area, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg & 5 Kg Pouches.</p>"
+        }
+      }
+    },
+    {
+      "slug": "s-kleen",
+      "title": "S-Kleen",
+      "subtitle": "Premium sanitizing cleaner for hatchery and farm equipment.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Acidic sanitizing detergent with high foaming properties.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Ensures thorough cleaning and disinfection of hatchers, incubators, and trays. Effectively removes scale and mineral deposits.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Use 5-10 ml per Litre of water for washing. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 5 Litres HDPE Container.</p>"
+        }
+      }
+    },
+    {
+      "slug": "duchlor",
+      "title": "Duchlor",
+      "subtitle": "Broad spectrum water sanitizer and pathogen control for poultry.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Stable chlorine compound with active chlorine release agent.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Purifies drinking water, destroys water-borne pathogens, and prevents biofilm formation in pipelines.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1 tablet or 1-2 g per 1000 Litres of drinking water. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg Container.</p>"
+        }
+      }
+    },
+    {
+      "slug": "ne-nil",
+      "title": "Ne-Nil",
+      "subtitle": "Fast-acting fly and insect control bait for poultry environments.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Insect attractants fortified with active insecticides.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Attracts and kills adult house flies and other crawling insects on contact. Safe to use in areas surrounding birds.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Spread 20-30 g on paper trays or infested surfaces. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 500 g & 1 Kg Packs.</p>"
+        }
+      }
+    },
+    {
+      "slug": "colferol-d3-nano",
+      "title": "Colferol D3 Nano",
+      "subtitle": "Nano-emulsified Vitamin D3 for rapid absorption and calcium utilization.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Each ml contains Cholecalciferol (Vitamin D3) 50000 I.U. in nano-emulsion form.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Provides rapid absorption of Vitamin D3. Prevents rickets, leg weakness, and thin eggshells in layers.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1-2 ml per 10 Litres of drinking water, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 100 ml & 500 ml Bottles.</p>"
+        }
+      }
+    },
+    {
+      "slug": "toxiclean",
+      "title": "Toxiclean",
+      "subtitle": "High efficiency toxin binder for poultry feed.",
+      "image": "/images/Poultry Products/Toxiclean - 20 Kgs..png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>HSCAS, activated charcoal, and organic acids.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Binds mycotoxins in feed, prevents mold growth, and protects the liver and gut from toxicity.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1 Kg per Ton of feed, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 20 Kg Bag.</p>"
+        }
+      }
+    },
+    {
+      "slug": "avicure-fs",
+      "title": "Avicure FS",
+      "subtitle": "Premium feed supplement for flock immunity and disease resistance.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Blend of vitamins, trace minerals, amino acids, and immune-stimulants.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Boosts immunity, improves feed conversion ratio (FCR), and supports recovery from stress and diseases.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>250-500 g per Ton of feed, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 10 Kg BOPP Bag.</p>"
+        }
+      }
+    },
+    {
+      "slug": "hepasafe",
+      "title": "Hepasafe",
+      "subtitle": "Potent liver tonic and hepatoprotective solution for poultry.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Choline Chloride, Liver extract, Yeast extract, Vitamin B-Complex, and herbal extracts.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Protects liver from toxins, regenerates liver cells, improves appetite, and enhances fat metabolism.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>15-20 ml per 100 birds in drinking water daily. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Litre & 5 Litres HDPE Containers.</p>"
+        }
+      }
+    },
+    {
+      "slug": "mutilin-plus",
+      "title": "Mutilin Plus",
+      "subtitle": "Advanced nutritional supplement for poultry respiratory and gut health.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Tiamulin formulation fortified with key vitamins and prebiotics.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Supports respiratory health, prevents CRD complications, and maintains intestinal integrity.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>200-300 g per Ton of feed, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg Aluminium Pouch.</p>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin-nm",
+      "title": "Qualimin NM",
+      "subtitle": "Highly bioavailable mineral supplement for aquaculture growth and shell health.",
+      "image": "/product-images/aqua/qualimin-nm.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Fortified trace minerals with high bioavailability.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Promotes regular moulting, prevents cramping/soft shell syndrome, and enhances muscle growth in shrimp and fish.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>10 g per Kg of feed. Or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg Pack.</p>"
+        }
+      }
+    },
+    {
+      "slug": "tonitune-nc",
+      "title": "Tonitune-NC",
+      "subtitle": "Premium gut health stabilizer and digestive tonic for fish and shrimp.",
+      "image": "/product-images/aqua/tonitune-nc.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Concentrated blend of digestive enzymes, organic acids, and gut stabilizers.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Enhances digestion, improves FCR, prevents gut bacterial infections, and maintains stable gut microflora.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>5-10 g per Kg of feed. Or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg Container.</p>"
+        }
+      }
+    },
+    {
+      "slug": "toxiclean-fs",
+      "title": "Toxiclean FS",
+      "subtitle": "High efficiency toxin binder and soil conditioner for aquaculture ponds.",
+      "image": "/images/Aqua Products/Toxiclean-FS.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>HSCAS, activated charcoal, organic acids, and select clays.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Adsorbs heavy metals, mycotoxins, and organic pollutants from pond bottom, improving water quality.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1-2 Kg per Acre of pond area. Or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 10 Kg & 25 Kg Bags.</p>"
+        }
+      }
+    },
+    {
+      "slug": "toxiclean-granules",
+      "title": "Toxiclean Granules",
+      "subtitle": "Granular bottom detoxifier and gas adsorbent for shrimp and fish ponds.",
+      "image": "/product-images/aqua/toxiclean-granules-bucket.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Zeolite granules impregnated with oxygen releasers and bio-adsorbents.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Sinks to the bottom to release active detoxifying agents. Eliminates toxic ammonia, hydrogen sulfide, and nitrite gases.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>5-10 Kg per Acre, or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 10 Kg & 25 Kg Buckets.</p>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin-aqua-forte",
+      "title": "Qualimin Aqua Forte",
+      "subtitle": "Concentrated macromineral and trace mineral blend for high-density aquaculture.",
+      "image": "/images/Aqua Products/Qualimin Aqua Forte - 10 Kg.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Calcium, Magnesium, Potassium, Phosphorus, and trace minerals (Zinc, Copper, Manganese, Iron).</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Maintains optimal mineral balance in pond water. Prevents mineral deficiencies and ensures healthy shell development.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>10-20 Kg per Acre depending on salinity. Or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 10 Kg & 25 Kg Buckets.</p>"
+        }
+      }
+    },
+    {
+      "slug": "entrowin-fs",
+      "title": "Entrowin FS",
+      "subtitle": "Probiotic feed supplement for healthy hepatopancreas and gut.",
+      "image": "/product-images/aqua/entrowin-fs.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Multi-strain probiotics (Bacillus subtilis, Bacillus licheniformis) fortified with amino acids.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Colonizes the gut, suppresses Vibrio, protects the hepatopancreas, and improves disease resistance.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>5-10 g per Kg of feed. Or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg Pack.</p>"
+        }
+      }
+    },
+    {
+      "slug": "entrowin-ws",
+      "title": "Entrowin WS",
+      "subtitle": "Water-soluble probiotics and bioremediation agent for pond health.",
+      "image": "/product-images/aqua/entrowin-ws.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Concentrated blend of water-clearing bacteria and enzymes.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Reduces organic load, prevents black soil formation, clears suspended matter, and improves water transparency.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>500 g to 1 Kg per Acre. Or as suggested by the Aquaculture consultant.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg Container.</p>"
+        }
+      }
+    },
+    {
+      "slug": "trimectin-z",
+      "title": "Trimectin Z",
+      "subtitle": "Broad spectrum dewormer and ectoparasiticide for livestock.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Ivermectin and Albendazole combination.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Treats and controls internal roundworms, lungworms, and external parasites like lice, mites, and ticks in livestock.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1 bolus per 150-200 kg body weight, or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> Strip of 2 Boluses.</p>"
+        }
+      }
+    },
+    {
+      "slug": "termiworn",
+      "title": "Termiworn",
+      "subtitle": "Fast-acting anthelmintic for eradication of internal worms in cattle.",
+      "image": "/images/Poultry Products/Termiworn.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Fenbendazole USP.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Highly effective against mature and immature stages of gastrointestinal roundworms and lungworms in livestock.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>5-7.5 mg per Kg body weight. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 10 Boluses / Box.</p>"
+        }
+      }
+    },
+    {
+      "slug": "succical-vet",
+      "title": "Succical Vet",
+      "subtitle": "Liquid calcium supplement fortified with vitamins for high-yielding dairy animals.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Calcium, Phosphorus, Vitamin D3, Vitamin B12, and herbal galactagogues.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Improves milk yield, prevents milk fever, and maintains bone structure and health in dairy animals.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Cattle/Buffalo: 100 ml daily. Sheep/Goat: 20 ml daily. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Litre & 5 Litres Bottles.</p>"
+        }
+      }
+    },
+    {
+      "slug": "succical-c",
+      "title": "Succical -C",
+      "subtitle": "Premium calcium gel for instant calcium replenishment post-calving.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Ionic calcium gel fortified with Vitamin D3 and energy precursors.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Provides high levels of calcium quickly to prevent hypocalcemia (milk fever) in newly calved cows.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>1 tube (300 g) prior to calving, and 1 tube 12-24 hours after calving. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 300 g Tube.</p>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin-vet",
+      "title": "Qualimin Vet",
+      "subtitle": "Chelated mineral mixture for optimal fertility and productivity.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Chelated minerals (Zinc, Copper, Manganese, Cobalt, Iron) fortified with vitamins and probiotics.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Improves conception rate, enhances semen quality, prevents silent heat, and boosts overall immunity.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Cattle/Buffalo: 50 g daily. Sheep/Goat: 10-15 g daily. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 1 Kg & 5 Kg Bags.</p>"
+        }
+      }
+    },
+    {
+      "slug": "qualimin-c",
+      "title": "Qualimin – C",
+      "subtitle": "Premium mineral block with trace minerals and vitamins.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Macrominerals, trace minerals, and essential vitamins in lick block form.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Allows free-choice licking to satisfy mineral cravings, improves digestion, and supports animal vitality.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Keep the block at a convenient height for animals to lick. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 5 Kg Block.</p>"
+        }
+      }
+    },
+    {
+      "slug": "erythroboon",
+      "title": "Erythroboon",
+      "subtitle": "Haematinic supplement to treat anemia and boost vitality in livestock.",
+      "image": "/images/Poultry Products/Erythroboon - 1 litre.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Iron, Copper, Cobalt, Vitamin B12, and Yeast extract.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Improves haemoglobin levels, treats weakness/anemia, and aids in recovery after disease or blood loss.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Cattle/Buffalo: 30-50 ml daily. Sheep/Goat: 10-15 ml daily. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 500 ml & 1 Litre Bottles.</p>"
+        }
+      }
+    },
+    {
+      "slug": "proboon",
+      "title": "Proboon",
+      "subtitle": "High potency probiotic feed supplement for ruminant digestion.",
+      "image": "/product-images/poultry/adult-chicken.png",
+      "tabs": {
+        "composition": {
+          "title": "Composition",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Saccharomyces cerevisiae, Lactobacillus acidophilus, and feed enzymes.</p></div></div>"
+        },
+        "indications_benefits": {
+          "title": "Indications & Benefits",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Stabilizes rumen pH, prevents acidosis, improves fiber digestion, and increases milk fat percentage.</p></div></div>"
+        },
+        "dosage": {
+          "title": "Direction of Use",
+          "content": "<div class=\"wpb_text_column wpb_content_element pagetext\"><div class=\"wpb_wrapper\"><p>Cattle/Buffalo: 10-15 g daily. Sheep/Goat: 2-3 g daily. Or as suggested by the Veterinarian.</p></div></div>"
+        },
+        "packing": {
+          "title": "Packing",
+          "content": "<p><strong>Presentation:</strong> 500 g Pouch.</p>"
         }
       }
     }
@@ -1687,7 +2334,20 @@
         "succical-m",
         "qualimin-plus",
         "qualimin-gold",
-        "quits-tress-gold"
+        "quits-tress-gold",
+        "amiking",
+        "freeall-d",
+        "aerovita",
+        "omni-clean",
+        "no-larve-d",
+        "s-kleen",
+        "duchlor",
+        "ne-nil",
+        "colferol-d3-nano",
+        "toxiclean",
+        "avicure-fs",
+        "hepasafe",
+        "mutilin-plus"
       ]
     },
     "aquaculture": {
@@ -1708,29 +2368,65 @@
         "proboon-aqua",
         "toxiclean-fs",
         "eest",
-         "eliminator",
+        "eliminator",
         "microkill-aqua",
         "nutrinest",
         "oxyenrich",
         "quitstress-aqua",
-        "toxiclean-aqua"
+        "toxiclean-aqua",
+        "qualimin-nm",
+        "tonitune-nc",
+        "toxiclean-granules",
+        "entrowin-fs",
+        "entrowin-ws"
       ]
-
-      
     },
-    "large-animals": {
-      "name": "Large Animals",
+    "livestock": {
+      "name": "Livestock",
       "products": [
-        "calciboost",
+        "toxelim-b-gold",
+        "toxelim-b-gold-plus",
+        "erythroboon",
+        "phenokil",
+        "microkill",
+        "enrorite",
+        "brome-lev",
+        "trimectin-z",
+        "termiworn",
+        "cheqvir",
         "quit-stress",
-        "zithrosure"
+        "succical-gold",
+        "proboon",
+        "succical-vet",
+        "succical-c",
+        "qualimin-vet",
+        "qualimin-c",
+        "quits-tress-gold",
+        "b-commore"
       ]
     },
     "canine": {
       "name": "Canine",
       "products": [
-        "calciboost",
-        "quit-stress"
+        "toxelim-b-gold",
+        "toxelim-b-gold-plus",
+        "erythroboon",
+        "phenokil",
+        "microkill",
+        "enrorite",
+        "brome-lev",
+        "trimectin-z",
+        "termiworn",
+        "cheqvir",
+        "quit-stress",
+        "succical-gold",
+        "proboon",
+        "succical-vet",
+        "succical-c",
+        "qualimin-vet",
+        "qualimin-c",
+        "quits-tress-gold",
+        "b-commore"
       ]
     },
     "sheep-goat": {

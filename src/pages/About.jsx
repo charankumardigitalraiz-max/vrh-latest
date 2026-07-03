@@ -53,7 +53,7 @@ const About = () => {
         return text.substring(0, limit) + "...";
     };
 
-    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and Livestock Healthcare. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
+    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and Livestock & Canine Healthcare. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
     const visionText = "We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.";
     const missionText = "Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.";
 
@@ -87,7 +87,7 @@ const About = () => {
                                 <div className="about-hero__card-head">Precision Care</div>
                                 <div className="about-hero__stat">18+ <span>Years</span></div>
                                 <div className="about-hero__list">
-                                    <div className="about-hero__list-item">Poultry & Aquaculture</div>
+                                    <div className="about-hero__list-item">Poultry, Aquaculture, Livestock & Canine</div>
                                     <div className="about-hero__list-item">Nationwide Distribution Channels</div>
                                     <div className="about-hero__list-item">Products of high repute</div>
                                 </div>
@@ -97,7 +97,7 @@ const About = () => {
                                 <div className="about-hero__stat">2000+ <span>Clients</span></div>
                                 <div className="about-hero__signal">
                                     <span className="signal-dot" />
-                                    <span>On-ground teams accross key regions of poultry and aquaculture</span>
+                                    <span>On-ground teams accross key regions of poultry, aquaculture, livestock and canine</span>
                                 </div>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const About = () => {
                             <h2 className="section-heading">Who <span>We Are</span></h2>
                             <p className="wwa-body">
                                 RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
-                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture and Animal Healthcare segments additionally. Ever since our reorganization in the year 2016 our products in the different verticals have found
+                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture Livestock & Canine. Ever since our reorganization in the year 2016 our products in the different verticals have found
                                 increasing acceptance and we hope to meet the industry requirements at a better price than competitors. We are driven by the relentless pursuit of Quality in our products and persistently dedicated to serve our clientele in the field of animal health care.
                             </p>
                             <p className="wwa-body">
@@ -193,7 +193,7 @@ const About = () => {
                             <p className="roadmap-feature__desc">Tracking our milestones and future continuous growth in providing the best veterinary healthcare solutions.</p>
                         </div>
                         <div className="roadmap-feature__img-wrapper">
-                            <img src="images\image.png" alt="RRV Roadmap" className="roadmap-feature__img" />
+                            <img src="images\Road-Map.png" alt="RRV Roadmap" className="roadmap-feature__img" />
                         </div>
                     </div>
                 </div>

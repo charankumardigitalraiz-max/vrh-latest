@@ -49,6 +49,9 @@ const ProductDetail = () => {
 
     const relatedProducts = getRelatedProducts();
 
+
+    console.log(relatedProducts)
+
     return (
         <div className="product-detail-page animate-fade-in">
             {/* Elegant Header Section */}
@@ -196,11 +199,11 @@ const ProductDetail = () => {
                         </div>
 
                         <div className="modal-content-grid">
-                            <a href="tel:+919490410562" className="modal-contact-pill hover-lift">
+                            <a href="tel:+91 94410 31794" className="modal-contact-pill hover-lift">
                                 <div className="pill-icon-box"><Phone size={20} /></div>
                                 <div className="pill-info">
                                     <span className="pill-label">Call Us</span>
-                                    <span className="pill-value">+91 94904 10562</span>
+                                    <span className="pill-value">+91 94410 31794</span>
                                 </div>
                             </a>
 
@@ -208,7 +211,7 @@ const ProductDetail = () => {
                                 <div className="pill-icon-box"><Mail size={20} /></div>
                                 <div className="pill-info">
                                     <span className="pill-label">Email Us</span>
-                                    <span className="pill-value">info@rrveterinary.in</span>
+                                    <span className="pill-value">sreekanthdevalraju@rrveterinary.in</span>
                                 </div>
                             </a>
 

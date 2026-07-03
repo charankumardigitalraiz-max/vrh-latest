@@ -7,8 +7,8 @@ const jobs = [
     {
         title: "Business Development Manager (BDM) – Poultry",
         positions: "4 Vacancies",
-        location: "Hyderabad, Vijayawada, Bangalore, Coimbatore",
-        experience: "Min 4+ Years",
+        location: "Hyderabad, Vijayawada, Bengaluru, Coimbatore",
+        experience: "Minimum 6 Years of Experience",
         department: "Poultry",
         responsibilities: [
             "Team Leadership & Performance: Lead, mentor, and manage a high-performing team of 5 to 8 Business Development Executives (BDEs) to consistently meet and exceed regional sales and collection targets.",
@@ -22,9 +22,9 @@ const jobs = [
     {
         title: "Business Development Executives (BDE) – Poultry",
         positions: "14 Vacancies",
-        location: "Karimnagar,Siddipet, Hyderabad,Warangal,Vijayawada,Tanuku,Anaparthy,Chittoor,Bangalore,Hospet,Mysore,Coimbatore,Namakkal",
+        location: "Karimnagar, Siddipet, Hyderabad, Warangal, Vijayawada, Tanuku, Anaparthy, Chittoor, Bengaluru, Hospet, Mysore, Coimbatore, Namakkal",
 
-        experience: "Min 2+ Years",
+        experience: "Minimum 2+ Years of Experience",
         department: "Poultry",
         responsibilities: [
             "Sales & Collections: Manage and drive sales and collection activities within the assigned territory.",
@@ -38,7 +38,7 @@ const jobs = [
         title: "Business Development Manager (BDM) – Aquaculture",
         positions: "1 Vacancy",
         location: "Bhimavaram (Andhra Pradesh)",
-        experience: "Min 4+ Years",
+        experience: "Minimum 6 Years of Experience",
         department: "Aquaculture",
         responsibilities: [
             "Team Leadership & Performance: Lead, mentor, and manage a high-performing team of 5 to 8 Business Development Executives (BDEs) to consistently meet and exceed regional sales and collection targets.",
@@ -53,7 +53,7 @@ const jobs = [
         title: "Business Development Executives (BDE) – Aquaculture",
         positions: "6 Vacancies",
         location: "Bhimavaram, Kakinada, Ganapavaram, Akavidu, Kaikaluru, Gudivada",
-        experience: "Min 2+ Years",
+        experience: "Minimum 2+ Years of Experience",
         department: "Aquaculture",
         responsibilities: [
             "Sales & Collections: Manage and drive sales and collection activities within the assigned territory.",
@@ -67,7 +67,7 @@ const jobs = [
         title: "Purchase Executive",
         positions: "1 Vacancy",
         location: "Corporate Office (Hyderabad)",
-        experience: "Min 3+ Years",
+        experience: "Minimum 3+ Years of Experience",
         department: "Office",
         responsibilities: [
             "Vendor Management: Source, evaluate, and establish strong relationships with reliable suppliers and vendors.",
@@ -78,7 +78,7 @@ const jobs = [
     }
 ];
 
-const aquaLocations = ["Bhimavaram", "Kakinada", "Ganapavaram", "Akavidu", "Kaikaluru", "Gudivada"];
+const aquaLocations = ["Bhimavaram", "Kakinada", "Ganapavaram", "Akividu", "Kaikaluru", "Gudivada"];
 const poultryLocations = [
     "Hyderabad", "Karimnagar", "Siddipet", "Warangal",
     "Vijayawada", "Tanuku", "Anaparthy", "Chittoor",
@@ -176,7 +176,7 @@ const Careers = () => {
                 </div>
             </section>
 
-        
+
 
             {/* Map section removed from here to go below Job Listings */}
 
@@ -222,7 +222,7 @@ const Careers = () => {
                 </div>
             </section>
 
-               {/* ── DISTRIBUTION OPPORTUNITIES ── */}
+            {/* ── DISTRIBUTION OPPORTUNITIES ── */}
             <section className="car-distributor-section">
                 <div className="container">
                     <div className="car-distributor-box">
@@ -235,7 +235,7 @@ const Careers = () => {
                             <p className="car-distributor-desc">
                                 Partner with RR Veterinary Health Care Pvt. Ltd. to expand our high-quality veterinary solutions to new markets.
                             </p>
-                            <Link to="/contact-us" className="car-distributor-btn" onClick={() => window.scrollTo(0,0)}>
+                            <Link to="/contact-us" className="car-distributor-btn" onClick={() => window.scrollTo(0, 0)}>
                                 Contact Us for Distribution
                             </Link>
                         </div>

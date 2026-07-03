@@ -87,7 +87,7 @@ const Header = () => {
                                 <div className="dropdown-menu">
                                     <Link className="dropdown-item" to="/category/poultry">Poultry</Link>
                                     <Link className="dropdown-item" to="/category/aquaculture">Aquaculture</Link>
-                                    <Link className="dropdown-item" to="/category/large-animals">Large Animals</Link>
+                                    <Link className="dropdown-item" to="/category/livestock">Livestock</Link>
                                     <Link className="dropdown-item" to="/category/canine">Canine</Link>
 
                                 </div>
@@ -200,7 +200,7 @@ const Header = () => {
                         <ul className={`mobile-submenu ${openDropdown === 'products' ? 'open' : ''}`}>
                             <li><Link to="/category/poultry" onClick={() => setIsMobileMenuOpen(false)}>Poultry</Link></li>
                             <li><Link to="/category/aquaculture" onClick={() => setIsMobileMenuOpen(false)}>Aquaculture</Link></li>
-                            <li><Link to="/category/large-animals" onClick={() => setIsMobileMenuOpen(false)}>Large Animals</Link></li>
+                            <li><Link to="/category/livestock" onClick={() => setIsMobileMenuOpen(false)}>Livestock</Link></li>
                             <li><Link to="/category/canine" onClick={() => setIsMobileMenuOpen(false)}>Canine</Link></li>
                             <li><Link to="/category/sheep-goat" onClick={() => setIsMobileMenuOpen(false)}>Sheep & Goat</Link></li>
                         </ul>

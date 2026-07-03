@@ -17,12 +17,19 @@ export const productCategories = [
                             { id: 'toxelim-b', name: 'TOXELIM-B' },
                             { id: 'erythroboon-liquid', name: 'ERYTHROBOON Liquid' },
                             { id: 'erythroboon-fs', name: 'ERYTHROBOON (FS)' },
-                            { id: 'b-commore', name: 'B-ComMORE' },
+                            { id: 'b-commore', name: 'Bcommore' },
                             { id: 'succical-gold', name: 'SUCCICAL GOLD' },
                             { id: 'succical-fs', name: 'SUCCICAL-FS' },
                             { id: 'succical-m', name: 'SUCCICAL-M' },
                             { id: 'qualimin-gold', name: 'QUALIMIN-GOLD' },
-                            { id: 'quits-tress-gold', name: 'QUITS TRESS GOLD' }
+                            { id: 'quits-tress-gold', name: 'QUITS TRESS GOLD' },
+                            { id: 'colferol-d3-nano', name: 'Colferol D3 Nano' },
+                            { id: 'colferol-d3', name: 'Colferol D3 Gold' },
+                            { id: 'toxiclean', name: 'Toxiclean' },
+                            { id: 'toxi-clean-gold', name: 'Toxiclean Gold' },
+                            { id: 'avicure-fs', name: 'Avicure FS' },
+                            { id: 'hepasafe', name: 'Hepasafe' },
+                            { id: 'mutilin-plus', name: 'Mutilin Plus' }
                         ]
                     },
                     {
@@ -43,8 +50,6 @@ export const productCategories = [
                         id: 'antibiotics',
                         name: 'Antibiotics',
                         items: [
-                            { id: 'toxi-clean-gold', name: 'TOXI CLEAN GOLD' },
-                            { id: 'colferol-d3', name: 'Colferol-D3' },
                             { id: 'thermiquit-fs', name: 'THERMIQUIT (FS)' },
                             { id: 'thermiquit-liquid', name: 'THERMIQUIT Liquid' },
                             { id: 'thermiquit-ws', name: 'THERMIQUIT (WS)' },
@@ -79,6 +84,7 @@ export const productCategories = [
                         name: 'Pest Management',
                         items: [
                             { id: 'freall', name: 'FreAll' },
+                            { id: 'freeall-d', name: 'FreeAll D' },
                             { id: 'ectohibit-fs', name: 'ECTOHIBIT-FS' }
                         ]
                     },
@@ -88,7 +94,8 @@ export const productCategories = [
                         items: [
                             { id: 'larvend', name: 'LARVEND' },
                             { id: 'larvend-gold-plus', name: 'LARVEND Gold Plus' },
-                            { id: 'nolarve-c', name: 'NOLARVE-C' }
+                            { id: 'nolarve-c', name: 'NOLARVE-C' },
+                            { id: 'no-larve-d', name: 'No Larve-D' }
                         ]
                     },
                     {
@@ -97,7 +104,8 @@ export const productCategories = [
                         items: [
                             { id: 'fly-nil-gold', name: 'FLY XIL GOLD' },
                             { id: 'fly-nil-gold-plus', name: 'FLY XIL GOLD PLUS' },
-                            { id: 'spoton', name: 'SPOTON' }
+                            { id: 'spoton', name: 'SPOTON' },
+                            { id: 'ne-nil', name: 'Ne-Nil' }
                         ]
                     },
                     {
@@ -106,7 +114,8 @@ export const productCategories = [
                         items: [
                             { id: 'microkill', name: 'MICROKILL' },
                             { id: 'cheqvir', name: 'CHEQVIR' },
-                            { id: 'aqua-remid', name: 'AQUA REMID' }
+                            { id: 'aqua-remid', name: 'AQUA REMID' },
+                            { id: 'duchlor', name: 'Duchlor' }
                         ]
                     },
                     {
@@ -114,7 +123,11 @@ export const productCategories = [
                         name: 'Vehicle Dip and Foot Dip',
                         items: [
                             { id: 'phenokil', name: 'PHENOKIL' },
-                            { id: 'forma-kleen', name: 'FORMA KLEEN' }
+                            { id: 'forma-kleen', name: 'FORMA KLEEN' },
+                            { id: 'amiking', name: 'Amiking' },
+                            { id: 'aerovita', name: 'Aerovita' },
+                            { id: 'omni-clean', name: 'Omni Clean' },
+                            { id: 's-kleen', name: 'S-Kleen' }
                         ]
                     }
                 ]
@@ -132,8 +145,11 @@ export const productCategories = [
                 items: [
                     { id: 'ceesure', name: 'Ceesure' },
                     { id: 'eest', name: 'Eest' },
-                    { id: 'qualimin-aqua-forte', name: 'Qualimin Aqua forte' },
+                    { id: 'qualimin-aqua-forte', name: 'Qualimin Aqua Forte' },
                     { id: 'qualimin-aqua', name: 'Qualimin Aqua' },
+                    { id: 'qualimin-nm', name: 'Qualimin NM' },
+                    { id: 'tonitune-nc', name: 'Tonitune-NC' },
+                    { id: 'entrowin-fs', name: 'Entrowin FS' },
                     { id: 'nurture-all', name: 'NURTURE-ALL' },
                     { id: 'bindosorb-n', name: 'BINDOSORB-N' }
                 ]
@@ -145,7 +161,9 @@ export const productCategories = [
                     { id: 'oxyenrich', name: 'Oxyenrich' },
                     { id: 'planktomore', name: 'Planktomore' },
                     { id: 'proboon-aqua', name: 'Proboon Aqua' },
-                    { id: 'toxiclean-fs', name: 'Toxiclean-fs' },
+                    { id: 'toxiclean-fs', name: 'Toxiclean FS' },
+                    { id: 'toxiclean-granules', name: 'Toxiclean Granules' },
+                    { id: 'entrowin-ws', name: 'Entrowin WS' },
                     { id: 'yuwin-gold', name: 'Yuwin Gold' },
                     { id: 'yuwin', name: 'Yuwin' },
                     { id: 'ligabind', name: 'LIGABIND' },
@@ -165,14 +183,56 @@ export const productCategories = [
         ]
     },
     {
-        id: 'large-animals',
-        name: 'Large Animals',
-        slug: 'large-animals'
+        id: 'livestock',
+        name: 'Livestock',
+        slug: 'livestock',
+        items: [
+            { id: 'toxelim-b-gold', name: 'Toxelim B Gold' },
+            { id: 'toxelim-b-gold-plus', name: 'Toxelim B Gold Plus' },
+            { id: 'erythroboon', name: 'Erythroboon' },
+            { id: 'phenokil', name: 'Phinokill' },
+            { id: 'microkill', name: 'Microkill' },
+            { id: 'enrorite', name: 'Enrorite' },
+            { id: 'brome-lev', name: 'Bromeliv' },
+            { id: 'trimectin-z', name: 'Trimectin Z' },
+            { id: 'termiworn', name: 'Termiworn' },
+            { id: 'cheqvir', name: 'Cheqvir' },
+            { id: 'quit-stress', name: 'Quitstress' },
+            { id: 'succical-gold', name: 'Succical Gold' },
+            { id: 'proboon', name: 'Proboon' },
+            { id: 'succical-vet', name: 'Succical Vet' },
+            { id: 'succical-c', name: 'Succical -C' },
+            { id: 'qualimin-vet', name: 'Qualimin Vet' },
+            { id: 'qualimin-c', name: 'Qualimin – C' },
+            { id: 'quits-tress-gold', name: 'Quitstress Gold' },
+            { id: 'b-commore', name: 'B-ComMore' }
+        ]
     },
     {
         id: 'canine',
         name: 'Canine',
-        slug: 'canine'
+        slug: 'canine',
+        items: [
+            { id: 'toxelim-b-gold', name: 'Toxelim B Gold' },
+            { id: 'toxelim-b-gold-plus', name: 'Toxelim B Gold Plus' },
+            { id: 'erythroboon', name: 'Erythroboon' },
+            { id: 'phenokil', name: 'Phinokill' },
+            { id: 'microkill', name: 'Microkill' },
+            { id: 'enrorite', name: 'Enrorite' },
+            { id: 'brome-lev', name: 'Bromeliv' },
+            { id: 'trimectin-z', name: 'Trimectin Z' },
+            { id: 'termiworn', name: 'Termiworn' },
+            { id: 'cheqvir', name: 'Cheqvir' },
+            { id: 'quit-stress', name: 'Quitstress' },
+            { id: 'succical-gold', name: 'Succical Gold' },
+            { id: 'proboon', name: 'Proboon' },
+            { id: 'succical-vet', name: 'Succical Vet' },
+            { id: 'succical-c', name: 'Succical -C' },
+            { id: 'qualimin-vet', name: 'Qualimin Vet' },
+            { id: 'qualimin-c', name: 'Qualimin – C' },
+            { id: 'quits-tress-gold', name: 'Quitstress Gold' },
+            { id: 'b-commore', name: 'B-ComMore' }
+        ]
     },
     {
         id: 'sheep-goat',
