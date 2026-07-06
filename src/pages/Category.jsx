@@ -1,8 +1,9 @@
 import React, { useMemo, useState, useEffect, useCallback } from 'react';
+import { createPortal } from 'react-dom';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import productData from '../data/products.json';
 import { productCategories } from '../data/categories';
-import { ChevronRight, ChevronDown, Filter, X, Search, ImageOff } from 'lucide-react';
+import { ChevronRight, ChevronDown, Filter, X, Search, ImageOff, Eye } from 'lucide-react';
 import './Category.css';
 
 const ProductImage = ({ src, alt }) => {
@@ -74,6 +75,7 @@ const Category = () => {
     const [openGroups, setOpenGroups] = useState(new Set());
     const [isFilterOpen, setIsFilterOpen] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
+    const [selectedImage, setSelectedImage] = useState(null);
 
     // Helper to recursively check if an item or its children contains the active ID
     const containsActiveItem = useCallback((item, activeId) => {
@@ -366,18 +368,32 @@ const Category = () => {
                                 </span>
                             </div>
                         )}
-
                         <div className="product-grid">
                             {products.map((product, i) => (
                                 <div key={product.slug} className="animate-slide-up" style={{ animationDelay: `${(i % 5 + 1) * 100}ms` }}>
                                     <Link to={`/product/${product.slug}`} className="product-card-premium">
                                         <div className="card-accent"></div>
 
-
-                                        <div className="product-image-container">
+                                        <div 
+                                            className="product-image-container"
+                                            onClick={(e) => {
+                                                if (product.image && product.image !== '/images/no_image.png') {
+                                                    e.preventDefault();
+                                                    e.stopPropagation();
+                                                    setSelectedImage(product.image);
+                                                }
+                                            }}
+                                        >
                                             <ProductImage src={product.image} alt={product.title} />
+                                            {product.image && product.image !== '/images/no_image.png' && (
+                                                <div className="product-image-overlay">
+                                                    <div className="product-image-overlay-badge">
+                                                        <Eye size={18} />
+                                                        <span>Quick View</span>
+                                                    </div>
+                                                </div>
+                                            )}
                                         </div>
-
 
                                         <div className="product-content">
                                             <div className="product-type-badge">{slug || 'Product'}</div>
@@ -417,6 +433,18 @@ const Category = () => {
                     </div>
                 </div>
             </div>
+
+            {selectedImage && createPortal(
+                <div className="image-modal-overlay" onClick={() => setSelectedImage(null)}>
+                    <div className="image-modal-content" onClick={(e) => e.stopPropagation()}>
+                        <button className="image-modal-close" onClick={() => setSelectedImage(null)} aria-label="Close modal">
+                            <X size={24} />
+                        </button>
+                        <img src={selectedImage} alt="Product Preview" className="image-modal-img" />
+                    </div>
+                </div>,
+                document.body
+            )}
         </div>
     );
 };

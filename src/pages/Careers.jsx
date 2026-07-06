@@ -107,17 +107,17 @@ const Careers = () => {
         <div className="careers-page">
 
             {/* ── HERO ── */}
-            <section className="car-hero" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1567326619821-2664df9c48da?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
+            <section className="car-hero">
                 <div className="car-hero__overlay" />
                 <div className="container car-hero__inner">
                     <div className="car-hero__content-box">
                         <span className="car-hero__badge">Join Our Team</span>
                         <h1 className="banner-title">Build Your Future with <br />RR Veterinary Health Care</h1>
-                        <nav className="car-hero__breadcrumb">
+                        {/* <nav className="car-hero__breadcrumb">
                             <Link to="/">Home</Link>
                             <span>/</span>
                             <span className="active">Careers</span>
-                        </nav>
+                        </nav> */}
                     </div>
                 </div>
             </section>

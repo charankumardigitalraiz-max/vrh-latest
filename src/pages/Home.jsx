@@ -117,8 +117,8 @@ const Home = () => {
     };
 
     const slides = [
-        { id: 1, image: '/images/Banners/shrimp 1.jpg', title: "Elevating Standards in\nPoultry Health Care", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
-        { id: 2, image: '/images/Banners/poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
+        { id: 1, image: '/images/Banners/Poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
+        { id: 2, image: '/images/Banners/shrimp 1.jpg', title: "Elevating Standards in\nPoultry Health Care", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
         { id: 3, image: '/images/Banners/shrimp-2.jpg', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
         { id: 4, image: '/images/Banners/Aquafish-4.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" },
         { id: 5, image: '/images/Banners/Canine-3.jpg', title: "Shrimp", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" }
@@ -213,7 +213,7 @@ const Home = () => {
                             num: '01',
                             name: 'Poultry',
                             // label: 'Veterinary Solutions',
-                            img: '/poultry_showcase.avif',
+                            img: '/images/Banners/Segment wise pics/poultry.png',
                             color: '#e8f5e9',
                             accent: '#2e7d32',
                             desc: 'Providing End-to-End Health Management for Broilers, Layers and Parents-emphasize on Bio Security and Growth Optimization Strategy '
@@ -234,7 +234,7 @@ const Home = () => {
                             num: '03',
                             name: 'Livestock',
                             // label: 'Livestock Care',
-                            img: '/images/livestock.jpg',
+                            img: '/images/Banners/Image 2.png',
                             color: '#fff8e1',
                             accent: '#f57f17',
                             desc: 'Comprehensive health solutions for cattle, horses, and working livestock.'
@@ -244,7 +244,7 @@ const Home = () => {
                             num: '04',
                             name: 'Canine',
                             // label: 'Dog Care',
-                            img: '/images/dog.jpg',
+                            img: '/images/Banners/Segment wise pics/Canine.png',
                             color: '#fce4ec',
                             accent: '#ad1457',
                             desc: 'Targeted veterinary care and nutrition for dogs across breeds.'
@@ -287,7 +287,8 @@ const Home = () => {
                         <div className="premium-about__visual">
                             <div className="premium-about__img-container">
                                 <div className="item-main">
-                                    <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=1200&auto=format&fit=crop" alt="RR Veterinary Health Care" />
+                                    {/* <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=1200&auto=format&fit=crop" alt="RR Veterinary Health Care" /> */}
+                                    <img src="/images/Banners/_Image 1.png" alt="" />
                                     <div className="item-main__overlay"></div>
                                 </div>
                                 <div className="premium-about__experience-badge">

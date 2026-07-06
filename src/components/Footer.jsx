@@ -34,7 +34,7 @@ const Footer = () => {
                                         <br />
                                         RR Heights, # 5-5-81/5/1, 5th Floor,
                                         Sai Baba Nagar Colony, High Tension Line Road,
-                                        Kukatpally, Hyderabad – 500072
+                                        Kukatpally, Hyderabad – 500 072
                                     </span>
                                 </div>
                                 <div className="footer-contact-item">
@@ -47,7 +47,10 @@ const Footer = () => {
                                     <div className="footer-icon-wrapper">
                                         <Phone size={16} />
                                     </div>
-                                    <span>+91 94410 31794</span>
+                                    {/* <span>+91 94410 31794</span> */}
+                                    <span>+91 89784 17078</span>
+                                    {/* <p>+91 94410 31794</p> */}
+                                    <span>+91 94904 10562</span>
                                 </div>
                             </div>
                         </div>

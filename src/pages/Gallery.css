@@ -6,11 +6,12 @@
 
 .gallery-banner {
   position: relative;
-  background: url("/images/banner.jpg") center/cover no-repeat;
-  min-height: 280px;
+  background: linear-gradient(135deg, var(--theme-primary) 0%, var(--theme-primary-dark) 100%);
+  min-height: 200px;
   display: flex;
   align-items: center;
-  padding: 120px 0 60px; /* Increased top padding to clear fixed header */
+  justify-content: center;
+  padding: 110px 0 30px; /* Clears fixed header and keeps it compact */
   overflow: hidden;
 }
 
@@ -33,12 +34,10 @@
 
 .banner-content {
   max-width: 700px;
-  /* background: rgba(255, 255, 255, 0.05); */
-  /* backdrop-filter: blur(8px); */
-  /* -webkit-backdrop-filter: blur(8px); */
-  padding: var(--spacing-xl);
+  text-align: center;
+  margin: 0 auto;
+  padding: var(--spacing-md);
   border-radius: var(--border-radius-lg);
-  /* border: 1px solid rgba(255, 255, 255, 0.1); */
 }
 
 .banner-title {

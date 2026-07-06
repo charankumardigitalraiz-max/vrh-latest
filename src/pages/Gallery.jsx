@@ -57,7 +57,7 @@ const Gallery = () => {
     return (
         <div className="gallery-page fade-in">
             {/* Page Banner */}
-            <section className="page-banner gallery-banner" style={{ backgroundImage: "url('/images/heroes/aqua-banner2.jpg')" }}>
+            <section className="page-banner gallery-banner">
                 <div className="container">
                     <div className="banner-content slide-up">
                         <h1 className="banner-title">Our Gallery</h1>

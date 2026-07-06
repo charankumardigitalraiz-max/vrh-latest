@@ -52,18 +52,18 @@ const Contact = () => {
   return (
     <div className="contact-page fade-in">
       {/* Page Banner */}
-      <section className="page-banner" style={{ backgroundImage: "url('/images/heroes/poultry-4.jpg')" }}>
+      <section className="page-banner">
         <div className="banner-overlay"></div>
         <div className="container">
           <div className="banner-content-box slide-up">
             <span className="banner-badge">Get In Touch</span>
             <h1 className="banner-title">Contact Our Team</h1>
             <p className="banner-subtitle">We'd love to hear from you. Professional support for your veterinary needs.</p>
-            <nav className="banner-breadcrumb">
+            {/* <nav className="banner-breadcrumb">
               <a href="/">Home</a>
               <span>/</span>
               <span className="active">Contact Us</span>
-            </nav>
+            </nav> */}
           </div>
         </div>
       </section>
@@ -90,7 +90,7 @@ const Contact = () => {
                     <b>RR VETERINARY HEALTH CARE PRIVATE LIMITED</b>
                     <p>RR Heights, # 5-5-81/5/1, 5th Floor,
                       Sai Baba Nagar Colony, High Tension Line Road,
-                      Kukatpally, Hyderabad – 500072
+                      Kukatpally, Hyderabad – 500 072
                     </p>
                   </div>
                 </div>
@@ -101,7 +101,8 @@ const Contact = () => {
                   <div className="info-content">
                     <h3>Email ID</h3>
                     {/* <p><a href="mailto:info@rrvhc.in">info@rrvhc.in</a></p> */}
-                    <p><a href="mailto:sreekanthdevalraju@rrveterinary.in" >sreekanthdevalraju@rrveterinary.in</a></p>
+                    <p><a href="mailto:info@rrveterinary.in">info@rrveterinary.in</a></p>
+                    {/* <p><a href="mailto:sreekanthdevalraju@rrveterinary.in" >sreekanthdevalraju@rrveterinary.in</a></p> */}
                     {/* <p><a href="mailto:purchase@rrveterinary.in">purchase@rrveterinary.in</a></p> */}
                     {/*<p><a href="mailto:admin@rrveterinary.in">admin@rrveterinary.in</a></p>*/}
                     {/* <p><a href="mailto:hr@rrveterinary.in">hr@rrveterinary.in</a></p> */}
@@ -114,8 +115,9 @@ const Contact = () => {
                   </div>
                   <div className="info-content">
                     <h3>Customer Care Number</h3>
-                    <p>+91 94410 31794</p>
-                    {/* <p>+91 94904 10562</p> */}
+                    <p>+91 89784 17078</p>
+                    {/* <p>+91 94410 31794</p> */}
+                    <p>+91 94904 10562</p>
                   </div>
                 </div>
 

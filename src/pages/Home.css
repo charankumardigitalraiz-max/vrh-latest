@@ -64,9 +64,14 @@
 .hm-hero {
   position: relative;
   width: 100%;
-  height: auto;
+  height: calc(100vh - 96px);
   background: var(--bg-light);
   overflow: hidden;
+}
+
+.hm-hero__slider {
+  height: 100%;
+  position: relative;
 }
 
 .hm-hero__slide {
@@ -82,11 +87,11 @@
 }
 
 .hm-hero__slide.active {
-  position: relative;
-  top: auto;
-  left: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
+  height: 100%;
   opacity: 1;
   visibility: visible;
   z-index: 2;
@@ -95,20 +100,21 @@
 .hm-hero__bg-wrapper {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .hm-hero__bg-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center bottom;
   transform: scale(1);
   transition: transform 12s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .hm-hero__slide.active .hm-hero__bg-img {
-  transform: scale(1);
+  transform: scale(1.05);
 }
 
 /* Immersive Dark Overlay for Light Theme - Ensures clarity */
@@ -269,21 +275,12 @@
 
 .hm-hero__controls {
   position: absolute;
-  bottom: 50px;
-  left: 50%;
-  transform: translateX(-50%);
+  inset: 0;
+  pointer-events: none;
   z-index: 20;
-  display: flex;
-  align-items: center;
-  gap: 40px;
 }
 
 @media (max-width: 767px) {
-  .hm-hero__controls {
-    bottom: 18px;
-    gap: 18px;
-  }
-
   .hm-hero__nav-btn {
     width: 42px;
     height: 42px;
@@ -291,6 +288,9 @@
 }
 
 .hm-hero__nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
   width: 54px;
   height: 54px;
   border-radius: 50%;
@@ -303,17 +303,46 @@
   cursor: pointer;
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
+  pointer-events: auto;
+}
+
+.hm-hero__nav-btn:first-child {
+  left: 30px;
+}
+
+.hm-hero__nav-btn:last-child {
+  right: 30px;
+}
+
+@media (max-width: 767px) {
+  .hm-hero__nav-btn:first-child {
+    left: 15px;
+  }
+  .hm-hero__nav-btn:last-child {
+    right: 15px;
+  }
 }
 
 .hm-hero__nav-btn:hover {
   background: var(--theme-primary, #014d4e);
   border-color: var(--theme-primary, #014d4e);
-  transform: scale(1.1);
+  transform: translateY(-50%) scale(1.1);
 }
 
 .hm-hero__dots {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
   display: flex;
   gap: 12px;
+  pointer-events: auto;
+}
+
+@media (max-width: 767px) {
+  .hm-hero__dots {
+    bottom: 20px;
+  }
 }
 
 .hm-hero__dot {

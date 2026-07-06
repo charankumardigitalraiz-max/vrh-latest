@@ -17,15 +17,15 @@ const QualityPolicy = () => {
         <div className="qp-page">
 
             {/* ── HERO BANNER ── */}
-            <section className="qp-hero" style={{ backgroundImage: "url('/images/heroes/aqua-baner.jpg')" }}>
+            <section className="qp-hero">
                 <div className="qp-hero__overlay" />
                 <div className="container qp-hero__inner">
                     <h1 className="qp-hero__title">Quality Policy</h1>
-                    <nav className="qp-hero__breadcrumb">
+                    {/* <nav className="qp-hero__breadcrumb">
                         <Link to="/">Home</Link>
                         <span>/</span>
                         <span className="active">Quality Policy</span>
-                    </nav>
+                    </nav> */}
                 </div>
             </section>
 

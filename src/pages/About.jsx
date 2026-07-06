@@ -60,7 +60,7 @@ const About = () => {
     return (
         <div className="about-page">
             {/* ── HERO ── */}
-            <section className="about-hero about-hero--modern" style={{ backgroundImage: isMobile ? "url('/images/poultry3.jpg')" : "url('/images/heroes/about.jpg')" }}>
+            <section className="about-hero about-hero--modern">
                 <div className="about-hero__overlay" />
                 <div className="about-hero__glow" />
                 <div className="container about-hero__inner">
@@ -76,11 +76,11 @@ const About = () => {
                                 <div className="meta-pill">Quality Assured</div>
                                 <div className="meta-pill">Trusted by Farmers</div>
                             </div>
-                            <nav className="about-hero__breadcrumb">
+                            {/* <nav className="about-hero__breadcrumb">
                                 <Link to="/">Home</Link>
                                 <span>/</span>
                                 <span className="active">About Us</span>
-                            </nav>
+                            </nav> */}
                         </div>
                         <div className="about-hero__feature">
                             <div className="about-hero__card">
@@ -111,7 +111,8 @@ const About = () => {
                     <div className="wwa-grid">
                         <div className="wwa-visual">
                             <div className="wwa-img-frame">
-                                <img src="/images/home-2.jpg" alt="Who We Are" />
+                                {/* <img src="/images/home-2.jpg" alt="Who We Are" /> */}
+                                <img src="/images/Banners/_Image 1.png" alt="RR Veterinary Health Care" />
                             </div>
                             <div className="wwa-xp-badge">
                                 <div className="xp-number">18+</div>
