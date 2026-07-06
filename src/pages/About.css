@@ -6,10 +6,20 @@
   overflow-x: hidden;
 }
 
+
+.tt-team {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 /* Section Label Badge */
 .section-label {
   display: inline-flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  self-align: center;
   gap: 6px;
   background: rgba(var(--theme-primary-rgb), 0.08);
   color: var(--theme-primary);
@@ -27,6 +37,7 @@
   font-family: var(--font-family-heading);
   font-size: clamp(2rem, 5vw, 2.5rem);
   font-weight: 700;
+  text-align: center;
   line-height: 1.1;
   color: var(--theme-primary);
   margin-bottom: var(--spacing-lg);
@@ -682,15 +693,17 @@
 }
 
 .tt-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 50px;
+  /* display: grid;
+  grid-template-columns: 1fr; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media (min-width: 992px) {
   .tt-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 50px;
+    grid-template-columns: 1fr;
+    gap: 0;
     align-items: start;
   }
 }
@@ -698,7 +711,7 @@
 /* Team Cards */
 .team-cards {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 14px;
   margin-top: 20px;
 }

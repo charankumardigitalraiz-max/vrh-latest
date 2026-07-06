@@ -7,6 +7,8 @@ import productsData from '../data/products.json';
 const AnimatedCounter = ({ value, duration = 2000 }) => {
     const [count, setCount] = useState(0);
     const [hasAnimated, setHasAnimated] = useState(false);
+    const [selectedImage, setSelectedImage] = useState(null);
+
     const countRef = useRef(null);
 
     const target = parseInt(value, 10) || 0;
@@ -569,6 +571,7 @@ const Home = () => {
                     </Link> */}
                 </div>
             </section>
+
         </div>
     );
 };

@@ -273,7 +273,7 @@ const About = () => {
                         </div>
 
                         {/* Testimonials */}
-                        <div className="tt-testimonials">
+                        {/* <div className="tt-testimonials">
                             <div className="section-label">Client Feedback</div>
                             <h2 className="section-heading">Our <span className="text-accent">Testimonials</span></h2>
                             <div className="testi-card">
@@ -302,7 +302,7 @@ const About = () => {
                                     ))}
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
