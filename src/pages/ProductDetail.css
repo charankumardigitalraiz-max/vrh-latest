@@ -259,7 +259,7 @@
 
 .download-section:hover {
   transform: translateY(-2px);
-  background: rgba(255, 255, 255, 0.6);
+  /* background: rgba(255, 255, 255, 0.6); */
   border-color: var(--theme-secondary);
 }
 
@@ -292,11 +292,13 @@
   font-size: 0.95rem;
   font-weight: 700;
   margin-bottom: 2px;
+  color: var(--white);
 }
 
 .download-subtitle {
   font-size: 0.75rem;
   color: var(--text-muted);
+  color: var(--white);
 }
 
 .download-btn-compact {

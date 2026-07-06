@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { useParams, Link, useLocation, useNavigate } from 'react-router-dom';
 import productData from '../data/products.json';
-import { Download, ChevronRight, ArrowLeft, X, Phone, Mail, MessageSquare, ImageOff } from 'lucide-react';
+import { Download, ChevronRight, ArrowLeft, X, Phone, Mail, MessageSquare, ImageOff, ArrowUpRight, HelpCircle } from 'lucide-react';
 import './ProductDetail.css';
 
 const ProductImage = ({ src, alt, className }) => {
@@ -70,25 +70,20 @@ const ProductDetail = () => {
 
     const relatedProducts = getRelatedProducts();
 
-
-    console.log(relatedProducts)
-
     return (
         <div className="product-detail-page animate-fade-in">
             {/* Elegant Header Section */}
             <div className="product-page-header">
                 <div className="container">
-                    <div className="d-flex align-items-center justify-content-between">
-                        {/* <ul className="product-breadcrumb">
+                    <div className="header-navigation-row">
+                        <button onClick={() => navigate(-1)} className="back-to-products-btn">
+                            <ArrowLeft size={16} /> <span>Back to Products</span>
+                        </button>
+                        <ul className="product-breadcrumb">
                             <li><Link to="/" className="breadcrumb-link">Home</Link></li>
                             <li className="breadcrumb-divider">/</li>
-                            <li><Link to="/products" className="breadcrumb-link">Products</Link></li>
-                            <li className="breadcrumb-divider">/</li>
-                            <li className="breadcrumb-current">{product.title}</li>
-                        </ul> */}
-                        <button onClick={() => navigate(-1)} className="back-to-products">
-                            <ArrowLeft size={16} className="me-2" /> Back to Products
-                        </button>
+                            <li><span className="breadcrumb-current">{product.title}</span></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -99,26 +94,29 @@ const ProductDetail = () => {
                     <div className="col-lg-4 animate-scale-in">
                         <div className="sticky-sidebar">
                             <div className="product-image-box">
+                                <div className="product-image-glass-backdrop"></div>
                                 <ProductImage
                                     src={product.image}
                                     alt={product.title}
                                     className="product-image-large"
                                 />
+                                <div className="image-accent-glow"></div>
                                 <div className="image-accent-dots"></div>
                             </div>
 
                             <div className="help-box">
                                 <div className="help-box-decor"></div>
                                 <div className="help-box-content">
-                                    <h3 className="help-title">
-                                        <ChevronRight className="help-icon" /> Technical Support
-                                    </h3>
-                                    <p className="help-text">Expert guidance for using {product.title} in your farm management.</p>
+                                    <div className="help-icon-wrapper">
+                                        <HelpCircle className="help-icon" size={24} />
+                                    </div>
+                                    <h3 className="help-title">Technical Support</h3>
+                                    <p className="help-text">Expert guidance for using <strong>{product.title}</strong> in your animal health & nutrition management.</p>
                                     <button
                                         onClick={() => setShowContactModal(true)}
                                         className="help-btn"
                                     >
-                                        Ask an Expert
+                                        Ask an Expert <ArrowUpRight size={16} />
                                     </button>
                                 </div>
                             </div>
@@ -135,11 +133,11 @@ const ProductDetail = () => {
                             {product.brochure && (
                                 <div className="download-section">
                                     <div className="download-icon-box">
-                                        <Download size={24} />
+                                        <Download size={22} />
                                     </div>
                                     <div className="download-info">
                                         <h3 className="download-title">Product Brochure</h3>
-                                        <div className="download-subtitle">Technical Specifications (PDF)</div>
+                                        <div className="download-subtitle">Technical Specifications & Dosage Guide (PDF)</div>
                                     </div>
                                     <a
                                         href={product.brochure}
@@ -156,16 +154,18 @@ const ProductDetail = () => {
                             {/* Enhanced Tabs */}
                             {tabKeys.length > 0 && (
                                 <div className="tabs-container-premium">
-                                    <div className="tab-buttons-row">
-                                        {tabKeys.map((key, index) => (
-                                            <button
-                                                key={key}
-                                                className={`tab-item ${activeTab === index ? 'active' : ''}`}
-                                                onClick={() => setActiveTab(index)}
-                                            >
-                                                {product.tabs[key].title}
-                                            </button>
-                                        ))}
+                                    <div className="tab-buttons-row-scroll-container">
+                                        <div className="tab-buttons-row">
+                                            {tabKeys.map((key, index) => (
+                                                <button
+                                                    key={key}
+                                                    className={`tab-item ${activeTab === index ? 'active' : ''}`}
+                                                    onClick={() => setActiveTab(index)}
+                                                >
+                                                    {product.tabs[key].title}
+                                                </button>
+                                            ))}
+                                        </div>
                                     </div>
                                     <div className="tab-pane-content">
                                         <div
@@ -180,27 +180,28 @@ const ProductDetail = () => {
                 </div>
 
                 {/* Related Products Section */}
-                {/* {relatedProducts.length > 0 && (
+                {relatedProducts.length > 0 && (
                     <div className="related-products-section mt-5 animate-slide-up">
                         <div className="section-header-centered">
-                            <h2 className="related-title">Related Products</h2>
+                            <span className="section-subtitle-premium">Related Products</span>
+                            <h2 className="related-title">Discover Solutions</h2>
                             <div className="title-divider"></div>
                         </div>
                         <div className="related-grid mt-4">
                             {relatedProducts.map(rel => (
                                 <Link to={`/product/${rel.slug}`} key={rel.slug} className="related-card">
                                     <div className="related-image-box">
-                                        <ProductImage src={rel.image} alt={rel.title} />
+                                        <ProductImage src={rel.image} alt={rel.title} className="related-product-img" />
                                     </div>
                                     <div className="related-info">
                                         <h4 className="related-item-title">{rel.title}</h4>
-                                        <span className="related-view-btn">View Details <ChevronRight size={14} /></span>
+                                        <span className="related-view-btn">View Product <ArrowUpRight size={14} /></span>
                                     </div>
                                 </Link>
                             ))}
                         </div>
                     </div>
-                )} */}
+                )}
             </div>
 
             {/* ── Contact Modal ── */}
