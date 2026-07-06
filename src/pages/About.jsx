@@ -69,7 +69,7 @@ const About = () => {
                             {/* <span className="about-hero__eyebrow">Established 2016</span> */}
                             <h1 className="about-hero__title">Pioneering Veterinary Health Care Solutions</h1>
                             <p className="about-hero__lead">
-                                Keen on delivering reliable and high-quality Health Care solutions for the poultry, aquaculture, Livestock and Canine Segments.
+                                Keen on delivering reliable and high-quality Health Care solutions for the Poultry, Aquaculture, Livestock & Canine Segments.
                             </p>
                             <div className="about-hero__meta">
                                 <div className="meta-pill">Pan-India Reach</div>
