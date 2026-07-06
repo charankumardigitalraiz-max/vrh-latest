@@ -6,7 +6,7 @@ import './Careers.css';
 const jobs = [
     {
         title: "Business Development Manager (BDM) – Poultry",
-        positions: "4 Vacancies",
+        positions: "6 Vacancies",
         location: "Hyderabad, Vijayawada, Bengaluru, Coimbatore",
         experience: "Minimum 6 Years of Experience",
         department: "Poultry",
@@ -36,7 +36,7 @@ const jobs = [
     },
     {
         title: "Business Development Manager (BDM) – Aquaculture",
-        positions: "1 Vacancy",
+        positions: "6 Vacancy",
         location: "Bhimavaram (Andhra Pradesh)",
         experience: "Minimum 6 Years of Experience",
         department: "Aquaculture",
@@ -82,7 +82,7 @@ const aquaLocations = ["Bhimavaram", "Kakinada", "Ganapavaram", "Akividu", "Kaik
 const poultryLocations = [
     "Hyderabad", "Karimnagar", "Siddipet", "Warangal",
     "Vijayawada", "Tanuku", "Anaparthy", "Chittoor",
-    "Bangalore", "Mysore", "Hospet",
+    "Bengaluru", "Mysore", "Hospet",
     "Coimbatore", "Namakkal"
 ];
 
@@ -112,7 +112,7 @@ const Careers = () => {
                 <div className="container car-hero__inner">
                     <div className="car-hero__content-box">
                         <span className="car-hero__badge">Join Our Team</span>
-                        <h1 className="banner-title">Build Your Future with <br />RR Veterinary Healthcare</h1>
+                        <h1 className="banner-title">Build Your Future with <br />RR Veterinary Health Care</h1>
                         <nav className="car-hero__breadcrumb">
                             <Link to="/">Home</Link>
                             <span>/</span>
@@ -130,7 +130,7 @@ const Careers = () => {
                             <div className="car-label">Join Us</div>
                             <h2 className="car-heading">More than employees,<br /><span>we are looking for growth partners.</span></h2>
                             <p className="car-body">
-                                We at RR Veterinary Healthcare Pvt. Ltd. consider our staff as invaluable assets. Resources with an ability to lead the company into new avenue of growth and can work in synergy with the leadership will be equally rewarded. As the company is venturing into new areas, there is a vast potential for the right Minded people to grow and sustain.
+                                We at RR Veterinary Health Care Pvt. Ltd. consider our staff as invaluable assets. Resources with an ability to lead the company into new avenue of growth and can work in synergy with the leadership will be equally rewarded. As the company is venturing into new areas, there is a vast potential for the right Minded people to grow and sustain.
                             </p>
                             <p className="car-body">
                                 Hiring the best of you, who could drive and ensure the business growth.
@@ -148,7 +148,7 @@ const Careers = () => {
                             <div className="car-partner-card">
                                 <div className="car-partner-icon"><Users size={32} /></div>
                                 <h3>Partner with us</h3>
-                                <p>Grow together with RR Veterinary Healthcare.</p>
+                                <p>Grow together with RR Veterinary Health Care.</p>
                             </div>
                             <div className="car-partner-card car-upload-cv-card">
                                 <div className="car-partner-icon"><FileText size={32} /></div>

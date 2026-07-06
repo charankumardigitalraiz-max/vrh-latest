@@ -2,8 +2,29 @@ import React, { useMemo, useState, useEffect, useCallback } from 'react';
 import { useParams, Link, useLocation } from 'react-router-dom';
 import productData from '../data/products.json';
 import { productCategories } from '../data/categories';
-import { ChevronRight, ChevronDown, Filter, X, Search } from 'lucide-react';
+import { ChevronRight, ChevronDown, Filter, X, Search, ImageOff } from 'lucide-react';
 import './Category.css';
+
+const ProductImage = ({ src, alt }) => {
+    const [error, setError] = useState(false);
+
+    if (error || !src || src === '/images/no_image.png') {
+        return (
+            <div className="fallback-image-wrapper">
+                <ImageOff size={40} className="fallback-image-icon" />
+            </div>
+        );
+    }
+
+    return (
+        <img
+            src={src}
+            alt={alt}
+            loading="lazy"
+            onError={() => setError(true)}
+        />
+    );
+};
 
 const Category = () => {
     const { slug } = useParams();
@@ -354,19 +375,7 @@ const Category = () => {
 
 
                                         <div className="product-image-container">
-                                            {product.image ? (
-                                                <img
-                                                    src={product.image || '/images/no_image.png'}
-                                                    alt={product.title}
-                                                    loading="lazy"
-                                                />
-                                            ) : (
-                                                <img
-                                                    src='/images/no_image.png'
-                                                    alt={product.title}
-                                                    loading="lazy"
-                                                />
-                                            )}
+                                            <ProductImage src={product.image} alt={product.title} />
                                         </div>
 
 
@@ -374,7 +383,7 @@ const Category = () => {
                                             <div className="product-type-badge">{slug || 'Product'}</div>
                                             <h3 className="product-title-premium">{product.title}</h3>
                                             <p className="product-description-premium">
-                                                {product.subtitle || "Premium healthcare solution for veterinary needs."}
+                                                {product.subtitle || "Premium Health Care solution for veterinary needs."}
                                             </p>
                                             <div className="product-footer-premium">
                                                 <span className="view-link">View Details</span>

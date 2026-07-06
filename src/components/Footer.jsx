@@ -22,7 +22,7 @@ const Footer = () => {
                                 className="footer-logo"
                             />
                             <p className="footer-tagline">
-                                Committed to excellence in veterinary healthcare solutions.
+                                Committed to excellence in veterinary Health Care solutions.
                             </p>
                             <div className="footer-contact-list">
                                 <div className="footer-contact-item">
@@ -30,9 +30,10 @@ const Footer = () => {
                                         <MapPin size={16} />
                                     </div>
                                     <span>
-                                        <p>RR VETERINARY HEALTHCARE PRIVATE LIMITED</p>
+                                        <b>RR VETERINARY HEALTH CARE PRIVATE LIMITED</b>
+                                        <br />
                                         RR Heights, # 5-5-81/5/1, 5th Floor,
-                                        Sai Baba Nagar, High Tension Line Road,
+                                        Sai Baba Nagar Colony, High Tension Line Road,
                                         Kukatpally, Hyderabad – 500072
                                     </span>
                                 </div>

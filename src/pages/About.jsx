@@ -53,8 +53,8 @@ const About = () => {
         return text.substring(0, limit) + "...";
     };
 
-    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of poultry, aquaculture and Livestock & Canine Healthcare. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
-    const visionText = "We aim to be a global leader in the development of innovative and quality products for animal healthcare. We want to feature ourselves as the strongest organization best known for undertaking ethical business.";
+    const historyText = "RR Veterinary Health Care Private Limited, through its meticulous and strategic planning created a marketing policy that generates an asset which eventually provides a distinct and enduring competitive advantage over others in the same arena. The effort is supported by a team of qualified professionals drawn from both scientific and management disciplines, who have an experience spanning over two decades especially in the segments of Poultry, Aquaculture and Livestock & Canine Health Care. The company is optimistic about its future, having identified the potential areas that will usher in constant growth and success.";
+    const visionText = "We aim to be a global leader in the development of innovative and quality products for animal health Care. We want to feature ourselves as the strongest organization best known for undertaking ethical business.";
     const missionText = "Our mission is also to establish the company as one of the most trustworthy name for delivery of distinguished health care products of high quality. Our thrust is mainly on quality, for which we give utmost importance. Our strategy is to educate and develop our team in all respects by motivating them and helping them work with complete dedication and confidence in order to accomplish our commitments and in a manner that always wins the appreciation of our clients. Our idea is to set up a new benchmark by working together and growing together with all the stake holders.";
 
     return (
@@ -67,9 +67,9 @@ const About = () => {
                     <div className="about-hero__grid">
                         <div className="about-hero__content">
                             {/* <span className="about-hero__eyebrow">Established 2016</span> */}
-                            <h1 className="about-hero__title">Pioneering Veterinary Healthcare Solutions</h1>
+                            <h1 className="about-hero__title">Pioneering Veterinary Health Care Solutions</h1>
                             <p className="about-hero__lead">
-                                Keen on delivering reliable and high-quality healthcare solutions for the poultry, aquaculture, Livestock and Canine Segments.
+                                Keen on delivering reliable and high-quality Health Care solutions for the poultry, aquaculture, Livestock and Canine Segments.
                             </p>
                             <div className="about-hero__meta">
                                 <div className="meta-pill">Pan-India Reach</div>
@@ -97,7 +97,7 @@ const About = () => {
                                 <div className="about-hero__stat">2000+ <span>Clients</span></div>
                                 <div className="about-hero__signal">
                                     <span className="signal-dot" />
-                                    <span>On-ground teams accross key regions of poultry, aquaculture, livestock and canine</span>
+                                    <span>On-ground teams accross key regions of Poultry, Aquaculture, Livestock and Canine</span>
                                 </div>
                             </div>
                         </div>
@@ -123,12 +123,12 @@ const About = () => {
                             <div className="section-label">Company Profile</div>
                             <h2 className="section-heading">Who <span>We Are</span></h2>
                             <p className="wwa-body">
-                                RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
-                                RR Veterinary Healthcare Pvt. Ltd. has been incorporated to serve Aquaculture Livestock & Canine. Ever since our reorganization in the year 2016 our products in the different verticals have found
+                                RR Veterinary Health Care Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Better known in the Poultry Industry across India earlier as RR Health Care Private Limited for providing quality service.
+                                RR Veterinary Health Care Pvt. Ltd. has been incorporated to serve Poultry, Aquaculture, Livestock & Canine. Ever since our reorganization in the year 2016 our products in the different verticals have found
                                 increasing acceptance and we hope to meet the industry requirements at a better price than competitors. We are driven by the relentless pursuit of Quality in our products and persistently dedicated to serve our clientele in the field of animal health care.
                             </p>
                             <p className="wwa-body">
-                                Head quartered at Hyderabad-India, the company incessantly strives to produce and supply quality products that are efficacious, safe, highly reliable and improves the quality of life in animals. Our emphasis is basically on understanding the animal diseases deeply and focusing on unmet nutritional/clinical needs in animals. Products emanating from RR Veterinary Healthcare Pvt. Ltd. are specially designed and formulated to provide instant solutions for animal health concerns and exceeds client expectations in all respects.
+                                Head quartered at Hyderabad-India, the company incessantly strives to produce and supply quality products that are efficacious, safe, highly reliable and improves the quality of life in animals. Our emphasis is basically on understanding the animal diseases deeply and focusing on unmet nutritional/clinical needs in animals. Products emanating from RR Veterinary Health Care Pvt. Ltd. are specially designed and formulated to provide instant solutions for animal health concerns and exceeds client expectations in all respects.
                             </p>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ const About = () => {
                         <div className="roadmap-feature__header text-center">
                             <div className="section-label">Our Journey</div>
                             <h2 className="section-heading">Strategic <span className="text-theme">Roadmap</span></h2>
-                            <p className="roadmap-feature__desc">Tracking our milestones and future continuous growth in providing the best veterinary healthcare solutions.</p>
+                            <p className="roadmap-feature__desc">Tracking our milestones and future continuous growth in providing the best veterinary Health Care solutions.</p>
                         </div>
                         <div className="roadmap-feature__img-wrapper">
                             <img src="images\Road-Map.png" alt="RRV Roadmap" className="roadmap-feature__img" />

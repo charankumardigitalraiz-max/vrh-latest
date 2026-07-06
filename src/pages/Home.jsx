@@ -60,6 +60,7 @@ const ClientName = [
     { id: 7, name: 'Komarla', logo: '/product-brands/sugunafoods.png' },
     { id: 8, name: 'Srinivasa Hatcheries', logo: '/product-brands/venky.png' },
     { id: 9, name: 'vhgroup ', logo: '/product-brands/vhgroup.png' },
+    { id: 10, name: 'SR Groups', logo: '/product-brands/srgroup.jpg' }
 ];
 
 const testimonials = [
@@ -116,7 +117,7 @@ const Home = () => {
     };
 
     const slides = [
-        { id: 1, image: '/images/Banners/shrimp 1.jpg', title: "Elevating Standards in\nPoultry Healthcare", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
+        { id: 1, image: '/images/Banners/shrimp 1.jpg', title: "Elevating Standards in\nPoultry Health Care", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
         { id: 2, image: '/images/Banners/poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
         { id: 3, image: '/images/Banners/shrimp-2.jpg', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
         { id: 4, image: '/images/Banners/Aquafish-4.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" },
@@ -201,7 +202,7 @@ const Home = () => {
                     <div className="expertise-header">
                         <span className="expertise-eyebrow">What We Do</span>
                         <h2 className="expertise-title">Our <span>Expertise</span></h2>
-                        <p className="expertise-desc">Comprehensive veterinary healthcare solutions tailored for every segment of animal farming.</p>
+                        <p className="expertise-desc">Comprehensive veterinary Health Care solutions tailored for every segment of animal farming.</p>
                     </div>
                 </div>
 
@@ -286,7 +287,7 @@ const Home = () => {
                         <div className="premium-about__visual">
                             <div className="premium-about__img-container">
                                 <div className="item-main">
-                                    <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=1200&auto=format&fit=crop" alt="RR Veterinary Healthcare" />
+                                    <img src="https://images.unsplash.com/photo-1614120263669-43911b47f0b2?q=80&w=1200&auto=format&fit=crop" alt="RR Veterinary Health Care" />
                                     <div className="item-main__overlay"></div>
                                 </div>
                                 <div className="premium-about__experience-badge">
@@ -305,10 +306,10 @@ const Home = () => {
 
                             <div className="premium-about__narrative">
                                 <p className="premium-about__text">
-                                    RR Veterinary Healthcare Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Livestock and Canine segments since 2008.
+                                    RR Veterinary Health Care Pvt. Ltd. is one of the leading veterinary health care solution providers in India. Our presence is known to the world as RR Health Care Private Limited which has provided quality service to the Poultry, Aquaculture and Livestock and Canine segments since 2008.
 
                                     {/* <p className="premium-about__text highlighted"> */}
-                                    Reorganized in the year 2016, RR Veterinary Healthcare Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele.
+                                    Reorganized in the year 2016, RR Veterinary Health Care Pvt. Ltd. is driven by relentless pursuit for Quality products at a better price and persistent dedication to serve its clientele.
                                 </p>
 
                                 <div className="premium-about__actions">

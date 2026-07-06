@@ -2,8 +2,29 @@ import React, { useState, useEffect } from 'react';
 import { createPortal } from 'react-dom';
 import { useParams, Link, useLocation, useNavigate } from 'react-router-dom';
 import productData from '../data/products.json';
-import { Download, ChevronRight, ArrowLeft, X, Phone, Mail, MessageSquare } from 'lucide-react';
+import { Download, ChevronRight, ArrowLeft, X, Phone, Mail, MessageSquare, ImageOff } from 'lucide-react';
 import './ProductDetail.css';
+
+const ProductImage = ({ src, alt, className }) => {
+    const [error, setError] = useState(false);
+
+    if (error || !src || src === '/images/no_image.png') {
+        return (
+            <div className={`fallback-image-wrapper ${className || ''}`}>
+                <ImageOff className="fallback-image-icon" />
+            </div>
+        );
+    }
+
+    return (
+        <img
+            src={src}
+            alt={alt}
+            className={className}
+            onError={() => setError(true)}
+        />
+    );
+};
 
 
 const ProductDetail = () => {
@@ -78,8 +99,8 @@ const ProductDetail = () => {
                     <div className="col-lg-4 animate-scale-in">
                         <div className="sticky-sidebar">
                             <div className="product-image-box">
-                                <img
-                                    src={product.image || '/images/no_image.png'}
+                                <ProductImage
+                                    src={product.image}
                                     alt={product.title}
                                     className="product-image-large"
                                 />
@@ -169,7 +190,7 @@ const ProductDetail = () => {
                             {relatedProducts.map(rel => (
                                 <Link to={`/product/${rel.slug}`} key={rel.slug} className="related-card">
                                     <div className="related-image-box">
-                                        <img src={rel.image || '/images/no_image.png'} alt={rel.title} />
+                                        <ProductImage src={rel.image} alt={rel.title} />
                                     </div>
                                     <div className="related-info">
                                         <h4 className="related-item-title">{rel.title}</h4>
