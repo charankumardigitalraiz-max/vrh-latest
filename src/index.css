@@ -279,6 +279,10 @@ select {
 }
 
 /* ── Minimal Global Utilities ── */
+.preserve-space {
+  white-space: pre-wrap;
+}
+
 .d-flex {
   display: flex;
 }

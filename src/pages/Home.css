@@ -64,13 +64,14 @@
 .hm-hero {
   position: relative;
   width: 100%;
-  height: auto;
+  aspect-ratio: 1920 / 600;
+  max-height: calc(100vh - 110px);
   background: var(--bg-light);
   overflow: hidden;
 }
 
 .hm-hero__slider {
-  height: auto;
+  height: 100%;
   position: relative;
 }
 
@@ -88,10 +89,8 @@
 
 .hm-hero__slide.active {
   position: relative;
-  top: auto;
-  left: auto;
   width: 100%;
-  height: auto;
+  height: 100%;
   opacity: 1;
   visibility: visible;
   z-index: 2;
@@ -100,14 +99,15 @@
 .hm-hero__bg-wrapper {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .hm-hero__bg-img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center;
   transform: scale(1);
   transition: transform 12s cubic-bezier(0.25, 1, 0.5, 1);
 }

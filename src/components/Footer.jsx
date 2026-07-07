@@ -48,9 +48,9 @@ const Footer = () => {
                                         <Phone size={16} />
                                     </div>
                                     {/* <span>+91 94410 31794</span> */}
-                                    <span>+91 89784 17078</span>
+                                    <span className="preserve-space">+91  89784  17078</span>
                                     {/* <p>+91 94410 31794</p> */}
-                                    <span>+91 94904 10562</span>
+                                    <span className="preserve-space">+91  94904  10562</span>
                                 </div>
                             </div>
                         </div>

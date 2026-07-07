@@ -395,3 +395,49 @@
 .map-container:hover iframe {
   filter: none;
 }
+
+/* Responsive adjustments for mobile screens */
+@media (max-width: 768px) {
+  .contact-section {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .form-container {
+    padding: 1.5rem 1.25rem !important;
+  }
+
+  .enquiry-form {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .form-group.full-width {
+    grid-column: span 1;
+  }
+
+  .send-button {
+    grid-column: span 1;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .info-cards {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-sm);
+  }
+
+  .info-card {
+    padding: var(--spacing-md);
+    gap: 12px;
+  }
+
+  .banner-badge {
+    font-size: 0.65rem;
+    padding: 4px 12px;
+  }
+
+  .page-banner .banner-subtitle {
+    font-size: 0.95rem;
+    padding: 0 var(--spacing-sm);
+  }
+}

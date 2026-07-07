@@ -52,7 +52,7 @@ const jobs = [
     {
         title: "Business Development Executives (BDE) – Aquaculture",
         positions: "6 Vacancies",
-        location: "Bhimavaram, Kakinada, Ganapavaram, Akavidu, Kaikaluru, Gudivada",
+        location: "Bhimavaram, Kakinada, Ganapavaram, Akividu, Kaikaluru, Gudivada",
         experience: "Minimum 2+ Years of Experience",
         department: "Aquaculture",
         responsibilities: [

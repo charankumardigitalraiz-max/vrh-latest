@@ -225,7 +225,7 @@ const ProductDetail = () => {
                                 <div className="pill-icon-box"><Phone size={20} /></div>
                                 <div className="pill-info">
                                     <span className="pill-label">Call Us</span>
-                                    <span className="pill-value">+91 94410 31794</span>
+                                    <span className="preserve-space pill-value">+91  94410 31794</span>
                                 </div>
                             </a>
 

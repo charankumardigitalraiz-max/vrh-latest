@@ -119,11 +119,12 @@ const Home = () => {
     };
 
     const slides = [
-        { id: 1, image: '/images/Banners/Poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
-        { id: 2, image: '/images/Banners/shrimp 1.jpg', title: "Elevating Standards in\nPoultry Health Care", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
-        { id: 3, image: '/images/Banners/shrimp-2.jpg', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
-        { id: 4, image: '/images/Banners/Aquafish-4.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" },
-        { id: 5, image: '/images/Banners/Canine-3.jpg', title: "Shrimp", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" }
+        { id: 1, image: '/banners/Poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
+        { id: 2, image: '/banners/Aqua.jpg', title: "Elevating Standards in\nPoultry Health Care", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
+        { id: 3, image: '/banners/Shrimp.jpg', title: "Shrimp", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
+        { id: 4, image: '/banners/Livestock.jpg', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
+        { id: 5, image: '/banners/canine2.jpg', title: "Science, experience, \ncompassion together", subtitle: "Dedicated for providing advanced solutions for sustainable farming" },
+
     ];
 
     useEffect(() => {
@@ -225,7 +226,7 @@ const Home = () => {
                             num: '02',
                             name: 'Aquaculture',
                             // label: 'Water Health',
-                            img: '/images/fish.png',
+                            img: '/about/Aquaculture.png',
                             color: '#e3f2fd',
                             accent: '#0277bd',
                             desc: 'A precision water quality and disease management solution for thriving aquatic growth.'

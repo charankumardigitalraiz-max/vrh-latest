@@ -115,9 +115,9 @@ const Contact = () => {
                   </div>
                   <div className="info-content">
                     <h3>Customer Care Number</h3>
-                    <p>+91 89784 17078</p>
+                    <p className="preserve-space">+91  89784  17078</p>
                     {/* <p>+91 94410 31794</p> */}
-                    <p>+91 94904 10562</p>
+                    <p className="preserve-space">+91  94904  10562</p>
                   </div>
                 </div>
 
