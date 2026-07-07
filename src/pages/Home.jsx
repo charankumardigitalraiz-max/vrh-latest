@@ -119,7 +119,7 @@ const Home = () => {
     };
 
     const slides = [
-        { id: 1, image: '/banners/Poultry.png', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
+        { id: 1, image: '/banners/Poultry.jpg', title: "Sustainable Aqua\nCulture Solutions", subtitle: "Expertise in boosting productivity with advanced biosecurity and pond management" },
         { id: 2, image: '/banners/Aqua.jpg', title: "Elevating Standards in\nPoultry Health Care", subtitle: "Advanced nutritional and disease management solutions for optimal flock performance" },
         { id: 3, image: '/banners/Shrimp.jpg', title: "Shrimp", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
         { id: 4, image: '/banners/Livestock.jpg', title: "Innovating Marine\nHealth & Wellness", subtitle: "Comprehensive products for enhanced growth and disease resistance in aquaculture" },
